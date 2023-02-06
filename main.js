@@ -7,9 +7,53 @@
 // The adapter-core module gives you access to the core ioBroker functions
 // you need to create an adapter
 const utils = require('@iobroker/adapter-core');
+const { settings } = require('cluster');
+
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+const edge = require('edge-js');
+
+const myFunc = edge.func({
+    assemblyFile: 'E:\\desktop 03_01_2020\\OpcUAClient-master\\KonsoleBrowse-master_ishleyir\\KonsoleBrowse-master\\KonsoleBrowseDll\\bin\\Debug\\KonsoleBrowseDll.dll',
+    typeName: 'KonsoleBrowseDll.Program',
+    methodName: 'Invoke',
+    references: ['System.Data.dll','BouncyCastle.Crypto.dll','OPC.UA.Core.dll','Opc.Ua.Client.dll','Opc.Ua.Configuration.dll','System.IdentityModel.dll','System.Xml.dll']
+});
+
+
+
+const payload1 = {
+    aString: 'browsenamespace',
+};
+const payload2={
+    id:'ns=2;s=5852_Massa_brutto_za_proshedshiy_chas_uint32',
+    val:63
+};
+const payload3={
+    nodeid:'ns=2;s=OpenIndustry',
+};
+/*myFunc(payload1 , function (err,res) {
+    if(err) console.error(err);
+    var srt= res.write(payload2);
+});
+myFunc(payload1 , function (err,res) {
+    if(err) console.error(err);
+    var dsd = res.browsenamespace();
+});*/
+
+
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
+
+
+
+
+
 
 class MyOpcua extends utils.Adapter {
 
@@ -24,7 +68,7 @@ class MyOpcua extends utils.Adapter {
         this.on('ready', this.onReady.bind(this));
         this.on('stateChange', this.onStateChange.bind(this));
         // this.on('objectChange', this.onObjectChange.bind(this));
-        // this.on('message', this.onMessage.bind(this));
+        this.on('message', this.onMessage.bind(this));
         this.on('unload', this.onUnload.bind(this));
     }
 
@@ -32,6 +76,51 @@ class MyOpcua extends utils.Adapter {
      * Is called when databases are connected and adapter received configuration.
      */
     async onReady() {
+        const endpoint = this.config.endpoint;//settings.endpoint;
+        const username = this.config.username;
+        const password = this.config.password;
+
+        const input ={
+            /*Keep_AliveEventHandler: function (data, callback) {
+                console.log(data);
+                callback(error, result)
+            },*/
+            MessageEventHandler: function (data, callback) {
+                //console.log(data);
+                callback(error, result);
+            },
+            BrowseTopicHandler: function (data, callback) {
+                //console.log(data);
+                callback(error, result);
+            },
+            Messagestart: function (data, callback) {
+                //console.log(data);
+                callback(error, result);
+            },
+            /*BrowseTopicNamespaces: function (data, callback) {
+                console.log(data);
+                callback(error, result)
+            },*/
+            endpoint: endpoint,
+            topic : 'Stansiya479',
+            sessionid :'Stansiya479'
+        };
+
+
+        let date = new Date();
+        console.log('----> start ('+ date.toString() +') ');
+
+        myFunc(input,function (error, payload) {
+            if (error) throw error;
+            date = new Date();
+            console.log('----> end ('+ payload +')');});
+
+
+        const myfunction = myFunc(payload1, true);
+        const adsss = myfunction.browsenamespace(null, true);
+        const adsss1 = myfunction.write(payload2,true);
+        const adsss3 = myfunction.browser(payload3,true);
+
         // Initialize your adapter here
 
         // Reset the connection indicator during startup
@@ -39,8 +128,8 @@ class MyOpcua extends utils.Adapter {
 
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
-        this.log.info('config option1: ' + this.config.option1);
-        this.log.info('config option2: ' + this.config.option2);
+        this.log.info('config option1: ' + this.config.endpoint);
+        this.log.info('config option2: ' + this.config.username);
 
         /*
         For every state in the system there has to be also an object of type state
@@ -92,6 +181,9 @@ class MyOpcua extends utils.Adapter {
      * Is called when adapter shuts down - callback has to be called under any circumstances!
      * @param {() => void} callback
      */
+
+
+
     onUnload(callback) {
         try {
             // Here you must clear all timeouts or intervals that may still be active
@@ -139,24 +231,118 @@ class MyOpcua extends utils.Adapter {
     }
 
     // If you need to accept messages in your adapter, uncomment the following block and the corresponding line in the constructor.
-    // /**
-    //  * Some message was sent to this instance over message box. Used by email, pushover, text2speech, ...
-    //  * Using this method requires "common.messagebox" property to be set to true in io-package.json
-    //  * @param {ioBroker.Message} obj
-    //  */
-    // onMessage(obj) {
-    //     if (typeof obj === 'object' && obj.message) {
-    //         if (obj.command === 'send') {
-    //             // e.g. send email or pushover or whatever
-    //             this.log.info('send command');
+    /**
+      * Some message was sent to this instance over message box. Used by email, pushover, text2speech, ...
+      * Using this method requires "common.messagebox" property to be set to true in io-package.json
+      * @param {ioBroker.Message} obj
+      */
+    onMessage(obj) {
+        if (typeof obj === 'object' && obj.message) {
+            if (obj.command === 'send') {
+                // e.g. send email or pushover or whatever
+                this.log.info('send command');
 
-    //             // Send response in callback if required
-    //             if (obj.callback) this.sendTo(obj.from, obj.command, 'Message received', obj.callback);
-    //         }
-    //     }
-    // }
+                // Send response in callback if required
+                if (obj.callback) this.sendTo(obj.from, obj.command, 'Message received', obj.callback);
+            }
+            if (obj.command === 'test') {
+            // e.g. send email or pushover or whatever
+                this.log.info('test command');
 
+                // Send response in callback if required
+                const myfunction = myFunc(payload1, true);
+                const rootfolders = myfunction.browserootfolders(null,true);
+                if (obj.callback) this.sendTo(obj.from, obj.command, rootfolders, obj.callback);
+            }
+            if (obj.command === 'browser') {
+                // e.g. send email or pushover or whatever
+                const nodepayload={
+                    nodeid:obj.message.nodeid,
+                };
+                this.log.info('browser command');
+                // Send response in callback if required
+                const myfunction = myFunc(payload1, true);
+                const nodefolders = myfunction.browser(nodepayload,true);
+                if (obj.callback) this.sendTo(obj.from, obj.command, nodefolders, obj.callback);
+            }
+            if(obj.command==='createstates')
+            // eslint-disable-next-line no-empty
+            {
+                const treepayload={
+                    checkednodes:obj.message.allcheckednodes
+                };
+                this.iteratortest(obj.message.allcheckednodes, obj.message.treeData, );
+                const myfunction = myFunc(payload1, true);
+                const checkednodes = myfunction.addmonitorcheckednodes(treepayload,true);
+                let sbcvss= 1+1;
+                //this.iterator(obj.message.treeData,null);
+            }
+        }
+    }
+
+    iteratortest(_checkednodes, _tree)
+    {
+        _checkednodes.forEach(async (checkednodeid) => {
+            let retvalue = this.search(_tree, checkednodeid);
+            //printAncestors(_tree, checkednodeid);
+            this.iterator(retvalue,null);
+            let sbcv= 1+1;
+        });
+    }
+
+    search(nodes, value) {
+        let result;
+        nodes.some(o => {
+            let children;
+            if (o.id === value) {
+                return result = o;
+            }
+            if (o.child && (children = this.search(o.child, value))) {
+                return result = Object.assign({}, o, { children });
+            }
+        });
+        return result && [result];
+    }
+
+
+    async iterator(tree, parentnodename)
+    {
+        tree.forEach(async (parentNode) => {
+            /*if(parentnodename==null)
+            {
+                if(parentNode.nodeclass=='Object')
+                {
+
+                    await this.setObjectNotExistsAsync(parentNode.name, {
+                        type: 'channel',
+                        common: {
+                            name: parentNode.name
+                        },
+                        native: {}
+                    });
+                }
+            }
+            else
+            {*/
+            await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
+                type: 'channel',
+                common: {
+                    name: parentNode.name
+                },
+                native: {}
+            });
+            //}
+            //if(parentNode.child.length==1)
+            //{
+            if (Object.prototype.hasOwnProperty.call(parentNode,'children')) {
+                this.iterator(parentNode.children,parentNode.name);
+            }
+            //}
+        });
+    }
 }
+
+
 
 if (require.main !== module) {
     // Export the constructor in compact mode

@@ -1,0 +1,147 @@
+2022-12-31 10:02:21.200  - [32minfo[39m: my-opcua.0 (4640) test command
+2022-12-31 10:02:21.225  - [33mwarn[39m: my-opcua.0 (4640) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":563,"ack":false,"time":1672466541199},"_id":34021371} BadSessionIdInvalid
+2022-12-31 10:02:21.229  - [33mwarn[39m: my-opcua.0 (4640) Error: BadSessionIdInvalid
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-31 10:02:37.105  - [32minfo[39m: my-opcua.0 (4640) test command
+2022-12-31 10:09:35.408  - [32minfo[39m: my-opcua.0 (4640) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:09:35.409  - [32minfo[39m: my-opcua.0 (4640) terminating
+2022-12-31 10:09:35.409  - [32minfo[39m: my-opcua.0 (4640) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:09:39.510  - [32minfo[39m: my-opcua.0 (32816) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:09:40.592  - [32minfo[39m: my-opcua.0 (32816) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:09:40.593  - [32minfo[39m: my-opcua.0 (32816) config option2: sysadmin
+2022-12-31 10:09:40.627  - [32minfo[39m: my-opcua.0 (32816) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:09:40.630  - [32minfo[39m: my-opcua.0 (32816) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:09:40.632  - [32minfo[39m: my-opcua.0 (32816) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:09:40.688  - [32minfo[39m: my-opcua.0 (32816) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:09:40.690  - [32minfo[39m: my-opcua.0 (32816) check group user admin group admin: false
+2022-12-31 10:09:54.063  - [32minfo[39m: my-opcua.0 (32816) test command
+2022-12-31 10:10:10.647  - [32minfo[39m: my-opcua.0 (32816) state my-opcua.0.testVariable deleted
+2022-12-31 10:10:17.278  - [32minfo[39m: my-opcua.0 (32816) browser command
+2022-12-31 10:10:28.648  - [32minfo[39m: my-opcua.0 (32816) test command
+2022-12-31 10:10:49.806  - [32minfo[39m: my-opcua.0 (32816) browser command
+2022-12-31 10:12:28.793  - [32minfo[39m: my-opcua.0 (32816) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:12:28.794  - [32minfo[39m: my-opcua.0 (32816) terminating
+2022-12-31 10:12:28.795  - [32minfo[39m: my-opcua.0 (32816) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:12:32.729  - [32minfo[39m: my-opcua.0 (2864) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:12:33.919  - [32minfo[39m: my-opcua.0 (2864) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:12:33.920  - [32minfo[39m: my-opcua.0 (2864) config option2: sysadmin
+2022-12-31 10:12:33.974  - [32minfo[39m: my-opcua.0 (2864) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:12:33.978  - [32minfo[39m: my-opcua.0 (2864) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:12:33.982  - [32minfo[39m: my-opcua.0 (2864) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:12:34.077  - [32minfo[39m: my-opcua.0 (2864) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:12:34.080  - [32minfo[39m: my-opcua.0 (2864) check group user admin group admin: false
+2022-12-31 10:13:03.984  - [32minfo[39m: my-opcua.0 (2864) state my-opcua.0.testVariable deleted
+2022-12-31 10:14:28.024  - [32minfo[39m: my-opcua.0 (2864) test command
+2022-12-31 10:22:01.824  - [32minfo[39m: my-opcua.0 (2864) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:22:01.826  - [32minfo[39m: my-opcua.0 (2864) terminating
+2022-12-31 10:22:01.826  - [32minfo[39m: my-opcua.0 (2864) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:22:05.637  - [32minfo[39m: my-opcua.0 (34704) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:22:06.493  - [32minfo[39m: my-opcua.0 (34704) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:22:06.493  - [32minfo[39m: my-opcua.0 (34704) config option2: sysadmin
+2022-12-31 10:22:06.526  - [32minfo[39m: my-opcua.0 (34704) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:22:06.529  - [32minfo[39m: my-opcua.0 (34704) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:22:06.531  - [32minfo[39m: my-opcua.0 (34704) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:22:06.582  - [32minfo[39m: my-opcua.0 (34704) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:22:06.584  - [32minfo[39m: my-opcua.0 (34704) check group user admin group admin: false
+2022-12-31 10:22:36.547  - [32minfo[39m: my-opcua.0 (34704) state my-opcua.0.testVariable deleted
+2022-12-31 10:22:46.561  - [32minfo[39m: my-opcua.0 (34704) test command
+2022-12-31 10:33:50.036  - [32minfo[39m: my-opcua.0 (34704) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:33:50.038  - [32minfo[39m: my-opcua.0 (34704) terminating
+2022-12-31 10:33:50.038  - [32minfo[39m: my-opcua.0 (34704) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:33:53.944  - [32minfo[39m: my-opcua.0 (22468) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:33:54.938  - [32minfo[39m: my-opcua.0 (22468) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:33:54.939  - [32minfo[39m: my-opcua.0 (22468) config option2: sysadmin
+2022-12-31 10:33:54.983  - [32minfo[39m: my-opcua.0 (22468) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:33:54.987  - [32minfo[39m: my-opcua.0 (22468) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:33:54.990  - [32minfo[39m: my-opcua.0 (22468) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:33:55.059  - [32minfo[39m: my-opcua.0 (22468) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:33:55.062  - [32minfo[39m: my-opcua.0 (22468) check group user admin group admin: false
+2022-12-31 10:33:56.601  - [32minfo[39m: my-opcua.0 (22468) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:33:56.602  - [32minfo[39m: my-opcua.0 (22468) terminating
+2022-12-31 10:33:56.603  - [32minfo[39m: my-opcua.0 (22468) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:34:00.621  - [32minfo[39m: my-opcua.0 (15588) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:34:01.469  - [32minfo[39m: my-opcua.0 (15588) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:34:01.469  - [32minfo[39m: my-opcua.0 (15588) config option2: sysadmin
+2022-12-31 10:34:01.504  - [32minfo[39m: my-opcua.0 (15588) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:34:01.509  - [32minfo[39m: my-opcua.0 (15588) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:34:01.512  - [32minfo[39m: my-opcua.0 (15588) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:34:01.566  - [32minfo[39m: my-opcua.0 (15588) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:34:01.568  - [32minfo[39m: my-opcua.0 (15588) check group user admin group admin: false
+2022-12-31 10:34:15.962  - [32minfo[39m: my-opcua.0 (15588) test command
+2022-12-31 10:34:31.516  - [32minfo[39m: my-opcua.0 (15588) state my-opcua.0.testVariable deleted
+2022-12-31 10:34:43.274  - [32minfo[39m: my-opcua.0 (15588) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:34:43.275  - [32minfo[39m: my-opcua.0 (15588) terminating
+2022-12-31 10:34:43.275  - [32minfo[39m: my-opcua.0 (15588) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:34:47.117  - [32minfo[39m: my-opcua.0 (31916) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:34:47.937  - [32minfo[39m: my-opcua.0 (31916) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:34:47.937  - [32minfo[39m: my-opcua.0 (31916) config option2: sysadmin
+2022-12-31 10:34:47.973  - [32minfo[39m: my-opcua.0 (31916) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:34:47.976  - [32minfo[39m: my-opcua.0 (31916) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:34:47.980  - [32minfo[39m: my-opcua.0 (31916) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:34:48.037  - [32minfo[39m: my-opcua.0 (31916) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:34:48.040  - [32minfo[39m: my-opcua.0 (31916) check group user admin group admin: false
+2022-12-31 10:34:58.021  - [32minfo[39m: my-opcua.0 (31916) test command
+2022-12-31 10:35:17.986  - [32minfo[39m: my-opcua.0 (31916) state my-opcua.0.testVariable deleted
+2022-12-31 10:38:59.416  - [32minfo[39m: my-opcua.0 (31916) browser command
+2022-12-31 10:40:32.254  - [32minfo[39m: my-opcua.0 (31916) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:40:32.255  - [32minfo[39m: my-opcua.0 (31916) terminating
+2022-12-31 10:40:32.256  - [32minfo[39m: my-opcua.0 (31916) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:40:36.087  - [32minfo[39m: my-opcua.0 (33692) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:40:36.927  - [32minfo[39m: my-opcua.0 (33692) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:40:36.928  - [32minfo[39m: my-opcua.0 (33692) config option2: sysadmin
+2022-12-31 10:40:36.967  - [32minfo[39m: my-opcua.0 (33692) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:40:36.970  - [32minfo[39m: my-opcua.0 (33692) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:40:36.972  - [32minfo[39m: my-opcua.0 (33692) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:40:37.024  - [32minfo[39m: my-opcua.0 (33692) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:40:37.026  - [32minfo[39m: my-opcua.0 (33692) check group user admin group admin: false
+2022-12-31 10:41:06.987  - [32minfo[39m: my-opcua.0 (33692) state my-opcua.0.testVariable deleted
+2022-12-31 10:41:12.446  - [32minfo[39m: my-opcua.0 (33692) test command
+2022-12-31 10:41:31.922  - [32minfo[39m: my-opcua.0 (33692) browser command
+2022-12-31 10:43:50.734  - [32minfo[39m: my-opcua.0 (33692) Got terminate signal TERMINATE_YOURSELF
+2022-12-31 10:43:50.735  - [32minfo[39m: my-opcua.0 (33692) terminating
+2022-12-31 10:43:50.735  - [32minfo[39m: my-opcua.0 (33692) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-31 10:43:54.617  - [32minfo[39m: my-opcua.0 (13216) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:43:55.542  - [32minfo[39m: my-opcua.0 (13216) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:43:55.542  - [32minfo[39m: my-opcua.0 (13216) config option2: sysadmin
+2022-12-31 10:43:55.575  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:43:55.578  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:43:55.581  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:43:55.633  - [32minfo[39m: my-opcua.0 (13216) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:43:55.635  - [32minfo[39m: my-opcua.0 (13216) check group user admin group admin: false
+2022-12-31 10:44:25.588  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable deleted
+2022-12-31 10:44:25.870  - [32minfo[39m: my-opcua.0 (13216) test command
+2022-12-31 10:44:32.006  - [32minfo[39m: my-opcua.0 (13216) browser command
+2022-12-31 10:44:35.581  - [32minfo[39m: my-opcua.0 (13216) browser command
+2022-12-31 10:44:54.629  - [32minfo[39m: my-opcua.0 (13216) browser command
+2022-12-31 10:46:29.801  - [32minfo[39m: my-opcua.0 (13216) test command
+2022-12-31 10:47:31.664  - [32minfo[39m: my-opcua.0 (13216) test command
+2022-12-31 10:48:16.383  - [34mdebug[39m: my-opcua.0 (22128) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-31 10:48:16.407  - [34mdebug[39m: my-opcua.0 (22128) Objects client ready ... initialize now
+2022-12-31 10:48:16.412  - [34mdebug[39m: my-opcua.0 (22128) Objects create System PubSub Client
+2022-12-31 10:48:16.414  - [34mdebug[39m: my-opcua.0 (22128) Objects create User PubSub Client
+2022-12-31 10:48:16.432  - [34mdebug[39m: my-opcua.0 (22128) Objects client initialize lua scripts
+2022-12-31 10:48:16.437  - [34mdebug[39m: my-opcua.0 (22128) Objects connected to redis: 127.0.0.1:9001
+2022-12-31 10:48:16.491  - [34mdebug[39m: my-opcua.0 (22128) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-31 10:48:16.498  - [34mdebug[39m: my-opcua.0 (22128) States create System PubSub Client
+2022-12-31 10:48:16.500  - [34mdebug[39m: my-opcua.0 (22128) States create User PubSub Client
+2022-12-31 10:48:16.509  - [34mdebug[39m: my-opcua.0 (22128) States connected to redis: 127.0.0.1:9000
+2022-12-31 10:48:16.591  - [32minfo[39m: my-opcua.0 (22128) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-31 10:48:23.425  - [32minfo[39m: my-opcua.0 (22128) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2022-12-31 10:48:23.427  - [32minfo[39m: my-opcua.0 (22128) config option2: sysadmin
+2022-12-31 10:48:24.656  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:48:24.676  - [32minfo[39m: my-opcua.0 (22128) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-31 10:48:24.687  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:48:24.688  - [32minfo[39m: my-opcua.0 (22128) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:48:24.695  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:48:24.696  - [32minfo[39m: my-opcua.0 (22128) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-31 10:48:24.794  - [32minfo[39m: my-opcua.0 (22128) check user admin pw iobroker: false,system.user.admin
+2022-12-31 10:48:25.613  - [32minfo[39m: my-opcua.0 (22128) check group user admin group admin: false
+2022-12-31 10:48:54.702  - [32minfo[39m: my-opcua.0 (13216) state my-opcua.0.testVariable deleted
+2022-12-31 10:48:54.702  - [32minfo[39m: my-opcua.0 (22128) state my-opcua.0.testVariable deleted
+2022-12-31 10:49:20.763  - [32minfo[39m: my-opcua.0 (13216) test command
+2022-12-31 10:49:26.957  - [32minfo[39m: my-opcua.0 (22128) test command

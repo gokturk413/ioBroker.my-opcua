@@ -1,0 +1,260 @@
+2023-01-06 08:22:19.329  - [34mdebug[39m: my-opcua.0 (15596) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 08:22:19.359  - [34mdebug[39m: my-opcua.0 (15596) Objects client ready ... initialize now
+2023-01-06 08:22:19.362  - [34mdebug[39m: my-opcua.0 (15596) Objects create System PubSub Client
+2023-01-06 08:22:19.363  - [34mdebug[39m: my-opcua.0 (15596) Objects create User PubSub Client
+2023-01-06 08:22:19.378  - [34mdebug[39m: my-opcua.0 (15596) Objects client initialize lua scripts
+2023-01-06 08:22:19.384  - [34mdebug[39m: my-opcua.0 (15596) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 08:22:19.407  - [34mdebug[39m: my-opcua.0 (15596) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 08:22:19.414  - [34mdebug[39m: my-opcua.0 (15596) States create System PubSub Client
+2023-01-06 08:22:19.415  - [34mdebug[39m: my-opcua.0 (15596) States create User PubSub Client
+2023-01-06 08:22:19.425  - [34mdebug[39m: my-opcua.0 (15596) States connected to redis: 127.0.0.1:9000
+2023-01-06 08:22:19.437  - [31merror[39m: my-opcua.0 (15596) adapter disabled
+2023-01-06 08:22:19.505  - [32minfo[39m: my-opcua.0 (15596) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 08:22:41.825  - [34mdebug[39m: my-opcua.0 (2036) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 08:22:41.849  - [34mdebug[39m: my-opcua.0 (2036) Objects client ready ... initialize now
+2023-01-06 08:22:41.851  - [34mdebug[39m: my-opcua.0 (2036) Objects create System PubSub Client
+2023-01-06 08:22:41.853  - [34mdebug[39m: my-opcua.0 (2036) Objects create User PubSub Client
+2023-01-06 08:22:41.867  - [34mdebug[39m: my-opcua.0 (2036) Objects client initialize lua scripts
+2023-01-06 08:22:41.872  - [34mdebug[39m: my-opcua.0 (2036) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 08:22:41.891  - [34mdebug[39m: my-opcua.0 (2036) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 08:22:41.897  - [34mdebug[39m: my-opcua.0 (2036) States create System PubSub Client
+2023-01-06 08:22:41.898  - [34mdebug[39m: my-opcua.0 (2036) States create User PubSub Client
+2023-01-06 08:22:41.906  - [34mdebug[39m: my-opcua.0 (2036) States connected to redis: 127.0.0.1:9000
+2023-01-06 08:22:41.916  - [31merror[39m: my-opcua.0 (2036) adapter disabled
+2023-01-06 08:22:41.964  - [32minfo[39m: my-opcua.0 (2036) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 08:22:46.802  - [32minfo[39m: my-opcua.0 (2036) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-06 08:22:46.804  - [32minfo[39m: my-opcua.0 (2036) config option2: sysadmin
+2023-01-06 08:22:47.635  - [32minfo[39m: my-opcua.0 (2036) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-06 08:22:47.645  - [32minfo[39m: my-opcua.0 (2036) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-06 08:22:47.651  - [32minfo[39m: my-opcua.0 (2036) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-06 08:22:47.731  - [32minfo[39m: my-opcua.0 (2036) check user admin pw iobroker: false,system.user.admin
+2023-01-06 08:22:48.305  - [32minfo[39m: my-opcua.0 (2036) check group user admin group admin: false
+2023-01-06 08:23:01.425  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.429  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.431  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.433  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.437  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.440  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.442  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.443  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.446  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.448  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.452  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.456  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.459  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.461  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.463  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.466  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.469  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.471  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.472  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.473  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.475  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.476  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.477  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.479  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.481  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.484  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.485  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.486  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.488  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.490  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.491  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.492  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.524  - [32minfo[39m: my-opcua.0 (2036) terminating
+2023-01-06 08:23:01.525  - [33mwarn[39m: my-opcua.0 (2036) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-06 08:23:01.529  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.531  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.533  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+    at runNextTicks (node:internal/process/task_queues:61:5)
+    at processImmediate (node:internal/timers:437:9)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-06 08:23:01.534  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.536  - [31merror[39m: my-opcua.0 (2036) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 08:23:01.537  - [31merror[39m: my-opcua.0 (2036) unhandled promise rejection: Cannot read properties of undefined (reading 'length')
+2023-01-06 08:23:01.538  - [31merror[39m: my-opcua.0 (2036) TypeError: Cannot read properties of undefined (reading 'length')
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:358:33
+2023-01-06 08:23:01.539  - [31merror[39m: my-opcua.0 (2036) Cannot read properties of undefined (reading 'length')
+2023-01-06 08:25:35.494  - [34mdebug[39m: my-opcua.0 (22980) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 08:25:35.513  - [34mdebug[39m: my-opcua.0 (22980) Objects client ready ... initialize now
+2023-01-06 08:25:35.516  - [34mdebug[39m: my-opcua.0 (22980) Objects create System PubSub Client
+2023-01-06 08:25:35.518  - [34mdebug[39m: my-opcua.0 (22980) Objects create User PubSub Client
+2023-01-06 08:25:35.530  - [34mdebug[39m: my-opcua.0 (22980) Objects client initialize lua scripts
+2023-01-06 08:25:35.535  - [34mdebug[39m: my-opcua.0 (22980) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 08:25:35.552  - [34mdebug[39m: my-opcua.0 (22980) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 08:25:35.556  - [34mdebug[39m: my-opcua.0 (22980) States create System PubSub Client
+2023-01-06 08:25:35.558  - [34mdebug[39m: my-opcua.0 (22980) States create User PubSub Client
+2023-01-06 08:25:35.565  - [34mdebug[39m: my-opcua.0 (22980) States connected to redis: 127.0.0.1:9000
+2023-01-06 08:25:35.575  - [31merror[39m: my-opcua.0 (22980) adapter disabled
+2023-01-06 08:25:35.632  - [32minfo[39m: my-opcua.0 (22980) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 08:25:42.421  - [34mdebug[39m: my-opcua.0 (23576) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 08:25:42.455  - [34mdebug[39m: my-opcua.0 (23576) Objects client ready ... initialize now
+2023-01-06 08:25:42.458  - [34mdebug[39m: my-opcua.0 (23576) Objects create System PubSub Client
+2023-01-06 08:25:42.460  - [34mdebug[39m: my-opcua.0 (23576) Objects create User PubSub Client
+2023-01-06 08:25:42.478  - [34mdebug[39m: my-opcua.0 (23576) Objects client initialize lua scripts
+2023-01-06 08:25:42.483  - [34mdebug[39m: my-opcua.0 (23576) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 08:25:42.508  - [34mdebug[39m: my-opcua.0 (23576) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 08:25:42.515  - [34mdebug[39m: my-opcua.0 (23576) States create System PubSub Client
+2023-01-06 08:25:42.516  - [34mdebug[39m: my-opcua.0 (23576) States create User PubSub Client
+2023-01-06 08:25:42.526  - [34mdebug[39m: my-opcua.0 (23576) States connected to redis: 127.0.0.1:9000
+2023-01-06 08:25:42.544  - [31merror[39m: my-opcua.0 (23576) adapter disabled
+2023-01-06 08:25:42.613  - [32minfo[39m: my-opcua.0 (23576) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 08:25:48.931  - [32minfo[39m: my-opcua.0 (23576) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-06 08:25:48.932  - [32minfo[39m: my-opcua.0 (23576) config option2: sysadmin
+2023-01-06 08:25:49.471  - [32minfo[39m: my-opcua.0 (23576) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-06 08:25:49.480  - [32minfo[39m: my-opcua.0 (23576) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-06 08:25:49.488  - [32minfo[39m: my-opcua.0 (23576) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-06 08:25:49.582  - [32minfo[39m: my-opcua.0 (23576) check user admin pw iobroker: false,system.user.admin
+2023-01-06 08:25:50.024  - [32minfo[39m: my-opcua.0 (23576) check group user admin group admin: false
+2023-01-06 08:26:19.499  - [32minfo[39m: my-opcua.0 (23576) state my-opcua.0.testVariable deleted
+2023-01-06 09:22:38.555  - [34mdebug[39m: my-opcua.0 (24328) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 09:22:38.579  - [34mdebug[39m: my-opcua.0 (24328) Objects client ready ... initialize now
+2023-01-06 09:22:38.581  - [34mdebug[39m: my-opcua.0 (24328) Objects create System PubSub Client
+2023-01-06 09:22:38.584  - [34mdebug[39m: my-opcua.0 (24328) Objects create User PubSub Client
+2023-01-06 09:22:38.604  - [34mdebug[39m: my-opcua.0 (24328) Objects client initialize lua scripts
+2023-01-06 09:22:38.612  - [34mdebug[39m: my-opcua.0 (24328) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 09:22:38.673  - [34mdebug[39m: my-opcua.0 (24328) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 09:22:38.683  - [34mdebug[39m: my-opcua.0 (24328) States create System PubSub Client
+2023-01-06 09:22:38.686  - [34mdebug[39m: my-opcua.0 (24328) States create User PubSub Client
+2023-01-06 09:22:38.696  - [34mdebug[39m: my-opcua.0 (24328) States connected to redis: 127.0.0.1:9000
+2023-01-06 09:22:38.708  - [31merror[39m: my-opcua.0 (24328) adapter disabled
+2023-01-06 09:22:38.774  - [32minfo[39m: my-opcua.0 (24328) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 09:22:44.761  - [31merror[39m: my-opcua.0 (24328) uncaught exception: Error establishing a connection: BadNotConnected
+2023-01-06 09:22:44.764  - [31merror[39m: my-opcua.0 (24328) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-06 09:22:44.766  - [31merror[39m: my-opcua.0 (24328) Error establishing a connection: BadNotConnected
+2023-01-06 09:22:55.307  - [31merror[39m: my-opcua.0 (24328) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 09:22:55.308  - [31merror[39m: my-opcua.0 (24328) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-06 09:22:55.309  - [31merror[39m: my-opcua.0 (24328) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-06 09:22:55.309  - [31merror[39m: my-opcua.0 (24328) Cannot browse if not connected to a server.
+2023-01-06 09:22:55.334  - [32minfo[39m: my-opcua.0 (24328) terminating
+2023-01-06 09:22:55.336  - [33mwarn[39m: my-opcua.0 (24328) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-06 09:23:19.376  - [34mdebug[39m: my-opcua.0 (2752) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 09:23:19.398  - [34mdebug[39m: my-opcua.0 (2752) Objects client ready ... initialize now
+2023-01-06 09:23:19.400  - [34mdebug[39m: my-opcua.0 (2752) Objects create System PubSub Client
+2023-01-06 09:23:19.401  - [34mdebug[39m: my-opcua.0 (2752) Objects create User PubSub Client
+2023-01-06 09:23:19.416  - [34mdebug[39m: my-opcua.0 (2752) Objects client initialize lua scripts
+2023-01-06 09:23:19.421  - [34mdebug[39m: my-opcua.0 (2752) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 09:23:19.445  - [34mdebug[39m: my-opcua.0 (2752) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 09:23:19.452  - [34mdebug[39m: my-opcua.0 (2752) States create System PubSub Client
+2023-01-06 09:23:19.453  - [34mdebug[39m: my-opcua.0 (2752) States create User PubSub Client
+2023-01-06 09:23:19.461  - [34mdebug[39m: my-opcua.0 (2752) States connected to redis: 127.0.0.1:9000
+2023-01-06 09:23:19.473  - [31merror[39m: my-opcua.0 (2752) adapter disabled
+2023-01-06 09:23:19.534  - [32minfo[39m: my-opcua.0 (2752) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 09:23:25.321  - [31merror[39m: my-opcua.0 (2752) uncaught exception: Error establishing a connection: BadNotConnected
+2023-01-06 09:23:25.324  - [31merror[39m: my-opcua.0 (2752) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-06 09:23:25.325  - [31merror[39m: my-opcua.0 (2752) Error establishing a connection: BadNotConnected
+2023-01-06 09:23:28.810  - [31merror[39m: my-opcua.0 (2752) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 09:23:28.812  - [31merror[39m: my-opcua.0 (2752) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-06 09:23:28.814  - [31merror[39m: my-opcua.0 (2752) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-06 09:23:28.815  - [31merror[39m: my-opcua.0 (2752) Cannot browse if not connected to a server.
+2023-01-06 09:23:28.841  - [32minfo[39m: my-opcua.0 (2752) terminating
+2023-01-06 09:23:28.845  - [33mwarn[39m: my-opcua.0 (2752) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-06 09:24:05.811  - [34mdebug[39m: my-opcua.0 (23464) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 09:24:05.833  - [34mdebug[39m: my-opcua.0 (23464) Objects client ready ... initialize now
+2023-01-06 09:24:05.834  - [34mdebug[39m: my-opcua.0 (23464) Objects create System PubSub Client
+2023-01-06 09:24:05.836  - [34mdebug[39m: my-opcua.0 (23464) Objects create User PubSub Client
+2023-01-06 09:24:05.847  - [34mdebug[39m: my-opcua.0 (23464) Objects client initialize lua scripts
+2023-01-06 09:24:05.851  - [34mdebug[39m: my-opcua.0 (23464) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 09:24:05.871  - [34mdebug[39m: my-opcua.0 (23464) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 09:24:05.876  - [34mdebug[39m: my-opcua.0 (23464) States create System PubSub Client
+2023-01-06 09:24:05.878  - [34mdebug[39m: my-opcua.0 (23464) States create User PubSub Client
+2023-01-06 09:24:05.885  - [34mdebug[39m: my-opcua.0 (23464) States connected to redis: 127.0.0.1:9000
+2023-01-06 09:24:05.896  - [31merror[39m: my-opcua.0 (23464) adapter disabled
+2023-01-06 09:24:05.955  - [32minfo[39m: my-opcua.0 (23464) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 09:24:11.682  - [31merror[39m: my-opcua.0 (23464) uncaught exception: Error establishing a connection: BadNotConnected
+2023-01-06 09:24:11.683  - [31merror[39m: my-opcua.0 (23464) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-06 09:24:11.684  - [31merror[39m: my-opcua.0 (23464) Error establishing a connection: BadNotConnected
+2023-01-06 09:24:15.299  - [31merror[39m: my-opcua.0 (23464) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-06 09:24:15.301  - [31merror[39m: my-opcua.0 (23464) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-06 09:24:15.302  - [31merror[39m: my-opcua.0 (23464) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-06 09:24:15.303  - [31merror[39m: my-opcua.0 (23464) Cannot browse if not connected to a server.
+2023-01-06 09:24:15.314  - [32minfo[39m: my-opcua.0 (23464) terminating
+2023-01-06 09:24:15.316  - [33mwarn[39m: my-opcua.0 (23464) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-06 09:24:46.394  - [34mdebug[39m: my-opcua.0 (20564) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 09:24:46.417  - [34mdebug[39m: my-opcua.0 (20564) Objects client ready ... initialize now
+2023-01-06 09:24:46.419  - [34mdebug[39m: my-opcua.0 (20564) Objects create System PubSub Client
+2023-01-06 09:24:46.420  - [34mdebug[39m: my-opcua.0 (20564) Objects create User PubSub Client
+2023-01-06 09:24:46.434  - [34mdebug[39m: my-opcua.0 (20564) Objects client initialize lua scripts
+2023-01-06 09:24:46.440  - [34mdebug[39m: my-opcua.0 (20564) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 09:24:46.462  - [34mdebug[39m: my-opcua.0 (20564) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 09:24:46.467  - [34mdebug[39m: my-opcua.0 (20564) States create System PubSub Client
+2023-01-06 09:24:46.468  - [34mdebug[39m: my-opcua.0 (20564) States create User PubSub Client
+2023-01-06 09:24:46.476  - [34mdebug[39m: my-opcua.0 (20564) States connected to redis: 127.0.0.1:9000
+2023-01-06 09:24:46.485  - [31merror[39m: my-opcua.0 (20564) adapter disabled
+2023-01-06 09:24:46.543  - [32minfo[39m: my-opcua.0 (20564) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 09:24:56.569  - [34mdebug[39m: my-opcua.0 (11916) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-06 09:24:56.594  - [34mdebug[39m: my-opcua.0 (11916) Objects client ready ... initialize now
+2023-01-06 09:24:56.596  - [34mdebug[39m: my-opcua.0 (11916) Objects create System PubSub Client
+2023-01-06 09:24:56.597  - [34mdebug[39m: my-opcua.0 (11916) Objects create User PubSub Client
+2023-01-06 09:24:56.609  - [34mdebug[39m: my-opcua.0 (11916) Objects client initialize lua scripts
+2023-01-06 09:24:56.613  - [34mdebug[39m: my-opcua.0 (11916) Objects connected to redis: 127.0.0.1:9001
+2023-01-06 09:24:56.628  - [34mdebug[39m: my-opcua.0 (11916) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-06 09:24:56.633  - [34mdebug[39m: my-opcua.0 (11916) States create System PubSub Client
+2023-01-06 09:24:56.634  - [34mdebug[39m: my-opcua.0 (11916) States create User PubSub Client
+2023-01-06 09:24:56.640  - [34mdebug[39m: my-opcua.0 (11916) States connected to redis: 127.0.0.1:9000
+2023-01-06 09:24:56.652  - [31merror[39m: my-opcua.0 (11916) adapter disabled
+2023-01-06 09:24:56.697  - [32minfo[39m: my-opcua.0 (11916) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-06 09:25:01.610  - [32minfo[39m: my-opcua.0 (11916) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-06 09:25:01.612  - [32minfo[39m: my-opcua.0 (11916) config option2: sysadmin
+2023-01-06 09:25:02.406  - [32minfo[39m: my-opcua.0 (11916) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-06 09:25:02.417  - [32minfo[39m: my-opcua.0 (11916) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-06 09:25:02.426  - [32minfo[39m: my-opcua.0 (11916) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-06 09:25:02.507  - [32minfo[39m: my-opcua.0 (11916) check user admin pw iobroker: false,system.user.admin
+2023-01-06 09:25:03.138  - [32minfo[39m: my-opcua.0 (11916) check group user admin group admin: false

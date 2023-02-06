@@ -1,0 +1,15 @@
+{
+    "keep": {
+        "days": true,
+        "amount": 7
+    },
+    "auditLog": "C:\\Users\\Kamran_PC\\Desktop\\opc\\ioBroker.my-opcua\\log\\iobroker-audit.json",
+    "files": [
+        {
+            "date": 1670583570229,
+            "name": "C:\\Users\\Kamran_PC\\Desktop\\opc\\ioBroker.my-opcua\\log\\iobroker.2022-12-09.log",
+            "hash": "b71a0198e3016f30be286c6125853d17bf107a003cf605f684cf4fb94a621e4a"
+        }
+    ],
+    "hashType": "sha256"
+}

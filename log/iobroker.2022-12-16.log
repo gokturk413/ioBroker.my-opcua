@@ -1,0 +1,168 @@
+2022-12-16 08:29:04.882  - [32minfo[39m: my-opcua.0 (8656) test command
+2022-12-16 08:29:08.576  - [32minfo[39m: my-opcua.0 (8656) browser command
+2022-12-16 08:29:12.097  - [32minfo[39m: my-opcua.0 (8656) browser command
+2022-12-16 08:29:28.336  - [32minfo[39m: my-opcua.0 (8656) browser command
+2022-12-16 08:30:30.654  - [32minfo[39m: my-opcua.0 (8656) test command
+2022-12-16 08:30:33.298  - [32minfo[39m: my-opcua.0 (8656) browser command
+2022-12-16 08:30:35.770  - [32minfo[39m: my-opcua.0 (8656) browser command
+2022-12-16 08:39:19.006  - [32minfo[39m: my-opcua.0 (8656) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 08:39:19.009  - [32minfo[39m: my-opcua.0 (8656) terminating
+2022-12-16 08:39:19.010  - [32minfo[39m: my-opcua.0 (8656) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 08:39:23.011  - [32minfo[39m: my-opcua.0 (15936) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 08:39:23.932  - [32minfo[39m: my-opcua.0 (15936) config option1: undefined
+2022-12-16 08:39:23.932  - [32minfo[39m: my-opcua.0 (15936) config option2: undefined
+2022-12-16 08:39:23.969  - [32minfo[39m: my-opcua.0 (15936) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 08:39:23.972  - [32minfo[39m: my-opcua.0 (15936) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:39:23.974  - [32minfo[39m: my-opcua.0 (15936) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:39:24.031  - [32minfo[39m: my-opcua.0 (15936) check user admin pw iobroker: false,system.user.admin
+2022-12-16 08:39:24.034  - [32minfo[39m: my-opcua.0 (15936) check group user admin group admin: false
+2022-12-16 08:39:53.980  - [32minfo[39m: my-opcua.0 (15936) state my-opcua.0.testVariable deleted
+2022-12-16 08:40:22.615  - [32minfo[39m: my-opcua.0 (15936) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 08:40:22.616  - [32minfo[39m: my-opcua.0 (15936) terminating
+2022-12-16 08:40:22.617  - [32minfo[39m: my-opcua.0 (15936) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 08:40:26.640  - [32minfo[39m: my-opcua.0 (14296) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 08:40:27.609  - [32minfo[39m: my-opcua.0 (14296) config option1: undefined
+2022-12-16 08:40:27.610  - [32minfo[39m: my-opcua.0 (14296) config option2: undefined
+2022-12-16 08:40:27.638  - [32minfo[39m: my-opcua.0 (14296) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 08:40:27.641  - [32minfo[39m: my-opcua.0 (14296) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:40:27.643  - [32minfo[39m: my-opcua.0 (14296) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:40:27.691  - [32minfo[39m: my-opcua.0 (14296) check user admin pw iobroker: false,system.user.admin
+2022-12-16 08:40:27.693  - [32minfo[39m: my-opcua.0 (14296) check group user admin group admin: false
+2022-12-16 08:40:35.323  - [32minfo[39m: my-opcua.0 (14296) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 08:40:35.324  - [32minfo[39m: my-opcua.0 (14296) terminating
+2022-12-16 08:40:35.325  - [32minfo[39m: my-opcua.0 (14296) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 08:40:39.148  - [32minfo[39m: my-opcua.0 (19688) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 08:40:39.857  - [32minfo[39m: my-opcua.0 (19688) config option1: undefined
+2022-12-16 08:40:39.858  - [32minfo[39m: my-opcua.0 (19688) config option2: undefined
+2022-12-16 08:40:39.887  - [32minfo[39m: my-opcua.0 (19688) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 08:40:39.889  - [32minfo[39m: my-opcua.0 (19688) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:40:39.891  - [32minfo[39m: my-opcua.0 (19688) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:40:39.938  - [32minfo[39m: my-opcua.0 (19688) check user admin pw iobroker: false,system.user.admin
+2022-12-16 08:40:39.940  - [32minfo[39m: my-opcua.0 (19688) check group user admin group admin: false
+2022-12-16 08:41:02.563  - [32minfo[39m: my-opcua.0 (19688) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 08:41:02.564  - [32minfo[39m: my-opcua.0 (19688) terminating
+2022-12-16 08:41:02.565  - [32minfo[39m: my-opcua.0 (19688) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 08:41:06.453  - [32minfo[39m: my-opcua.0 (4348) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 08:41:07.516  - [32minfo[39m: my-opcua.0 (4348) config option1: undefined
+2022-12-16 08:41:07.516  - [32minfo[39m: my-opcua.0 (4348) config option2: undefined
+2022-12-16 08:41:07.548  - [32minfo[39m: my-opcua.0 (4348) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 08:41:07.551  - [32minfo[39m: my-opcua.0 (4348) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:41:07.553  - [32minfo[39m: my-opcua.0 (4348) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:41:07.601  - [32minfo[39m: my-opcua.0 (4348) check user admin pw iobroker: false,system.user.admin
+2022-12-16 08:41:07.602  - [32minfo[39m: my-opcua.0 (4348) check group user admin group admin: false
+2022-12-16 08:41:37.569  - [32minfo[39m: my-opcua.0 (4348) state my-opcua.0.testVariable deleted
+2022-12-16 08:42:21.455  - [32minfo[39m: my-opcua.0 (4348) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 08:42:21.456  - [32minfo[39m: my-opcua.0 (4348) terminating
+2022-12-16 08:42:21.457  - [32minfo[39m: my-opcua.0 (4348) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 08:42:25.628  - [32minfo[39m: my-opcua.0 (18904) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 08:42:26.517  - [32minfo[39m: my-opcua.0 (18904) config option1: undefined
+2022-12-16 08:42:26.518  - [32minfo[39m: my-opcua.0 (18904) config option2: undefined
+2022-12-16 08:42:26.551  - [32minfo[39m: my-opcua.0 (18904) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 08:42:26.555  - [32minfo[39m: my-opcua.0 (18904) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:42:26.557  - [32minfo[39m: my-opcua.0 (18904) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:42:26.612  - [32minfo[39m: my-opcua.0 (18904) check user admin pw iobroker: false,system.user.admin
+2022-12-16 08:42:26.614  - [32minfo[39m: my-opcua.0 (18904) check group user admin group admin: false
+2022-12-16 08:42:29.529  - [32minfo[39m: my-opcua.0 (18904) test command
+2022-12-16 08:42:33.913  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:42:56.562  - [32minfo[39m: my-opcua.0 (18904) state my-opcua.0.testVariable deleted
+2022-12-16 08:43:01.312  - [32minfo[39m: my-opcua.0 (18904) test command
+2022-12-16 08:44:08.969  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:11.816  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:17.889  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:20.345  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:26.921  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:29.801  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:33.913  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:38.409  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:41.105  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:44:43.689  - [32minfo[39m: my-opcua.0 (18904) browser command
+2022-12-16 08:57:36.409  - [32minfo[39m: my-opcua.0 (18904) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 08:57:36.410  - [32minfo[39m: my-opcua.0 (18904) terminating
+2022-12-16 08:57:36.410  - [32minfo[39m: my-opcua.0 (18904) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 08:57:40.167  - [32minfo[39m: my-opcua.0 (18152) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 08:57:41.097  - [32minfo[39m: my-opcua.0 (18152) config option1: undefined
+2022-12-16 08:57:41.097  - [32minfo[39m: my-opcua.0 (18152) config option2: undefined
+2022-12-16 08:57:41.307  - [32minfo[39m: my-opcua.0 (18152) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 08:57:41.314  - [32minfo[39m: my-opcua.0 (18152) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:57:41.316  - [32minfo[39m: my-opcua.0 (18152) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 08:57:41.385  - [32minfo[39m: my-opcua.0 (18152) check user admin pw iobroker: false,system.user.admin
+2022-12-16 08:57:41.386  - [32minfo[39m: my-opcua.0 (18152) check group user admin group admin: false
+2022-12-16 08:57:44.145  - [32minfo[39m: my-opcua.0 (18152) test command
+2022-12-16 08:57:48.730  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:57:58.570  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:58:02.089  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:58:11.327  - [32minfo[39m: my-opcua.0 (18152) state my-opcua.0.testVariable deleted
+2022-12-16 08:58:21.001  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:58:28.481  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:58:31.721  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:58:56.700  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:59:00.740  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:59:04.835  - [32minfo[39m: my-opcua.0 (18152) browser command
+2022-12-16 08:59:55.631  - [32minfo[39m: my-opcua.0 (18152) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 08:59:55.632  - [32minfo[39m: my-opcua.0 (18152) terminating
+2022-12-16 08:59:55.632  - [32minfo[39m: my-opcua.0 (18152) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 08:59:59.530  - [32minfo[39m: my-opcua.0 (15780) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 09:00:00.436  - [32minfo[39m: my-opcua.0 (15780) config option1: undefined
+2022-12-16 09:00:00.436  - [32minfo[39m: my-opcua.0 (15780) config option2: undefined
+2022-12-16 09:00:00.478  - [32minfo[39m: my-opcua.0 (15780) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 09:00:00.481  - [32minfo[39m: my-opcua.0 (15780) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 09:00:00.483  - [32minfo[39m: my-opcua.0 (15780) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 09:00:00.561  - [32minfo[39m: my-opcua.0 (15780) check user admin pw iobroker: false,system.user.admin
+2022-12-16 09:00:00.563  - [32minfo[39m: my-opcua.0 (15780) check group user admin group admin: false
+2022-12-16 09:00:03.200  - [32minfo[39m: my-opcua.0 (15780) test command
+2022-12-16 09:00:05.998  - [32minfo[39m: my-opcua.0 (15780) browser command
+2022-12-16 09:00:10.191  - [32minfo[39m: my-opcua.0 (15780) browser command
+2022-12-16 09:00:13.455  - [32minfo[39m: my-opcua.0 (15780) browser command
+2022-12-16 09:00:23.053  - [32minfo[39m: my-opcua.0 (15780) browser command
+2022-12-16 09:00:30.492  - [32minfo[39m: my-opcua.0 (15780) state my-opcua.0.testVariable deleted
+2022-12-16 09:01:21.058  - [32minfo[39m: my-opcua.0 (15780) test command
+2022-12-16 09:01:42.844  - [32minfo[39m: my-opcua.0 (15780) Got terminate signal TERMINATE_YOURSELF
+2022-12-16 09:01:42.845  - [32minfo[39m: my-opcua.0 (15780) terminating
+2022-12-16 09:01:42.845  - [32minfo[39m: my-opcua.0 (15780) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-16 09:01:46.628  - [32minfo[39m: my-opcua.0 (5032) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 09:01:47.328  - [32minfo[39m: my-opcua.0 (5032) config option1: undefined
+2022-12-16 09:01:47.329  - [32minfo[39m: my-opcua.0 (5032) config option2: undefined
+2022-12-16 09:01:47.360  - [32minfo[39m: my-opcua.0 (5032) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 09:01:47.363  - [32minfo[39m: my-opcua.0 (5032) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 09:01:47.365  - [32minfo[39m: my-opcua.0 (5032) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 09:01:47.411  - [32minfo[39m: my-opcua.0 (5032) check user admin pw iobroker: false,system.user.admin
+2022-12-16 09:01:47.413  - [32minfo[39m: my-opcua.0 (5032) check group user admin group admin: false
+2022-12-16 09:01:51.334  - [32minfo[39m: my-opcua.0 (5032) test command
+2022-12-16 09:01:54.061  - [32minfo[39m: my-opcua.0 (5032) browser command
+2022-12-16 09:02:17.374  - [32minfo[39m: my-opcua.0 (5032) state my-opcua.0.testVariable deleted
+2022-12-16 15:18:18.528  - [31merror[39m: my-opcua.0 (3708) my-opcua.0 already running
+2022-12-16 15:18:18.530  - [33mwarn[39m: my-opcua.0 (3708) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2022-12-16 15:18:50.016  - [32minfo[39m: my-opcua.0 (9284) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 15:18:56.685  - [31merror[39m: my-opcua.0 (9284) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-16 15:18:56.689  - [31merror[39m: my-opcua.0 (9284) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-16 15:18:56.689  - [31merror[39m: my-opcua.0 (9284) Error establishing a connection: BadNotConnected
+2022-12-16 15:18:56.726  - [31merror[39m: my-opcua.0 (9284) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-16 15:18:56.726  - [31merror[39m: my-opcua.0 (9284) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-16 15:18:56.726  - [31merror[39m: my-opcua.0 (9284) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-16 15:18:56.726  - [31merror[39m: my-opcua.0 (9284) Cannot browse if not connected to a server.
+2022-12-16 15:18:56.730  - [32minfo[39m: my-opcua.0 (9284) terminating
+2022-12-16 15:18:56.731  - [33mwarn[39m: my-opcua.0 (9284) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-16 15:19:30.677  - [32minfo[39m: my-opcua.0 (1948) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-16 15:19:32.135  - [32minfo[39m: my-opcua.0 (1948) config option1: undefined
+2022-12-16 15:19:32.135  - [32minfo[39m: my-opcua.0 (1948) config option2: undefined
+2022-12-16 15:19:32.181  - [32minfo[39m: my-opcua.0 (1948) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-16 15:19:32.185  - [32minfo[39m: my-opcua.0 (1948) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 15:19:32.188  - [32minfo[39m: my-opcua.0 (1948) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-16 15:19:32.325  - [32minfo[39m: my-opcua.0 (1948) check user admin pw iobroker: false,system.user.admin
+2022-12-16 15:19:32.327  - [32minfo[39m: my-opcua.0 (1948) check group user admin group admin: false
+2022-12-16 15:19:41.826  - [32minfo[39m: my-opcua.0 (1948) test command
+2022-12-16 15:19:46.464  - [32minfo[39m: my-opcua.0 (1948) browser command
+2022-12-16 15:19:50.239  - [32minfo[39m: my-opcua.0 (1948) browser command
+2022-12-16 15:19:53.223  - [32minfo[39m: my-opcua.0 (1948) browser command
+2022-12-16 15:19:56.471  - [32minfo[39m: my-opcua.0 (1948) browser command
+2022-12-16 15:19:58.975  - [32minfo[39m: my-opcua.0 (1948) browser command
+2022-12-16 15:20:02.190  - [32minfo[39m: my-opcua.0 (1948) state my-opcua.0.testVariable deleted
+2022-12-16 15:49:04.668  - [32minfo[39m: my-opcua.0 (1948) test command

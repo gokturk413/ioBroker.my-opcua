@@ -1,0 +1,54 @@
+2022-12-22 14:34:21.140  - [32minfo[39m: my-opcua.0 (20020) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-22 14:34:27.178  - [31merror[39m: my-opcua.0 (20020) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-22 14:34:27.180  - [31merror[39m: my-opcua.0 (20020) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-22 14:34:27.181  - [31merror[39m: my-opcua.0 (20020) Error establishing a connection: BadNotConnected
+2022-12-22 14:34:27.212  - [31merror[39m: my-opcua.0 (20020) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-22 14:34:27.212  - [31merror[39m: my-opcua.0 (20020) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-22 14:34:27.212  - [31merror[39m: my-opcua.0 (20020) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-22 14:34:27.212  - [31merror[39m: my-opcua.0 (20020) Cannot browse if not connected to a server.
+2022-12-22 14:34:27.214  - [32minfo[39m: my-opcua.0 (20020) terminating
+2022-12-22 14:34:27.215  - [33mwarn[39m: my-opcua.0 (20020) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-22 14:35:00.910  - [32minfo[39m: my-opcua.0 (25136) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-22 14:35:06.593  - [31merror[39m: my-opcua.0 (25136) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-22 14:35:06.595  - [31merror[39m: my-opcua.0 (25136) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-22 14:35:06.595  - [31merror[39m: my-opcua.0 (25136) Error establishing a connection: BadNotConnected
+2022-12-22 14:35:06.618  - [31merror[39m: my-opcua.0 (25136) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-22 14:35:06.618  - [31merror[39m: my-opcua.0 (25136) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-22 14:35:06.618  - [31merror[39m: my-opcua.0 (25136) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-22 14:35:06.618  - [31merror[39m: my-opcua.0 (25136) Cannot browse if not connected to a server.
+2022-12-22 14:35:06.621  - [32minfo[39m: my-opcua.0 (25136) terminating
+2022-12-22 14:35:06.622  - [33mwarn[39m: my-opcua.0 (25136) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-22 14:35:40.070  - [32minfo[39m: my-opcua.0 (4372) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-22 14:35:45.690  - [31merror[39m: my-opcua.0 (4372) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-22 14:35:45.691  - [31merror[39m: my-opcua.0 (4372) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-22 14:35:45.692  - [31merror[39m: my-opcua.0 (4372) Error establishing a connection: BadNotConnected
+2022-12-22 14:35:45.713  - [31merror[39m: my-opcua.0 (4372) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-22 14:35:45.713  - [31merror[39m: my-opcua.0 (4372) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-22 14:35:45.714  - [31merror[39m: my-opcua.0 (4372) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-22 14:35:45.714  - [31merror[39m: my-opcua.0 (4372) Cannot browse if not connected to a server.
+2022-12-22 14:35:45.716  - [32minfo[39m: my-opcua.0 (4372) terminating
+2022-12-22 14:35:45.716  - [33mwarn[39m: my-opcua.0 (4372) Terminated (UNCAUGHT_EXCEPTION): Without reason
