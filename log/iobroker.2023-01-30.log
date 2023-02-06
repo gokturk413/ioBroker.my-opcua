@@ -1,0 +1,45 @@
+2023-01-30 09:09:59.934  - [34mdebug[39m: my-opcua.0 (13860) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-30 09:09:59.971  - [34mdebug[39m: my-opcua.0 (13860) Objects client ready ... initialize now
+2023-01-30 09:09:59.978  - [34mdebug[39m: my-opcua.0 (13860) Objects create System PubSub Client
+2023-01-30 09:09:59.981  - [34mdebug[39m: my-opcua.0 (13860) Objects create User PubSub Client
+2023-01-30 09:10:00.007  - [34mdebug[39m: my-opcua.0 (13860) Objects client initialize lua scripts
+2023-01-30 09:10:00.016  - [34mdebug[39m: my-opcua.0 (13860) Objects connected to redis: 127.0.0.1:9001
+2023-01-30 09:10:00.052  - [34mdebug[39m: my-opcua.0 (13860) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-30 09:10:00.062  - [34mdebug[39m: my-opcua.0 (13860) States create System PubSub Client
+2023-01-30 09:10:00.065  - [34mdebug[39m: my-opcua.0 (13860) States create User PubSub Client
+2023-01-30 09:10:00.077  - [34mdebug[39m: my-opcua.0 (13860) States connected to redis: 127.0.0.1:9000
+2023-01-30 09:10:00.096  - [31merror[39m: my-opcua.0 (13860) adapter disabled
+2023-01-30 09:10:00.194  - [32minfo[39m: my-opcua.0 (13860) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-30 09:10:05.011  - [32minfo[39m: my-opcua.0 (13860) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-30 09:10:05.013  - [32minfo[39m: my-opcua.0 (13860) config option2: sysadmin
+2023-01-30 09:10:05.030  - [32minfo[39m: my-opcua.0 (13860) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-30 09:10:05.745  - [32minfo[39m: my-opcua.0 (13860) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-30 09:10:05.748  - [32minfo[39m: my-opcua.0 (13860) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-30 09:10:05.754  - [32minfo[39m: my-opcua.0 (13860) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-30 09:10:05.761  - [32minfo[39m: my-opcua.0 (13860) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-30 09:10:05.769  - [32minfo[39m: my-opcua.0 (13860) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-30 09:10:09.366  - [32minfo[39m: my-opcua.0 (13860) check user admin pw iobroker: false,system.user.admin
+2023-01-30 09:10:09.372  - [32minfo[39m: my-opcua.0 (13860) check group user admin group admin: false
+2023-01-30 09:10:36.704  - [32minfo[39m: my-opcua.0 (13860) state my-opcua.0.testVariable deleted
+2023-01-30 09:14:28.613  - [34mdebug[39m: my-opcua.0 (2924) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-30 09:14:28.632  - [34mdebug[39m: my-opcua.0 (2924) Objects client ready ... initialize now
+2023-01-30 09:14:28.634  - [34mdebug[39m: my-opcua.0 (2924) Objects create System PubSub Client
+2023-01-30 09:14:28.636  - [34mdebug[39m: my-opcua.0 (2924) Objects create User PubSub Client
+2023-01-30 09:14:28.648  - [34mdebug[39m: my-opcua.0 (2924) Objects client initialize lua scripts
+2023-01-30 09:14:28.652  - [34mdebug[39m: my-opcua.0 (2924) Objects connected to redis: 127.0.0.1:9001
+2023-01-30 09:14:28.668  - [34mdebug[39m: my-opcua.0 (2924) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-30 09:14:28.673  - [34mdebug[39m: my-opcua.0 (2924) States create System PubSub Client
+2023-01-30 09:14:28.675  - [34mdebug[39m: my-opcua.0 (2924) States create User PubSub Client
+2023-01-30 09:14:28.683  - [34mdebug[39m: my-opcua.0 (2924) States connected to redis: 127.0.0.1:9000
+2023-01-30 09:14:28.702  - [31merror[39m: my-opcua.0 (2924) adapter disabled
+2023-01-30 09:14:28.760  - [32minfo[39m: my-opcua.0 (2924) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-30 09:14:32.555  - [32minfo[39m: my-opcua.0 (2924) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-30 09:14:32.557  - [32minfo[39m: my-opcua.0 (2924) config option2: sysadmin
+2023-01-30 09:14:32.571  - [32minfo[39m: my-opcua.0 (2924) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-30 09:14:33.215  - [32minfo[39m: my-opcua.0 (2924) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-30 09:14:33.216  - [32minfo[39m: my-opcua.0 (2924) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-30 09:14:33.223  - [32minfo[39m: my-opcua.0 (2924) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-30 09:14:33.232  - [32minfo[39m: my-opcua.0 (2924) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-30 09:14:34.411  - [32minfo[39m: my-opcua.0 (2924) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-30 09:14:34.486  - [32minfo[39m: my-opcua.0 (2924) check user admin pw iobroker: false,system.user.admin
+2023-01-30 09:14:34.492  - [32minfo[39m: my-opcua.0 (2924) check group user admin group admin: false

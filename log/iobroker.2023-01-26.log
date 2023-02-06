@@ -1,0 +1,1225 @@
+2023-01-26 12:32:29.750  - [34mdebug[39m: my-opcua.0 (16152) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 12:32:29.774  - [34mdebug[39m: my-opcua.0 (16152) Objects client ready ... initialize now
+2023-01-26 12:32:29.775  - [34mdebug[39m: my-opcua.0 (16152) Objects create System PubSub Client
+2023-01-26 12:32:29.777  - [34mdebug[39m: my-opcua.0 (16152) Objects create User PubSub Client
+2023-01-26 12:32:29.789  - [34mdebug[39m: my-opcua.0 (16152) Objects client initialize lua scripts
+2023-01-26 12:32:29.825  - [34mdebug[39m: my-opcua.0 (16152) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 12:32:29.863  - [34mdebug[39m: my-opcua.0 (16152) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 12:32:29.874  - [34mdebug[39m: my-opcua.0 (16152) States create System PubSub Client
+2023-01-26 12:32:29.877  - [34mdebug[39m: my-opcua.0 (16152) States create User PubSub Client
+2023-01-26 12:32:29.891  - [34mdebug[39m: my-opcua.0 (16152) States connected to redis: 127.0.0.1:9000
+2023-01-26 12:32:29.912  - [31merror[39m: my-opcua.0 (16152) adapter disabled
+2023-01-26 12:32:29.983  - [32minfo[39m: my-opcua.0 (16152) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 12:32:36.334  - [32minfo[39m: my-opcua.0 (16152) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 12:32:36.336  - [32minfo[39m: my-opcua.0 (16152) config option2: sysadmin
+2023-01-26 12:32:36.353  - [32minfo[39m: my-opcua.0 (16152) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 12:32:37.130  - [32minfo[39m: my-opcua.0 (16152) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 12:32:37.136  - [32minfo[39m: my-opcua.0 (16152) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 12:32:37.144  - [32minfo[39m: my-opcua.0 (16152) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 12:32:37.154  - [32minfo[39m: my-opcua.0 (16152) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:32:37.162  - [32minfo[39m: my-opcua.0 (16152) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:32:37.230  - [32minfo[39m: my-opcua.0 (16152) check user admin pw iobroker: false,system.user.admin
+2023-01-26 12:32:37.235  - [32minfo[39m: my-opcua.0 (16152) check group user admin group admin: false
+2023-01-26 12:32:42.802  - [32minfo[39m: my-opcua.0 (16152) test command
+2023-01-26 12:32:50.432  - [32minfo[39m: my-opcua.0 (16152) browser command
+2023-01-26 12:32:55.582  - [32minfo[39m: my-opcua.0 (16152) browser command
+2023-01-26 12:32:59.943  - [32minfo[39m: my-opcua.0 (16152) browser command
+2023-01-26 12:33:07.161  - [32minfo[39m: my-opcua.0 (16152) state my-opcua.0.testVariable deleted
+2023-01-26 12:33:13.694  - [32minfo[39m: my-opcua.0 (16152) browser command
+2023-01-26 12:33:17.199  - [32minfo[39m: my-opcua.0 (16152) browser command
+2023-01-26 12:41:59.691  - [32minfo[39m: my-opcua.0 (16152) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: 0 (ack = false)
+2023-01-26 12:43:14.074  - [34mdebug[39m: my-opcua.0 (2772) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 12:43:14.099  - [34mdebug[39m: my-opcua.0 (2772) Objects client ready ... initialize now
+2023-01-26 12:43:14.101  - [34mdebug[39m: my-opcua.0 (2772) Objects create System PubSub Client
+2023-01-26 12:43:14.103  - [34mdebug[39m: my-opcua.0 (2772) Objects create User PubSub Client
+2023-01-26 12:43:14.120  - [34mdebug[39m: my-opcua.0 (2772) Objects client initialize lua scripts
+2023-01-26 12:43:14.126  - [34mdebug[39m: my-opcua.0 (2772) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 12:43:14.184  - [34mdebug[39m: my-opcua.0 (2772) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 12:43:14.194  - [34mdebug[39m: my-opcua.0 (2772) States create System PubSub Client
+2023-01-26 12:43:14.196  - [34mdebug[39m: my-opcua.0 (2772) States create User PubSub Client
+2023-01-26 12:43:14.205  - [34mdebug[39m: my-opcua.0 (2772) States connected to redis: 127.0.0.1:9000
+2023-01-26 12:43:14.217  - [31merror[39m: my-opcua.0 (2772) adapter disabled
+2023-01-26 12:43:14.284  - [32minfo[39m: my-opcua.0 (2772) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 12:43:18.623  - [32minfo[39m: my-opcua.0 (2772) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 12:43:18.625  - [32minfo[39m: my-opcua.0 (2772) config option2: sysadmin
+2023-01-26 12:43:18.650  - [32minfo[39m: my-opcua.0 (2772) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 12:43:19.416  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 12:43:19.417  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 12:43:19.425  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 12:43:19.435  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:43:19.443  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:43:19.511  - [32minfo[39m: my-opcua.0 (2772) check user admin pw iobroker: false,system.user.admin
+2023-01-26 12:43:19.516  - [32minfo[39m: my-opcua.0 (2772) check group user admin group admin: false
+2023-01-26 12:43:31.329  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.333  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.395  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.398  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.416  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:43:31.418  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:43:31.428  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.430  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.442  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:43:31.446  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:43:31.455  - [31merror[39m: my-opcua.0 (2772) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.458  - [31merror[39m: my-opcua.0 (2772) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:43:31.460  - [31merror[39m: my-opcua.0 (2772) Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.464  - [31merror[39m: my-opcua.0 (2772) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.466  - [31merror[39m: my-opcua.0 (2772) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:43:31.468  - [31merror[39m: my-opcua.0 (2772) Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.470  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.473  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.481  - [32minfo[39m: my-opcua.0 (2772) terminating
+2023-01-26 12:43:31.483  - [33mwarn[39m: my-opcua.0 (2772) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 12:43:31.488  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:43:31.491  - [32minfo[39m: my-opcua.0 (2772) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:43:31.499  - [31merror[39m: my-opcua.0 (2772) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.500  - [31merror[39m: my-opcua.0 (2772) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:43:31.502  - [31merror[39m: my-opcua.0 (2772) Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.504  - [31merror[39m: my-opcua.0 (2772) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.505  - [31merror[39m: my-opcua.0 (2772) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:43:31.507  - [31merror[39m: my-opcua.0 (2772) Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.510  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.513  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.529  - [31merror[39m: my-opcua.0 (2772) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.531  - [31merror[39m: my-opcua.0 (2772) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:43:31.533  - [31merror[39m: my-opcua.0 (2772) Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.535  - [31merror[39m: my-opcua.0 (2772) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.537  - [31merror[39m: my-opcua.0 (2772) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:43:31.538  - [31merror[39m: my-opcua.0 (2772) Cannot read properties of null (reading 'common')
+2023-01-26 12:43:31.541  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.545  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.565  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.575  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.579  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.598  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.606  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.611  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.624  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.627  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.641  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.644  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.658  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.662  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.676  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.680  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.696  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.700  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.718  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.721  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.737  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.740  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.757  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.760  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.775  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.778  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.794  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.801  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.839  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.844  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.856  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.860  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.871  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.875  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.886  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.889  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.904  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.908  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.922  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.925  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.940  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.944  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.957  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.960  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.974  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.976  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:31.997  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:32.000  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:32.007  - [33mwarn[39m: my-opcua.0 (2772) get state error: DB closed
+2023-01-26 12:43:32.009  - [33mwarn[39m: my-opcua.0 (2772) get state error: DB closed
+2023-01-26 12:43:32.018  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:32.021  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.023  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:32.025  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.035  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:32.037  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.039  - [33mwarn[39m: my-opcua.0 (2772) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:43:32.040  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.050  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:43:32.052  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:43:32.053  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:43:32.055  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:43:32.056  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:43:32.057  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:43:32.060  - [33mwarn[39m: my-opcua.0 (2772) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:43:32.062  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.065  - [33mwarn[39m: my-opcua.0 (2772) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:43:32.067  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.069  - [33mwarn[39m: my-opcua.0 (2772) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:43:32.071  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.073  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:43:32.075  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:43:32.081  - [33mwarn[39m: my-opcua.0 (2772) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:43:32.083  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.084  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:43:32.086  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:43:32.091  - [33mwarn[39m: my-opcua.0 (2772) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:43:32.093  - [33mwarn[39m: my-opcua.0 (2772) get state error: Connection is closed.
+2023-01-26 12:43:32.094  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:43:32.097  - [34mdebug[39m: my-opcua.0 (2772) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:44:09.170  - [34mdebug[39m: my-opcua.0 (8368) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 12:44:09.191  - [34mdebug[39m: my-opcua.0 (8368) Objects client ready ... initialize now
+2023-01-26 12:44:09.193  - [34mdebug[39m: my-opcua.0 (8368) Objects create System PubSub Client
+2023-01-26 12:44:09.194  - [34mdebug[39m: my-opcua.0 (8368) Objects create User PubSub Client
+2023-01-26 12:44:09.207  - [34mdebug[39m: my-opcua.0 (8368) Objects client initialize lua scripts
+2023-01-26 12:44:09.211  - [34mdebug[39m: my-opcua.0 (8368) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 12:44:09.229  - [34mdebug[39m: my-opcua.0 (8368) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 12:44:09.234  - [34mdebug[39m: my-opcua.0 (8368) States create System PubSub Client
+2023-01-26 12:44:09.235  - [34mdebug[39m: my-opcua.0 (8368) States create User PubSub Client
+2023-01-26 12:44:09.241  - [34mdebug[39m: my-opcua.0 (8368) States connected to redis: 127.0.0.1:9000
+2023-01-26 12:44:09.251  - [31merror[39m: my-opcua.0 (8368) adapter disabled
+2023-01-26 12:44:09.306  - [32minfo[39m: my-opcua.0 (8368) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 12:44:14.759  - [32minfo[39m: my-opcua.0 (8368) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 12:44:14.761  - [32minfo[39m: my-opcua.0 (8368) config option2: sysadmin
+2023-01-26 12:44:14.782  - [32minfo[39m: my-opcua.0 (8368) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 12:44:15.807  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 12:44:15.813  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 12:44:15.826  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 12:44:15.842  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:44:15.853  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:44:15.931  - [32minfo[39m: my-opcua.0 (8368) check user admin pw iobroker: false,system.user.admin
+2023-01-26 12:44:15.935  - [32minfo[39m: my-opcua.0 (8368) check group user admin group admin: false
+2023-01-26 12:44:45.866  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.testVariable deleted
+2023-01-26 12:45:07.693  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:11.461  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:11.464  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:13.246  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:45:13.248  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:13.250  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:14.079  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:45:14.082  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:45:14.713  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:14.717  - [31merror[39m: my-opcua.0 (8368) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:45:14.720  - [31merror[39m: my-opcua.0 (8368) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:45:14.721  - [31merror[39m: my-opcua.0 (8368) Cannot read properties of null (reading 'common')
+2023-01-26 12:45:14.724  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:14.729  - [32minfo[39m: my-opcua.0 (8368) terminating
+2023-01-26 12:45:14.731  - [33mwarn[39m: my-opcua.0 (8368) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 12:45:32.329  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:45:32.331  - [32minfo[39m: my-opcua.0 (8368) state my-opcua.0.*.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:45:35.574  - [31merror[39m: my-opcua.0 (8368) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.576  - [31merror[39m: my-opcua.0 (8368) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:45:35.577  - [31merror[39m: my-opcua.0 (8368) Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.579  - [31merror[39m: my-opcua.0 (8368) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.580  - [31merror[39m: my-opcua.0 (8368) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:45:35.581  - [31merror[39m: my-opcua.0 (8368) Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.583  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:35.585  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:35.589  - [33mwarn[39m: my-opcua.0 (8368) get state error: DB closed
+2023-01-26 12:45:35.591  - [33mwarn[39m: my-opcua.0 (8368) get state error: DB closed
+2023-01-26 12:45:35.595  - [32minfo[39m: my-opcua.0 (8368) terminating with timeout
+2023-01-26 12:45:35.610  - [31merror[39m: my-opcua.0 (8368) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.613  - [31merror[39m: my-opcua.0 (8368) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:45:35.615  - [31merror[39m: my-opcua.0 (8368) Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.618  - [31merror[39m: my-opcua.0 (8368) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.619  - [31merror[39m: my-opcua.0 (8368) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:45:35.621  - [31merror[39m: my-opcua.0 (8368) Cannot read properties of null (reading 'common')
+2023-01-26 12:45:35.624  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:35.628  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.631  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:35.634  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.648  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:35.651  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.653  - [33mwarn[39m: my-opcua.0 (8368) State "my-opcua.0.*.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:45:35.655  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.669  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:45:35.671  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:45:35.673  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:45:35.674  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:45:35.675  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:45:35.677  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - DB closed
+2023-01-26 12:45:35.684  - [33mwarn[39m: my-opcua.0 (8368) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:45:35.686  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.689  - [33mwarn[39m: my-opcua.0 (8368) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:45:35.691  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.693  - [33mwarn[39m: my-opcua.0 (8368) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:45:35.695  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.697  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:45:35.698  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:45:35.702  - [33mwarn[39m: my-opcua.0 (8368) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:45:35.704  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.704  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:45:35.705  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:45:35.709  - [33mwarn[39m: my-opcua.0 (8368) Could not perform strict object check of state my-opcua.0.*.4850_password_ASCII8: DB closed
+2023-01-26 12:45:35.710  - [33mwarn[39m: my-opcua.0 (8368) get state error: Connection is closed.
+2023-01-26 12:45:35.712  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:45:35.713  - [34mdebug[39m: my-opcua.0 (8368) redis get my-opcua.0.*.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:46:04.673  - [34mdebug[39m: my-opcua.0 (5644) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 12:46:04.692  - [34mdebug[39m: my-opcua.0 (5644) Objects client ready ... initialize now
+2023-01-26 12:46:04.694  - [34mdebug[39m: my-opcua.0 (5644) Objects create System PubSub Client
+2023-01-26 12:46:04.695  - [34mdebug[39m: my-opcua.0 (5644) Objects create User PubSub Client
+2023-01-26 12:46:04.706  - [34mdebug[39m: my-opcua.0 (5644) Objects client initialize lua scripts
+2023-01-26 12:46:04.712  - [34mdebug[39m: my-opcua.0 (5644) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 12:46:04.731  - [34mdebug[39m: my-opcua.0 (5644) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 12:46:04.736  - [34mdebug[39m: my-opcua.0 (5644) States create System PubSub Client
+2023-01-26 12:46:04.737  - [34mdebug[39m: my-opcua.0 (5644) States create User PubSub Client
+2023-01-26 12:46:04.743  - [34mdebug[39m: my-opcua.0 (5644) States connected to redis: 127.0.0.1:9000
+2023-01-26 12:46:04.753  - [31merror[39m: my-opcua.0 (5644) adapter disabled
+2023-01-26 12:46:04.802  - [32minfo[39m: my-opcua.0 (5644) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 12:46:09.757  - [32minfo[39m: my-opcua.0 (5644) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 12:46:09.758  - [32minfo[39m: my-opcua.0 (5644) config option2: sysadmin
+2023-01-26 12:46:09.775  - [32minfo[39m: my-opcua.0 (5644) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 12:46:10.424  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 12:46:10.426  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 12:46:10.448  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 12:46:10.458  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:46:10.465  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:46:10.570  - [32minfo[39m: my-opcua.0 (5644) check user admin pw iobroker: false,system.user.admin
+2023-01-26 12:46:10.575  - [32minfo[39m: my-opcua.0 (5644) check group user admin group admin: false
+2023-01-26 12:46:19.170  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.293  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.295  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.304  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:46:19.305  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.306  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.311  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:46:19.312  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:46:19.316  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.318  - [31merror[39m: my-opcua.0 (5644) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.319  - [31merror[39m: my-opcua.0 (5644) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:46:19.320  - [31merror[39m: my-opcua.0 (5644) Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.321  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.324  - [32minfo[39m: my-opcua.0 (5644) terminating
+2023-01-26 12:46:19.325  - [33mwarn[39m: my-opcua.0 (5644) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 12:46:19.328  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:46:19.329  - [32minfo[39m: my-opcua.0 (5644) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:46:19.335  - [31merror[39m: my-opcua.0 (5644) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.336  - [31merror[39m: my-opcua.0 (5644) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:46:19.337  - [31merror[39m: my-opcua.0 (5644) Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.338  - [31merror[39m: my-opcua.0 (5644) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.338  - [31merror[39m: my-opcua.0 (5644) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:46:19.339  - [31merror[39m: my-opcua.0 (5644) Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.340  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.341  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.351  - [31merror[39m: my-opcua.0 (5644) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.352  - [31merror[39m: my-opcua.0 (5644) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:46:19.352  - [31merror[39m: my-opcua.0 (5644) Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.353  - [31merror[39m: my-opcua.0 (5644) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.354  - [31merror[39m: my-opcua.0 (5644) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:46:19.355  - [31merror[39m: my-opcua.0 (5644) Cannot read properties of null (reading 'common')
+2023-01-26 12:46:19.356  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.357  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.364  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.366  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.371  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.372  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.378  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.379  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.383  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.384  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.389  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.390  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.395  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.396  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.403  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.404  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.409  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.410  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.416  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.417  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.423  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.424  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.430  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.431  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.432  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.438  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.439  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.442  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.445  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.446  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.451  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.452  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.456  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.457  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.464  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.467  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.469  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.472  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.474  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.478  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.479  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.485  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.486  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.491  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.493  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.503  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.505  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.509  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.511  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.513  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.517  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.518  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.522  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.523  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.528  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.533  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.534  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.540  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.541  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.545  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.546  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.550  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.551  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.555  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.555  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.559  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.560  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.564  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.565  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.568  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.571  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.572  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.575  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.576  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.580  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.583  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.584  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.586  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.590  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.591  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.595  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.596  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.600  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.601  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.604  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.605  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.609  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.612  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.613  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.616  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.617  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.621  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.622  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.625  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.626  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.630  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.632  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.633  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.637  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.638  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.642  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.643  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.646  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.648  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.649  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.653  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.654  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.658  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.659  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.662  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.663  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.666  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.667  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.671  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.672  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.676  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.676  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.680  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.681  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.684  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.686  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.689  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.690  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.693  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.694  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.697  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.699  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.700  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.703  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.704  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.708  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.709  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.712  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.713  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.718  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.719  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.722  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.725  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.725  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.728  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.729  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.733  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.734  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.738  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.739  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.743  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.744  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.747  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.748  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.752  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.754  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.755  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.758  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.759  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.762  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.763  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.767  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.769  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.770  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.774  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.774  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.779  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.780  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.783  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.784  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.788  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.789  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.793  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.794  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.798  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.799  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.802  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.803  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.807  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.808  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.811  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.814  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.815  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.818  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.819  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.822  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.823  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.831  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.832  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.834  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.835  - [33mwarn[39m: my-opcua.0 (5644) get state error: DB closed
+2023-01-26 12:46:19.838  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.839  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.840  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.841  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.845  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.846  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.846  - [33mwarn[39m: my-opcua.0 (5644) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:46:19.847  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.850  - [34mdebug[39m: my-opcua.0 (5644) redis get my-opcua.0.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:46:19.850  - [34mdebug[39m: my-opcua.0 (5644) redis get my-opcua.0.4850_password_ASCII8, error - DB closed
+2023-01-26 12:46:19.851  - [34mdebug[39m: my-opcua.0 (5644) redis get my-opcua.0.4850_password_ASCII8, error - DB closed
+2023-01-26 12:46:19.852  - [33mwarn[39m: my-opcua.0 (5644) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:46:19.853  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.854  - [33mwarn[39m: my-opcua.0 (5644) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:46:19.855  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.855  - [33mwarn[39m: my-opcua.0 (5644) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:46:19.857  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.858  - [34mdebug[39m: my-opcua.0 (5644) redis get my-opcua.0.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:46:19.862  - [33mwarn[39m: my-opcua.0 (5644) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:46:19.863  - [33mwarn[39m: my-opcua.0 (5644) get state error: Connection is closed.
+2023-01-26 12:46:19.863  - [34mdebug[39m: my-opcua.0 (5644) redis get my-opcua.0.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:47:02.781  - [34mdebug[39m: my-opcua.0 (16736) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 12:47:02.802  - [34mdebug[39m: my-opcua.0 (16736) Objects client ready ... initialize now
+2023-01-26 12:47:02.803  - [34mdebug[39m: my-opcua.0 (16736) Objects create System PubSub Client
+2023-01-26 12:47:02.805  - [34mdebug[39m: my-opcua.0 (16736) Objects create User PubSub Client
+2023-01-26 12:47:02.817  - [34mdebug[39m: my-opcua.0 (16736) Objects client initialize lua scripts
+2023-01-26 12:47:02.821  - [34mdebug[39m: my-opcua.0 (16736) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 12:47:02.838  - [34mdebug[39m: my-opcua.0 (16736) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 12:47:02.844  - [34mdebug[39m: my-opcua.0 (16736) States create System PubSub Client
+2023-01-26 12:47:02.846  - [34mdebug[39m: my-opcua.0 (16736) States create User PubSub Client
+2023-01-26 12:47:02.853  - [34mdebug[39m: my-opcua.0 (16736) States connected to redis: 127.0.0.1:9000
+2023-01-26 12:47:02.863  - [31merror[39m: my-opcua.0 (16736) adapter disabled
+2023-01-26 12:47:02.911  - [32minfo[39m: my-opcua.0 (16736) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 12:47:07.806  - [32minfo[39m: my-opcua.0 (16736) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 12:47:07.807  - [32minfo[39m: my-opcua.0 (16736) config option2: sysadmin
+2023-01-26 12:47:07.831  - [32minfo[39m: my-opcua.0 (16736) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 12:47:08.646  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 12:47:08.649  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 12:47:08.657  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 12:47:08.667  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:47:08.676  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:47:08.748  - [32minfo[39m: my-opcua.0 (16736) check user admin pw iobroker: false,system.user.admin
+2023-01-26 12:47:08.751  - [32minfo[39m: my-opcua.0 (16736) check group user admin group admin: false
+2023-01-26 12:47:22.681  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 deleted
+2023-01-26 12:47:37.512  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:37.795  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:37.797  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:37.880  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:37.934  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:47:37.978  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.175  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:47:38.177  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:47:38.253  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:47:38.255  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.257  - [31merror[39m: my-opcua.0 (16736) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.259  - [31merror[39m: my-opcua.0 (16736) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:47:38.259  - [31merror[39m: my-opcua.0 (16736) Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.263  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.267  - [32minfo[39m: my-opcua.0 (16736) terminating
+2023-01-26 12:47:38.268  - [33mwarn[39m: my-opcua.0 (16736) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 12:47:38.272  - [32minfo[39m: my-opcua.0 (16736) state my-opcua.0.4850_password_ASCII8 changed: salam (ack = false)
+2023-01-26 12:47:38.320  - [31merror[39m: my-opcua.0 (16736) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.320  - [31merror[39m: my-opcua.0 (16736) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:47:38.321  - [31merror[39m: my-opcua.0 (16736) Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.322  - [31merror[39m: my-opcua.0 (16736) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.323  - [31merror[39m: my-opcua.0 (16736) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:47:38.324  - [31merror[39m: my-opcua.0 (16736) Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.325  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.327  - [31merror[39m: my-opcua.0 (16736) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.328  - [31merror[39m: my-opcua.0 (16736) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:47:38.329  - [31merror[39m: my-opcua.0 (16736) Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.330  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.758  - [31merror[39m: my-opcua.0 (16736) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.760  - [31merror[39m: my-opcua.0 (16736) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 12:47:38.761  - [31merror[39m: my-opcua.0 (16736) Cannot read properties of null (reading 'common')
+2023-01-26 12:47:38.763  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.765  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.873  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.879  - [33mwarn[39m: my-opcua.0 (16736) get state error: DB closed
+2023-01-26 12:47:38.961  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.963  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:38.975  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.977  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:38.979  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.981  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:38.988  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.991  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:38.992  - [33mwarn[39m: my-opcua.0 (16736) State "my-opcua.0.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 12:47:38.994  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:38.999  - [34mdebug[39m: my-opcua.0 (16736) redis get my-opcua.0.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:47:39.001  - [34mdebug[39m: my-opcua.0 (16736) redis get my-opcua.0.4850_password_ASCII8, error - DB closed
+2023-01-26 12:47:39.004  - [33mwarn[39m: my-opcua.0 (16736) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:47:39.006  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:39.008  - [33mwarn[39m: my-opcua.0 (16736) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:47:39.010  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:39.011  - [34mdebug[39m: my-opcua.0 (16736) redis get my-opcua.0.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:47:39.016  - [33mwarn[39m: my-opcua.0 (16736) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:47:39.018  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:39.019  - [34mdebug[39m: my-opcua.0 (16736) redis get my-opcua.0.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:47:39.024  - [33mwarn[39m: my-opcua.0 (16736) Could not perform strict object check of state my-opcua.0.4850_password_ASCII8: DB closed
+2023-01-26 12:47:39.026  - [33mwarn[39m: my-opcua.0 (16736) get state error: Connection is closed.
+2023-01-26 12:47:39.027  - [34mdebug[39m: my-opcua.0 (16736) redis get my-opcua.0.4850_password_ASCII8, error - Connection is closed.
+2023-01-26 12:48:38.706  - [34mdebug[39m: my-opcua.0 (18192) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 12:48:38.725  - [34mdebug[39m: my-opcua.0 (18192) Objects client ready ... initialize now
+2023-01-26 12:48:38.727  - [34mdebug[39m: my-opcua.0 (18192) Objects create System PubSub Client
+2023-01-26 12:48:38.728  - [34mdebug[39m: my-opcua.0 (18192) Objects create User PubSub Client
+2023-01-26 12:48:38.741  - [34mdebug[39m: my-opcua.0 (18192) Objects client initialize lua scripts
+2023-01-26 12:48:38.745  - [34mdebug[39m: my-opcua.0 (18192) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 12:48:38.764  - [34mdebug[39m: my-opcua.0 (18192) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 12:48:38.770  - [34mdebug[39m: my-opcua.0 (18192) States create System PubSub Client
+2023-01-26 12:48:38.771  - [34mdebug[39m: my-opcua.0 (18192) States create User PubSub Client
+2023-01-26 12:48:38.777  - [34mdebug[39m: my-opcua.0 (18192) States connected to redis: 127.0.0.1:9000
+2023-01-26 12:48:38.787  - [31merror[39m: my-opcua.0 (18192) adapter disabled
+2023-01-26 12:48:38.836  - [32minfo[39m: my-opcua.0 (18192) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 12:48:43.861  - [32minfo[39m: my-opcua.0 (18192) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 12:48:43.862  - [32minfo[39m: my-opcua.0 (18192) config option2: sysadmin
+2023-01-26 12:48:43.880  - [32minfo[39m: my-opcua.0 (18192) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 12:48:44.659  - [32minfo[39m: my-opcua.0 (18192) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 12:48:44.662  - [32minfo[39m: my-opcua.0 (18192) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 12:48:44.674  - [32minfo[39m: my-opcua.0 (18192) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 12:48:44.694  - [32minfo[39m: my-opcua.0 (18192) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:48:44.715  - [32minfo[39m: my-opcua.0 (18192) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 12:48:44.786  - [32minfo[39m: my-opcua.0 (18192) check user admin pw iobroker: false,system.user.admin
+2023-01-26 12:48:44.789  - [32minfo[39m: my-opcua.0 (18192) check group user admin group admin: false
+2023-01-26 12:49:14.718  - [32minfo[39m: my-opcua.0 (18192) state my-opcua.0.testVariable deleted
+2023-01-26 13:14:30.192  - [32minfo[39m: my-opcua.0 (18192) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 deleted
+2023-01-26 13:39:03.388  - [34mdebug[39m: my-opcua.0 (21448) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 13:39:03.407  - [34mdebug[39m: my-opcua.0 (21448) Objects client ready ... initialize now
+2023-01-26 13:39:03.408  - [34mdebug[39m: my-opcua.0 (21448) Objects create System PubSub Client
+2023-01-26 13:39:03.410  - [34mdebug[39m: my-opcua.0 (21448) Objects create User PubSub Client
+2023-01-26 13:39:03.420  - [34mdebug[39m: my-opcua.0 (21448) Objects client initialize lua scripts
+2023-01-26 13:39:03.424  - [34mdebug[39m: my-opcua.0 (21448) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 13:39:03.439  - [34mdebug[39m: my-opcua.0 (21448) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 13:39:03.443  - [34mdebug[39m: my-opcua.0 (21448) States create System PubSub Client
+2023-01-26 13:39:03.445  - [34mdebug[39m: my-opcua.0 (21448) States create User PubSub Client
+2023-01-26 13:39:03.450  - [34mdebug[39m: my-opcua.0 (21448) States connected to redis: 127.0.0.1:9000
+2023-01-26 13:39:03.460  - [31merror[39m: my-opcua.0 (21448) adapter disabled
+2023-01-26 13:39:03.511  - [32minfo[39m: my-opcua.0 (21448) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 13:39:29.255  - [34mdebug[39m: my-opcua.0 (10328) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 13:39:29.278  - [34mdebug[39m: my-opcua.0 (10328) Objects client ready ... initialize now
+2023-01-26 13:39:29.280  - [34mdebug[39m: my-opcua.0 (10328) Objects create System PubSub Client
+2023-01-26 13:39:29.282  - [34mdebug[39m: my-opcua.0 (10328) Objects create User PubSub Client
+2023-01-26 13:39:29.295  - [34mdebug[39m: my-opcua.0 (10328) Objects client initialize lua scripts
+2023-01-26 13:39:29.300  - [34mdebug[39m: my-opcua.0 (10328) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 13:39:29.318  - [34mdebug[39m: my-opcua.0 (10328) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 13:39:29.323  - [34mdebug[39m: my-opcua.0 (10328) States create System PubSub Client
+2023-01-26 13:39:29.325  - [34mdebug[39m: my-opcua.0 (10328) States create User PubSub Client
+2023-01-26 13:39:29.332  - [34mdebug[39m: my-opcua.0 (10328) States connected to redis: 127.0.0.1:9000
+2023-01-26 13:39:29.342  - [31merror[39m: my-opcua.0 (10328) adapter disabled
+2023-01-26 13:39:29.392  - [32minfo[39m: my-opcua.0 (10328) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 13:39:33.903  - [32minfo[39m: my-opcua.0 (10328) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 13:39:33.904  - [32minfo[39m: my-opcua.0 (10328) config option2: sysadmin
+2023-01-26 13:39:33.928  - [33mwarn[39m: my-opcua.0 (10328) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 13:39:34.712  - [32minfo[39m: my-opcua.0 (10328) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 13:39:34.716  - [32minfo[39m: my-opcua.0 (10328) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 13:39:34.724  - [31merror[39m: my-opcua.0 (10328) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 13:39:34.728  - [31merror[39m: my-opcua.0 (10328) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 13:39:34.731  - [31merror[39m: my-opcua.0 (10328) Cannot read properties of null (reading 'common')
+2023-01-26 13:39:34.738  - [32minfo[39m: my-opcua.0 (10328) terminating
+2023-01-26 13:39:34.740  - [33mwarn[39m: my-opcua.0 (10328) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 13:39:34.820  - [32minfo[39m: my-opcua.0 (10328) check user admin pw iobroker: false,system.user.admin
+2023-01-26 13:39:34.823  - [32minfo[39m: my-opcua.0 (10328) check group user admin group admin: false
+2023-01-26 14:29:53.724  - [34mdebug[39m: my-opcua.0 (21068) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:29:53.743  - [34mdebug[39m: my-opcua.0 (21068) Objects client ready ... initialize now
+2023-01-26 14:29:53.745  - [34mdebug[39m: my-opcua.0 (21068) Objects create System PubSub Client
+2023-01-26 14:29:53.747  - [34mdebug[39m: my-opcua.0 (21068) Objects create User PubSub Client
+2023-01-26 14:29:53.761  - [34mdebug[39m: my-opcua.0 (21068) Objects client initialize lua scripts
+2023-01-26 14:29:53.766  - [34mdebug[39m: my-opcua.0 (21068) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:29:53.783  - [34mdebug[39m: my-opcua.0 (21068) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:29:53.788  - [34mdebug[39m: my-opcua.0 (21068) States create System PubSub Client
+2023-01-26 14:29:53.790  - [34mdebug[39m: my-opcua.0 (21068) States create User PubSub Client
+2023-01-26 14:29:53.796  - [34mdebug[39m: my-opcua.0 (21068) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:29:53.806  - [31merror[39m: my-opcua.0 (21068) adapter disabled
+2023-01-26 14:29:53.862  - [32minfo[39m: my-opcua.0 (21068) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:29:59.481  - [32minfo[39m: my-opcua.0 (21068) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:29:59.484  - [32minfo[39m: my-opcua.0 (21068) config option2: sysadmin
+2023-01-26 14:29:59.509  - [33mwarn[39m: my-opcua.0 (21068) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:30:00.253  - [32minfo[39m: my-opcua.0 (21068) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:30:00.257  - [32minfo[39m: my-opcua.0 (21068) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:30:00.269  - [31merror[39m: my-opcua.0 (21068) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:30:00.274  - [31merror[39m: my-opcua.0 (21068) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:30:00.278  - [31merror[39m: my-opcua.0 (21068) Cannot read properties of null (reading 'common')
+2023-01-26 14:30:00.280  - [32minfo[39m: my-opcua.0 (21068) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 14:30:00.288  - [32minfo[39m: my-opcua.0 (21068) terminating
+2023-01-26 14:30:00.291  - [33mwarn[39m: my-opcua.0 (21068) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:30:00.372  - [32minfo[39m: my-opcua.0 (21068) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:30:00.376  - [32minfo[39m: my-opcua.0 (21068) check group user admin group admin: false
+2023-01-26 14:30:16.703  - [34mdebug[39m: my-opcua.0 (6208) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:30:16.722  - [34mdebug[39m: my-opcua.0 (6208) Objects client ready ... initialize now
+2023-01-26 14:30:16.724  - [34mdebug[39m: my-opcua.0 (6208) Objects create System PubSub Client
+2023-01-26 14:30:16.725  - [34mdebug[39m: my-opcua.0 (6208) Objects create User PubSub Client
+2023-01-26 14:30:16.736  - [34mdebug[39m: my-opcua.0 (6208) Objects client initialize lua scripts
+2023-01-26 14:30:16.740  - [34mdebug[39m: my-opcua.0 (6208) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:30:16.758  - [34mdebug[39m: my-opcua.0 (6208) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:30:16.765  - [34mdebug[39m: my-opcua.0 (6208) States create System PubSub Client
+2023-01-26 14:30:16.766  - [34mdebug[39m: my-opcua.0 (6208) States create User PubSub Client
+2023-01-26 14:30:16.774  - [34mdebug[39m: my-opcua.0 (6208) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:30:16.785  - [31merror[39m: my-opcua.0 (6208) adapter disabled
+2023-01-26 14:30:16.842  - [32minfo[39m: my-opcua.0 (6208) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:30:21.188  - [32minfo[39m: my-opcua.0 (6208) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:30:21.190  - [32minfo[39m: my-opcua.0 (6208) config option2: sysadmin
+2023-01-26 14:30:21.220  - [33mwarn[39m: my-opcua.0 (6208) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:30:21.909  - [32minfo[39m: my-opcua.0 (6208) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:30:21.912  - [32minfo[39m: my-opcua.0 (6208) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:30:21.922  - [31merror[39m: my-opcua.0 (6208) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:30:21.924  - [31merror[39m: my-opcua.0 (6208) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:30:21.925  - [31merror[39m: my-opcua.0 (6208) Cannot read properties of null (reading 'common')
+2023-01-26 14:30:21.931  - [32minfo[39m: my-opcua.0 (6208) terminating
+2023-01-26 14:30:21.934  - [33mwarn[39m: my-opcua.0 (6208) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:30:22.009  - [32minfo[39m: my-opcua.0 (6208) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:30:22.012  - [32minfo[39m: my-opcua.0 (6208) check group user admin group admin: false
+2023-01-26 14:30:57.886  - [34mdebug[39m: my-opcua.0 (18800) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:30:57.906  - [34mdebug[39m: my-opcua.0 (18800) Objects client ready ... initialize now
+2023-01-26 14:30:57.908  - [34mdebug[39m: my-opcua.0 (18800) Objects create System PubSub Client
+2023-01-26 14:30:57.909  - [34mdebug[39m: my-opcua.0 (18800) Objects create User PubSub Client
+2023-01-26 14:30:57.921  - [34mdebug[39m: my-opcua.0 (18800) Objects client initialize lua scripts
+2023-01-26 14:30:57.925  - [34mdebug[39m: my-opcua.0 (18800) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:30:57.944  - [34mdebug[39m: my-opcua.0 (18800) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:30:57.952  - [34mdebug[39m: my-opcua.0 (18800) States create System PubSub Client
+2023-01-26 14:30:57.954  - [34mdebug[39m: my-opcua.0 (18800) States create User PubSub Client
+2023-01-26 14:30:57.960  - [34mdebug[39m: my-opcua.0 (18800) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:30:57.971  - [31merror[39m: my-opcua.0 (18800) adapter disabled
+2023-01-26 14:30:58.035  - [32minfo[39m: my-opcua.0 (18800) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:31:02.664  - [32minfo[39m: my-opcua.0 (18800) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:31:02.667  - [32minfo[39m: my-opcua.0 (18800) config option2: sysadmin
+2023-01-26 14:31:02.697  - [33mwarn[39m: my-opcua.0 (18800) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:31:04.067  - [32minfo[39m: my-opcua.0 (18800) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:31:04.074  - [32minfo[39m: my-opcua.0 (18800) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:31:04.088  - [31merror[39m: my-opcua.0 (18800) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:31:04.092  - [31merror[39m: my-opcua.0 (18800) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:31:04.094  - [31merror[39m: my-opcua.0 (18800) Cannot read properties of null (reading 'common')
+2023-01-26 14:31:04.101  - [32minfo[39m: my-opcua.0 (18800) terminating
+2023-01-26 14:31:04.104  - [33mwarn[39m: my-opcua.0 (18800) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:31:04.194  - [32minfo[39m: my-opcua.0 (18800) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:31:04.197  - [32minfo[39m: my-opcua.0 (18800) check group user admin group admin: false
+2023-01-26 14:32:42.887  - [34mdebug[39m: my-opcua.0 (20836) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:32:42.909  - [34mdebug[39m: my-opcua.0 (20836) Objects client ready ... initialize now
+2023-01-26 14:32:42.911  - [34mdebug[39m: my-opcua.0 (20836) Objects create System PubSub Client
+2023-01-26 14:32:42.913  - [34mdebug[39m: my-opcua.0 (20836) Objects create User PubSub Client
+2023-01-26 14:32:42.925  - [34mdebug[39m: my-opcua.0 (20836) Objects client initialize lua scripts
+2023-01-26 14:32:42.929  - [34mdebug[39m: my-opcua.0 (20836) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:32:42.946  - [34mdebug[39m: my-opcua.0 (20836) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:32:42.951  - [34mdebug[39m: my-opcua.0 (20836) States create System PubSub Client
+2023-01-26 14:32:42.952  - [34mdebug[39m: my-opcua.0 (20836) States create User PubSub Client
+2023-01-26 14:32:42.959  - [34mdebug[39m: my-opcua.0 (20836) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:32:42.969  - [31merror[39m: my-opcua.0 (20836) adapter disabled
+2023-01-26 14:32:43.021  - [32minfo[39m: my-opcua.0 (20836) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:32:47.722  - [32minfo[39m: my-opcua.0 (20836) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:32:47.724  - [32minfo[39m: my-opcua.0 (20836) config option2: sysadmin
+2023-01-26 14:32:47.744  - [33mwarn[39m: my-opcua.0 (20836) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:32:48.393  - [32minfo[39m: my-opcua.0 (20836) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:32:48.402  - [32minfo[39m: my-opcua.0 (20836) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:32:48.408  - [31merror[39m: my-opcua.0 (20836) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:32:48.410  - [31merror[39m: my-opcua.0 (20836) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:32:48.411  - [31merror[39m: my-opcua.0 (20836) Cannot read properties of null (reading 'common')
+2023-01-26 14:32:48.419  - [32minfo[39m: my-opcua.0 (20836) terminating
+2023-01-26 14:32:48.421  - [33mwarn[39m: my-opcua.0 (20836) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:32:48.502  - [32minfo[39m: my-opcua.0 (20836) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:32:48.506  - [32minfo[39m: my-opcua.0 (20836) check group user admin group admin: false
+2023-01-26 14:33:37.601  - [34mdebug[39m: my-opcua.0 (6852) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:33:37.620  - [34mdebug[39m: my-opcua.0 (6852) Objects client ready ... initialize now
+2023-01-26 14:33:37.622  - [34mdebug[39m: my-opcua.0 (6852) Objects create System PubSub Client
+2023-01-26 14:33:37.623  - [34mdebug[39m: my-opcua.0 (6852) Objects create User PubSub Client
+2023-01-26 14:33:37.636  - [34mdebug[39m: my-opcua.0 (6852) Objects client initialize lua scripts
+2023-01-26 14:33:37.640  - [34mdebug[39m: my-opcua.0 (6852) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:33:37.658  - [34mdebug[39m: my-opcua.0 (6852) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:33:37.663  - [34mdebug[39m: my-opcua.0 (6852) States create System PubSub Client
+2023-01-26 14:33:37.665  - [34mdebug[39m: my-opcua.0 (6852) States create User PubSub Client
+2023-01-26 14:33:37.672  - [34mdebug[39m: my-opcua.0 (6852) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:33:37.682  - [31merror[39m: my-opcua.0 (6852) adapter disabled
+2023-01-26 14:33:37.743  - [32minfo[39m: my-opcua.0 (6852) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:33:42.550  - [32minfo[39m: my-opcua.0 (6852) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:33:42.552  - [32minfo[39m: my-opcua.0 (6852) config option2: sysadmin
+2023-01-26 14:33:42.568  - [33mwarn[39m: my-opcua.0 (6852) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:33:43.221  - [32minfo[39m: my-opcua.0 (6852) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:33:43.223  - [32minfo[39m: my-opcua.0 (6852) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:33:43.232  - [31merror[39m: my-opcua.0 (6852) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:33:43.236  - [31merror[39m: my-opcua.0 (6852) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:33:43.238  - [31merror[39m: my-opcua.0 (6852) Cannot read properties of null (reading 'common')
+2023-01-26 14:33:43.246  - [32minfo[39m: my-opcua.0 (6852) terminating
+2023-01-26 14:33:43.249  - [33mwarn[39m: my-opcua.0 (6852) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:33:43.332  - [32minfo[39m: my-opcua.0 (6852) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:33:43.336  - [32minfo[39m: my-opcua.0 (6852) check group user admin group admin: false
+2023-01-26 14:34:46.620  - [34mdebug[39m: my-opcua.0 (4400) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:34:46.640  - [34mdebug[39m: my-opcua.0 (4400) Objects client ready ... initialize now
+2023-01-26 14:34:46.642  - [34mdebug[39m: my-opcua.0 (4400) Objects create System PubSub Client
+2023-01-26 14:34:46.643  - [34mdebug[39m: my-opcua.0 (4400) Objects create User PubSub Client
+2023-01-26 14:34:46.657  - [34mdebug[39m: my-opcua.0 (4400) Objects client initialize lua scripts
+2023-01-26 14:34:46.661  - [34mdebug[39m: my-opcua.0 (4400) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:34:46.680  - [34mdebug[39m: my-opcua.0 (4400) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:34:46.685  - [34mdebug[39m: my-opcua.0 (4400) States create System PubSub Client
+2023-01-26 14:34:46.687  - [34mdebug[39m: my-opcua.0 (4400) States create User PubSub Client
+2023-01-26 14:34:46.694  - [34mdebug[39m: my-opcua.0 (4400) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:34:46.704  - [31merror[39m: my-opcua.0 (4400) adapter disabled
+2023-01-26 14:34:46.764  - [32minfo[39m: my-opcua.0 (4400) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:34:50.714  - [32minfo[39m: my-opcua.0 (4400) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:34:50.716  - [32minfo[39m: my-opcua.0 (4400) config option2: sysadmin
+2023-01-26 14:34:50.741  - [33mwarn[39m: my-opcua.0 (4400) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:34:51.477  - [32minfo[39m: my-opcua.0 (4400) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:34:51.480  - [32minfo[39m: my-opcua.0 (4400) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:34:51.489  - [31merror[39m: my-opcua.0 (4400) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:34:51.492  - [31merror[39m: my-opcua.0 (4400) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:34:51.494  - [31merror[39m: my-opcua.0 (4400) Cannot read properties of null (reading 'common')
+2023-01-26 14:34:51.499  - [32minfo[39m: my-opcua.0 (4400) terminating
+2023-01-26 14:34:51.503  - [33mwarn[39m: my-opcua.0 (4400) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:34:51.582  - [32minfo[39m: my-opcua.0 (4400) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:34:51.586  - [32minfo[39m: my-opcua.0 (4400) check group user admin group admin: false
+2023-01-26 14:40:48.253  - [34mdebug[39m: my-opcua.0 (11152) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:40:48.279  - [34mdebug[39m: my-opcua.0 (11152) Objects client ready ... initialize now
+2023-01-26 14:40:48.281  - [34mdebug[39m: my-opcua.0 (11152) Objects create System PubSub Client
+2023-01-26 14:40:48.283  - [34mdebug[39m: my-opcua.0 (11152) Objects create User PubSub Client
+2023-01-26 14:40:48.296  - [34mdebug[39m: my-opcua.0 (11152) Objects client initialize lua scripts
+2023-01-26 14:40:48.397  - [34mdebug[39m: my-opcua.0 (11152) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:40:48.423  - [34mdebug[39m: my-opcua.0 (11152) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:40:48.430  - [34mdebug[39m: my-opcua.0 (11152) States create System PubSub Client
+2023-01-26 14:40:48.432  - [34mdebug[39m: my-opcua.0 (11152) States create User PubSub Client
+2023-01-26 14:40:48.443  - [34mdebug[39m: my-opcua.0 (11152) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:40:48.464  - [31merror[39m: my-opcua.0 (11152) adapter disabled
+2023-01-26 14:40:48.570  - [32minfo[39m: my-opcua.0 (11152) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:40:55.909  - [32minfo[39m: my-opcua.0 (11152) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:40:55.911  - [32minfo[39m: my-opcua.0 (11152) config option2: sysadmin
+2023-01-26 14:40:55.938  - [33mwarn[39m: my-opcua.0 (11152) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:40:56.799  - [32minfo[39m: my-opcua.0 (11152) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:40:56.804  - [32minfo[39m: my-opcua.0 (11152) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:40:56.813  - [31merror[39m: my-opcua.0 (11152) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:40:56.818  - [31merror[39m: my-opcua.0 (11152) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:40:56.820  - [31merror[39m: my-opcua.0 (11152) Cannot read properties of null (reading 'common')
+2023-01-26 14:40:56.825  - [32minfo[39m: my-opcua.0 (11152) terminating
+2023-01-26 14:40:56.829  - [33mwarn[39m: my-opcua.0 (11152) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:40:56.923  - [32minfo[39m: my-opcua.0 (11152) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:40:56.927  - [32minfo[39m: my-opcua.0 (11152) check group user admin group admin: false
+2023-01-26 14:41:35.661  - [32minfo[39m: my-opcua.0 (10296) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:41:36.601  - [32minfo[39m: my-opcua.0 (10296) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:41:36.601  - [32minfo[39m: my-opcua.0 (10296) config option2: sysadmin
+2023-01-26 14:41:36.608  - [33mwarn[39m: my-opcua.0 (10296) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:41:36.636  - [32minfo[39m: my-opcua.0 (10296) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:41:36.638  - [32minfo[39m: my-opcua.0 (10296) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:41:36.640  - [31merror[39m: my-opcua.0 (10296) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:41:36.640  - [31merror[39m: my-opcua.0 (10296) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+2023-01-26 14:41:36.641  - [31merror[39m: my-opcua.0 (10296) Cannot read properties of null (reading 'common')
+2023-01-26 14:41:36.642  - [32minfo[39m: my-opcua.0 (10296) terminating
+2023-01-26 14:41:36.643  - [33mwarn[39m: my-opcua.0 (10296) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:41:36.706  - [32minfo[39m: my-opcua.0 (10296) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:41:36.708  - [32minfo[39m: my-opcua.0 (10296) check group user admin group admin: false
+2023-01-26 14:42:10.471  - [31merror[39m: my-opcua.0 (11472) adapter disabled
+2023-01-26 14:42:10.478  - [33mwarn[39m: my-opcua.0 (11472) Terminated (NO_ADAPTER_CONFIG_FOUND): Without reason
+2023-01-26 14:43:15.973  - [34mdebug[39m: my-opcua.0 (19140) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:43:15.995  - [34mdebug[39m: my-opcua.0 (19140) Objects client ready ... initialize now
+2023-01-26 14:43:15.998  - [34mdebug[39m: my-opcua.0 (19140) Objects create System PubSub Client
+2023-01-26 14:43:15.999  - [34mdebug[39m: my-opcua.0 (19140) Objects create User PubSub Client
+2023-01-26 14:43:16.011  - [34mdebug[39m: my-opcua.0 (19140) Objects client initialize lua scripts
+2023-01-26 14:43:16.016  - [34mdebug[39m: my-opcua.0 (19140) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:43:16.036  - [34mdebug[39m: my-opcua.0 (19140) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:43:16.042  - [34mdebug[39m: my-opcua.0 (19140) States create System PubSub Client
+2023-01-26 14:43:16.044  - [34mdebug[39m: my-opcua.0 (19140) States create User PubSub Client
+2023-01-26 14:43:16.053  - [34mdebug[39m: my-opcua.0 (19140) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:43:16.066  - [31merror[39m: my-opcua.0 (19140) adapter disabled
+2023-01-26 14:43:16.141  - [32minfo[39m: my-opcua.0 (19140) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:44:07.101  - [32minfo[39m: my-opcua.0 (19140) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:44:07.103  - [32minfo[39m: my-opcua.0 (19140) config option2: sysadmin
+2023-01-26 14:44:07.172  - [33mwarn[39m: my-opcua.0 (19140) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:44:08.858  - [32minfo[39m: my-opcua.0 (19140) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:44:08.860  - [32minfo[39m: my-opcua.0 (19140) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:44:08.876  - [31merror[39m: my-opcua.0 (19140) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:44:08.878  - [31merror[39m: my-opcua.0 (19140) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:44:08.878  - [31merror[39m: my-opcua.0 (19140) Cannot read properties of null (reading 'common')
+2023-01-26 14:44:08.882  - [32minfo[39m: my-opcua.0 (19140) terminating
+2023-01-26 14:44:08.884  - [33mwarn[39m: my-opcua.0 (19140) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:44:08.887  - [32minfo[39m: my-opcua.0 (19140) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 14:44:08.959  - [32minfo[39m: my-opcua.0 (19140) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:44:08.962  - [32minfo[39m: my-opcua.0 (19140) check group user admin group admin: false
+2023-01-26 14:45:43.927  - [34mdebug[39m: my-opcua.0 (2628) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:45:43.945  - [34mdebug[39m: my-opcua.0 (2628) Objects client ready ... initialize now
+2023-01-26 14:45:43.947  - [34mdebug[39m: my-opcua.0 (2628) Objects create System PubSub Client
+2023-01-26 14:45:43.949  - [34mdebug[39m: my-opcua.0 (2628) Objects create User PubSub Client
+2023-01-26 14:45:43.960  - [34mdebug[39m: my-opcua.0 (2628) Objects client initialize lua scripts
+2023-01-26 14:45:43.965  - [34mdebug[39m: my-opcua.0 (2628) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:45:43.982  - [34mdebug[39m: my-opcua.0 (2628) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:45:43.988  - [34mdebug[39m: my-opcua.0 (2628) States create System PubSub Client
+2023-01-26 14:45:43.990  - [34mdebug[39m: my-opcua.0 (2628) States create User PubSub Client
+2023-01-26 14:45:44.000  - [34mdebug[39m: my-opcua.0 (2628) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:45:44.012  - [31merror[39m: my-opcua.0 (2628) adapter disabled
+2023-01-26 14:45:44.079  - [32minfo[39m: my-opcua.0 (2628) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:45:49.202  - [32minfo[39m: my-opcua.0 (2628) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:45:49.204  - [32minfo[39m: my-opcua.0 (2628) config option2: sysadmin
+2023-01-26 14:45:49.224  - [33mwarn[39m: my-opcua.0 (2628) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:45:50.212  - [32minfo[39m: my-opcua.0 (2628) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:45:50.216  - [32minfo[39m: my-opcua.0 (2628) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:45:50.223  - [31merror[39m: my-opcua.0 (2628) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:45:50.225  - [31merror[39m: my-opcua.0 (2628) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:45:50.226  - [31merror[39m: my-opcua.0 (2628) Cannot read properties of null (reading 'common')
+2023-01-26 14:45:50.230  - [32minfo[39m: my-opcua.0 (2628) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 14:45:50.234  - [32minfo[39m: my-opcua.0 (2628) terminating
+2023-01-26 14:45:50.235  - [33mwarn[39m: my-opcua.0 (2628) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:45:50.313  - [32minfo[39m: my-opcua.0 (2628) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:45:50.318  - [32minfo[39m: my-opcua.0 (2628) check group user admin group admin: false
+2023-01-26 14:47:04.609  - [34mdebug[39m: my-opcua.0 (4296) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:47:04.628  - [34mdebug[39m: my-opcua.0 (4296) Objects client ready ... initialize now
+2023-01-26 14:47:04.630  - [34mdebug[39m: my-opcua.0 (4296) Objects create System PubSub Client
+2023-01-26 14:47:04.632  - [34mdebug[39m: my-opcua.0 (4296) Objects create User PubSub Client
+2023-01-26 14:47:04.643  - [34mdebug[39m: my-opcua.0 (4296) Objects client initialize lua scripts
+2023-01-26 14:47:04.648  - [34mdebug[39m: my-opcua.0 (4296) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:47:04.668  - [34mdebug[39m: my-opcua.0 (4296) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:47:04.673  - [34mdebug[39m: my-opcua.0 (4296) States create System PubSub Client
+2023-01-26 14:47:04.674  - [34mdebug[39m: my-opcua.0 (4296) States create User PubSub Client
+2023-01-26 14:47:04.680  - [34mdebug[39m: my-opcua.0 (4296) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:47:04.691  - [31merror[39m: my-opcua.0 (4296) adapter disabled
+2023-01-26 14:47:04.743  - [32minfo[39m: my-opcua.0 (4296) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:50:37.466  - [32minfo[39m: my-opcua.0 (4296) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:50:37.469  - [32minfo[39m: my-opcua.0 (4296) config option2: sysadmin
+2023-01-26 14:50:37.550  - [33mwarn[39m: my-opcua.0 (4296) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:50:42.714  - [32minfo[39m: my-opcua.0 (4296) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:50:42.717  - [32minfo[39m: my-opcua.0 (4296) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:50:42.730  - [31merror[39m: my-opcua.0 (4296) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:50:42.731  - [31merror[39m: my-opcua.0 (4296) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:50:42.733  - [31merror[39m: my-opcua.0 (4296) Cannot read properties of null (reading 'common')
+2023-01-26 14:50:42.736  - [32minfo[39m: my-opcua.0 (4296) terminating
+2023-01-26 14:50:42.739  - [33mwarn[39m: my-opcua.0 (4296) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:50:42.745  - [32minfo[39m: my-opcua.0 (4296) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 14:50:42.829  - [32minfo[39m: my-opcua.0 (4296) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:50:42.832  - [32minfo[39m: my-opcua.0 (4296) check group user admin group admin: false
+2023-01-26 14:54:02.747  - [31merror[39m: my-opcua.0 (21332) adapter disabled
+2023-01-26 14:54:02.821  - [32minfo[39m: my-opcua.0 (21332) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:54:08.029  - [32minfo[39m: my-opcua.0 (21332) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:54:08.029  - [32minfo[39m: my-opcua.0 (21332) config option2: sysadmin
+2023-01-26 14:54:08.050  - [33mwarn[39m: my-opcua.0 (21332) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:54:08.929  - [32minfo[39m: my-opcua.0 (21332) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:54:08.930  - [32minfo[39m: my-opcua.0 (21332) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:54:08.937  - [31merror[39m: my-opcua.0 (21332) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:54:08.938  - [31merror[39m: my-opcua.0 (21332) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:54:08.940  - [31merror[39m: my-opcua.0 (21332) Cannot read properties of null (reading 'common')
+2023-01-26 14:54:08.948  - [32minfo[39m: my-opcua.0 (21332) terminating
+2023-01-26 14:54:08.949  - [33mwarn[39m: my-opcua.0 (21332) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:54:09.027  - [32minfo[39m: my-opcua.0 (21332) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:54:09.030  - [32minfo[39m: my-opcua.0 (21332) check group user admin group admin: false
+2023-01-26 14:55:07.567  - [34mdebug[39m: my-opcua.0 (19232) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:55:07.586  - [34mdebug[39m: my-opcua.0 (19232) Objects client ready ... initialize now
+2023-01-26 14:55:07.588  - [34mdebug[39m: my-opcua.0 (19232) Objects create System PubSub Client
+2023-01-26 14:55:07.589  - [34mdebug[39m: my-opcua.0 (19232) Objects create User PubSub Client
+2023-01-26 14:55:07.602  - [34mdebug[39m: my-opcua.0 (19232) Objects client initialize lua scripts
+2023-01-26 14:55:07.607  - [34mdebug[39m: my-opcua.0 (19232) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:55:07.624  - [34mdebug[39m: my-opcua.0 (19232) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:55:07.629  - [34mdebug[39m: my-opcua.0 (19232) States create System PubSub Client
+2023-01-26 14:55:07.631  - [34mdebug[39m: my-opcua.0 (19232) States create User PubSub Client
+2023-01-26 14:55:07.637  - [34mdebug[39m: my-opcua.0 (19232) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:55:07.647  - [31merror[39m: my-opcua.0 (19232) adapter disabled
+2023-01-26 14:55:07.697  - [32minfo[39m: my-opcua.0 (19232) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:55:12.055  - [32minfo[39m: my-opcua.0 (19232) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:55:12.056  - [32minfo[39m: my-opcua.0 (19232) config option2: sysadmin
+2023-01-26 14:55:12.076  - [33mwarn[39m: my-opcua.0 (19232) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:55:32.548  - [32minfo[39m: my-opcua.0 (19232) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:55:34.155  - [32minfo[39m: my-opcua.0 (19232) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:55:58.453  - [31merror[39m: my-opcua.0 (19232) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:55:58.455  - [31merror[39m: my-opcua.0 (19232) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:55:58.456  - [31merror[39m: my-opcua.0 (19232) Cannot read properties of null (reading 'common')
+2023-01-26 14:55:58.498  - [32minfo[39m: my-opcua.0 (19232) terminating
+2023-01-26 14:55:58.503  - [33mwarn[39m: my-opcua.0 (19232) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:55:59.563  - [32minfo[39m: my-opcua.0 (19232) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 14:56:01.219  - [33mwarn[39m: my-opcua.0 (19232) get state error: Connection is closed.
+2023-01-26 14:56:01.220  - [33mwarn[39m: my-opcua.0 (19232) get state error: Connection is closed.
+2023-01-26 14:56:02.340  - [33mwarn[39m: my-opcua.0 (19232) get state error: Connection is closed.
+2023-01-26 14:56:02.351  - [33mwarn[39m: my-opcua.0 (19232) get state error: Connection is closed.
+2023-01-26 14:56:02.354  - [33mwarn[39m: my-opcua.0 (19232) get state error: Connection is closed.
+2023-01-26 14:56:02.356  - [32minfo[39m: my-opcua.0 (19232) terminating with timeout
+2023-01-26 14:56:02.360  - [31merror[39m: my-opcua.0 (19232) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-26 14:56:02.362  - [31merror[39m: my-opcua.0 (19232) unhandled promise rejection: DB closed
+2023-01-26 14:56:02.364  - [31merror[39m: my-opcua.0 (19232) Error: DB closed
+    at Redis.sendCommand (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\ioredis\built\redis\index.js:636:24)
+    at Redis.get (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\ioredis\built\commander.js:122:25)
+    at StateRedisClient.setState (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:657:40)
+    at MyOpcua.setState (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5880:35)
+2023-01-26 14:56:02.367  - [31merror[39m: my-opcua.0 (19232) DB closed
+2023-01-26 14:57:04.937  - [34mdebug[39m: my-opcua.0 (18736) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:57:04.979  - [34mdebug[39m: my-opcua.0 (18736) Objects client ready ... initialize now
+2023-01-26 14:57:04.982  - [34mdebug[39m: my-opcua.0 (18736) Objects create System PubSub Client
+2023-01-26 14:57:04.984  - [34mdebug[39m: my-opcua.0 (18736) Objects create User PubSub Client
+2023-01-26 14:57:05.003  - [34mdebug[39m: my-opcua.0 (18736) Objects client initialize lua scripts
+2023-01-26 14:57:05.011  - [34mdebug[39m: my-opcua.0 (18736) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:57:05.043  - [34mdebug[39m: my-opcua.0 (18736) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:57:05.053  - [34mdebug[39m: my-opcua.0 (18736) States create System PubSub Client
+2023-01-26 14:57:05.056  - [34mdebug[39m: my-opcua.0 (18736) States create User PubSub Client
+2023-01-26 14:57:05.070  - [34mdebug[39m: my-opcua.0 (18736) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:57:05.090  - [31merror[39m: my-opcua.0 (18736) adapter disabled
+2023-01-26 14:57:05.147  - [32minfo[39m: my-opcua.0 (18736) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:57:11.388  - [32minfo[39m: my-opcua.0 (18736) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:57:11.390  - [32minfo[39m: my-opcua.0 (18736) config option2: sysadmin
+2023-01-26 14:57:11.418  - [33mwarn[39m: my-opcua.0 (18736) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:57:14.812  - [32minfo[39m: my-opcua.0 (18736) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:57:15.522  - [32minfo[39m: my-opcua.0 (18736) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:57:16.963  - [32minfo[39m: my-opcua.0 (18736) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 14:57:20.843  - [31merror[39m: my-opcua.0 (18736) uncaught exception: Cannot read properties of null (reading 'common')
+2023-01-26 14:57:20.847  - [31merror[39m: my-opcua.0 (18736) TypeError: Cannot read properties of null (reading 'common')
+    at Immediate.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:239:30)
+    at processImmediate (node:internal/timers:468:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:57:20.850  - [31merror[39m: my-opcua.0 (18736) Cannot read properties of null (reading 'common')
+2023-01-26 14:57:20.878  - [32minfo[39m: my-opcua.0 (18736) terminating
+2023-01-26 14:57:20.882  - [33mwarn[39m: my-opcua.0 (18736) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-26 14:57:22.188  - [31merror[39m: my-opcua.0 (18736) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-26 14:57:22.190  - [31merror[39m: my-opcua.0 (18736) unhandled promise rejection: DB closed
+2023-01-26 14:57:22.191  - [31merror[39m: my-opcua.0 (18736) Error: DB closed
+    at close (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\ioredis\built\redis\event_handler.js:184:25)
+    at Socket.<anonymous> (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\ioredis\built\redis\event_handler.js:151:20)
+    at Object.onceWrapper (node:events:642:26)
+    at Socket.emit (node:events:527:28)
+    at TCP.<anonymous> (node:net:709:12)
+    at TCP.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-26 14:57:22.193  - [31merror[39m: my-opcua.0 (18736) DB closed
+2023-01-26 14:57:22.204  - [33mwarn[39m: my-opcua.0 (18736) get state error: Connection is closed.
+2023-01-26 14:57:22.205  - [33mwarn[39m: my-opcua.0 (18736) get state error: Connection is closed.
+2023-01-26 14:57:48.692  - [34mdebug[39m: my-opcua.0 (19896) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 14:57:48.716  - [34mdebug[39m: my-opcua.0 (19896) Objects client ready ... initialize now
+2023-01-26 14:57:48.718  - [34mdebug[39m: my-opcua.0 (19896) Objects create System PubSub Client
+2023-01-26 14:57:48.719  - [34mdebug[39m: my-opcua.0 (19896) Objects create User PubSub Client
+2023-01-26 14:57:48.733  - [34mdebug[39m: my-opcua.0 (19896) Objects client initialize lua scripts
+2023-01-26 14:57:48.737  - [34mdebug[39m: my-opcua.0 (19896) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 14:57:48.756  - [34mdebug[39m: my-opcua.0 (19896) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 14:57:48.762  - [34mdebug[39m: my-opcua.0 (19896) States create System PubSub Client
+2023-01-26 14:57:48.763  - [34mdebug[39m: my-opcua.0 (19896) States create User PubSub Client
+2023-01-26 14:57:48.770  - [34mdebug[39m: my-opcua.0 (19896) States connected to redis: 127.0.0.1:9000
+2023-01-26 14:57:48.782  - [31merror[39m: my-opcua.0 (19896) adapter disabled
+2023-01-26 14:57:48.841  - [32minfo[39m: my-opcua.0 (19896) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 14:57:53.221  - [32minfo[39m: my-opcua.0 (19896) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 14:57:53.223  - [32minfo[39m: my-opcua.0 (19896) config option2: sysadmin
+2023-01-26 14:57:53.255  - [33mwarn[39m: my-opcua.0 (19896) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-01-26 14:57:56.618  - [32minfo[39m: my-opcua.0 (19896) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 14:57:57.298  - [32minfo[39m: my-opcua.0 (19896) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 14:57:58.130  - [32minfo[39m: my-opcua.0 (19896) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 14:58:00.388  - [32minfo[39m: my-opcua.0 (19896) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 14:58:01.512  - [32minfo[39m: my-opcua.0 (19896) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 14:58:03.700  - [32minfo[39m: my-opcua.0 (19896) check user admin pw iobroker: false,system.user.admin
+2023-01-26 14:58:05.586  - [32minfo[39m: my-opcua.0 (19896) check group user admin group admin: false
+2023-01-26 14:58:34.882  - [32minfo[39m: my-opcua.0 (19896) state my-opcua.0.testVariable deleted
+2023-01-26 15:32:47.705  - [32minfo[39m: my-opcua.0 (19896) test command
+2023-01-26 15:32:50.424  - [32minfo[39m: my-opcua.0 (19896) browser command
+2023-01-26 15:32:55.602  - [32minfo[39m: my-opcua.0 (19896) browser command
+2023-01-26 15:33:03.650  - [32minfo[39m: my-opcua.0 (19896) browser command
+2023-01-26 15:33:51.569  - [34mdebug[39m: my-opcua.0 (20184) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 15:33:51.587  - [34mdebug[39m: my-opcua.0 (20184) Objects client ready ... initialize now
+2023-01-26 15:33:51.589  - [34mdebug[39m: my-opcua.0 (20184) Objects create System PubSub Client
+2023-01-26 15:33:51.590  - [34mdebug[39m: my-opcua.0 (20184) Objects create User PubSub Client
+2023-01-26 15:33:51.604  - [34mdebug[39m: my-opcua.0 (20184) Objects client initialize lua scripts
+2023-01-26 15:33:51.609  - [34mdebug[39m: my-opcua.0 (20184) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 15:33:51.627  - [34mdebug[39m: my-opcua.0 (20184) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 15:33:51.632  - [34mdebug[39m: my-opcua.0 (20184) States create System PubSub Client
+2023-01-26 15:33:51.633  - [34mdebug[39m: my-opcua.0 (20184) States create User PubSub Client
+2023-01-26 15:33:51.640  - [34mdebug[39m: my-opcua.0 (20184) States connected to redis: 127.0.0.1:9000
+2023-01-26 15:33:51.649  - [31merror[39m: my-opcua.0 (20184) adapter disabled
+2023-01-26 15:33:51.708  - [32minfo[39m: my-opcua.0 (20184) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 15:33:56.039  - [32minfo[39m: my-opcua.0 (20184) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 15:33:56.041  - [32minfo[39m: my-opcua.0 (20184) config option2: sysadmin
+2023-01-26 15:33:56.057  - [32minfo[39m: my-opcua.0 (20184) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 15:33:58.010  - [32minfo[39m: my-opcua.0 (20184) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 15:33:58.606  - [32minfo[39m: my-opcua.0 (20184) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 15:33:59.183  - [32minfo[39m: my-opcua.0 (20184) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 15:34:00.913  - [32minfo[39m: my-opcua.0 (20184) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:34:01.734  - [32minfo[39m: my-opcua.0 (20184) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:34:12.113  - [32minfo[39m: my-opcua.0 (20184) check user admin pw iobroker: false,system.user.admin
+2023-01-26 15:34:12.754  - [32minfo[39m: my-opcua.0 (20184) check group user admin group admin: false
+2023-01-26 15:34:42.192  - [32minfo[39m: my-opcua.0 (20184) state my-opcua.0.testVariable deleted
+2023-01-26 15:35:22.606  - [34mdebug[39m: my-opcua.0 (5504) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 15:35:22.628  - [34mdebug[39m: my-opcua.0 (5504) Objects client ready ... initialize now
+2023-01-26 15:35:22.630  - [34mdebug[39m: my-opcua.0 (5504) Objects create System PubSub Client
+2023-01-26 15:35:22.631  - [34mdebug[39m: my-opcua.0 (5504) Objects create User PubSub Client
+2023-01-26 15:35:22.644  - [34mdebug[39m: my-opcua.0 (5504) Objects client initialize lua scripts
+2023-01-26 15:35:22.648  - [34mdebug[39m: my-opcua.0 (5504) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 15:35:22.667  - [34mdebug[39m: my-opcua.0 (5504) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 15:35:22.673  - [34mdebug[39m: my-opcua.0 (5504) States create System PubSub Client
+2023-01-26 15:35:22.675  - [34mdebug[39m: my-opcua.0 (5504) States create User PubSub Client
+2023-01-26 15:35:22.680  - [34mdebug[39m: my-opcua.0 (5504) States connected to redis: 127.0.0.1:9000
+2023-01-26 15:35:22.688  - [31merror[39m: my-opcua.0 (5504) adapter disabled
+2023-01-26 15:35:22.735  - [32minfo[39m: my-opcua.0 (5504) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 15:35:26.955  - [32minfo[39m: my-opcua.0 (5504) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 15:35:26.958  - [32minfo[39m: my-opcua.0 (5504) config option2: sysadmin
+2023-01-26 15:35:26.987  - [32minfo[39m: my-opcua.0 (5504) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 15:35:28.014  - [32minfo[39m: my-opcua.0 (5504) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 15:35:28.016  - [32minfo[39m: my-opcua.0 (5504) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 15:35:28.025  - [32minfo[39m: my-opcua.0 (5504) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 15:35:28.036  - [32minfo[39m: my-opcua.0 (5504) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:35:28.042  - [32minfo[39m: my-opcua.0 (5504) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:35:28.124  - [32minfo[39m: my-opcua.0 (5504) check user admin pw iobroker: false,system.user.admin
+2023-01-26 15:35:30.920  - [32minfo[39m: my-opcua.0 (5504) check group user admin group admin: false
+2023-01-26 15:36:37.258  - [32minfo[39m: my-opcua.0 (5504) state my-opcua.0.testVariable deleted
+2023-01-26 15:36:57.054  - [34mdebug[39m: my-opcua.0 (21052) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 15:36:57.080  - [34mdebug[39m: my-opcua.0 (21052) Objects client ready ... initialize now
+2023-01-26 15:36:57.082  - [34mdebug[39m: my-opcua.0 (21052) Objects create System PubSub Client
+2023-01-26 15:36:57.085  - [34mdebug[39m: my-opcua.0 (21052) Objects create User PubSub Client
+2023-01-26 15:36:57.102  - [34mdebug[39m: my-opcua.0 (21052) Objects client initialize lua scripts
+2023-01-26 15:36:57.108  - [34mdebug[39m: my-opcua.0 (21052) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 15:36:57.131  - [34mdebug[39m: my-opcua.0 (21052) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 15:36:57.137  - [34mdebug[39m: my-opcua.0 (21052) States create System PubSub Client
+2023-01-26 15:36:57.139  - [34mdebug[39m: my-opcua.0 (21052) States create User PubSub Client
+2023-01-26 15:36:57.146  - [34mdebug[39m: my-opcua.0 (21052) States connected to redis: 127.0.0.1:9000
+2023-01-26 15:36:57.157  - [31merror[39m: my-opcua.0 (21052) adapter disabled
+2023-01-26 15:36:57.215  - [32minfo[39m: my-opcua.0 (21052) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 15:37:01.404  - [32minfo[39m: my-opcua.0 (21052) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 15:37:01.406  - [32minfo[39m: my-opcua.0 (21052) config option2: sysadmin
+2023-01-26 15:37:01.427  - [32minfo[39m: my-opcua.0 (21052) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 15:37:02.141  - [32minfo[39m: my-opcua.0 (21052) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 15:37:02.143  - [32minfo[39m: my-opcua.0 (21052) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 15:37:02.148  - [32minfo[39m: my-opcua.0 (21052) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 15:37:02.160  - [32minfo[39m: my-opcua.0 (21052) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:37:02.167  - [32minfo[39m: my-opcua.0 (21052) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:37:02.313  - [32minfo[39m: my-opcua.0 (21052) check user admin pw iobroker: false,system.user.admin
+2023-01-26 15:37:02.319  - [32minfo[39m: my-opcua.0 (21052) check group user admin group admin: false
+2023-01-26 15:37:55.808  - [34mdebug[39m: my-opcua.0 (21664) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-26 15:37:55.828  - [34mdebug[39m: my-opcua.0 (21664) Objects client ready ... initialize now
+2023-01-26 15:37:55.830  - [34mdebug[39m: my-opcua.0 (21664) Objects create System PubSub Client
+2023-01-26 15:37:55.832  - [34mdebug[39m: my-opcua.0 (21664) Objects create User PubSub Client
+2023-01-26 15:37:55.845  - [34mdebug[39m: my-opcua.0 (21664) Objects client initialize lua scripts
+2023-01-26 15:37:55.849  - [34mdebug[39m: my-opcua.0 (21664) Objects connected to redis: 127.0.0.1:9001
+2023-01-26 15:37:55.864  - [34mdebug[39m: my-opcua.0 (21664) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-26 15:37:55.869  - [34mdebug[39m: my-opcua.0 (21664) States create System PubSub Client
+2023-01-26 15:37:55.870  - [34mdebug[39m: my-opcua.0 (21664) States create User PubSub Client
+2023-01-26 15:37:55.876  - [34mdebug[39m: my-opcua.0 (21664) States connected to redis: 127.0.0.1:9000
+2023-01-26 15:37:55.885  - [31merror[39m: my-opcua.0 (21664) adapter disabled
+2023-01-26 15:37:55.938  - [32minfo[39m: my-opcua.0 (21664) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-26 15:37:59.922  - [32minfo[39m: my-opcua.0 (21664) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-26 15:37:59.924  - [32minfo[39m: my-opcua.0 (21664) config option2: sysadmin
+2023-01-26 15:37:59.941  - [32minfo[39m: my-opcua.0 (21664) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-26 15:38:00.584  - [32minfo[39m: my-opcua.0 (21664) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-26 15:38:00.586  - [32minfo[39m: my-opcua.0 (21664) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-26 15:38:00.596  - [32minfo[39m: my-opcua.0 (21664) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-26 15:38:00.603  - [32minfo[39m: my-opcua.0 (21664) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:38:00.612  - [32minfo[39m: my-opcua.0 (21664) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-26 15:38:00.730  - [32minfo[39m: my-opcua.0 (21664) check user admin pw iobroker: false,system.user.admin
+2023-01-26 15:38:00.736  - [32minfo[39m: my-opcua.0 (21664) check group user admin group admin: false

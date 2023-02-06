@@ -24,11 +24,14 @@ const myFunc = edge.func({
     references: ['System.Data.dll','BouncyCastle.Crypto.dll','OPC.UA.Core.dll','Opc.Ua.Client.dll','Opc.Ua.Configuration.dll','System.IdentityModel.dll','System.Xml.dll']
 });
 
-
+let myfunction;
 
 const payload1 = {
     aString: 'browsenamespace',
 };
+
+
+
 const payload2={
     id:'ns=2;s=5852_Massa_brutto_za_proshedshiy_chas_uint32',
     val:63
@@ -80,13 +83,23 @@ class MyOpcua extends utils.Adapter {
         const username = this.config.username;
         const password = this.config.password;
 
+        const set = (data) =>
+        {
+            if(data!=null)
+            {
+                this.setstates(data);
+            }
+        };
+
+
+
         const input ={
             /*Keep_AliveEventHandler: function (data, callback) {
                 console.log(data);
                 callback(error, result)
             },*/
             MessageEventHandler: function (data, callback) {
-                //console.log(data);
+                set(data);
                 callback(error, result);
             },
             BrowseTopicHandler: function (data, callback) {
@@ -106,7 +119,8 @@ class MyOpcua extends utils.Adapter {
             sessionid :'Stansiya479'
         };
 
-
+        let myobjects;
+        this.getobjects();
         let date = new Date();
         console.log('----> start ('+ date.toString() +') ');
 
@@ -116,7 +130,7 @@ class MyOpcua extends utils.Adapter {
             console.log('----> end ('+ payload +')');});
 
 
-        const myfunction = myFunc(payload1, true);
+        myfunction = myFunc(payload1, true);
         const adsss = myfunction.browsenamespace(null, true);
         const adsss1 = myfunction.write(payload2,true);
         const adsss3 = myfunction.browser(payload3,true);
@@ -131,6 +145,7 @@ class MyOpcua extends utils.Adapter {
         this.log.info('config option1: ' + this.config.endpoint);
         this.log.info('config option2: ' + this.config.username);
 
+        this.setStateAsync('OpenIndustry.Stansiya479.4850_password_ASCII8' ,  'abc');
         /*
         For every state in the system there has to be also an object of type state
         Here a simple template for a boolean variable named "testVariable"
@@ -153,7 +168,7 @@ class MyOpcua extends utils.Adapter {
         // You can also add a subscription for multiple states. The following line watches all states starting with "lights."
         // this.subscribeStates('lights.*');
         // Or, if you really must, you can also watch all states. Don't do this if you don't need to. Otherwise this will cause a lot of unnecessary load on the system:
-        // this.subscribeStates('*');
+        this.subscribeStates('*');
 
         /*
             setState examples
@@ -223,7 +238,22 @@ class MyOpcua extends utils.Adapter {
     onStateChange(id, state) {
         if (state) {
             // The state was changed
-            this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+            //let idsd= this.getIdByName();
+            //this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+            this.getObject(id,  (err, obj) => {
+                if(obj!=null)
+                {
+
+                    let _name= obj.common.name;
+                    const payload2={
+                        id:_name,
+                        val:state.val
+                    };
+
+                    const retval = myfunction.write(payload2,true);
+                }
+
+            });
         } else {
             // The state was deleted
             this.log.info(`state ${id} deleted`);
@@ -271,16 +301,53 @@ class MyOpcua extends utils.Adapter {
                 const treepayload={
                     checkednodes:obj.message.allcheckednodes
                 };
-                this.iteratortest(obj.message.allcheckednodes, obj.message.treeData, );
+                this.iteratorfirst(obj.message.allcheckednodes, obj.message.treeData, );
                 const myfunction = myFunc(payload1, true);
                 const checkednodes = myfunction.addmonitorcheckednodes(treepayload,true);
-                let sbcvss= 1+1;
+                this.getobjects();
                 //this.iterator(obj.message.treeData,null);
             }
         }
     }
 
-    iteratortest(_checkednodes, _tree)
+    getobjects()
+    {
+        this.getAdapterObjects((objects) => {
+            this.myobjects=objects;
+        });
+    }
+
+    setstates(_data)
+    {
+        const my_object = this.myobjects;
+        for (const id of Object.keys(my_object)) {
+            if(id.includes(_data.displayname)==true){
+                const obj = my_object[id];
+                if(obj.common.name==_data.nodeid)
+                {
+                    this.setState(obj._id,_data.value);
+                }
+            }
+
+        }
+        /*this.getObject('OpenIndustry.Stansiya479.4850_password_ASCII8', function (err, obj) {
+            // this.setState('4850_password_ASCII8','salam');
+            let sdcfkj =5+5;
+        });*/
+        //let hghgh =this.name;
+        /*this.getStates("system.adapter.my-opcua.0",function (error, states){
+            let calc1 =5+5;
+        });*/
+
+
+        //this.setState('4850_password_ASCII8','salam');
+        /*this.getState(data.displayname,function (err, state){
+            let sdcfk = state;
+        });*/
+        let sdcf =5+5;
+    }
+
+    iteratorfirst(_checkednodes, _tree)
     {
         _checkednodes.forEach(async (checkednodeid) => {
             let retvalue = this.search(_tree, checkednodeid);
@@ -308,36 +375,61 @@ class MyOpcua extends utils.Adapter {
     async iterator(tree, parentnodename)
     {
         tree.forEach(async (parentNode) => {
-            /*if(parentnodename==null)
-            {
-                if(parentNode.nodeclass=='Object')
-                {
 
-                    await this.setObjectNotExistsAsync(parentNode.name, {
-                        type: 'channel',
-                        common: {
-                            name: parentNode.name
-                        },
-                        native: {}
-                    });
+            if(parentnodename!=null)
+            {
+                let checkspecchar = parentnodename.indexOf('.') === -1 ? false : true;
+                if(checkspecchar==true)
+                {
+                    if(parentNode.nodeclass=='Object')
+                    {
+
+                        await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
+                            type: 'channel',
+                            common: {
+                                name: parentNode.id
+                            },
+                            native: {}
+                        });
+                    }
+                    else
+                    {
+                        await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
+                            type: 'state',
+                            common: {
+                                name: parentNode.id,
+                                type: 'number',
+                                role: 'value',
+                                read: true,
+                                write: true,
+                            },
+                            native: {},
+                        });
+                    }
                 }
             }
             else
-            {*/
-            await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
-                type: 'channel',
-                common: {
-                    name: parentNode.name
-                },
-                native: {}
-            });
-            //}
-            //if(parentNode.child.length==1)
-            //{
-            if (Object.prototype.hasOwnProperty.call(parentNode,'children')) {
-                this.iterator(parentNode.children,parentNode.name);
+            {
+                await this.setObjectNotExistsAsync(parentNode.name, {
+                    type: 'channel',
+                    common: {
+                        name: parentNode.id
+                    },
+                    native: {}
+                });
             }
-            //}
+
+            if (Object.prototype.hasOwnProperty.call(parentNode,'children')) {
+                if(parentnodename!=null)
+                {
+                    parentnodename+='.'+parentNode.name;
+                    this.iterator(parentNode.children,parentnodename);
+                }
+                else
+                {
+                    this.iterator(parentNode.children,parentNode.name);
+                }
+            }
         });
     }
 }
@@ -354,3 +446,5 @@ if (require.main !== module) {
     // otherwise start the instance directly
     new MyOpcua();
 }
+
+
