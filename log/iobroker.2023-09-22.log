@@ -410,3 +410,105 @@
 2023-09-22 13:08:50.617  - [32minfo[39m: my-opcua.0 (22588) check user admin pw iobroker: false,system.user.admin
 2023-09-22 13:08:50.620  - [32minfo[39m: my-opcua.0 (22588) check group user admin group admin: false
 2023-09-22 13:09:20.547  - [32minfo[39m: my-opcua.0 (22588) state my-opcua.0.testVariable deleted
+2023-09-22 13:17:57.237  - [34mdebug[39m: my-opcua.0 (29160) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-22 13:17:57.257  - [34mdebug[39m: my-opcua.0 (29160) Objects client ready ... initialize now
+2023-09-22 13:17:57.258  - [34mdebug[39m: my-opcua.0 (29160) Objects create System PubSub Client
+2023-09-22 13:17:57.260  - [34mdebug[39m: my-opcua.0 (29160) Objects create User PubSub Client
+2023-09-22 13:17:57.271  - [34mdebug[39m: my-opcua.0 (29160) Objects client initialize lua scripts
+2023-09-22 13:17:57.274  - [34mdebug[39m: my-opcua.0 (29160) Objects connected to redis: 127.0.0.1:9001
+2023-09-22 13:17:57.292  - [34mdebug[39m: my-opcua.0 (29160) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-22 13:17:57.297  - [34mdebug[39m: my-opcua.0 (29160) States create System PubSub Client
+2023-09-22 13:17:57.298  - [34mdebug[39m: my-opcua.0 (29160) States create User PubSub Client
+2023-09-22 13:17:57.303  - [34mdebug[39m: my-opcua.0 (29160) States connected to redis: 127.0.0.1:9000
+2023-09-22 13:17:57.311  - [31merror[39m: my-opcua.0 (29160) adapter disabled
+2023-09-22 13:17:57.353  - [32minfo[39m: my-opcua.0 (29160) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-22 13:18:04.941  - [32minfo[39m: my-opcua.0 (29160) config option1: opc.tcp://127.0.0.1:49320
+2023-09-22 13:18:04.943  - [32minfo[39m: my-opcua.0 (29160) config option2: admin
+2023-09-22 13:18:04.963  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.info.connection changed: true (ack = true)
+2023-09-22 13:18:04.967  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.testVariable changed: true (ack = false)
+2023-09-22 13:18:04.972  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-22 13:18:04.979  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-22 13:18:05.066  - [32minfo[39m: my-opcua.0 (29160) check user admin pw iobroker: false,system.user.admin
+2023-09-22 13:18:05.069  - [32minfo[39m: my-opcua.0 (29160) check group user admin group admin: false
+2023-09-22 13:18:15.681  - [32minfo[39m: my-opcua.0 (29160) test command
+2023-09-22 13:18:26.540  - [32minfo[39m: my-opcua.0 (29160) browser command
+2023-09-22 13:18:29.621  - [32minfo[39m: my-opcua.0 (29160) browser command
+2023-09-22 13:18:34.986  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.testVariable deleted
+2023-09-22 13:39:05.851  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:39:05.859  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 10252 vs own PID 29160
+2023-09-22 13:39:06.576  - [31merror[39m: my-opcua.0 (10252) my-opcua.0 already running
+2023-09-22 13:39:06.576  - [33mwarn[39m: my-opcua.0 (10252) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:39:27.813  - [32minfo[39m: my-opcua.0 (29160) test command
+2023-09-22 13:39:35.016  - [32minfo[39m: my-opcua.0 (29160) browser command
+2023-09-22 13:39:37.142  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:39:37.154  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 7128 vs own PID 29160
+2023-09-22 13:39:37.911  - [31merror[39m: my-opcua.0 (7128) my-opcua.0 already running
+2023-09-22 13:39:37.913  - [33mwarn[39m: my-opcua.0 (7128) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:39:41.088  - [32minfo[39m: my-opcua.0 (29160) browser command
+2023-09-22 13:40:08.482  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:40:08.488  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 22048 vs own PID 29160
+2023-09-22 13:40:09.154  - [31merror[39m: my-opcua.0 (22048) my-opcua.0 already running
+2023-09-22 13:40:09.155  - [33mwarn[39m: my-opcua.0 (22048) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:40:39.718  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:40:39.725  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 11960 vs own PID 29160
+2023-09-22 13:40:40.335  - [31merror[39m: my-opcua.0 (11960) my-opcua.0 already running
+2023-09-22 13:40:40.336  - [33mwarn[39m: my-opcua.0 (11960) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:41:10.900  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:41:10.908  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 28956 vs own PID 29160
+2023-09-22 13:41:11.504  - [31merror[39m: my-opcua.0 (28956) my-opcua.0 already running
+2023-09-22 13:41:11.505  - [33mwarn[39m: my-opcua.0 (28956) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:41:42.079  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:41:42.085  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 7864 vs own PID 29160
+2023-09-22 13:41:42.702  - [31merror[39m: my-opcua.0 (7864) my-opcua.0 already running
+2023-09-22 13:41:42.703  - [33mwarn[39m: my-opcua.0 (7864) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:42:04.216  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.Channel1.Device1._Statistics.ns=2_string changed:  (ack = true)
+2023-09-22 13:42:13.277  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:42:13.283  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 4732 vs own PID 29160
+2023-09-22 13:42:13.966  - [31merror[39m: my-opcua.0 (4732) my-opcua.0 already running
+2023-09-22 13:42:13.967  - [33mwarn[39m: my-opcua.0 (4732) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:42:44.546  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:42:44.552  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 22984 vs own PID 29160
+2023-09-22 13:42:45.140  - [31merror[39m: my-opcua.0 (22984) my-opcua.0 already running
+2023-09-22 13:42:45.141  - [33mwarn[39m: my-opcua.0 (22984) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:43:15.726  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:43:15.733  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 27404 vs own PID 29160
+2023-09-22 13:43:16.339  - [31merror[39m: my-opcua.0 (27404) my-opcua.0 already running
+2023-09-22 13:43:16.339  - [33mwarn[39m: my-opcua.0 (27404) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:43:35.606  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.Channel1.Device1._Statistics.ns=2_string deleted
+2023-09-22 13:43:46.910  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:43:46.916  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 32636 vs own PID 29160
+2023-09-22 13:43:47.539  - [31merror[39m: my-opcua.0 (32636) my-opcua.0 already running
+2023-09-22 13:43:47.539  - [33mwarn[39m: my-opcua.0 (32636) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:44:18.113  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:44:18.119  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 29984 vs own PID 29160
+2023-09-22 13:44:18.726  - [31merror[39m: my-opcua.0 (29984) my-opcua.0 already running
+2023-09-22 13:44:18.727  - [33mwarn[39m: my-opcua.0 (29984) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:44:33.079  - [32minfo[39m: my-opcua.0 (29160) state my-opcua.0.Channel1.ns=2!s=sdf|dfg|ert|der changed:  (ack = true)
+2023-09-22 13:44:49.304  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:44:49.311  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 19180 vs own PID 29160
+2023-09-22 13:44:49.912  - [31merror[39m: my-opcua.0 (19180) my-opcua.0 already running
+2023-09-22 13:44:49.913  - [33mwarn[39m: my-opcua.0 (19180) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:45:20.486  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:45:20.492  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 23648 vs own PID 29160
+2023-09-22 13:45:21.090  - [31merror[39m: my-opcua.0 (23648) my-opcua.0 already running
+2023-09-22 13:45:21.091  - [33mwarn[39m: my-opcua.0 (23648) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:45:51.664  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:45:51.673  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 31740 vs own PID 29160
+2023-09-22 13:45:52.324  - [31merror[39m: my-opcua.0 (31740) my-opcua.0 already running
+2023-09-22 13:45:52.325  - [33mwarn[39m: my-opcua.0 (31740) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:46:22.896  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 0 vs own PID 29160
+2023-09-22 13:46:22.901  - [33mwarn[39m: my-opcua.0 (29160) Got terminate signal. Checking desired PID: 31796 vs own PID 29160
+2023-09-22 13:46:23.547  - [31merror[39m: my-opcua.0 (31796) my-opcua.0 already running
+2023-09-22 13:46:23.548  - [33mwarn[39m: my-opcua.0 (31796) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:46:51.528  - [31merror[39m: my-opcua.0 (12216) my-opcua.0 already running
+2023-09-22 13:46:51.529  - [33mwarn[39m: my-opcua.0 (12216) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-09-22 13:47:22.949  - [32minfo[39m: my-opcua.0 (23416) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-22 13:47:24.114  - [32minfo[39m: my-opcua.0 (23416) config option1: opc.tcp://127.0.0.1:49320
+2023-09-22 13:47:24.114  - [32minfo[39m: my-opcua.0 (23416) config option2: admin
+2023-09-22 13:47:24.127  - [32minfo[39m: my-opcua.0 (23416) state my-opcua.0.info.connection changed: true (ack = true)
+2023-09-22 13:47:24.128  - [32minfo[39m: my-opcua.0 (23416) state my-opcua.0.testVariable changed: true (ack = false)
+2023-09-22 13:47:24.131  - [32minfo[39m: my-opcua.0 (23416) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-22 13:47:24.133  - [32minfo[39m: my-opcua.0 (23416) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-22 13:47:24.209  - [32minfo[39m: my-opcua.0 (23416) check user admin pw iobroker: false,system.user.admin
+2023-09-22 13:47:24.210  - [32minfo[39m: my-opcua.0 (23416) check group user admin group admin: false
+2023-09-22 13:47:54.145  - [32minfo[39m: my-opcua.0 (23416) state my-opcua.0.testVariable deleted
