@@ -78,15 +78,8 @@
         ]
     },
     "native": {
-        "endpoint": "",
-        "Anonymous": false,
-        "username":"",
-        "password":"",
-        "sec_policy": "None",
-        "Mes_sec_mode": "None",
-        "activate_cert": false,
-        "certificate1": "",
-        "cert_key": ""
+        "option1": true,
+        "option2": "42"
     },
     "objects": [],
     "instanceObjects": [

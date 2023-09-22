@@ -1,0 +1,263 @@
+2023-01-14 12:01:09.730  - [34mdebug[39m: my-opcua.0 (12560) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 12:01:09.763  - [34mdebug[39m: my-opcua.0 (12560) Objects client ready ... initialize now
+2023-01-14 12:01:09.766  - [34mdebug[39m: my-opcua.0 (12560) Objects create System PubSub Client
+2023-01-14 12:01:09.768  - [34mdebug[39m: my-opcua.0 (12560) Objects create User PubSub Client
+2023-01-14 12:01:09.784  - [34mdebug[39m: my-opcua.0 (12560) Objects client initialize lua scripts
+2023-01-14 12:01:09.817  - [34mdebug[39m: my-opcua.0 (12560) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 12:01:09.838  - [34mdebug[39m: my-opcua.0 (12560) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 12:01:09.845  - [34mdebug[39m: my-opcua.0 (12560) States create System PubSub Client
+2023-01-14 12:01:09.847  - [34mdebug[39m: my-opcua.0 (12560) States create User PubSub Client
+2023-01-14 12:01:09.856  - [34mdebug[39m: my-opcua.0 (12560) States connected to redis: 127.0.0.1:9000
+2023-01-14 12:01:09.872  - [31merror[39m: my-opcua.0 (12560) adapter disabled
+2023-01-14 12:01:09.939  - [32minfo[39m: my-opcua.0 (12560) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 12:01:16.741  - [32minfo[39m: my-opcua.0 (12560) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-14 12:01:16.743  - [32minfo[39m: my-opcua.0 (12560) config option2: sysadmin
+2023-01-14 12:01:16.770  - [32minfo[39m: my-opcua.0 (12560) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-14 12:01:17.717  - [32minfo[39m: my-opcua.0 (12560) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-14 12:01:17.719  - [32minfo[39m: my-opcua.0 (12560) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-14 12:01:17.728  - [32minfo[39m: my-opcua.0 (12560) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-14 12:01:17.736  - [32minfo[39m: my-opcua.0 (12560) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-14 12:01:17.749  - [32minfo[39m: my-opcua.0 (12560) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-14 12:01:17.838  - [32minfo[39m: my-opcua.0 (12560) check user admin pw iobroker: false,system.user.admin
+2023-01-14 12:01:17.845  - [32minfo[39m: my-opcua.0 (12560) check group user admin group admin: false
+2023-01-14 12:01:47.762  - [32minfo[39m: my-opcua.0 (12560) state my-opcua.0.testVariable deleted
+2023-01-14 12:02:09.101  - [32minfo[39m: my-opcua.0 (12560) test command
+2023-01-14 12:02:28.995  - [32minfo[39m: my-opcua.0 (12560) browser command
+2023-01-14 12:02:40.833  - [32minfo[39m: my-opcua.0 (12560) browser command
+2023-01-14 12:02:52.755  - [32minfo[39m: my-opcua.0 (12560) browser command
+2023-01-14 12:02:58.646  - [32minfo[39m: my-opcua.0 (12560) browser command
+2023-01-14 12:06:13.611  - [34mdebug[39m: my-opcua.0 (20956) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 12:06:13.639  - [34mdebug[39m: my-opcua.0 (20956) Objects client ready ... initialize now
+2023-01-14 12:06:13.642  - [34mdebug[39m: my-opcua.0 (20956) Objects create System PubSub Client
+2023-01-14 12:06:13.643  - [34mdebug[39m: my-opcua.0 (20956) Objects create User PubSub Client
+2023-01-14 12:06:13.662  - [34mdebug[39m: my-opcua.0 (20956) Objects client initialize lua scripts
+2023-01-14 12:06:35.149  - [34mdebug[39m: my-opcua.0 (23136) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 12:06:35.168  - [34mdebug[39m: my-opcua.0 (23136) Objects client ready ... initialize now
+2023-01-14 12:06:35.170  - [34mdebug[39m: my-opcua.0 (23136) Objects create System PubSub Client
+2023-01-14 12:06:35.171  - [34mdebug[39m: my-opcua.0 (23136) Objects create User PubSub Client
+2023-01-14 12:06:35.184  - [34mdebug[39m: my-opcua.0 (23136) Objects client initialize lua scripts
+2023-01-14 12:06:35.189  - [34mdebug[39m: my-opcua.0 (23136) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 12:06:35.205  - [34mdebug[39m: my-opcua.0 (23136) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 12:06:35.210  - [34mdebug[39m: my-opcua.0 (23136) States create System PubSub Client
+2023-01-14 12:06:35.212  - [34mdebug[39m: my-opcua.0 (23136) States create User PubSub Client
+2023-01-14 12:06:35.218  - [34mdebug[39m: my-opcua.0 (23136) States connected to redis: 127.0.0.1:9000
+2023-01-14 12:06:35.229  - [31merror[39m: my-opcua.0 (23136) adapter disabled
+2023-01-14 12:06:35.293  - [32minfo[39m: my-opcua.0 (23136) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 12:06:41.620  - [32minfo[39m: my-opcua.0 (23136) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-14 12:06:41.621  - [32minfo[39m: my-opcua.0 (23136) config option2: sysadmin
+2023-01-14 12:06:41.636  - [32minfo[39m: my-opcua.0 (23136) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-14 12:06:42.367  - [32minfo[39m: my-opcua.0 (23136) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-14 12:06:42.370  - [32minfo[39m: my-opcua.0 (23136) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-14 12:06:42.376  - [32minfo[39m: my-opcua.0 (23136) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-14 12:06:42.386  - [32minfo[39m: my-opcua.0 (23136) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-14 12:06:42.393  - [32minfo[39m: my-opcua.0 (23136) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-14 12:06:42.466  - [32minfo[39m: my-opcua.0 (23136) check user admin pw iobroker: false,system.user.admin
+2023-01-14 12:06:42.469  - [32minfo[39m: my-opcua.0 (23136) check group user admin group admin: false
+2023-01-14 12:07:12.393  - [32minfo[39m: my-opcua.0 (23136) state my-opcua.0.testVariable deleted
+2023-01-14 12:33:40.926  - [34mdebug[39m: my-opcua.0 (26516) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 12:33:40.948  - [34mdebug[39m: my-opcua.0 (26516) Objects client ready ... initialize now
+2023-01-14 12:33:40.949  - [34mdebug[39m: my-opcua.0 (26516) Objects create System PubSub Client
+2023-01-14 12:33:40.950  - [34mdebug[39m: my-opcua.0 (26516) Objects create User PubSub Client
+2023-01-14 12:33:40.962  - [34mdebug[39m: my-opcua.0 (26516) Objects client initialize lua scripts
+2023-01-14 12:33:40.965  - [34mdebug[39m: my-opcua.0 (26516) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 12:33:40.981  - [34mdebug[39m: my-opcua.0 (26516) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 12:33:40.985  - [34mdebug[39m: my-opcua.0 (26516) States create System PubSub Client
+2023-01-14 12:33:40.987  - [34mdebug[39m: my-opcua.0 (26516) States create User PubSub Client
+2023-01-14 12:33:40.993  - [34mdebug[39m: my-opcua.0 (26516) States connected to redis: 127.0.0.1:9000
+2023-01-14 12:33:41.001  - [31merror[39m: my-opcua.0 (26516) adapter disabled
+2023-01-14 12:33:41.046  - [32minfo[39m: my-opcua.0 (26516) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 12:33:41.381  - [31merror[39m: my-opcua.0 (26516) uncaught exception: The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+2023-01-14 12:33:41.383  - [31merror[39m: my-opcua.0 (26516) Error: The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 12:33:41.383  - [31merror[39m: my-opcua.0 (26516) The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+2023-01-14 12:33:44.938  - [31merror[39m: my-opcua.0 (26516) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-14 12:33:44.939  - [31merror[39m: my-opcua.0 (26516) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-14 12:33:44.940  - [31merror[39m: my-opcua.0 (26516) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 12:33:44.941  - [31merror[39m: my-opcua.0 (26516) Cannot browse if not connected to a server.
+2023-01-14 12:33:44.948  - [32minfo[39m: my-opcua.0 (26516) terminating
+2023-01-14 12:33:44.950  - [33mwarn[39m: my-opcua.0 (26516) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-14 12:34:01.412  - [34mdebug[39m: my-opcua.0 (26096) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 12:34:01.429  - [34mdebug[39m: my-opcua.0 (26096) Objects client ready ... initialize now
+2023-01-14 12:34:01.430  - [34mdebug[39m: my-opcua.0 (26096) Objects create System PubSub Client
+2023-01-14 12:34:01.432  - [34mdebug[39m: my-opcua.0 (26096) Objects create User PubSub Client
+2023-01-14 12:34:01.444  - [34mdebug[39m: my-opcua.0 (26096) Objects client initialize lua scripts
+2023-01-14 12:34:01.447  - [34mdebug[39m: my-opcua.0 (26096) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 12:34:01.465  - [34mdebug[39m: my-opcua.0 (26096) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 12:34:01.470  - [34mdebug[39m: my-opcua.0 (26096) States create System PubSub Client
+2023-01-14 12:34:01.471  - [34mdebug[39m: my-opcua.0 (26096) States create User PubSub Client
+2023-01-14 12:34:01.476  - [34mdebug[39m: my-opcua.0 (26096) States connected to redis: 127.0.0.1:9000
+2023-01-14 12:34:01.485  - [31merror[39m: my-opcua.0 (26096) adapter disabled
+2023-01-14 12:34:01.527  - [32minfo[39m: my-opcua.0 (26096) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 12:34:01.836  - [31merror[39m: my-opcua.0 (26096) uncaught exception: The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+2023-01-14 12:34:01.838  - [31merror[39m: my-opcua.0 (26096) Error: The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 12:34:01.838  - [31merror[39m: my-opcua.0 (26096) The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+2023-01-14 12:34:04.891  - [31merror[39m: my-opcua.0 (26096) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-14 12:34:04.892  - [31merror[39m: my-opcua.0 (26096) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-14 12:34:04.893  - [31merror[39m: my-opcua.0 (26096) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 12:34:04.893  - [31merror[39m: my-opcua.0 (26096) Cannot browse if not connected to a server.
+2023-01-14 12:34:04.902  - [32minfo[39m: my-opcua.0 (26096) terminating
+2023-01-14 12:34:04.903  - [33mwarn[39m: my-opcua.0 (26096) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-14 12:39:57.262  - [34mdebug[39m: my-opcua.0 (23808) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 12:39:57.281  - [34mdebug[39m: my-opcua.0 (23808) Objects client ready ... initialize now
+2023-01-14 12:39:57.282  - [34mdebug[39m: my-opcua.0 (23808) Objects create System PubSub Client
+2023-01-14 12:39:57.285  - [34mdebug[39m: my-opcua.0 (23808) Objects create User PubSub Client
+2023-01-14 12:39:57.294  - [34mdebug[39m: my-opcua.0 (23808) Objects client initialize lua scripts
+2023-01-14 12:39:57.299  - [34mdebug[39m: my-opcua.0 (23808) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 12:39:57.315  - [34mdebug[39m: my-opcua.0 (23808) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 12:39:57.319  - [34mdebug[39m: my-opcua.0 (23808) States create System PubSub Client
+2023-01-14 12:39:57.321  - [34mdebug[39m: my-opcua.0 (23808) States create User PubSub Client
+2023-01-14 12:39:57.326  - [34mdebug[39m: my-opcua.0 (23808) States connected to redis: 127.0.0.1:9000
+2023-01-14 12:39:57.335  - [31merror[39m: my-opcua.0 (23808) adapter disabled
+2023-01-14 12:39:57.377  - [32minfo[39m: my-opcua.0 (23808) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 12:41:17.521  - [34mdebug[39m: my-opcua.0 (24280) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 12:41:17.540  - [34mdebug[39m: my-opcua.0 (24280) Objects client ready ... initialize now
+2023-01-14 12:41:17.542  - [34mdebug[39m: my-opcua.0 (24280) Objects create System PubSub Client
+2023-01-14 12:41:17.543  - [34mdebug[39m: my-opcua.0 (24280) Objects create User PubSub Client
+2023-01-14 12:41:17.555  - [34mdebug[39m: my-opcua.0 (24280) Objects client initialize lua scripts
+2023-01-14 12:41:17.558  - [34mdebug[39m: my-opcua.0 (24280) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 12:41:17.574  - [34mdebug[39m: my-opcua.0 (24280) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 12:41:17.578  - [34mdebug[39m: my-opcua.0 (24280) States create System PubSub Client
+2023-01-14 12:41:17.580  - [34mdebug[39m: my-opcua.0 (24280) States create User PubSub Client
+2023-01-14 12:41:17.586  - [34mdebug[39m: my-opcua.0 (24280) States connected to redis: 127.0.0.1:9000
+2023-01-14 12:41:17.594  - [31merror[39m: my-opcua.0 (24280) adapter disabled
+2023-01-14 12:41:17.638  - [32minfo[39m: my-opcua.0 (24280) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 12:41:17.978  - [31merror[39m: my-opcua.0 (24280) uncaught exception: The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+2023-01-14 12:41:17.980  - [31merror[39m: my-opcua.0 (24280) Error: The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 12:41:17.980  - [31merror[39m: my-opcua.0 (24280) The certificate with subject CN=MyHomework, DC=DESKTOP-LKUT999 in the configuration is invalid.
+ Please update or delete the certificate from this location:
+ C:\ProgramData\OPC Foundation\CertificateStores\MachineDefault
+
+2023-01-14 12:44:03.189  - [31merror[39m: my-opcua.0 (24280) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-14 12:44:03.191  - [31merror[39m: my-opcua.0 (24280) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-14 12:44:03.192  - [31merror[39m: my-opcua.0 (24280) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 12:44:03.193  - [31merror[39m: my-opcua.0 (24280) Cannot browse if not connected to a server.
+2023-01-14 12:44:03.216  - [32minfo[39m: my-opcua.0 (24280) terminating
+2023-01-14 12:44:03.226  - [33mwarn[39m: my-opcua.0 (24280) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-14 13:18:42.647  - [34mdebug[39m: my-opcua.0 (24964) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 13:18:42.670  - [34mdebug[39m: my-opcua.0 (24964) Objects client ready ... initialize now
+2023-01-14 13:18:42.672  - [34mdebug[39m: my-opcua.0 (24964) Objects create System PubSub Client
+2023-01-14 13:18:42.673  - [34mdebug[39m: my-opcua.0 (24964) Objects create User PubSub Client
+2023-01-14 13:18:42.683  - [34mdebug[39m: my-opcua.0 (24964) Objects client initialize lua scripts
+2023-01-14 13:18:42.783  - [34mdebug[39m: my-opcua.0 (24964) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 13:18:42.801  - [34mdebug[39m: my-opcua.0 (24964) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 13:18:42.807  - [34mdebug[39m: my-opcua.0 (24964) States create System PubSub Client
+2023-01-14 13:18:42.808  - [34mdebug[39m: my-opcua.0 (24964) States create User PubSub Client
+2023-01-14 13:18:42.814  - [34mdebug[39m: my-opcua.0 (24964) States connected to redis: 127.0.0.1:9000
+2023-01-14 13:18:42.823  - [31merror[39m: my-opcua.0 (24964) adapter disabled
+2023-01-14 13:18:42.873  - [32minfo[39m: my-opcua.0 (24964) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 13:18:43.391  - [31merror[39m: my-opcua.0 (24964) uncaught exception: Access to the path 'MyHomework [18CFB570CE518AE20D188A34D8C41BBE7EA6B393].der' is denied.
+2023-01-14 13:18:43.393  - [31merror[39m: my-opcua.0 (24964) Error: Access to the path 'MyHomework [18CFB570CE518AE20D188A34D8C41BBE7EA6B393].der' is denied.
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 13:18:43.393  - [31merror[39m: my-opcua.0 (24964) Access to the path 'MyHomework [18CFB570CE518AE20D188A34D8C41BBE7EA6B393].der' is denied.
+2023-01-14 13:18:46.848  - [31merror[39m: my-opcua.0 (24964) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-14 13:18:46.849  - [31merror[39m: my-opcua.0 (24964) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-14 13:18:46.850  - [31merror[39m: my-opcua.0 (24964) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 13:18:46.851  - [31merror[39m: my-opcua.0 (24964) Cannot browse if not connected to a server.
+2023-01-14 13:18:46.859  - [32minfo[39m: my-opcua.0 (24964) terminating
+2023-01-14 13:18:46.861  - [33mwarn[39m: my-opcua.0 (24964) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-14 13:28:02.278  - [34mdebug[39m: my-opcua.0 (24960) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 13:28:02.308  - [34mdebug[39m: my-opcua.0 (24960) Objects client ready ... initialize now
+2023-01-14 13:28:02.312  - [34mdebug[39m: my-opcua.0 (24960) Objects create System PubSub Client
+2023-01-14 13:28:02.314  - [34mdebug[39m: my-opcua.0 (24960) Objects create User PubSub Client
+2023-01-14 13:28:02.332  - [34mdebug[39m: my-opcua.0 (24960) Objects client initialize lua scripts
+2023-01-14 13:28:02.338  - [34mdebug[39m: my-opcua.0 (24960) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 13:28:02.362  - [34mdebug[39m: my-opcua.0 (24960) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 13:28:02.366  - [34mdebug[39m: my-opcua.0 (24960) States create System PubSub Client
+2023-01-14 13:28:02.368  - [34mdebug[39m: my-opcua.0 (24960) States create User PubSub Client
+2023-01-14 13:28:02.375  - [34mdebug[39m: my-opcua.0 (24960) States connected to redis: 127.0.0.1:9000
+2023-01-14 13:28:02.385  - [31merror[39m: my-opcua.0 (24960) adapter disabled
+2023-01-14 13:28:02.437  - [32minfo[39m: my-opcua.0 (24960) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 13:28:02.680  - [31merror[39m: my-opcua.0 (24960) uncaught exception: Access to the path 'MyHomework [18CFB570CE518AE20D188A34D8C41BBE7EA6B393].der' is denied.
+2023-01-14 13:28:02.682  - [31merror[39m: my-opcua.0 (24960) Error: Access to the path 'MyHomework [18CFB570CE518AE20D188A34D8C41BBE7EA6B393].der' is denied.
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 13:28:02.683  - [31merror[39m: my-opcua.0 (24960) Access to the path 'MyHomework [18CFB570CE518AE20D188A34D8C41BBE7EA6B393].der' is denied.
+2023-01-14 13:28:05.853  - [31merror[39m: my-opcua.0 (24960) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-14 13:28:05.854  - [31merror[39m: my-opcua.0 (24960) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-14 13:28:05.855  - [31merror[39m: my-opcua.0 (24960) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-14 13:28:05.855  - [31merror[39m: my-opcua.0 (24960) Cannot browse if not connected to a server.
+2023-01-14 13:28:05.862  - [32minfo[39m: my-opcua.0 (24960) terminating
+2023-01-14 13:28:05.864  - [33mwarn[39m: my-opcua.0 (24960) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-14 13:33:31.380  - [34mdebug[39m: my-opcua.0 (13992) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-14 13:33:31.400  - [34mdebug[39m: my-opcua.0 (13992) Objects client ready ... initialize now
+2023-01-14 13:33:31.401  - [34mdebug[39m: my-opcua.0 (13992) Objects create System PubSub Client
+2023-01-14 13:33:31.402  - [34mdebug[39m: my-opcua.0 (13992) Objects create User PubSub Client
+2023-01-14 13:33:31.412  - [34mdebug[39m: my-opcua.0 (13992) Objects client initialize lua scripts
+2023-01-14 13:33:31.417  - [34mdebug[39m: my-opcua.0 (13992) Objects connected to redis: 127.0.0.1:9001
+2023-01-14 13:33:31.432  - [34mdebug[39m: my-opcua.0 (13992) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-14 13:33:31.436  - [34mdebug[39m: my-opcua.0 (13992) States create System PubSub Client
+2023-01-14 13:33:31.438  - [34mdebug[39m: my-opcua.0 (13992) States create User PubSub Client
+2023-01-14 13:33:31.444  - [34mdebug[39m: my-opcua.0 (13992) States connected to redis: 127.0.0.1:9000
+2023-01-14 13:33:31.453  - [31merror[39m: my-opcua.0 (13992) adapter disabled
+2023-01-14 13:33:31.500  - [32minfo[39m: my-opcua.0 (13992) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-14 13:33:35.834  - [32minfo[39m: my-opcua.0 (13992) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-14 13:33:35.836  - [32minfo[39m: my-opcua.0 (13992) config option2: sysadmin
+2023-01-14 13:33:35.849  - [32minfo[39m: my-opcua.0 (13992) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-01-14 13:33:36.516  - [32minfo[39m: my-opcua.0 (13992) state my-opcua.0.info.connection changed: true (ack = true)
+2023-01-14 13:33:36.520  - [32minfo[39m: my-opcua.0 (13992) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-01-14 13:33:36.524  - [32minfo[39m: my-opcua.0 (13992) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-14 13:33:36.533  - [32minfo[39m: my-opcua.0 (13992) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-14 13:33:36.538  - [32minfo[39m: my-opcua.0 (13992) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-14 13:33:36.602  - [32minfo[39m: my-opcua.0 (13992) check user admin pw iobroker: false,system.user.admin
+2023-01-14 13:33:36.605  - [32minfo[39m: my-opcua.0 (13992) check group user admin group admin: false
+2023-01-14 13:34:06.552  - [32minfo[39m: my-opcua.0 (13992) state my-opcua.0.testVariable deleted

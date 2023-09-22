@@ -111,23 +111,6 @@
 
         // This will be called by the admin adapter when the settings page loads
         function load(settings, onChange) {
-
-            $( "#test" ).click(function() {
-            test();
-            });
-
-            $( "#sendchecked" ).click(function() {
-                sendchecked();
-            });
-            
-            $("#Anonymous").change(function() {
-                Anonymousfunc(this.checked)
-            });
-
-            $("#activate_cert").change(function() {
-                ActivateCertfunc(this.checked)
-            });
-
             // example: select elements with id=key and class=value and insert value
             if (!settings) return;
             $('.value').each(function () {
@@ -154,120 +137,6 @@
             // reinitialize all the Materialize labels on the page if you are dynamically adding inputs:
             if (M) M.updateTextFields();
         }
-
-        function Anonymousfunc(checked)
-        {
-            if(checked) {
-                $( "#activate_cert" ).prop( "checked", false );        
-                $( "#username" ).prop( "disabled", true );
-                $( "#password" ).prop( "disabled", true );
-                $( "#activate_cert" ).prop( "disabled", true );
-                $( "#certificate1" ).prop( "disabled", true );
-                $( "#cert_key" ).prop( "disabled", true );
-               }
-               else{
-                $( "#username" ).prop( "disabled", false );
-                $( "#password" ).prop( "disabled", false );
-                $( "#activate_cert" ).prop( "disabled", false );
-                $( "#certificate1" ).prop( "disabled", false );
-                $( "#cert_key" ).prop( "disabled", false );
-               }
-        }
-
-        function ActivateCertfunc(checked)
-        {
-            if(checked) {
-                $( "#Anonymous" ).prop( "checked", false );        
-                $( "#username" ).prop( "disabled", true );
-                $( "#password" ).prop( "disabled", true );
-               }
-               else{
-                $( "#username" ).prop( "disabled", false );
-                $( "#password" ).prop( "disabled", false );
-               }
-        }
-
-        function test() {
-         //var newValue = JSON.stringify(getSettings());
-        treeObj = new ej.navigations.TreeView({
-        fields: { dataSource: null, id: 'id', parentID: 'pid', text: 'name', hasChildren: 'hasChild', iconCss: 'icon' },
-        showCheckBox: true,
-        cssClass: 'custom'
-        //nodeClicked: nodeCheck,
-        //keyPress: nodeCheck
-        //nodeSelected : nodeSelect
-        });
-        treeObj.appendTo('#opctree');
-        treeObj.autoCheck = true;
-        
-
-        sendTo('my-opcua.' + instance, 'test',{"salam":"hello"}, function (result) {
-            result.forEach(element => {
-                var elem =element.DisplayName;
-                if(element.NodeClass=='Object')
-                {
-                var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , icon: 'object' }];
-                treeObj.addNodes(object, null);
-                }
-                else
-                {
-                var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , icon: 'variable' }];
-                treeObj.addNodes(object, null);
-                }
-            });
-            showMessage(_('Result: ') + _(result));
-        });
-
-        //document.querySelector('#test').disabled = true;
-        //document.getElementById("#test").disabled = true;
-        $('#test').attr("disabled", "true");
-    }
-    
-    /*function nodeCheck(args ) {
-    let checkedNode = [args.node];
-       let getNodeDetails = treeObj.getNode(args.node);
-        if (getNodeDetails.isChecked == 'true') {
-            treeObj.uncheckAll(checkedNode);
-        } else {
-            treeObj.checkAll(checkedNode);
-        }
-    }*/
-
-    /*function nodecheck(args)
-    {
-        var targetNodeId = treeObj.checkedNodes[0];
-        var node = treeObj.getNode(targetNodeId);
-        node.nodeChecked = node.isChecked;
-        //var getNodeDetails = treeObj.getNode(args.node);
-        //getNodeDetails.nodeChecked = args.node.isChecked;//getNodeDetails.isChecked;
-        
-    }*/
-
-    function sendchecked()
-    {
-      
-        
-        //var checkedNodeIds = treeObj.checkedNodes;
-        var allcheckednodes = getCheckedNodes();
-        var treeData = treeObj.getTreeData();
-        sendTo('my-opcua.' + instance, 'createstates',{treeData,allcheckednodes}, function (result) {
-
-        });
-    }
-
-    function getCheckedNodes()
-    {
-      let allNode = document.querySelectorAll(".e-control.e-treeview .e-checkbox-wrapper[aria-checked='mixed'], .e-checkbox-wrapper[aria-checked='true']"); 
-      let checked = []; 
-      for (let i=0;i<allNode.length; i++){ 
-        // get element 
-        let node = allNode[i].closest(".e-list-item"); 
-        // get node data 
-        let nodeId = treeObj.getNode(node).id; 
-        checked.push(nodeId); 
-      }
-      return checked; 
-    }
 
         // This will be called by the admin adapter when the user presses the save button
         function save(callback) {
@@ -296,78 +165,17 @@
 <body>
 
     <div class="m adapter-container">
+
         <div class="row">
-            <div class="col s12">
-                <ul class="tabs">
-                    <li class="tab col s2"><a href="#tab-main"  class="translate active">Main settings</a></li>
-                    <li class="tab col s2 le-settings"><a href="#tab-points"    class="translate">Add Points</a></li>
-                </ul>
-            </div>
-            <div id="tab-main" class="col s12 page">
-                <div class="row">
-                    <div class="col s12 m4 l2">
-                        <img src="my-opcua.png" class="logo">
-                    </div>
-                </div>
-                <!-- For example columns with settings: -->
-        <div class="row">
-            <div class="input-field col s12 m8 l5">
-                <input type="text" class="value" id="endpoint"></input>
-                <label class="translate" for="endpoint">Endpoint:</label>
-            </div>
-            <div class="input-field col s12">
-                <input id="Anonymous" type="checkbox" class="value filled-in" />
-                <span for="Anonymous" class="translate">Anonymous</span>
-            </div>
-            <div class="input-field col s12 m8 l5">
-                <input type="text" class="value" id="username"></input>
-                <label class="translate" for="username">Username:</label>
-            </div>
-            <div class="input-field col s12 m8 l5">
-                <input type="text" class="value" id="password"></input>
-                <label class="translate" for="password">Password:</label>
-            </div>
-            <div class="input-field col s12">
-                <div class="input-field col s4">
-                    <select id="sec_policy" class="value">
-                        <option value="None" class="translate">None</option>
-                        <option value="Basic128Rsa15" class="translate">Basic128Rsa15</option>
-                        <option value="Basic256" class="translate">Basic256</option>
-                        <option value="Basic256Sha256" class="translate">Basic256Sha256</option>
-                        <option value="Aes128_Sha256_RsaOaep" class="translate">Aes128_Sha256_RsaOaep</option>
-                        <option value="Aes256_Sha256_RsaPss" class="translate">Aes256_Sha256_RsaPss</option>
-                    </select>
-                    <span for="sec_policy" class="translate">Security Policy</span>
-                </div>
-            </div>
-            <div class="input-field col s12">
-                <div class="input-field col s4">
-                    <select id="Mes_sec_mode" class="value">
-                        <option value="None" class="translate">None</option>
-                        <option value="Sign" class="translate">Sign</option>
-                        <option value="Sign_And_Encrypt" class="translate">Sign_And_Encrypt</option>
-                    </select>
-                    <span for="Mes_sec_mode" class="translate">Messsage Security Mode</span>
-                </div>
-            </div>
-            <div class="input-field col s12 m8 l5">
-                <input id="activate_cert" type="checkbox" class="value filled-in" />
-                <span for="activate_cert" class="translate">Activate Certificate</span>
-            </div>
-            <div class="input-field col s12">
-                <textarea class="value number" id="certificate1" style="width: 100%; height: 100px; resize: none"></textarea>
-                <label class="translate" for="certificate1">Certificate:</label>
-            </div>
-            <div class="input-field col s12 m8 l5">
-                <input type="text" class="value" id="cert_key"></input>
-                <label class="translate" for="cert_key">Certificate Key (password):</label>
+            <div class="col s12 m4 l2">
+                <img src="my-opcua.png" class="logo">
             </div>
         </div>
-        
-     </div>
 
-         <div id="tab-points" class="col s12 page">
-            <div class="row">
+        <!-- Put your content here -->
+
+        <!-- For example columns with settings: -->
+        <div class="row">
             <div class="col s6 input-field">
                 <a class="btn" id="test">
                     <i class="material-icons autorenew">autorenew</i>
