@@ -20,7 +20,7 @@
         "titleLang": {
             "en": "MY OPCUA",
             "de": "MEIN OPCUA",
-            "ru": "МОЙ ОПСУА",
+            "ru": "МОЙ ОПКУА",
             "pt": "MEU OPCUA",
             "nl": "MIJN OPCUA",
             "fr": "MON OPCUA",
@@ -78,8 +78,15 @@
         ]
     },
     "native": {
-        "option1": true,
-        "option2": "42"
+        "Anonymous":false,
+        "endpoint": "",
+        "username":"",
+        "password":"",
+        "sec_policy":"None",
+        "Mes_sec_mode":"None",
+        "activate_cert":false,
+        "certificate1":"",
+        "cert_key":""
     },
     "objects": [],
     "instanceObjects": [
