@@ -7,6 +7,46 @@
 // The adapter-core module gives you access to the core ioBroker functions
 // you need to create an adapter
 const utils = require('@iobroker/adapter-core');
+const { settings } = require('cluster');
+
+const readline = require('readline');
+const rl = readline.createInterface({
+    input: process.stdin,
+    output: process.stdout
+});
+
+const edge = require('edge-js');
+
+const myFunc = edge.func({
+    assemblyFile: 'E:\\desktop 12_04_2023\\OpcUAClient-master\\KonsoleBrowse-master_ishleyir\\KonsoleBrowse-master\\KonsoleBrowseDll\\bin\\Debug\\KonsoleBrowseDll.dll',
+    typeName: 'KonsoleBrowseDll.Program',
+    methodName: 'Invoke',
+    references: ['System.Data.dll','BouncyCastle.Crypto.dll','OPC.UA.Core.dll','Opc.Ua.Client.dll','Opc.Ua.Configuration.dll','System.IdentityModel.dll','System.Xml.dll']
+});
+
+
+
+const payload1 = {
+    aString: 'browsenamespace',
+};
+const payload2={
+    id:'ns=2;s=5852_Massa_brutto_za_proshedshiy_chas_uint32',
+    val:63
+};
+const payload3={
+    //nodeid:'ns=2;s=OpenIndustry',
+    nodeid:'ns=2;s=Channel1',
+};
+/*myFunc(payload1 , function (err,res) {
+    if(err) console.error(err);
+    var srt= res.write(payload2);
+});
+myFunc(payload1 , function (err,res) {
+    if(err) console.error(err);
+    var dsd = res.browsenamespace();
+});*/
+
+
 
 // Load your modules here, e.g.:
 // const fs = require("fs");
@@ -37,6 +77,74 @@ class MyOpcua extends utils.Adapter {
      * Is called when databases are connected and adapter received configuration.
      */
     async onReady() {
+        const endpoint = this.config.endpoint;//settings.endpoint;
+        const Anonymous = this.config.Anonymous;
+        const username = this.config.username;
+        const password = this.config.password;
+        const sec_policy = this.config.sec_policy;
+        const Mes_sec_mode = this.config.Mes_sec_mode;
+        const activate_cert = this.config.activate_cert;
+        const certificate1 = this.config.certificate1;
+        const cert_key = this.config.cert_key;
+
+        const set = (data) =>
+        {
+            if(data!=null)
+            {
+                this.setstates(data);
+            }
+        };
+
+
+        const input ={
+            /*Keep_AliveEventHandler: function (data, callback) {
+                console.log(data);
+                callback(error, result)
+            },*/
+            MessageEventHandler: function (data, callback) {
+                set(data);
+                callback(error, result);
+            },
+            BrowseTopicHandler: function (data, callback) {
+                //console.log(data);
+                callback(error, result);
+            },
+            Messagestart: function (data, callback) {
+                //console.log(data);
+                callback(error, result);
+            },
+            /*BrowseTopicNamespaces: function (data, callback) {
+                console.log(data);
+                callback(error, result)
+            },*/
+            endpoint : endpoint,
+            topic : 'Stansiya479',
+            sessionid :'Stansiya479',
+            Anonymous:Anonymous,
+            username : username,
+            password : password,
+            sec_policy :sec_policy,
+            Mes_sec_mode : Mes_sec_mode,
+            activate_cert: activate_cert,
+            certificate1:certificate1,
+            cert_key:cert_key
+        };
+
+
+        let date = new Date();
+        console.log('----> start ('+ date.toString() +') ');
+
+        myFunc(input,function (error, payload) {
+            if (error) throw error;
+            date = new Date();
+            console.log('----> end ('+ payload +')');});
+
+
+        const myfunction = myFunc(payload1, true);
+        const adsss = myfunction.browsenamespace(null, true);
+        //const adsss1 = myfunction.write(payload2,true);
+        //const adsss3 = myfunction.browser(payload3,true);
+
         // Initialize your adapter here
 
         // Reset the connection indicator during startup
@@ -47,6 +155,7 @@ class MyOpcua extends utils.Adapter {
         this.log.info('config option1: ' + this.config.endpoint);
         this.log.info('config option2: ' + this.config.username);
 
+        //this.setStateAsync('OpenIndustry.Stansiya479.4850_password_ASCII8' ,  'abc');
         /*
         For every state in the system there has to be also an object of type state
         Here a simple template for a boolean variable named "testVariable"
@@ -139,7 +248,12 @@ class MyOpcua extends utils.Adapter {
     onStateChange(id, state) {
         if (state) {
             // The state was changed
+            //let idsd= this.getIdByName();
             this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+            this.getObject(id, function (err, obj) {
+                let vbv= obj.common.name;
+
+            });
         } else {
             // The state was deleted
             this.log.info(`state ${id} deleted`);
@@ -147,24 +261,155 @@ class MyOpcua extends utils.Adapter {
     }
 
     // If you need to accept messages in your adapter, uncomment the following block and the corresponding line in the constructor.
-    // /**
-    //  * Some message was sent to this instance over message box. Used by email, pushover, text2speech, ...
-    //  * Using this method requires "common.messagebox" property to be set to true in io-package.json
-    //  * @param {ioBroker.Message} obj
-    //  */
-    // onMessage(obj) {
-    //     if (typeof obj === 'object' && obj.message) {
-    //         if (obj.command === 'send') {
-    //             // e.g. send email or pushover or whatever
-    //             this.log.info('send command');
+    /**
+      * Some message was sent to this instance over message box. Used by email, pushover, text2speech, ...
+      * Using this method requires "common.messagebox" property to be set to true in io-package.json
+      * @param {ioBroker.Message} obj
+      */
+    onMessage(obj) {
+        if (typeof obj === 'object' && obj.message) {
+            if (obj.command === 'send') {
+                // e.g. send email or pushover or whatever
+                this.log.info('send command');
 
-    //             // Send response in callback if required
-    //             if (obj.callback) this.sendTo(obj.from, obj.command, 'Message received', obj.callback);
-    //         }
-    //     }
-    // }
+                // Send response in callback if required
+                if (obj.callback) this.sendTo(obj.from, obj.command, 'Message received', obj.callback);
+            }
+            if (obj.command === 'test') {
+            // e.g. send email or pushover or whatever
+                this.log.info('test command');
 
+                // Send response in callback if required
+                const myfunction = myFunc(payload1, true);
+                const rootfolders = myfunction.browserootfolders(null,true);
+                if (obj.callback) this.sendTo(obj.from, obj.command, rootfolders, obj.callback);
+            }
+            if (obj.command === 'browser') {
+                // e.g. send email or pushover or whatever
+                const nodepayload={
+                    nodeid:obj.message.nodeid,
+                };
+                this.log.info('browser command');
+                // Send response in callback if required
+                const myfunction = myFunc(payload1, true);
+                const nodefolders = myfunction.browser(nodepayload,true);
+                if (obj.callback) this.sendTo(obj.from, obj.command, nodefolders, obj.callback);
+            }
+            if(obj.command==='createstates')
+            // eslint-disable-next-line no-empty
+            {
+                const treepayload={
+                    checkednodes:obj.message.allcheckednodes
+                };
+                this.iteratorfirst(obj.message.allcheckednodes, obj.message.treeData, );
+                const myfunction = myFunc(payload1, true);
+                const checkednodes = myfunction.addmonitorcheckednodes(treepayload,true);
+                let sbcvss= 1+1;
+                //this.iterator(obj.message.treeData,null);
+            }
+        }
+    }
+
+    setstates(data)
+    {
+
+        let obj1 = this.getObject('4850_password_ASCII8', function (err, obj) {
+            // this.setState('4850_password_ASCII8','salam');
+        });
+        /*this.getState(data.displayname,function (err, state){
+            let sdcfk = state;
+        });*/
+        let sdcf =5+5;
+    }
+
+    iteratorfirst(_checkednodes, _tree)
+    {
+        _checkednodes.forEach(async (checkednodeid) => {
+            let retvalue = this.search(_tree, checkednodeid);
+            //printAncestors(_tree, checkednodeid);
+            this.iterator(retvalue,null);
+            let sbcv= 1+1;
+        });
+    }
+
+    search(nodes, value) {
+        let result;
+        nodes.some(o => {
+            let children;
+            if (o.id === value) {
+                return result = o;
+            }
+            if (o.child && (children = this.search(o.child, value))) {
+                return result = Object.assign({}, o, { children });
+            }
+        });
+        return result && [result];
+    }
+
+
+    async iterator(tree, parentnodename)
+    {
+        tree.forEach(async (parentNode) => {
+
+            if(parentnodename!=null)
+            {
+                let checkspecchar = parentnodename.indexOf('.') === -1 ? false : true;
+                if(checkspecchar==true)
+                {
+                    if(parentNode.nodeclass=='Object')
+                    {
+
+                        await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
+                            type: 'channel',
+                            common: {
+                                name: parentNode.id
+                            },
+                            native: {}
+                        });
+                    }
+                    else
+                    {
+                        await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
+                            type: 'state',
+                            common: {
+                                name: parentNode.id,
+                                type: 'number',
+                                role: 'value',
+                                read: true,
+                                write: true,
+                            },
+                            native: {},
+                        });
+                    }
+                }
+            }
+            else
+            {
+                await this.setObjectNotExistsAsync(parentNode.name, {
+                    type: 'channel',
+                    common: {
+                        name: parentNode.id
+                    },
+                    native: {}
+                });
+            }
+
+            if (Object.prototype.hasOwnProperty.call(parentNode,'children')) {
+                if(parentnodename!=null)
+                {
+                    parentnodename+='.'+parentNode.name;
+                    this.iterator(parentNode.children,parentnodename);
+                }
+                else
+                {
+                    this.iterator(parentNode.children,parentNode.name);
+                }
+            }
+        });
+    }
 }
+
+
 
 if (require.main !== module) {
     // Export the constructor in compact mode
@@ -176,5 +421,3 @@ if (require.main !== module) {
     // otherwise start the instance directly
     new MyOpcua();
 }
-
-
