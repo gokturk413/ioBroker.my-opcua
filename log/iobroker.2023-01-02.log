@@ -1,0 +1,169 @@
+2023-01-02 12:52:46.749  - [31merror[39m: my-opcua.0 (12820) my-opcua.0 already running
+2023-01-02 12:52:46.751  - [33mwarn[39m: my-opcua.0 (12820) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2023-01-02 12:53:19.159  - [32minfo[39m: my-opcua.0 (19372) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-02 12:53:21.398  - [32minfo[39m: my-opcua.0 (19372) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-02 12:53:21.399  - [32minfo[39m: my-opcua.0 (19372) config option2: sysadmin
+2023-01-02 12:53:21.417  - [32minfo[39m: my-opcua.0 (19372) test command
+2023-01-02 12:53:21.522  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 12:53:21.529  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 12:53:21.534  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 12:53:21.677  - [32minfo[39m: my-opcua.0 (19372) check user admin pw iobroker: false,system.user.admin
+2023-01-02 12:53:21.682  - [32minfo[39m: my-opcua.0 (19372) check group user admin group admin: false
+2023-01-02 12:53:47.955  - [32minfo[39m: my-opcua.0 (19372) test command
+2023-01-02 12:53:51.540  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable deleted
+2023-01-02 12:55:10.061  - [32minfo[39m: my-opcua.0 (19372) test command
+2023-01-02 12:55:22.430  - [34mdebug[39m: my-opcua.0 (14544) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-02 12:55:22.488  - [34mdebug[39m: my-opcua.0 (14544) Objects client ready ... initialize now
+2023-01-02 12:55:22.493  - [34mdebug[39m: my-opcua.0 (14544) Objects create System PubSub Client
+2023-01-02 12:55:22.496  - [34mdebug[39m: my-opcua.0 (14544) Objects create User PubSub Client
+2023-01-02 12:55:22.535  - [34mdebug[39m: my-opcua.0 (14544) Objects client initialize lua scripts
+2023-01-02 12:55:22.544  - [34mdebug[39m: my-opcua.0 (14544) Objects connected to redis: 127.0.0.1:9001
+2023-01-02 12:55:22.597  - [34mdebug[39m: my-opcua.0 (14544) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-02 12:55:22.608  - [34mdebug[39m: my-opcua.0 (14544) States create System PubSub Client
+2023-01-02 12:55:22.612  - [34mdebug[39m: my-opcua.0 (14544) States create User PubSub Client
+2023-01-02 12:55:22.627  - [34mdebug[39m: my-opcua.0 (14544) States connected to redis: 127.0.0.1:9000
+2023-01-02 12:55:22.758  - [32minfo[39m: my-opcua.0 (14544) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-02 12:55:53.280  - [32minfo[39m: my-opcua.0 (14544) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-02 12:55:53.282  - [32minfo[39m: my-opcua.0 (14544) config option2: sysadmin
+2023-01-02 12:55:57.040  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 12:55:57.062  - [32minfo[39m: my-opcua.0 (14544) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 12:55:57.061  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 12:55:57.073  - [32minfo[39m: my-opcua.0 (14544) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 12:55:57.070  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 12:55:57.082  - [32minfo[39m: my-opcua.0 (14544) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 12:55:57.212  - [32minfo[39m: my-opcua.0 (14544) check user admin pw iobroker: false,system.user.admin
+2023-01-02 12:55:58.710  - [32minfo[39m: my-opcua.0 (14544) check group user admin group admin: false
+2023-01-02 12:56:27.075  - [32minfo[39m: my-opcua.0 (14544) state my-opcua.0.testVariable deleted
+2023-01-02 12:56:27.076  - [32minfo[39m: my-opcua.0 (19372) state my-opcua.0.testVariable deleted
+2023-01-02 12:59:10.800  - [32minfo[39m: my-opcua.0 (19372) browser command
+2023-01-02 12:59:25.272  - [32minfo[39m: my-opcua.0 (19372) browser command
+2023-01-02 12:59:33.991  - [32minfo[39m: my-opcua.0 (14544) browser command
+2023-01-02 12:59:38.620  - [32minfo[39m: my-opcua.0 (14544) browser command
+2023-01-02 13:02:01.449  - [32minfo[39m: my-opcua.0 (19372) Got terminate signal TERMINATE_YOURSELF
+2023-01-02 13:02:01.450  - [32minfo[39m: my-opcua.0 (19372) terminating
+2023-01-02 13:02:01.451  - [32minfo[39m: my-opcua.0 (19372) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2023-01-02 13:02:01.458  - [32minfo[39m: my-opcua.0 (14544) Got terminate signal TERMINATE_YOURSELF
+2023-01-02 13:02:17.974  - [32minfo[39m: my-opcua.0 (14544) test command
+2023-01-02 13:02:38.876  - [32minfo[39m: my-opcua.0 (14544) browser command
+2023-01-02 13:02:54.613  - [32minfo[39m: my-opcua.0 (14544) browser command
+2023-01-02 13:05:19.217  - [34mdebug[39m: my-opcua.0 (19864) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-02 13:05:19.250  - [34mdebug[39m: my-opcua.0 (19864) Objects client ready ... initialize now
+2023-01-02 13:05:19.254  - [34mdebug[39m: my-opcua.0 (19864) Objects create System PubSub Client
+2023-01-02 13:05:19.256  - [34mdebug[39m: my-opcua.0 (19864) Objects create User PubSub Client
+2023-01-02 13:05:19.278  - [34mdebug[39m: my-opcua.0 (19864) Objects client initialize lua scripts
+2023-01-02 13:05:19.286  - [34mdebug[39m: my-opcua.0 (19864) Objects connected to redis: 127.0.0.1:9001
+2023-01-02 13:05:19.318  - [34mdebug[39m: my-opcua.0 (19864) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-02 13:05:19.327  - [34mdebug[39m: my-opcua.0 (19864) States create System PubSub Client
+2023-01-02 13:05:19.330  - [34mdebug[39m: my-opcua.0 (19864) States create User PubSub Client
+2023-01-02 13:05:19.342  - [34mdebug[39m: my-opcua.0 (19864) States connected to redis: 127.0.0.1:9000
+2023-01-02 13:05:19.359  - [31merror[39m: my-opcua.0 (19864) adapter disabled
+2023-01-02 13:05:19.448  - [32minfo[39m: my-opcua.0 (19864) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-02 13:05:23.461  - [32minfo[39m: my-opcua.0 (19864) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-02 13:05:23.463  - [32minfo[39m: my-opcua.0 (19864) config option2: sysadmin
+2023-01-02 13:05:23.969  - [32minfo[39m: my-opcua.0 (19864) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 13:05:23.979  - [32minfo[39m: my-opcua.0 (19864) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:05:23.986  - [32minfo[39m: my-opcua.0 (19864) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:05:24.086  - [32minfo[39m: my-opcua.0 (19864) check user admin pw iobroker: false,system.user.admin
+2023-01-02 13:05:24.727  - [32minfo[39m: my-opcua.0 (19864) check group user admin group admin: false
+2023-01-02 13:05:48.404  - [32minfo[39m: my-opcua.0 (19864) test command
+2023-01-02 13:06:02.195  - [32minfo[39m: my-opcua.0 (19864) state my-opcua.0.testVariable deleted
+2023-01-02 13:06:10.432  - [32minfo[39m: my-opcua.0 (19864) browser command
+2023-01-02 13:06:27.639  - [32minfo[39m: my-opcua.0 (19864) browser command
+2023-01-02 13:08:50.899  - [32minfo[39m: my-opcua.0 (14468) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-02 13:08:51.786  - [32minfo[39m: my-opcua.0 (14468) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-02 13:08:51.786  - [32minfo[39m: my-opcua.0 (14468) config option2: sysadmin
+2023-01-02 13:08:51.827  - [32minfo[39m: my-opcua.0 (14468) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 13:08:51.831  - [32minfo[39m: my-opcua.0 (14468) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:08:51.834  - [32minfo[39m: my-opcua.0 (14468) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:08:51.899  - [32minfo[39m: my-opcua.0 (14468) check user admin pw iobroker: false,system.user.admin
+2023-01-02 13:08:51.902  - [32minfo[39m: my-opcua.0 (14468) check group user admin group admin: false
+2023-01-02 13:08:59.405  - [32minfo[39m: my-opcua.0 (14468) test command
+2023-01-02 13:09:21.835  - [32minfo[39m: my-opcua.0 (14468) state my-opcua.0.testVariable deleted
+2023-01-02 13:09:25.111  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:09:39.791  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:12:02.314  - [32minfo[39m: my-opcua.0 (14468) test command
+2023-01-02 13:12:05.357  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:12:26.990  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:12:46.030  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:12:51.000  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:13:00.672  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:14:12.910  - [32minfo[39m: my-opcua.0 (14468) test command
+2023-01-02 13:14:17.485  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:15:05.916  - [32minfo[39m: my-opcua.0 (14468) test command
+2023-01-02 13:15:08.725  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:15:15.932  - [32minfo[39m: my-opcua.0 (14468) browser command
+2023-01-02 13:16:21.358  - [32minfo[39m: my-opcua.0 (14468) Got terminate signal TERMINATE_YOURSELF
+2023-01-02 13:16:21.359  - [32minfo[39m: my-opcua.0 (14468) terminating
+2023-01-02 13:16:21.360  - [32minfo[39m: my-opcua.0 (14468) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2023-01-02 13:16:28.912  - [34mdebug[39m: my-opcua.0 (10272) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-02 13:16:28.932  - [34mdebug[39m: my-opcua.0 (10272) Objects client ready ... initialize now
+2023-01-02 13:16:28.934  - [34mdebug[39m: my-opcua.0 (10272) Objects create System PubSub Client
+2023-01-02 13:16:28.936  - [34mdebug[39m: my-opcua.0 (10272) Objects create User PubSub Client
+2023-01-02 13:16:28.947  - [34mdebug[39m: my-opcua.0 (10272) Objects client initialize lua scripts
+2023-01-02 13:16:28.951  - [34mdebug[39m: my-opcua.0 (10272) Objects connected to redis: 127.0.0.1:9001
+2023-01-02 13:16:28.968  - [34mdebug[39m: my-opcua.0 (10272) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-02 13:16:28.973  - [34mdebug[39m: my-opcua.0 (10272) States create System PubSub Client
+2023-01-02 13:16:28.975  - [34mdebug[39m: my-opcua.0 (10272) States create User PubSub Client
+2023-01-02 13:16:28.981  - [34mdebug[39m: my-opcua.0 (10272) States connected to redis: 127.0.0.1:9000
+2023-01-02 13:16:28.990  - [31merror[39m: my-opcua.0 (10272) adapter disabled
+2023-01-02 13:16:29.048  - [32minfo[39m: my-opcua.0 (10272) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-02 13:16:33.581  - [32minfo[39m: my-opcua.0 (10272) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-02 13:16:33.583  - [32minfo[39m: my-opcua.0 (10272) config option2: sysadmin
+2023-01-02 13:16:34.318  - [32minfo[39m: my-opcua.0 (10272) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 13:16:34.326  - [32minfo[39m: my-opcua.0 (10272) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:16:34.335  - [32minfo[39m: my-opcua.0 (10272) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:16:34.412  - [32minfo[39m: my-opcua.0 (10272) check user admin pw iobroker: false,system.user.admin
+2023-01-02 13:16:35.010  - [32minfo[39m: my-opcua.0 (10272) check group user admin group admin: false
+2023-01-02 13:16:39.477  - [32minfo[39m: my-opcua.0 (10272) test command
+2023-01-02 13:16:48.044  - [32minfo[39m: my-opcua.0 (10272) browser command
+2023-01-02 13:17:01.620  - [32minfo[39m: my-opcua.0 (10272) browser command
+2023-01-02 13:17:05.175  - [32minfo[39m: my-opcua.0 (10272) state my-opcua.0.testVariable deleted
+2023-01-02 13:21:01.779  - [34mdebug[39m: my-opcua.0 (13140) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-02 13:21:01.803  - [34mdebug[39m: my-opcua.0 (13140) Objects client ready ... initialize now
+2023-01-02 13:21:01.806  - [34mdebug[39m: my-opcua.0 (13140) Objects create System PubSub Client
+2023-01-02 13:21:01.808  - [34mdebug[39m: my-opcua.0 (13140) Objects create User PubSub Client
+2023-01-02 13:21:01.822  - [34mdebug[39m: my-opcua.0 (13140) Objects client initialize lua scripts
+2023-01-02 13:21:01.828  - [34mdebug[39m: my-opcua.0 (13140) Objects connected to redis: 127.0.0.1:9001
+2023-01-02 13:21:01.855  - [34mdebug[39m: my-opcua.0 (13140) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-02 13:21:01.863  - [34mdebug[39m: my-opcua.0 (13140) States create System PubSub Client
+2023-01-02 13:21:01.865  - [34mdebug[39m: my-opcua.0 (13140) States create User PubSub Client
+2023-01-02 13:21:01.875  - [34mdebug[39m: my-opcua.0 (13140) States connected to redis: 127.0.0.1:9000
+2023-01-02 13:21:01.890  - [31merror[39m: my-opcua.0 (13140) adapter disabled
+2023-01-02 13:21:01.962  - [32minfo[39m: my-opcua.0 (13140) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-02 13:21:07.668  - [32minfo[39m: my-opcua.0 (13140) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-02 13:21:07.669  - [32minfo[39m: my-opcua.0 (13140) config option2: sysadmin
+2023-01-02 13:21:08.446  - [32minfo[39m: my-opcua.0 (13140) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 13:21:08.456  - [32minfo[39m: my-opcua.0 (13140) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:21:08.465  - [32minfo[39m: my-opcua.0 (13140) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 13:21:08.545  - [32minfo[39m: my-opcua.0 (13140) check user admin pw iobroker: false,system.user.admin
+2023-01-02 13:21:09.209  - [32minfo[39m: my-opcua.0 (13140) check group user admin group admin: false
+2023-01-02 13:21:13.469  - [32minfo[39m: my-opcua.0 (13140) test command
+2023-01-02 13:21:24.203  - [32minfo[39m: my-opcua.0 (13140) browser command
+2023-01-02 13:21:38.475  - [32minfo[39m: my-opcua.0 (13140) state my-opcua.0.testVariable deleted
+2023-01-02 13:21:44.924  - [32minfo[39m: my-opcua.0 (13140) browser command
+2023-01-02 20:35:53.735  - [34mdebug[39m: my-opcua.0 (9352) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-02 20:35:53.769  - [34mdebug[39m: my-opcua.0 (9352) Objects client ready ... initialize now
+2023-01-02 20:35:53.772  - [34mdebug[39m: my-opcua.0 (9352) Objects create System PubSub Client
+2023-01-02 20:35:53.776  - [34mdebug[39m: my-opcua.0 (9352) Objects create User PubSub Client
+2023-01-02 20:35:53.799  - [34mdebug[39m: my-opcua.0 (9352) Objects client initialize lua scripts
+2023-01-02 20:35:53.809  - [34mdebug[39m: my-opcua.0 (9352) Objects connected to redis: 127.0.0.1:9001
+2023-01-02 20:35:53.844  - [34mdebug[39m: my-opcua.0 (9352) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-02 20:35:53.855  - [34mdebug[39m: my-opcua.0 (9352) States create System PubSub Client
+2023-01-02 20:35:53.858  - [34mdebug[39m: my-opcua.0 (9352) States create User PubSub Client
+2023-01-02 20:35:53.870  - [34mdebug[39m: my-opcua.0 (9352) States connected to redis: 127.0.0.1:9000
+2023-01-02 20:35:53.889  - [31merror[39m: my-opcua.0 (9352) adapter disabled
+2023-01-02 20:35:53.986  - [32minfo[39m: my-opcua.0 (9352) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-02 20:36:06.168  - [32minfo[39m: my-opcua.0 (9352) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-02 20:36:06.169  - [32minfo[39m: my-opcua.0 (9352) config option2: sysadmin
+2023-01-02 20:36:06.902  - [32minfo[39m: my-opcua.0 (9352) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-02 20:36:06.916  - [32minfo[39m: my-opcua.0 (9352) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 20:36:06.924  - [32minfo[39m: my-opcua.0 (9352) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-02 20:36:07.003  - [32minfo[39m: my-opcua.0 (9352) check user admin pw iobroker: false,system.user.admin
+2023-01-02 20:36:07.597  - [32minfo[39m: my-opcua.0 (9352) check group user admin group admin: false
+2023-01-02 20:36:27.142  - [32minfo[39m: my-opcua.0 (9352) test command
+2023-01-02 20:36:35.000  - [32minfo[39m: my-opcua.0 (9352) browser command
+2023-01-02 20:36:36.935  - [32minfo[39m: my-opcua.0 (9352) state my-opcua.0.testVariable deleted
+2023-01-02 20:36:47.488  - [32minfo[39m: my-opcua.0 (9352) browser command
+2023-01-02 20:38:46.540  - [32minfo[39m: my-opcua.0 (9352) test command
+2023-01-02 20:40:41.688  - [32minfo[39m: my-opcua.0 (9352) test command
+2023-01-02 20:40:54.998  - [32minfo[39m: my-opcua.0 (9352) browser command

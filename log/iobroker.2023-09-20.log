@@ -1,0 +1,465 @@
+2023-09-20 11:15:16.017  - [32minfo[39m: my-opcua.0 (17488) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 11:15:20.737  - [31merror[39m: my-opcua.0 (17488) uncaught exception: Invalid URI: The URI is empty.
+2023-09-20 11:15:20.738  - [31merror[39m: my-opcua.0 (17488) Error: Invalid URI: The URI is empty.
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 11:15:20.739  - [31merror[39m: my-opcua.0 (17488) Invalid URI: The URI is empty.
+2023-09-20 11:15:20.876  - [31merror[39m: my-opcua.0 (17488) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 11:15:20.877  - [31merror[39m: my-opcua.0 (17488) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 11:15:20.877  - [31merror[39m: my-opcua.0 (17488) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 11:15:20.878  - [31merror[39m: my-opcua.0 (17488) Cannot browse if not connected to a server.
+2023-09-20 11:15:20.887  - [32minfo[39m: my-opcua.0 (17488) terminating
+2023-09-20 11:15:20.888  - [33mwarn[39m: my-opcua.0 (17488) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 11:15:35.386  - [32minfo[39m: my-opcua.0 (16772) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 11:15:38.322  - [32minfo[39m: my-opcua.0 (16772) config option1: opc.tcp://my_pc:62541/OpenIndustryFramework/OPCUAServer
+2023-09-20 11:15:38.322  - [32minfo[39m: my-opcua.0 (16772) config option2: sysadmin
+2023-09-20 11:15:38.336  - [33mwarn[39m: my-opcua.0 (16772) State "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has no existing object, this might lead to an error in future versions
+2023-09-20 11:15:38.345  - [32minfo[39m: my-opcua.0 (16772) state my-opcua.0.testVariable changed: true (ack = false)
+2023-09-20 11:15:38.350  - [32minfo[39m: my-opcua.0 (16772) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 11:15:38.353  - [32minfo[39m: my-opcua.0 (16772) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 11:15:38.466  - [32minfo[39m: my-opcua.0 (16772) check user admin pw iobroker: false,system.user.admin
+2023-09-20 11:15:38.468  - [32minfo[39m: my-opcua.0 (16772) check group user admin group admin: false
+2023-09-20 11:15:54.974  - [32minfo[39m: my-opcua.0 (16772) test command
+2023-09-20 11:16:06.635  - [32minfo[39m: my-opcua.0 (16772) browser command
+2023-09-20 11:16:08.361  - [32minfo[39m: my-opcua.0 (16772) state my-opcua.0.testVariable deleted
+2023-09-20 11:16:10.881  - [32minfo[39m: my-opcua.0 (16772) browser command
+2023-09-20 11:16:18.223  - [32minfo[39m: my-opcua.0 (16772) browser command
+2023-09-20 11:19:30.505  - [32minfo[39m: my-opcua.0 (16772) Got terminate signal TERMINATE_YOURSELF
+2023-09-20 11:19:30.506  - [32minfo[39m: my-opcua.0 (16772) terminating
+2023-09-20 11:19:30.507  - [32minfo[39m: my-opcua.0 (16772) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2023-09-20 11:20:20.211  - [32minfo[39m: my-opcua.0 (19824) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 11:20:21.269  - [32minfo[39m: my-opcua.0 (19824) config option1: opc.tcp://my_pc:62541/OpenIndustryFramework/OPCUAServer
+2023-09-20 11:20:21.269  - [32minfo[39m: my-opcua.0 (19824) config option2: sysadmin
+2023-09-20 11:20:21.282  - [32minfo[39m: my-opcua.0 (19824) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-09-20 11:20:21.286  - [32minfo[39m: my-opcua.0 (19824) state my-opcua.0.info.connection changed: true (ack = true)
+2023-09-20 11:20:21.287  - [32minfo[39m: my-opcua.0 (19824) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-09-20 11:20:21.289  - [32minfo[39m: my-opcua.0 (19824) state my-opcua.0.testVariable changed: true (ack = false)
+2023-09-20 11:20:21.292  - [32minfo[39m: my-opcua.0 (19824) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 11:20:21.296  - [32minfo[39m: my-opcua.0 (19824) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 11:20:21.384  - [32minfo[39m: my-opcua.0 (19824) check user admin pw iobroker: false,system.user.admin
+2023-09-20 11:20:21.386  - [32minfo[39m: my-opcua.0 (19824) check group user admin group admin: false
+2023-09-20 11:20:33.563  - [32minfo[39m: my-opcua.0 (19824) Got terminate signal TERMINATE_YOURSELF
+2023-09-20 11:20:33.564  - [32minfo[39m: my-opcua.0 (19824) terminating
+2023-09-20 11:20:33.564  - [32minfo[39m: my-opcua.0 (19824) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2023-09-20 12:18:57.271  - [34mdebug[39m: my-opcua.0 (19380) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 12:18:57.309  - [34mdebug[39m: my-opcua.0 (19380) Objects client ready ... initialize now
+2023-09-20 12:18:57.312  - [34mdebug[39m: my-opcua.0 (19380) Objects create System PubSub Client
+2023-09-20 12:18:57.314  - [34mdebug[39m: my-opcua.0 (19380) Objects create User PubSub Client
+2023-09-20 12:18:57.340  - [34mdebug[39m: my-opcua.0 (19380) Objects client initialize lua scripts
+2023-09-20 12:18:57.345  - [34mdebug[39m: my-opcua.0 (19380) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 12:18:57.376  - [34mdebug[39m: my-opcua.0 (19380) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 12:18:57.385  - [34mdebug[39m: my-opcua.0 (19380) States create System PubSub Client
+2023-09-20 12:18:57.387  - [34mdebug[39m: my-opcua.0 (19380) States create User PubSub Client
+2023-09-20 12:18:57.401  - [34mdebug[39m: my-opcua.0 (19380) States connected to redis: 127.0.0.1:9000
+2023-09-20 12:18:57.419  - [31merror[39m: my-opcua.0 (19380) adapter disabled
+2023-09-20 12:18:57.488  - [32minfo[39m: my-opcua.0 (19380) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 12:19:03.998  - [31merror[39m: my-opcua.0 (19380) uncaught exception: Error establishing a connection: BadNotConnected
+2023-09-20 12:19:04.000  - [31merror[39m: my-opcua.0 (19380) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 12:19:04.000  - [31merror[39m: my-opcua.0 (19380) Error establishing a connection: BadNotConnected
+2023-09-20 12:19:04.035  - [31merror[39m: my-opcua.0 (19380) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 12:19:04.036  - [31merror[39m: my-opcua.0 (19380) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 12:19:04.036  - [31merror[39m: my-opcua.0 (19380) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 12:19:04.037  - [31merror[39m: my-opcua.0 (19380) Cannot browse if not connected to a server.
+2023-09-20 12:19:04.042  - [32minfo[39m: my-opcua.0 (19380) terminating
+2023-09-20 12:19:04.043  - [33mwarn[39m: my-opcua.0 (19380) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 12:20:11.012  - [34mdebug[39m: my-opcua.0 (10468) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 12:20:11.039  - [34mdebug[39m: my-opcua.0 (10468) Objects client ready ... initialize now
+2023-09-20 12:20:11.041  - [34mdebug[39m: my-opcua.0 (10468) Objects create System PubSub Client
+2023-09-20 12:20:11.043  - [34mdebug[39m: my-opcua.0 (10468) Objects create User PubSub Client
+2023-09-20 12:20:11.063  - [34mdebug[39m: my-opcua.0 (10468) Objects client initialize lua scripts
+2023-09-20 12:20:11.067  - [34mdebug[39m: my-opcua.0 (10468) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 12:20:11.093  - [34mdebug[39m: my-opcua.0 (10468) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 12:20:11.098  - [34mdebug[39m: my-opcua.0 (10468) States create System PubSub Client
+2023-09-20 12:20:11.099  - [34mdebug[39m: my-opcua.0 (10468) States create User PubSub Client
+2023-09-20 12:20:11.106  - [34mdebug[39m: my-opcua.0 (10468) States connected to redis: 127.0.0.1:9000
+2023-09-20 12:20:11.117  - [31merror[39m: my-opcua.0 (10468) adapter disabled
+2023-09-20 12:20:11.181  - [32minfo[39m: my-opcua.0 (10468) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 12:20:17.266  - [31merror[39m: my-opcua.0 (10468) uncaught exception: Error establishing a connection: BadNotConnected
+2023-09-20 12:20:17.267  - [31merror[39m: my-opcua.0 (10468) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 12:20:17.268  - [31merror[39m: my-opcua.0 (10468) Error establishing a connection: BadNotConnected
+2023-09-20 12:20:17.299  - [31merror[39m: my-opcua.0 (10468) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 12:20:17.300  - [31merror[39m: my-opcua.0 (10468) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 12:20:17.301  - [31merror[39m: my-opcua.0 (10468) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 12:20:17.301  - [31merror[39m: my-opcua.0 (10468) Cannot browse if not connected to a server.
+2023-09-20 12:20:17.306  - [32minfo[39m: my-opcua.0 (10468) terminating
+2023-09-20 12:20:17.308  - [33mwarn[39m: my-opcua.0 (10468) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 12:42:43.396  - [34mdebug[39m: my-opcua.0 (9848) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 12:42:43.439  - [34mdebug[39m: my-opcua.0 (9848) Objects client ready ... initialize now
+2023-09-20 12:42:43.442  - [34mdebug[39m: my-opcua.0 (9848) Objects create System PubSub Client
+2023-09-20 12:42:43.445  - [34mdebug[39m: my-opcua.0 (9848) Objects create User PubSub Client
+2023-09-20 12:42:43.480  - [34mdebug[39m: my-opcua.0 (9848) Objects client initialize lua scripts
+2023-09-20 12:42:43.489  - [34mdebug[39m: my-opcua.0 (9848) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 12:42:43.529  - [34mdebug[39m: my-opcua.0 (9848) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 12:42:43.540  - [34mdebug[39m: my-opcua.0 (9848) States create System PubSub Client
+2023-09-20 12:42:43.542  - [34mdebug[39m: my-opcua.0 (9848) States create User PubSub Client
+2023-09-20 12:42:43.553  - [34mdebug[39m: my-opcua.0 (9848) States connected to redis: 127.0.0.1:9000
+2023-09-20 12:42:43.570  - [31merror[39m: my-opcua.0 (9848) adapter disabled
+2023-09-20 12:42:43.656  - [32minfo[39m: my-opcua.0 (9848) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 12:42:45.862  - [32minfo[39m: my-opcua.0 (9848) config option1: opc.tcp://my_pc:62541/OpenIndustryFramework/OPCUAServer
+2023-09-20 12:42:45.863  - [32minfo[39m: my-opcua.0 (9848) config option2: sysadmin
+2023-09-20 12:42:45.892  - [32minfo[39m: my-opcua.0 (9848) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-09-20 12:42:45.901  - [32minfo[39m: my-opcua.0 (9848) state my-opcua.0.info.connection changed: true (ack = true)
+2023-09-20 12:42:45.905  - [32minfo[39m: my-opcua.0 (9848) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-09-20 12:42:45.910  - [32minfo[39m: my-opcua.0 (9848) state my-opcua.0.testVariable changed: true (ack = false)
+2023-09-20 12:42:45.915  - [32minfo[39m: my-opcua.0 (9848) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 12:42:45.923  - [32minfo[39m: my-opcua.0 (9848) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 12:42:46.038  - [32minfo[39m: my-opcua.0 (9848) check user admin pw iobroker: false,system.user.admin
+2023-09-20 12:42:46.045  - [32minfo[39m: my-opcua.0 (9848) check group user admin group admin: false
+2023-09-20 12:43:38.800  - [32minfo[39m: my-opcua.0 (9848) state my-opcua.0.testVariable deleted
+2023-09-20 12:58:46.424  - [32minfo[39m: my-opcua.0 (9848) test command
+2023-09-20 12:58:52.138  - [32minfo[39m: my-opcua.0 (9848) browser command
+2023-09-20 12:58:55.177  - [32minfo[39m: my-opcua.0 (9848) browser command
+2023-09-20 13:45:47.930  - [32minfo[39m: my-opcua.0 (9848) test command
+2023-09-20 13:45:54.270  - [32minfo[39m: my-opcua.0 (9848) browser command
+2023-09-20 13:46:02.693  - [32minfo[39m: my-opcua.0 (9848) browser command
+2023-09-20 14:45:26.133  - [32minfo[39m: my-opcua.0 (1208) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:45:27.425  - [31merror[39m: my-opcua.0 (1208) uncaught exception: Error establishing a connection: Error received from remote host: An error occurred verifying security.
+2023-09-20 14:45:27.427  - [31merror[39m: my-opcua.0 (1208) Error: Error establishing a connection: Error received from remote host: An error occurred verifying security.
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:45:27.428  - [31merror[39m: my-opcua.0 (1208) Error establishing a connection: Error received from remote host: An error occurred verifying security.
+2023-09-20 14:45:27.459  - [31merror[39m: my-opcua.0 (1208) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:45:27.459  - [31merror[39m: my-opcua.0 (1208) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:45:27.459  - [31merror[39m: my-opcua.0 (1208) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:45:27.460  - [31merror[39m: my-opcua.0 (1208) Cannot browse if not connected to a server.
+2023-09-20 14:45:27.463  - [32minfo[39m: my-opcua.0 (1208) terminating
+2023-09-20 14:45:27.464  - [33mwarn[39m: my-opcua.0 (1208) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:46:01.069  - [32minfo[39m: my-opcua.0 (26032) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:46:02.259  - [31merror[39m: my-opcua.0 (26032) uncaught exception: Error establishing a connection: Error received from remote host: An error occurred verifying security.
+2023-09-20 14:46:02.261  - [31merror[39m: my-opcua.0 (26032) Error: Error establishing a connection: Error received from remote host: An error occurred verifying security.
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:46:02.261  - [31merror[39m: my-opcua.0 (26032) Error establishing a connection: Error received from remote host: An error occurred verifying security.
+2023-09-20 14:46:02.294  - [31merror[39m: my-opcua.0 (26032) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:46:02.294  - [31merror[39m: my-opcua.0 (26032) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:46:02.294  - [31merror[39m: my-opcua.0 (26032) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:46:02.294  - [31merror[39m: my-opcua.0 (26032) Cannot browse if not connected to a server.
+2023-09-20 14:46:02.297  - [32minfo[39m: my-opcua.0 (26032) terminating
+2023-09-20 14:46:02.298  - [33mwarn[39m: my-opcua.0 (26032) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:46:32.209  - [32minfo[39m: my-opcua.0 (16660) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:46:33.837  - [31merror[39m: my-opcua.0 (16660) uncaught exception: BadUserAccessDenied
+2023-09-20 14:46:33.839  - [31merror[39m: my-opcua.0 (16660) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:46:33.839  - [31merror[39m: my-opcua.0 (16660) BadUserAccessDenied
+2023-09-20 14:46:33.867  - [31merror[39m: my-opcua.0 (16660) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:46:33.867  - [31merror[39m: my-opcua.0 (16660) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:46:33.868  - [31merror[39m: my-opcua.0 (16660) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:46:33.868  - [31merror[39m: my-opcua.0 (16660) Cannot browse if not connected to a server.
+2023-09-20 14:46:33.869  - [32minfo[39m: my-opcua.0 (16660) terminating
+2023-09-20 14:46:33.870  - [33mwarn[39m: my-opcua.0 (16660) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:50:54.333  - [32minfo[39m: my-opcua.0 (22840) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:50:56.039  - [31merror[39m: my-opcua.0 (22840) uncaught exception: BadUserAccessDenied
+2023-09-20 14:50:56.041  - [31merror[39m: my-opcua.0 (22840) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:50:56.041  - [31merror[39m: my-opcua.0 (22840) BadUserAccessDenied
+2023-09-20 14:50:56.065  - [31merror[39m: my-opcua.0 (22840) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:50:56.065  - [31merror[39m: my-opcua.0 (22840) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:50:56.066  - [31merror[39m: my-opcua.0 (22840) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:50:56.066  - [31merror[39m: my-opcua.0 (22840) Cannot browse if not connected to a server.
+2023-09-20 14:50:56.068  - [32minfo[39m: my-opcua.0 (22840) terminating
+2023-09-20 14:50:56.068  - [33mwarn[39m: my-opcua.0 (22840) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:51:29.612  - [32minfo[39m: my-opcua.0 (24032) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:51:31.245  - [31merror[39m: my-opcua.0 (24032) uncaught exception: BadUserAccessDenied
+2023-09-20 14:51:31.247  - [31merror[39m: my-opcua.0 (24032) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:51:31.247  - [31merror[39m: my-opcua.0 (24032) BadUserAccessDenied
+2023-09-20 14:51:31.275  - [31merror[39m: my-opcua.0 (24032) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:51:31.276  - [31merror[39m: my-opcua.0 (24032) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:51:31.276  - [31merror[39m: my-opcua.0 (24032) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:51:31.276  - [31merror[39m: my-opcua.0 (24032) Cannot browse if not connected to a server.
+2023-09-20 14:51:31.278  - [32minfo[39m: my-opcua.0 (24032) terminating
+2023-09-20 14:51:31.279  - [33mwarn[39m: my-opcua.0 (24032) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:52:04.904  - [32minfo[39m: my-opcua.0 (18700) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:52:06.678  - [31merror[39m: my-opcua.0 (18700) uncaught exception: BadUserAccessDenied
+2023-09-20 14:52:06.681  - [31merror[39m: my-opcua.0 (18700) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:52:06.682  - [31merror[39m: my-opcua.0 (18700) BadUserAccessDenied
+2023-09-20 14:52:06.733  - [31merror[39m: my-opcua.0 (18700) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:52:06.733  - [31merror[39m: my-opcua.0 (18700) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:52:06.733  - [31merror[39m: my-opcua.0 (18700) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:52:06.734  - [31merror[39m: my-opcua.0 (18700) Cannot browse if not connected to a server.
+2023-09-20 14:52:06.736  - [32minfo[39m: my-opcua.0 (18700) terminating
+2023-09-20 14:52:06.737  - [33mwarn[39m: my-opcua.0 (18700) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:52:54.814  - [32minfo[39m: my-opcua.0 (22656) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:52:56.594  - [31merror[39m: my-opcua.0 (22656) uncaught exception: BadUserAccessDenied
+2023-09-20 14:52:56.596  - [31merror[39m: my-opcua.0 (22656) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:52:56.596  - [31merror[39m: my-opcua.0 (22656) BadUserAccessDenied
+2023-09-20 14:52:56.624  - [31merror[39m: my-opcua.0 (22656) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:52:56.624  - [31merror[39m: my-opcua.0 (22656) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:52:56.624  - [31merror[39m: my-opcua.0 (22656) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:52:56.624  - [31merror[39m: my-opcua.0 (22656) Cannot browse if not connected to a server.
+2023-09-20 14:52:56.626  - [32minfo[39m: my-opcua.0 (22656) terminating
+2023-09-20 14:52:56.627  - [33mwarn[39m: my-opcua.0 (22656) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:52:56.632  - [32minfo[39m: my-opcua.0 (22656) Got terminate signal TERMINATE_YOURSELF
+2023-09-20 14:52:56.650  - [32minfo[39m: my-opcua.0 (22656) Got terminate signal TERMINATE_YOURSELF
+2023-09-20 14:52:58.503  - [32minfo[39m: my-opcua.0 (18732) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:53:00.173  - [31merror[39m: my-opcua.0 (18732) uncaught exception: BadUserAccessDenied
+2023-09-20 14:53:00.175  - [31merror[39m: my-opcua.0 (18732) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:53:00.176  - [31merror[39m: my-opcua.0 (18732) BadUserAccessDenied
+2023-09-20 14:53:00.200  - [31merror[39m: my-opcua.0 (18732) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:53:00.200  - [31merror[39m: my-opcua.0 (18732) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:53:00.201  - [31merror[39m: my-opcua.0 (18732) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:53:00.201  - [31merror[39m: my-opcua.0 (18732) Cannot browse if not connected to a server.
+2023-09-20 14:53:00.203  - [32minfo[39m: my-opcua.0 (18732) terminating
+2023-09-20 14:53:00.203  - [33mwarn[39m: my-opcua.0 (18732) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:53:00.208  - [32minfo[39m: my-opcua.0 (18732) Got terminate signal TERMINATE_YOURSELF
+2023-09-20 14:53:00.209  - [32minfo[39m: my-opcua.0 (18732) Got terminate signal TERMINATE_YOURSELF
+2023-09-20 14:53:00.209  - [32minfo[39m: my-opcua.0 (18732) Got terminate signal TERMINATE_YOURSELF
+2023-09-20 14:53:03.490  - [32minfo[39m: my-opcua.0 (15512) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:53:05.405  - [31merror[39m: my-opcua.0 (15512) uncaught exception: BadUserAccessDenied
+2023-09-20 14:53:05.407  - [31merror[39m: my-opcua.0 (15512) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:53:05.408  - [31merror[39m: my-opcua.0 (15512) BadUserAccessDenied
+2023-09-20 14:53:05.442  - [31merror[39m: my-opcua.0 (15512) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:53:05.442  - [31merror[39m: my-opcua.0 (15512) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:53:05.443  - [31merror[39m: my-opcua.0 (15512) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:53:05.443  - [31merror[39m: my-opcua.0 (15512) Cannot browse if not connected to a server.
+2023-09-20 14:53:05.445  - [32minfo[39m: my-opcua.0 (15512) terminating
+2023-09-20 14:53:05.446  - [33mwarn[39m: my-opcua.0 (15512) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:53:38.927  - [31merror[39m: my-opcua.0 (22184) adapter disabled
+2023-09-20 14:53:38.931  - [33mwarn[39m: my-opcua.0 (22184) Terminated (NO_ADAPTER_CONFIG_FOUND): Without reason
+2023-09-20 14:53:42.060  - [32minfo[39m: my-opcua.0 (20772) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 14:53:43.767  - [31merror[39m: my-opcua.0 (20772) uncaught exception: BadUserAccessDenied
+2023-09-20 14:53:43.769  - [31merror[39m: my-opcua.0 (20772) Error: BadUserAccessDenied
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:9)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:53:43.769  - [31merror[39m: my-opcua.0 (20772) BadUserAccessDenied
+2023-09-20 14:53:43.790  - [31merror[39m: my-opcua.0 (20772) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 14:53:43.791  - [31merror[39m: my-opcua.0 (20772) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-09-20 14:53:43.791  - [31merror[39m: my-opcua.0 (20772) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:131:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 14:53:43.791  - [31merror[39m: my-opcua.0 (20772) Cannot browse if not connected to a server.
+2023-09-20 14:53:43.793  - [32minfo[39m: my-opcua.0 (20772) terminating
+2023-09-20 14:53:43.794  - [33mwarn[39m: my-opcua.0 (20772) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 14:54:17.306  - [31merror[39m: my-opcua.0 (23496) adapter disabled
+2023-09-20 14:54:17.310  - [33mwarn[39m: my-opcua.0 (23496) Terminated (NO_ADAPTER_CONFIG_FOUND): Without reason
+2023-09-20 15:05:44.352  - [34mdebug[39m: my-opcua.0 (13832) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 15:05:44.379  - [34mdebug[39m: my-opcua.0 (13832) Objects client ready ... initialize now
+2023-09-20 15:05:44.385  - [34mdebug[39m: my-opcua.0 (13832) Objects create System PubSub Client
+2023-09-20 15:05:44.387  - [34mdebug[39m: my-opcua.0 (13832) Objects create User PubSub Client
+2023-09-20 15:05:44.406  - [34mdebug[39m: my-opcua.0 (13832) Objects client initialize lua scripts
+2023-09-20 15:05:44.410  - [34mdebug[39m: my-opcua.0 (13832) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 15:05:44.429  - [34mdebug[39m: my-opcua.0 (13832) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 15:05:44.434  - [34mdebug[39m: my-opcua.0 (13832) States create System PubSub Client
+2023-09-20 15:05:44.435  - [34mdebug[39m: my-opcua.0 (13832) States create User PubSub Client
+2023-09-20 15:05:44.441  - [34mdebug[39m: my-opcua.0 (13832) States connected to redis: 127.0.0.1:9000
+2023-09-20 15:05:44.462  - [31merror[39m: my-opcua.0 (13832) adapter disabled
+2023-09-20 15:05:44.537  - [32minfo[39m: my-opcua.0 (13832) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 15:05:46.010  - [31merror[39m: my-opcua.0 (13832) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 15:05:46.012  - [31merror[39m: my-opcua.0 (13832) unhandled promise rejection: BadNodeIdUnknown
+2023-09-20 15:05:46.013  - [31merror[39m: my-opcua.0 (13832) Error: BadNodeIdUnknown
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:133:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 15:05:46.014  - [31merror[39m: my-opcua.0 (13832) BadNodeIdUnknown
+2023-09-20 15:05:46.021  - [32minfo[39m: my-opcua.0 (13832) terminating
+2023-09-20 15:05:46.023  - [33mwarn[39m: my-opcua.0 (13832) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 15:07:07.401  - [34mdebug[39m: my-opcua.0 (26756) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 15:07:07.421  - [34mdebug[39m: my-opcua.0 (26756) Objects client ready ... initialize now
+2023-09-20 15:07:07.422  - [34mdebug[39m: my-opcua.0 (26756) Objects create System PubSub Client
+2023-09-20 15:07:07.424  - [34mdebug[39m: my-opcua.0 (26756) Objects create User PubSub Client
+2023-09-20 15:07:07.439  - [34mdebug[39m: my-opcua.0 (26756) Objects client initialize lua scripts
+2023-09-20 15:07:07.442  - [34mdebug[39m: my-opcua.0 (26756) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 15:07:07.466  - [34mdebug[39m: my-opcua.0 (26756) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 15:07:07.471  - [34mdebug[39m: my-opcua.0 (26756) States create System PubSub Client
+2023-09-20 15:07:07.472  - [34mdebug[39m: my-opcua.0 (26756) States create User PubSub Client
+2023-09-20 15:07:07.479  - [34mdebug[39m: my-opcua.0 (26756) States connected to redis: 127.0.0.1:9000
+2023-09-20 15:07:07.489  - [31merror[39m: my-opcua.0 (26756) adapter disabled
+2023-09-20 15:07:07.547  - [32minfo[39m: my-opcua.0 (26756) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 15:07:22.482  - [31merror[39m: my-opcua.0 (26756) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 15:07:22.484  - [31merror[39m: my-opcua.0 (26756) unhandled promise rejection: BadNodeIdUnknown
+2023-09-20 15:07:22.485  - [31merror[39m: my-opcua.0 (26756) Error: BadNodeIdUnknown
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:133:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 15:07:22.486  - [31merror[39m: my-opcua.0 (26756) BadNodeIdUnknown
+2023-09-20 15:07:22.493  - [32minfo[39m: my-opcua.0 (26756) terminating
+2023-09-20 15:07:22.495  - [33mwarn[39m: my-opcua.0 (26756) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 15:08:22.345  - [34mdebug[39m: my-opcua.0 (23188) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 15:08:22.367  - [34mdebug[39m: my-opcua.0 (23188) Objects client ready ... initialize now
+2023-09-20 15:08:22.369  - [34mdebug[39m: my-opcua.0 (23188) Objects create System PubSub Client
+2023-09-20 15:08:22.371  - [34mdebug[39m: my-opcua.0 (23188) Objects create User PubSub Client
+2023-09-20 15:08:22.384  - [34mdebug[39m: my-opcua.0 (23188) Objects client initialize lua scripts
+2023-09-20 15:08:22.387  - [34mdebug[39m: my-opcua.0 (23188) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 15:08:22.407  - [34mdebug[39m: my-opcua.0 (23188) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 15:08:22.413  - [34mdebug[39m: my-opcua.0 (23188) States create System PubSub Client
+2023-09-20 15:08:22.416  - [34mdebug[39m: my-opcua.0 (23188) States create User PubSub Client
+2023-09-20 15:08:22.421  - [34mdebug[39m: my-opcua.0 (23188) States connected to redis: 127.0.0.1:9000
+2023-09-20 15:08:22.430  - [31merror[39m: my-opcua.0 (23188) adapter disabled
+2023-09-20 15:08:22.483  - [32minfo[39m: my-opcua.0 (23188) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 15:08:27.455  - [31merror[39m: my-opcua.0 (23188) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 15:08:27.457  - [31merror[39m: my-opcua.0 (23188) unhandled promise rejection: BadNodeIdUnknown
+2023-09-20 15:08:27.458  - [31merror[39m: my-opcua.0 (23188) Error: BadNodeIdUnknown
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:133:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 15:08:27.459  - [31merror[39m: my-opcua.0 (23188) BadNodeIdUnknown
+2023-09-20 15:08:27.465  - [32minfo[39m: my-opcua.0 (23188) terminating
+2023-09-20 15:08:27.466  - [33mwarn[39m: my-opcua.0 (23188) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 15:09:21.588  - [34mdebug[39m: my-opcua.0 (25464) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 15:09:21.610  - [34mdebug[39m: my-opcua.0 (25464) Objects client ready ... initialize now
+2023-09-20 15:09:21.612  - [34mdebug[39m: my-opcua.0 (25464) Objects create System PubSub Client
+2023-09-20 15:09:21.616  - [34mdebug[39m: my-opcua.0 (25464) Objects create User PubSub Client
+2023-09-20 15:09:21.632  - [34mdebug[39m: my-opcua.0 (25464) Objects client initialize lua scripts
+2023-09-20 15:09:21.636  - [34mdebug[39m: my-opcua.0 (25464) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 15:09:21.656  - [34mdebug[39m: my-opcua.0 (25464) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 15:09:21.661  - [34mdebug[39m: my-opcua.0 (25464) States create System PubSub Client
+2023-09-20 15:09:21.663  - [34mdebug[39m: my-opcua.0 (25464) States create User PubSub Client
+2023-09-20 15:09:21.671  - [34mdebug[39m: my-opcua.0 (25464) States connected to redis: 127.0.0.1:9000
+2023-09-20 15:09:21.683  - [31merror[39m: my-opcua.0 (25464) adapter disabled
+2023-09-20 15:09:21.735  - [32minfo[39m: my-opcua.0 (25464) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 15:09:53.162  - [31merror[39m: my-opcua.0 (25464) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-09-20 15:09:53.163  - [31merror[39m: my-opcua.0 (25464) unhandled promise rejection: BadNodeIdUnknown
+2023-09-20 15:09:53.164  - [31merror[39m: my-opcua.0 (25464) Error: BadNodeIdUnknown
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:133:35)
+    at MyOpcua.emit (node:events:513:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-09-20 15:09:53.165  - [31merror[39m: my-opcua.0 (25464) BadNodeIdUnknown
+2023-09-20 15:09:53.182  - [32minfo[39m: my-opcua.0 (25464) terminating
+2023-09-20 15:09:53.184  - [33mwarn[39m: my-opcua.0 (25464) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-09-20 15:12:30.407  - [34mdebug[39m: my-opcua.0 (17652) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 15:12:30.426  - [34mdebug[39m: my-opcua.0 (17652) Objects client ready ... initialize now
+2023-09-20 15:12:30.427  - [34mdebug[39m: my-opcua.0 (17652) Objects create System PubSub Client
+2023-09-20 15:12:30.428  - [34mdebug[39m: my-opcua.0 (17652) Objects create User PubSub Client
+2023-09-20 15:12:30.440  - [34mdebug[39m: my-opcua.0 (17652) Objects client initialize lua scripts
+2023-09-20 15:12:30.443  - [34mdebug[39m: my-opcua.0 (17652) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 15:12:30.463  - [34mdebug[39m: my-opcua.0 (17652) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 15:12:30.467  - [34mdebug[39m: my-opcua.0 (17652) States create System PubSub Client
+2023-09-20 15:12:30.469  - [34mdebug[39m: my-opcua.0 (17652) States create User PubSub Client
+2023-09-20 15:12:30.474  - [34mdebug[39m: my-opcua.0 (17652) States connected to redis: 127.0.0.1:9000
+2023-09-20 15:12:30.483  - [31merror[39m: my-opcua.0 (17652) adapter disabled
+2023-09-20 15:12:30.537  - [32minfo[39m: my-opcua.0 (17652) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 15:12:37.673  - [32minfo[39m: my-opcua.0 (17652) config option1: opc.tcp://127.0.0.1:49320
+2023-09-20 15:12:37.674  - [32minfo[39m: my-opcua.0 (17652) config option2: admin
+2023-09-20 15:12:37.697  - [32minfo[39m: my-opcua.0 (17652) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-09-20 15:12:37.708  - [32minfo[39m: my-opcua.0 (17652) state my-opcua.0.info.connection changed: true (ack = true)
+2023-09-20 15:12:37.712  - [32minfo[39m: my-opcua.0 (17652) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-09-20 15:12:37.721  - [32minfo[39m: my-opcua.0 (17652) state my-opcua.0.testVariable changed: true (ack = false)
+2023-09-20 15:12:37.729  - [32minfo[39m: my-opcua.0 (17652) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 15:12:37.737  - [32minfo[39m: my-opcua.0 (17652) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 15:12:37.841  - [32minfo[39m: my-opcua.0 (17652) check user admin pw iobroker: false,system.user.admin
+2023-09-20 15:12:37.845  - [32minfo[39m: my-opcua.0 (17652) check group user admin group admin: false
+2023-09-20 15:12:59.301  - [32minfo[39m: my-opcua.0 (17652) test command
+2023-09-20 15:13:07.740  - [32minfo[39m: my-opcua.0 (17652) state my-opcua.0.testVariable deleted
+2023-09-20 15:13:11.425  - [32minfo[39m: my-opcua.0 (17652) browser command
+2023-09-20 15:13:14.336  - [32minfo[39m: my-opcua.0 (17652) browser command
+2023-09-20 15:34:55.971  - [34mdebug[39m: my-opcua.0 (25636) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-20 15:34:55.994  - [34mdebug[39m: my-opcua.0 (25636) Objects client ready ... initialize now
+2023-09-20 15:34:55.996  - [34mdebug[39m: my-opcua.0 (25636) Objects create System PubSub Client
+2023-09-20 15:34:55.998  - [34mdebug[39m: my-opcua.0 (25636) Objects create User PubSub Client
+2023-09-20 15:34:56.012  - [34mdebug[39m: my-opcua.0 (25636) Objects client initialize lua scripts
+2023-09-20 15:34:56.015  - [34mdebug[39m: my-opcua.0 (25636) Objects connected to redis: 127.0.0.1:9001
+2023-09-20 15:34:56.043  - [34mdebug[39m: my-opcua.0 (25636) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-20 15:34:56.047  - [34mdebug[39m: my-opcua.0 (25636) States create System PubSub Client
+2023-09-20 15:34:56.049  - [34mdebug[39m: my-opcua.0 (25636) States create User PubSub Client
+2023-09-20 15:34:56.055  - [34mdebug[39m: my-opcua.0 (25636) States connected to redis: 127.0.0.1:9000
+2023-09-20 15:34:56.071  - [31merror[39m: my-opcua.0 (25636) adapter disabled
+2023-09-20 15:34:56.126  - [32minfo[39m: my-opcua.0 (25636) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-20 15:35:01.542  - [32minfo[39m: my-opcua.0 (25636) config option1: opc.tcp://127.0.0.1:49320
+2023-09-20 15:35:01.543  - [32minfo[39m: my-opcua.0 (25636) config option2: admin
+2023-09-20 15:35:01.567  - [32minfo[39m: my-opcua.0 (25636) State value to set for "my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8" has to be type "number" but received type "string" 
+2023-09-20 15:35:01.579  - [32minfo[39m: my-opcua.0 (25636) state my-opcua.0.info.connection changed: true (ack = true)
+2023-09-20 15:35:01.582  - [32minfo[39m: my-opcua.0 (25636) state my-opcua.0.OpenIndustry.Stansiya479.4850_password_ASCII8 changed: abc (ack = false)
+2023-09-20 15:35:01.592  - [32minfo[39m: my-opcua.0 (25636) state my-opcua.0.testVariable changed: true (ack = false)
+2023-09-20 15:35:01.599  - [32minfo[39m: my-opcua.0 (25636) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 15:35:01.607  - [32minfo[39m: my-opcua.0 (25636) state my-opcua.0.testVariable changed: true (ack = true)
+2023-09-20 15:35:01.714  - [32minfo[39m: my-opcua.0 (25636) check user admin pw iobroker: false,system.user.admin
+2023-09-20 15:35:01.720  - [32minfo[39m: my-opcua.0 (25636) check group user admin group admin: false
+2023-09-20 15:35:31.614  - [32minfo[39m: my-opcua.0 (25636) state my-opcua.0.testVariable deleted
+2023-09-20 15:36:04.337  - [32minfo[39m: my-opcua.0 (25636) test command
+2023-09-20 15:36:28.575  - [32minfo[39m: my-opcua.0 (25636) browser command
+2023-09-20 15:36:35.178  - [32minfo[39m: my-opcua.0 (25636) browser command

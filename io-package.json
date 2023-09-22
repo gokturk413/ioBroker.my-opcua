@@ -20,7 +20,7 @@
         "titleLang": {
             "en": "MY OPCUA",
             "de": "MEIN OPCUA",
-            "ru": "МОЙ ОПКУА",
+            "ru": "МОЙ ОПСУА",
             "pt": "MEU OPCUA",
             "nl": "MIJN OPCUA",
             "fr": "MON OPCUA",
@@ -41,6 +41,7 @@
             "pl": "Zintegruj urządzenia OPCUA",
             "zh-cn": "集成 OPCUA 设备"
         },
+        "messagebox": true,
         "authors": [
             "Kamran Mustafayev <gokturk413@gmail.com>"
         ],
@@ -77,8 +78,15 @@
         ]
     },
     "native": {
-        "option1": true,
-        "option2": "42"
+        "endpoint": "",
+        "Anonymous": false,
+        "username":"",
+        "password":"",
+        "sec_policy": "None",
+        "Mes_sec_mode": "None",
+        "activate_cert": false,
+        "certificate1": "",
+        "cert_key": ""
     },
     "objects": [],
     "instanceObjects": [

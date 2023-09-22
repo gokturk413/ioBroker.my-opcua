@@ -1,0 +1,474 @@
+2022-12-10 07:39:41.958  - [34mdebug[39m: my-opcua.0 (25656) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-10 07:39:41.979  - [34mdebug[39m: my-opcua.0 (25656) Objects client ready ... initialize now
+2022-12-10 07:39:41.980  - [34mdebug[39m: my-opcua.0 (25656) Objects create System PubSub Client
+2022-12-10 07:39:41.982  - [34mdebug[39m: my-opcua.0 (25656) Objects create User PubSub Client
+2022-12-10 07:39:41.994  - [34mdebug[39m: my-opcua.0 (25656) Objects client initialize lua scripts
+2022-12-10 07:39:41.998  - [34mdebug[39m: my-opcua.0 (25656) Objects connected to redis: 127.0.0.1:9001
+2022-12-10 07:39:42.016  - [34mdebug[39m: my-opcua.0 (25656) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-10 07:39:42.021  - [34mdebug[39m: my-opcua.0 (25656) States create System PubSub Client
+2022-12-10 07:39:42.022  - [34mdebug[39m: my-opcua.0 (25656) States create User PubSub Client
+2022-12-10 07:39:42.028  - [34mdebug[39m: my-opcua.0 (25656) States connected to redis: 127.0.0.1:9000
+2022-12-10 07:39:42.038  - [31merror[39m: my-opcua.0 (25656) adapter disabled
+2022-12-10 07:39:42.097  - [32minfo[39m: my-opcua.0 (25656) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 07:39:47.766  - [31merror[39m: my-opcua.0 (25656) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-10 07:39:47.771  - [31merror[39m: my-opcua.0 (25656) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 07:39:47.773  - [31merror[39m: my-opcua.0 (25656) Error establishing a connection: BadNotConnected
+2022-12-10 07:39:53.892  - [31merror[39m: my-opcua.0 (25656) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-10 07:39:53.893  - [31merror[39m: my-opcua.0 (25656) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-10 07:39:53.894  - [31merror[39m: my-opcua.0 (25656) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 07:39:53.894  - [31merror[39m: my-opcua.0 (25656) Cannot browse if not connected to a server.
+2022-12-10 07:39:53.909  - [32minfo[39m: my-opcua.0 (25656) terminating
+2022-12-10 07:39:53.911  - [33mwarn[39m: my-opcua.0 (25656) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-10 07:48:37.265  - [32minfo[39m: my-opcua.0 (1168) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 07:48:37.568  - [31merror[39m: my-opcua.0 (1168) uncaught exception: Invalid URI: The URI is empty.
+2022-12-10 07:48:37.570  - [31merror[39m: my-opcua.0 (1168) Error: Invalid URI: The URI is empty.
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 07:48:37.570  - [31merror[39m: my-opcua.0 (1168) Invalid URI: The URI is empty.
+2022-12-10 07:48:37.604  - [31merror[39m: my-opcua.0 (1168) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-10 07:48:37.605  - [31merror[39m: my-opcua.0 (1168) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-10 07:48:37.605  - [31merror[39m: my-opcua.0 (1168) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 07:48:37.605  - [31merror[39m: my-opcua.0 (1168) Cannot browse if not connected to a server.
+2022-12-10 07:48:37.608  - [32minfo[39m: my-opcua.0 (1168) terminating
+2022-12-10 07:48:37.609  - [33mwarn[39m: my-opcua.0 (1168) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-10 07:48:50.408  - [32minfo[39m: my-opcua.0 (9256) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 07:48:51.327  - [32minfo[39m: my-opcua.0 (9256) config option1: undefined
+2022-12-10 07:48:51.327  - [32minfo[39m: my-opcua.0 (9256) config option2: undefined
+2022-12-10 07:48:51.364  - [32minfo[39m: my-opcua.0 (9256) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 07:48:51.366  - [32minfo[39m: my-opcua.0 (9256) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 07:48:51.369  - [32minfo[39m: my-opcua.0 (9256) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 07:48:51.426  - [32minfo[39m: my-opcua.0 (9256) check user admin pw iobroker: false,system.user.admin
+2022-12-10 07:48:51.428  - [32minfo[39m: my-opcua.0 (9256) check group user admin group admin: false
+2022-12-10 07:48:58.252  - [32minfo[39m: my-opcua.0 (9256) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 07:48:58.253  - [32minfo[39m: my-opcua.0 (9256) terminating
+2022-12-10 07:48:58.254  - [32minfo[39m: my-opcua.0 (9256) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 07:59:33.017  - [32minfo[39m: my-opcua.0 (5444) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 07:59:33.712  - [32minfo[39m: my-opcua.0 (5444) config option1: undefined
+2022-12-10 07:59:33.712  - [32minfo[39m: my-opcua.0 (5444) config option2: undefined
+2022-12-10 07:59:33.745  - [32minfo[39m: my-opcua.0 (5444) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 07:59:33.748  - [32minfo[39m: my-opcua.0 (5444) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 07:59:33.750  - [32minfo[39m: my-opcua.0 (5444) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 07:59:33.797  - [32minfo[39m: my-opcua.0 (5444) check user admin pw iobroker: false,system.user.admin
+2022-12-10 07:59:33.798  - [32minfo[39m: my-opcua.0 (5444) check group user admin group admin: false
+2022-12-10 08:00:02.819  - [32minfo[39m: my-opcua.0 (5444) send command
+2022-12-10 08:00:03.759  - [32minfo[39m: my-opcua.0 (5444) state my-opcua.0.testVariable deleted
+2022-12-10 08:01:13.226  - [32minfo[39m: my-opcua.0 (5444) send command
+2022-12-10 08:01:52.964  - [32minfo[39m: my-opcua.0 (5444) send command
+2022-12-10 08:02:14.124  - [32minfo[39m: my-opcua.0 (5444) send command
+2022-12-10 08:02:28.868  - [32minfo[39m: my-opcua.0 (5444) send command
+2022-12-10 08:23:51.509  - [32minfo[39m: my-opcua.0 (5444) send command
+2022-12-10 08:36:34.913  - [32minfo[39m: my-opcua.0 (5444) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 08:36:34.913  - [32minfo[39m: my-opcua.0 (5444) terminating
+2022-12-10 08:36:34.914  - [32minfo[39m: my-opcua.0 (5444) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 08:36:38.699  - [32minfo[39m: my-opcua.0 (18952) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 08:36:39.479  - [32minfo[39m: my-opcua.0 (18952) config option1: undefined
+2022-12-10 08:36:39.480  - [32minfo[39m: my-opcua.0 (18952) config option2: undefined
+2022-12-10 08:36:39.520  - [32minfo[39m: my-opcua.0 (18952) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 08:36:39.523  - [32minfo[39m: my-opcua.0 (18952) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 08:36:39.525  - [32minfo[39m: my-opcua.0 (18952) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 08:36:39.588  - [32minfo[39m: my-opcua.0 (18952) check user admin pw iobroker: false,system.user.admin
+2022-12-10 08:36:39.591  - [32minfo[39m: my-opcua.0 (18952) check group user admin group admin: false
+2022-12-10 08:37:00.454  - [32minfo[39m: my-opcua.0 (18952) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 08:37:00.455  - [32minfo[39m: my-opcua.0 (18952) terminating
+2022-12-10 08:37:00.456  - [32minfo[39m: my-opcua.0 (18952) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 08:37:04.277  - [32minfo[39m: my-opcua.0 (27332) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 08:37:05.214  - [32minfo[39m: my-opcua.0 (27332) config option1: undefined
+2022-12-10 08:37:05.215  - [32minfo[39m: my-opcua.0 (27332) config option2: undefined
+2022-12-10 08:37:05.248  - [32minfo[39m: my-opcua.0 (27332) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 08:37:05.251  - [32minfo[39m: my-opcua.0 (27332) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 08:37:05.253  - [32minfo[39m: my-opcua.0 (27332) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 08:37:05.320  - [32minfo[39m: my-opcua.0 (27332) check user admin pw iobroker: false,system.user.admin
+2022-12-10 08:37:05.323  - [32minfo[39m: my-opcua.0 (27332) check group user admin group admin: false
+2022-12-10 08:37:35.263  - [32minfo[39m: my-opcua.0 (27332) state my-opcua.0.testVariable deleted
+2022-12-10 08:38:38.060  - [32minfo[39m: my-opcua.0 (27332) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 08:38:38.060  - [32minfo[39m: my-opcua.0 (27332) terminating
+2022-12-10 08:38:38.061  - [32minfo[39m: my-opcua.0 (27332) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 08:38:41.817  - [32minfo[39m: my-opcua.0 (1652) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 08:38:42.607  - [32minfo[39m: my-opcua.0 (1652) config option1: undefined
+2022-12-10 08:38:42.607  - [32minfo[39m: my-opcua.0 (1652) config option2: undefined
+2022-12-10 08:38:42.641  - [32minfo[39m: my-opcua.0 (1652) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 08:38:42.645  - [32minfo[39m: my-opcua.0 (1652) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 08:38:42.648  - [32minfo[39m: my-opcua.0 (1652) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 08:38:42.698  - [32minfo[39m: my-opcua.0 (1652) check user admin pw iobroker: false,system.user.admin
+2022-12-10 08:38:42.702  - [32minfo[39m: my-opcua.0 (1652) check group user admin group admin: false
+2022-12-10 08:39:12.656  - [32minfo[39m: my-opcua.0 (1652) state my-opcua.0.testVariable deleted
+2022-12-10 09:46:35.422  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:46:39.501  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":241,"ack":false,"time":1670651195421},"_id":43076861} Error establishing a connection: BadNotConnected
+2022-12-10 09:46:39.504  - [33mwarn[39m: my-opcua.0 (1652) Error: Error establishing a connection: BadNotConnected
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:46:39.506  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:46:39.507  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":242,"ack":false,"time":1670651197397},"_id":43076862} BadConnectionClosed
+2022-12-10 09:46:39.507  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:46:39.508  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:46:39.509  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":243,"ack":false,"time":1670651198011},"_id":43076863} BadConnectionClosed
+2022-12-10 09:46:39.509  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:46:39.510  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:46:39.511  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":244,"ack":false,"time":1670651198228},"_id":43076864} BadConnectionClosed
+2022-12-10 09:46:39.511  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:46:39.511  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:46:39.512  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":245,"ack":false,"time":1670651199499},"_id":43076865} BadConnectionClosed
+2022-12-10 09:46:39.512  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:46:40.099  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:46:40.100  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":246,"ack":false,"time":1670651200098},"_id":43076866} BadConnectionClosed
+2022-12-10 09:46:40.100  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:01.437  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:01.439  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":253,"ack":false,"time":1670651221436},"_id":43076873} BadConnectionClosed
+2022-12-10 09:47:01.439  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:13.394  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:13.395  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":254,"ack":false,"time":1670651233394},"_id":43076874} BadConnectionClosed
+2022-12-10 09:47:13.395  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:13.676  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:13.676  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":255,"ack":false,"time":1670651233675},"_id":43076875} BadConnectionClosed
+2022-12-10 09:47:13.677  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:13.892  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:13.893  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":256,"ack":false,"time":1670651233891},"_id":43076876} BadConnectionClosed
+2022-12-10 09:47:13.893  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:14.397  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:14.398  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":257,"ack":false,"time":1670651234395},"_id":43076877} BadConnectionClosed
+2022-12-10 09:47:14.398  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:15.715  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:15.716  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":258,"ack":false,"time":1670651235714},"_id":43076878} BadConnectionClosed
+2022-12-10 09:47:15.716  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:24.126  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:24.127  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":265,"ack":false,"time":1670651244124},"_id":43076885} BadConnectionClosed
+2022-12-10 09:47:24.127  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:24.773  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:24.774  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":266,"ack":false,"time":1670651244772},"_id":43076886} BadConnectionClosed
+2022-12-10 09:47:24.774  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:24.987  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:24.988  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":267,"ack":false,"time":1670651244986},"_id":43076887} BadConnectionClosed
+2022-12-10 09:47:24.988  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:25.987  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:25.988  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":268,"ack":false,"time":1670651245986},"_id":43076888} BadConnectionClosed
+2022-12-10 09:47:25.988  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:37.860  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:37.861  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":269,"ack":false,"time":1670651257858},"_id":43076889} BadConnectionClosed
+2022-12-10 09:47:37.861  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:38.748  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:38.749  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":270,"ack":false,"time":1670651258746},"_id":43076890} BadConnectionClosed
+2022-12-10 09:47:38.750  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:41.310  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:41.311  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":271,"ack":false,"time":1670651261309},"_id":43076891} BadConnectionClosed
+2022-12-10 09:47:41.311  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:42.603  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:42.604  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":272,"ack":false,"time":1670651262601},"_id":43076892} BadConnectionClosed
+2022-12-10 09:47:42.604  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:44.421  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:44.422  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":273,"ack":false,"time":1670651264419},"_id":43076893} BadConnectionClosed
+2022-12-10 09:47:44.423  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:46.678  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:46.679  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":274,"ack":false,"time":1670651266676},"_id":43076894} BadConnectionClosed
+2022-12-10 09:47:46.679  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:49.797  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:49.798  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":275,"ack":false,"time":1670651269795},"_id":43076895} BadConnectionClosed
+2022-12-10 09:47:49.798  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:47:50.390  - [32minfo[39m: my-opcua.0 (1652) send command
+2022-12-10 09:47:50.392  - [33mwarn[39m: my-opcua.0 (1652) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":276,"ack":false,"time":1670651270388},"_id":43076896} BadConnectionClosed
+2022-12-10 09:47:50.392  - [33mwarn[39m: my-opcua.0 (1652) Error: BadConnectionClosed
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-10 09:49:12.348  - [32minfo[39m: my-opcua.0 (1652) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 09:49:12.348  - [32minfo[39m: my-opcua.0 (1652) terminating
+2022-12-10 09:49:12.349  - [32minfo[39m: my-opcua.0 (1652) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 09:49:16.609  - [32minfo[39m: my-opcua.0 (21792) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 09:49:21.542  - [31merror[39m: my-opcua.0 (21792) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-10 09:49:21.544  - [31merror[39m: my-opcua.0 (21792) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 09:49:21.544  - [31merror[39m: my-opcua.0 (21792) Error establishing a connection: BadNotConnected
+2022-12-10 09:49:21.565  - [31merror[39m: my-opcua.0 (21792) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-10 09:49:21.565  - [31merror[39m: my-opcua.0 (21792) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-10 09:49:21.566  - [31merror[39m: my-opcua.0 (21792) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 09:49:21.566  - [31merror[39m: my-opcua.0 (21792) Cannot browse if not connected to a server.
+2022-12-10 09:49:21.570  - [32minfo[39m: my-opcua.0 (21792) terminating
+2022-12-10 09:49:21.570  - [33mwarn[39m: my-opcua.0 (21792) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-10 09:49:55.058  - [32minfo[39m: my-opcua.0 (26748) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 09:49:59.674  - [31merror[39m: my-opcua.0 (26748) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-10 09:49:59.676  - [31merror[39m: my-opcua.0 (26748) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 09:49:59.676  - [31merror[39m: my-opcua.0 (26748) Error establishing a connection: BadNotConnected
+2022-12-10 09:49:59.699  - [31merror[39m: my-opcua.0 (26748) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-10 09:49:59.699  - [31merror[39m: my-opcua.0 (26748) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-10 09:49:59.700  - [31merror[39m: my-opcua.0 (26748) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-10 09:49:59.700  - [31merror[39m: my-opcua.0 (26748) Cannot browse if not connected to a server.
+2022-12-10 09:49:59.702  - [32minfo[39m: my-opcua.0 (26748) terminating
+2022-12-10 09:49:59.703  - [33mwarn[39m: my-opcua.0 (26748) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-10 09:50:27.728  - [32minfo[39m: my-opcua.0 (24924) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 09:50:28.527  - [32minfo[39m: my-opcua.0 (24924) config option1: undefined
+2022-12-10 09:50:28.528  - [32minfo[39m: my-opcua.0 (24924) config option2: undefined
+2022-12-10 09:50:28.556  - [32minfo[39m: my-opcua.0 (24924) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 09:50:28.558  - [32minfo[39m: my-opcua.0 (24924) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:50:28.560  - [32minfo[39m: my-opcua.0 (24924) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:50:28.605  - [32minfo[39m: my-opcua.0 (24924) check user admin pw iobroker: false,system.user.admin
+2022-12-10 09:50:28.607  - [32minfo[39m: my-opcua.0 (24924) check group user admin group admin: false
+2022-12-10 09:50:58.565  - [32minfo[39m: my-opcua.0 (24924) state my-opcua.0.testVariable deleted
+2022-12-10 09:51:17.630  - [32minfo[39m: my-opcua.0 (24924) send command
+2022-12-10 09:54:06.589  - [32minfo[39m: my-opcua.0 (24924) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 09:54:06.590  - [32minfo[39m: my-opcua.0 (24924) terminating
+2022-12-10 09:54:06.590  - [32minfo[39m: my-opcua.0 (24924) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 09:54:10.297  - [32minfo[39m: my-opcua.0 (592) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 09:54:11.008  - [32minfo[39m: my-opcua.0 (592) config option1: undefined
+2022-12-10 09:54:11.009  - [32minfo[39m: my-opcua.0 (592) config option2: undefined
+2022-12-10 09:54:11.045  - [32minfo[39m: my-opcua.0 (592) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 09:54:11.049  - [32minfo[39m: my-opcua.0 (592) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:54:11.051  - [32minfo[39m: my-opcua.0 (592) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:54:11.149  - [32minfo[39m: my-opcua.0 (592) check user admin pw iobroker: false,system.user.admin
+2022-12-10 09:54:11.153  - [32minfo[39m: my-opcua.0 (592) check group user admin group admin: false
+2022-12-10 09:54:26.541  - [32minfo[39m: my-opcua.0 (592) send command
+2022-12-10 09:54:41.063  - [32minfo[39m: my-opcua.0 (592) state my-opcua.0.testVariable deleted
+2022-12-10 09:54:47.436  - [32minfo[39m: my-opcua.0 (592) send command
+2022-12-10 09:57:17.877  - [32minfo[39m: my-opcua.0 (592) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 09:57:17.877  - [32minfo[39m: my-opcua.0 (592) terminating
+2022-12-10 09:57:17.878  - [32minfo[39m: my-opcua.0 (592) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 09:57:21.876  - [32minfo[39m: my-opcua.0 (27028) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 09:57:22.886  - [32minfo[39m: my-opcua.0 (27028) config option1: undefined
+2022-12-10 09:57:22.886  - [32minfo[39m: my-opcua.0 (27028) config option2: undefined
+2022-12-10 09:57:22.920  - [32minfo[39m: my-opcua.0 (27028) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 09:57:22.923  - [32minfo[39m: my-opcua.0 (27028) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:57:22.926  - [32minfo[39m: my-opcua.0 (27028) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:57:22.987  - [32minfo[39m: my-opcua.0 (27028) check user admin pw iobroker: false,system.user.admin
+2022-12-10 09:57:22.990  - [32minfo[39m: my-opcua.0 (27028) check group user admin group admin: false
+2022-12-10 09:57:33.463  - [32minfo[39m: my-opcua.0 (27028) send command
+2022-12-10 09:57:52.928  - [32minfo[39m: my-opcua.0 (27028) state my-opcua.0.testVariable deleted
+2022-12-10 09:59:45.831  - [32minfo[39m: my-opcua.0 (27028) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 09:59:45.833  - [32minfo[39m: my-opcua.0 (27028) terminating
+2022-12-10 09:59:45.833  - [32minfo[39m: my-opcua.0 (27028) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 09:59:49.703  - [32minfo[39m: my-opcua.0 (25868) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 09:59:50.628  - [32minfo[39m: my-opcua.0 (25868) config option1: undefined
+2022-12-10 09:59:50.628  - [32minfo[39m: my-opcua.0 (25868) config option2: undefined
+2022-12-10 09:59:50.662  - [32minfo[39m: my-opcua.0 (25868) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 09:59:50.665  - [32minfo[39m: my-opcua.0 (25868) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:59:50.666  - [32minfo[39m: my-opcua.0 (25868) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 09:59:50.716  - [32minfo[39m: my-opcua.0 (25868) check user admin pw iobroker: false,system.user.admin
+2022-12-10 09:59:50.718  - [32minfo[39m: my-opcua.0 (25868) check group user admin group admin: false
+2022-12-10 09:59:55.228  - [32minfo[39m: my-opcua.0 (25868) send command
+2022-12-10 09:59:58.387  - [32minfo[39m: my-opcua.0 (25868) send command
+2022-12-10 10:00:20.675  - [32minfo[39m: my-opcua.0 (25868) state my-opcua.0.testVariable deleted
+2022-12-10 10:01:00.140  - [32minfo[39m: my-opcua.0 (25868) send command
+2022-12-10 10:03:56.331  - [32minfo[39m: my-opcua.0 (25868) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 10:03:56.332  - [32minfo[39m: my-opcua.0 (25868) terminating
+2022-12-10 10:03:56.332  - [32minfo[39m: my-opcua.0 (25868) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 10:03:59.978  - [32minfo[39m: my-opcua.0 (1556) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 10:04:00.664  - [32minfo[39m: my-opcua.0 (1556) config option1: undefined
+2022-12-10 10:04:00.665  - [32minfo[39m: my-opcua.0 (1556) config option2: undefined
+2022-12-10 10:04:00.691  - [32minfo[39m: my-opcua.0 (1556) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 10:04:00.694  - [32minfo[39m: my-opcua.0 (1556) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:04:00.696  - [32minfo[39m: my-opcua.0 (1556) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:04:00.742  - [32minfo[39m: my-opcua.0 (1556) check user admin pw iobroker: false,system.user.admin
+2022-12-10 10:04:00.744  - [32minfo[39m: my-opcua.0 (1556) check group user admin group admin: false
+2022-12-10 10:04:12.190  - [32minfo[39m: my-opcua.0 (1556) send command
+2022-12-10 10:04:30.707  - [32minfo[39m: my-opcua.0 (1556) state my-opcua.0.testVariable deleted
+2022-12-10 10:05:07.126  - [32minfo[39m: my-opcua.0 (1556) send command
+2022-12-10 10:05:21.940  - [32minfo[39m: my-opcua.0 (1556) send command
+2022-12-10 10:06:46.475  - [32minfo[39m: my-opcua.0 (1556) send command
+2022-12-10 10:07:01.028  - [32minfo[39m: my-opcua.0 (1556) send command
+2022-12-10 10:12:05.625  - [32minfo[39m: my-opcua.0 (1556) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 10:12:05.625  - [32minfo[39m: my-opcua.0 (1556) terminating
+2022-12-10 10:12:05.626  - [32minfo[39m: my-opcua.0 (1556) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 10:12:09.977  - [32minfo[39m: my-opcua.0 (25972) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 10:12:10.984  - [32minfo[39m: my-opcua.0 (25972) config option1: undefined
+2022-12-10 10:12:10.984  - [32minfo[39m: my-opcua.0 (25972) config option2: undefined
+2022-12-10 10:12:11.015  - [32minfo[39m: my-opcua.0 (25972) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 10:12:11.018  - [32minfo[39m: my-opcua.0 (25972) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:12:11.020  - [32minfo[39m: my-opcua.0 (25972) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:12:11.074  - [32minfo[39m: my-opcua.0 (25972) check user admin pw iobroker: false,system.user.admin
+2022-12-10 10:12:11.076  - [32minfo[39m: my-opcua.0 (25972) check group user admin group admin: false
+2022-12-10 10:12:12.927  - [32minfo[39m: my-opcua.0 (25972) send command
+2022-12-10 10:12:22.356  - [32minfo[39m: my-opcua.0 (25972) send command
+2022-12-10 10:12:40.262  - [32minfo[39m: my-opcua.0 (25972) send command
+2022-12-10 10:12:41.034  - [32minfo[39m: my-opcua.0 (25972) state my-opcua.0.testVariable deleted
+2022-12-10 10:13:23.574  - [32minfo[39m: my-opcua.0 (25972) send command
+2022-12-10 10:14:55.398  - [32minfo[39m: my-opcua.0 (25972) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 10:14:55.399  - [32minfo[39m: my-opcua.0 (25972) terminating
+2022-12-10 10:14:55.399  - [32minfo[39m: my-opcua.0 (25972) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 10:14:59.151  - [32minfo[39m: my-opcua.0 (14976) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 10:14:59.962  - [32minfo[39m: my-opcua.0 (14976) config option1: undefined
+2022-12-10 10:14:59.962  - [32minfo[39m: my-opcua.0 (14976) config option2: undefined
+2022-12-10 10:15:00.028  - [32minfo[39m: my-opcua.0 (14976) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 10:15:00.035  - [32minfo[39m: my-opcua.0 (14976) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:15:00.038  - [32minfo[39m: my-opcua.0 (14976) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:15:00.101  - [32minfo[39m: my-opcua.0 (14976) check user admin pw iobroker: false,system.user.admin
+2022-12-10 10:15:00.105  - [32minfo[39m: my-opcua.0 (14976) check group user admin group admin: false
+2022-12-10 10:15:27.174  - [32minfo[39m: my-opcua.0 (14976) send command
+2022-12-10 10:15:30.050  - [32minfo[39m: my-opcua.0 (14976) state my-opcua.0.testVariable deleted
+2022-12-10 10:17:02.785  - [32minfo[39m: my-opcua.0 (14976) Got terminate signal TERMINATE_YOURSELF
+2022-12-10 10:17:02.785  - [32minfo[39m: my-opcua.0 (14976) terminating
+2022-12-10 10:17:02.786  - [32minfo[39m: my-opcua.0 (14976) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-10 10:17:06.621  - [32minfo[39m: my-opcua.0 (9888) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-10 10:17:07.496  - [32minfo[39m: my-opcua.0 (9888) config option1: undefined
+2022-12-10 10:17:07.497  - [32minfo[39m: my-opcua.0 (9888) config option2: undefined
+2022-12-10 10:17:07.534  - [32minfo[39m: my-opcua.0 (9888) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-10 10:17:07.537  - [32minfo[39m: my-opcua.0 (9888) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:17:07.539  - [32minfo[39m: my-opcua.0 (9888) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-10 10:17:07.601  - [32minfo[39m: my-opcua.0 (9888) check user admin pw iobroker: false,system.user.admin
+2022-12-10 10:17:07.605  - [32minfo[39m: my-opcua.0 (9888) check group user admin group admin: false
+2022-12-10 10:17:27.293  - [32minfo[39m: my-opcua.0 (9888) send command
+2022-12-10 10:17:37.550  - [32minfo[39m: my-opcua.0 (9888) state my-opcua.0.testVariable deleted

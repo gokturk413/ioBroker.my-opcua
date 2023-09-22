@@ -1,0 +1,546 @@
+2023-01-09 09:19:38.911  - [34mdebug[39m: my-opcua.0 (18608) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 09:19:38.953  - [34mdebug[39m: my-opcua.0 (18608) Objects client ready ... initialize now
+2023-01-09 09:19:38.956  - [34mdebug[39m: my-opcua.0 (18608) Objects create System PubSub Client
+2023-01-09 09:19:38.959  - [34mdebug[39m: my-opcua.0 (18608) Objects create User PubSub Client
+2023-01-09 09:19:38.983  - [34mdebug[39m: my-opcua.0 (18608) Objects client initialize lua scripts
+2023-01-09 09:19:38.990  - [34mdebug[39m: my-opcua.0 (18608) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 09:19:39.024  - [34mdebug[39m: my-opcua.0 (18608) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 09:19:39.032  - [34mdebug[39m: my-opcua.0 (18608) States create System PubSub Client
+2023-01-09 09:19:39.034  - [34mdebug[39m: my-opcua.0 (18608) States create User PubSub Client
+2023-01-09 09:19:39.046  - [34mdebug[39m: my-opcua.0 (18608) States connected to redis: 127.0.0.1:9000
+2023-01-09 09:19:39.065  - [31merror[39m: my-opcua.0 (18608) adapter disabled
+2023-01-09 09:19:39.155  - [32minfo[39m: my-opcua.0 (18608) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 09:21:46.268  - [32minfo[39m: my-opcua.0 (18608) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 09:21:46.270  - [32minfo[39m: my-opcua.0 (18608) config option2: sysadmin
+2023-01-09 09:21:47.215  - [32minfo[39m: my-opcua.0 (18608) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 09:21:47.223  - [32minfo[39m: my-opcua.0 (18608) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 09:21:47.230  - [32minfo[39m: my-opcua.0 (18608) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 09:21:47.307  - [32minfo[39m: my-opcua.0 (18608) check user admin pw iobroker: false,system.user.admin
+2023-01-09 09:21:48.386  - [32minfo[39m: my-opcua.0 (18608) check group user admin group admin: false
+2023-01-09 09:26:01.318  - [34mdebug[39m: my-opcua.0 (26868) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 09:26:01.347  - [34mdebug[39m: my-opcua.0 (26868) Objects client ready ... initialize now
+2023-01-09 09:26:01.350  - [34mdebug[39m: my-opcua.0 (26868) Objects create System PubSub Client
+2023-01-09 09:26:01.352  - [34mdebug[39m: my-opcua.0 (26868) Objects create User PubSub Client
+2023-01-09 09:26:01.368  - [34mdebug[39m: my-opcua.0 (26868) Objects client initialize lua scripts
+2023-01-09 09:26:01.376  - [34mdebug[39m: my-opcua.0 (26868) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 09:26:01.409  - [34mdebug[39m: my-opcua.0 (26868) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 09:26:01.416  - [34mdebug[39m: my-opcua.0 (26868) States create System PubSub Client
+2023-01-09 09:26:01.420  - [34mdebug[39m: my-opcua.0 (26868) States create User PubSub Client
+2023-01-09 09:26:01.430  - [34mdebug[39m: my-opcua.0 (26868) States connected to redis: 127.0.0.1:9000
+2023-01-09 09:26:01.449  - [31merror[39m: my-opcua.0 (26868) adapter disabled
+2023-01-09 09:26:01.506  - [32minfo[39m: my-opcua.0 (26868) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 09:26:05.994  - [32minfo[39m: my-opcua.0 (26868) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 09:26:05.995  - [32minfo[39m: my-opcua.0 (26868) config option2: sysadmin
+2023-01-09 09:26:06.776  - [32minfo[39m: my-opcua.0 (26868) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 09:26:06.786  - [32minfo[39m: my-opcua.0 (26868) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 09:26:06.795  - [32minfo[39m: my-opcua.0 (26868) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 09:26:06.903  - [32minfo[39m: my-opcua.0 (26868) check user admin pw iobroker: false,system.user.admin
+2023-01-09 09:26:07.634  - [32minfo[39m: my-opcua.0 (26868) check group user admin group admin: false
+2023-01-09 09:26:36.812  - [32minfo[39m: my-opcua.0 (26868) state my-opcua.0.testVariable deleted
+2023-01-09 09:30:26.888  - [32minfo[39m: my-opcua.0 (26868) test command
+2023-01-09 09:30:35.613  - [32minfo[39m: my-opcua.0 (26868) browser command
+2023-01-09 09:30:52.466  - [32minfo[39m: my-opcua.0 (26868) browser command
+2023-01-09 09:31:01.882  - [32minfo[39m: my-opcua.0 (26868) browser command
+2023-01-09 12:29:49.613  - [32minfo[39m: my-opcua.0 (26868) test command
+2023-01-09 12:29:54.690  - [33mwarn[39m: my-opcua.0 (26868) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"test","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":290,"ack":false,"time":1673252989611},"_id":94386825} Error establishing a connection: BadNotConnected
+2023-01-09 12:29:54.691  - [33mwarn[39m: my-opcua.0 (26868) Error: Error establishing a connection: BadNotConnected
+    at Object.browserootfolders (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:254:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 12:30:17.899  - [32minfo[39m: my-opcua.0 (26868) test command
+2023-01-09 12:30:25.510  - [32minfo[39m: my-opcua.0 (26868) browser command
+2023-01-09 12:30:38.219  - [32minfo[39m: my-opcua.0 (26868) browser command
+2023-01-09 14:08:00.536  - [34mdebug[39m: my-opcua.0 (20152) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 14:08:00.569  - [34mdebug[39m: my-opcua.0 (20152) Objects client ready ... initialize now
+2023-01-09 14:08:00.572  - [34mdebug[39m: my-opcua.0 (20152) Objects create System PubSub Client
+2023-01-09 14:08:00.575  - [34mdebug[39m: my-opcua.0 (20152) Objects create User PubSub Client
+2023-01-09 14:08:00.596  - [34mdebug[39m: my-opcua.0 (20152) Objects client initialize lua scripts
+2023-01-09 14:08:00.603  - [34mdebug[39m: my-opcua.0 (20152) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 14:08:00.637  - [34mdebug[39m: my-opcua.0 (20152) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 14:08:00.647  - [34mdebug[39m: my-opcua.0 (20152) States create System PubSub Client
+2023-01-09 14:08:00.650  - [34mdebug[39m: my-opcua.0 (20152) States create User PubSub Client
+2023-01-09 14:08:00.662  - [34mdebug[39m: my-opcua.0 (20152) States connected to redis: 127.0.0.1:9000
+2023-01-09 14:08:00.682  - [31merror[39m: my-opcua.0 (20152) adapter disabled
+2023-01-09 14:08:00.777  - [32minfo[39m: my-opcua.0 (20152) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 14:08:06.847  - [31merror[39m: my-opcua.0 (20152) uncaught exception: Error establishing a connection: BadNotConnected
+2023-01-09 14:08:06.848  - [31merror[39m: my-opcua.0 (20152) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-09 14:08:06.849  - [31merror[39m: my-opcua.0 (20152) Error establishing a connection: BadNotConnected
+2023-01-09 14:08:10.411  - [31merror[39m: my-opcua.0 (20152) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-09 14:08:10.412  - [31merror[39m: my-opcua.0 (20152) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-09 14:08:10.412  - [31merror[39m: my-opcua.0 (20152) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-09 14:08:10.413  - [31merror[39m: my-opcua.0 (20152) Cannot browse if not connected to a server.
+2023-01-09 14:08:10.422  - [32minfo[39m: my-opcua.0 (20152) terminating
+2023-01-09 14:08:10.423  - [33mwarn[39m: my-opcua.0 (20152) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-09 14:08:35.410  - [34mdebug[39m: my-opcua.0 (21868) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 14:08:35.428  - [34mdebug[39m: my-opcua.0 (21868) Objects client ready ... initialize now
+2023-01-09 14:08:35.430  - [34mdebug[39m: my-opcua.0 (21868) Objects create System PubSub Client
+2023-01-09 14:08:35.432  - [34mdebug[39m: my-opcua.0 (21868) Objects create User PubSub Client
+2023-01-09 14:08:35.443  - [34mdebug[39m: my-opcua.0 (21868) Objects client initialize lua scripts
+2023-01-09 14:08:35.447  - [34mdebug[39m: my-opcua.0 (21868) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 14:08:35.463  - [34mdebug[39m: my-opcua.0 (21868) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 14:08:35.468  - [34mdebug[39m: my-opcua.0 (21868) States create System PubSub Client
+2023-01-09 14:08:35.470  - [34mdebug[39m: my-opcua.0 (21868) States create User PubSub Client
+2023-01-09 14:08:35.477  - [34mdebug[39m: my-opcua.0 (21868) States connected to redis: 127.0.0.1:9000
+2023-01-09 14:08:35.491  - [31merror[39m: my-opcua.0 (21868) adapter disabled
+2023-01-09 14:08:35.547  - [32minfo[39m: my-opcua.0 (21868) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 14:08:42.625  - [32minfo[39m: my-opcua.0 (21868) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 14:08:42.627  - [32minfo[39m: my-opcua.0 (21868) config option2: sysadmin
+2023-01-09 14:08:43.438  - [32minfo[39m: my-opcua.0 (21868) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 14:08:43.449  - [32minfo[39m: my-opcua.0 (21868) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:08:43.455  - [32minfo[39m: my-opcua.0 (21868) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:08:43.524  - [32minfo[39m: my-opcua.0 (21868) check user admin pw iobroker: false,system.user.admin
+2023-01-09 14:08:44.193  - [32minfo[39m: my-opcua.0 (21868) check group user admin group admin: false
+2023-01-09 14:09:13.464  - [32minfo[39m: my-opcua.0 (21868) state my-opcua.0.testVariable deleted
+2023-01-09 14:26:05.914  - [34mdebug[39m: my-opcua.0 (28260) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 14:26:05.931  - [34mdebug[39m: my-opcua.0 (28260) Objects client ready ... initialize now
+2023-01-09 14:26:05.933  - [34mdebug[39m: my-opcua.0 (28260) Objects create System PubSub Client
+2023-01-09 14:26:05.934  - [34mdebug[39m: my-opcua.0 (28260) Objects create User PubSub Client
+2023-01-09 14:26:05.946  - [34mdebug[39m: my-opcua.0 (28260) Objects client initialize lua scripts
+2023-01-09 14:26:05.950  - [34mdebug[39m: my-opcua.0 (28260) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 14:26:05.966  - [34mdebug[39m: my-opcua.0 (28260) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 14:26:05.973  - [34mdebug[39m: my-opcua.0 (28260) States create System PubSub Client
+2023-01-09 14:26:05.974  - [34mdebug[39m: my-opcua.0 (28260) States create User PubSub Client
+2023-01-09 14:26:05.980  - [34mdebug[39m: my-opcua.0 (28260) States connected to redis: 127.0.0.1:9000
+2023-01-09 14:26:05.990  - [31merror[39m: my-opcua.0 (28260) adapter disabled
+2023-01-09 14:26:06.035  - [32minfo[39m: my-opcua.0 (28260) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 14:26:24.450  - [32minfo[39m: my-opcua.0 (28260) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 14:26:24.451  - [32minfo[39m: my-opcua.0 (28260) config option2: sysadmin
+2023-01-09 14:26:25.331  - [32minfo[39m: my-opcua.0 (28260) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 14:26:25.339  - [32minfo[39m: my-opcua.0 (28260) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:26:25.345  - [32minfo[39m: my-opcua.0 (28260) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:26:25.399  - [32minfo[39m: my-opcua.0 (28260) check user admin pw iobroker: false,system.user.admin
+2023-01-09 14:26:26.044  - [32minfo[39m: my-opcua.0 (28260) check group user admin group admin: false
+2023-01-09 14:26:55.353  - [32minfo[39m: my-opcua.0 (28260) state my-opcua.0.testVariable deleted
+2023-01-09 14:32:49.013  - [34mdebug[39m: my-opcua.0 (6660) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 14:32:49.032  - [34mdebug[39m: my-opcua.0 (6660) Objects client ready ... initialize now
+2023-01-09 14:32:49.033  - [34mdebug[39m: my-opcua.0 (6660) Objects create System PubSub Client
+2023-01-09 14:32:49.034  - [34mdebug[39m: my-opcua.0 (6660) Objects create User PubSub Client
+2023-01-09 14:32:49.047  - [34mdebug[39m: my-opcua.0 (6660) Objects client initialize lua scripts
+2023-01-09 14:32:49.051  - [34mdebug[39m: my-opcua.0 (6660) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 14:32:49.068  - [34mdebug[39m: my-opcua.0 (6660) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 14:32:49.073  - [34mdebug[39m: my-opcua.0 (6660) States create System PubSub Client
+2023-01-09 14:32:49.075  - [34mdebug[39m: my-opcua.0 (6660) States create User PubSub Client
+2023-01-09 14:32:49.081  - [34mdebug[39m: my-opcua.0 (6660) States connected to redis: 127.0.0.1:9000
+2023-01-09 14:32:49.090  - [31merror[39m: my-opcua.0 (6660) adapter disabled
+2023-01-09 14:32:49.144  - [32minfo[39m: my-opcua.0 (6660) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 14:32:54.059  - [32minfo[39m: my-opcua.0 (6660) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 14:32:54.061  - [32minfo[39m: my-opcua.0 (6660) config option2: sysadmin
+2023-01-09 14:32:54.713  - [32minfo[39m: my-opcua.0 (6660) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 14:32:54.722  - [32minfo[39m: my-opcua.0 (6660) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:32:54.727  - [32minfo[39m: my-opcua.0 (6660) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:32:54.783  - [32minfo[39m: my-opcua.0 (6660) check user admin pw iobroker: false,system.user.admin
+2023-01-09 14:32:55.457  - [32minfo[39m: my-opcua.0 (6660) check group user admin group admin: false
+2023-01-09 14:33:41.830  - [33mwarn[39m: my-opcua.0 (6660) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":307,"ack":false,"time":1673260392868},"_id":94386842} The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+2023-01-09 14:33:41.832  - [33mwarn[39m: my-opcua.0 (6660) Error: The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 14:33:41.846  - [32minfo[39m: my-opcua.0 (6660) state my-opcua.0.testVariable deleted
+2023-01-09 14:34:17.355  - [33mwarn[39m: my-opcua.0 (6660) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":308,"ack":false,"time":1673260434908},"_id":94386843} The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+2023-01-09 14:34:17.357  - [33mwarn[39m: my-opcua.0 (6660) Error: The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 14:35:20.949  - [34mdebug[39m: my-opcua.0 (28228) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 14:35:20.969  - [34mdebug[39m: my-opcua.0 (28228) Objects client ready ... initialize now
+2023-01-09 14:35:20.971  - [34mdebug[39m: my-opcua.0 (28228) Objects create System PubSub Client
+2023-01-09 14:35:20.972  - [34mdebug[39m: my-opcua.0 (28228) Objects create User PubSub Client
+2023-01-09 14:35:20.983  - [34mdebug[39m: my-opcua.0 (28228) Objects client initialize lua scripts
+2023-01-09 14:35:20.986  - [34mdebug[39m: my-opcua.0 (28228) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 14:35:21.001  - [34mdebug[39m: my-opcua.0 (28228) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 14:35:21.005  - [34mdebug[39m: my-opcua.0 (28228) States create System PubSub Client
+2023-01-09 14:35:21.007  - [34mdebug[39m: my-opcua.0 (28228) States create User PubSub Client
+2023-01-09 14:35:21.013  - [34mdebug[39m: my-opcua.0 (28228) States connected to redis: 127.0.0.1:9000
+2023-01-09 14:35:21.021  - [31merror[39m: my-opcua.0 (28228) adapter disabled
+2023-01-09 14:35:21.071  - [32minfo[39m: my-opcua.0 (28228) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 14:35:24.931  - [32minfo[39m: my-opcua.0 (28228) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 14:35:24.932  - [32minfo[39m: my-opcua.0 (28228) config option2: sysadmin
+2023-01-09 14:35:25.590  - [32minfo[39m: my-opcua.0 (28228) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 14:35:25.601  - [32minfo[39m: my-opcua.0 (28228) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:35:25.606  - [32minfo[39m: my-opcua.0 (28228) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:35:25.664  - [32minfo[39m: my-opcua.0 (28228) check user admin pw iobroker: false,system.user.admin
+2023-01-09 14:35:26.210  - [32minfo[39m: my-opcua.0 (28228) check group user admin group admin: false
+2023-01-09 14:35:54.640  - [33mwarn[39m: my-opcua.0 (28228) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":309,"ack":false,"time":1673260544445},"_id":94386844} The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+2023-01-09 14:35:54.642  - [33mwarn[39m: my-opcua.0 (28228) Error: The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 14:35:55.616  - [32minfo[39m: my-opcua.0 (28228) state my-opcua.0.testVariable deleted
+2023-01-09 14:36:41.230  - [33mwarn[39m: my-opcua.0 (28228) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":310,"ack":false,"time":1673260574322},"_id":94386845} The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+2023-01-09 14:36:41.231  - [33mwarn[39m: my-opcua.0 (28228) Error: The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 14:37:22.284  - [34mdebug[39m: my-opcua.0 (26368) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 14:37:22.302  - [34mdebug[39m: my-opcua.0 (26368) Objects client ready ... initialize now
+2023-01-09 14:37:22.304  - [34mdebug[39m: my-opcua.0 (26368) Objects create System PubSub Client
+2023-01-09 14:37:22.305  - [34mdebug[39m: my-opcua.0 (26368) Objects create User PubSub Client
+2023-01-09 14:37:22.318  - [34mdebug[39m: my-opcua.0 (26368) Objects client initialize lua scripts
+2023-01-09 14:37:22.322  - [34mdebug[39m: my-opcua.0 (26368) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 14:37:22.338  - [34mdebug[39m: my-opcua.0 (26368) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 14:37:22.343  - [34mdebug[39m: my-opcua.0 (26368) States create System PubSub Client
+2023-01-09 14:37:22.344  - [34mdebug[39m: my-opcua.0 (26368) States create User PubSub Client
+2023-01-09 14:37:22.351  - [34mdebug[39m: my-opcua.0 (26368) States connected to redis: 127.0.0.1:9000
+2023-01-09 14:37:22.359  - [31merror[39m: my-opcua.0 (26368) adapter disabled
+2023-01-09 14:37:22.412  - [32minfo[39m: my-opcua.0 (26368) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 14:37:26.500  - [32minfo[39m: my-opcua.0 (26368) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 14:37:26.501  - [32minfo[39m: my-opcua.0 (26368) config option2: sysadmin
+2023-01-09 14:37:27.170  - [32minfo[39m: my-opcua.0 (26368) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 14:37:27.176  - [32minfo[39m: my-opcua.0 (26368) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:37:27.184  - [32minfo[39m: my-opcua.0 (26368) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:37:27.237  - [32minfo[39m: my-opcua.0 (26368) check user admin pw iobroker: false,system.user.admin
+2023-01-09 14:37:27.908  - [32minfo[39m: my-opcua.0 (26368) check group user admin group admin: false
+2023-01-09 14:37:57.189  - [32minfo[39m: my-opcua.0 (26368) state my-opcua.0.testVariable deleted
+2023-01-09 14:39:22.826  - [33mwarn[39m: my-opcua.0 (26368) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":311,"ack":false,"time":1673260698590},"_id":94386846} The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+2023-01-09 14:39:22.828  - [33mwarn[39m: my-opcua.0 (26368) Error: The best overloaded method match for 'KonsoleBrowseDll.Program.getcheckednodes(string[])' has some invalid arguments
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 14:39:59.935  - [34mdebug[39m: my-opcua.0 (14304) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 14:39:59.952  - [34mdebug[39m: my-opcua.0 (14304) Objects client ready ... initialize now
+2023-01-09 14:39:59.954  - [34mdebug[39m: my-opcua.0 (14304) Objects create System PubSub Client
+2023-01-09 14:39:59.955  - [34mdebug[39m: my-opcua.0 (14304) Objects create User PubSub Client
+2023-01-09 14:39:59.965  - [34mdebug[39m: my-opcua.0 (14304) Objects client initialize lua scripts
+2023-01-09 14:39:59.970  - [34mdebug[39m: my-opcua.0 (14304) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 14:39:59.985  - [34mdebug[39m: my-opcua.0 (14304) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 14:39:59.989  - [34mdebug[39m: my-opcua.0 (14304) States create System PubSub Client
+2023-01-09 14:39:59.990  - [34mdebug[39m: my-opcua.0 (14304) States create User PubSub Client
+2023-01-09 14:39:59.998  - [34mdebug[39m: my-opcua.0 (14304) States connected to redis: 127.0.0.1:9000
+2023-01-09 14:40:00.007  - [31merror[39m: my-opcua.0 (14304) adapter disabled
+2023-01-09 14:40:00.063  - [32minfo[39m: my-opcua.0 (14304) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 14:40:04.383  - [32minfo[39m: my-opcua.0 (14304) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 14:40:04.384  - [32minfo[39m: my-opcua.0 (14304) config option2: sysadmin
+2023-01-09 14:40:05.026  - [32minfo[39m: my-opcua.0 (14304) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 14:40:05.035  - [32minfo[39m: my-opcua.0 (14304) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:40:05.042  - [32minfo[39m: my-opcua.0 (14304) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 14:40:05.098  - [32minfo[39m: my-opcua.0 (14304) check user admin pw iobroker: false,system.user.admin
+2023-01-09 14:40:05.652  - [32minfo[39m: my-opcua.0 (14304) check group user admin group admin: false
+2023-01-09 14:40:14.846  - [33mwarn[39m: my-opcua.0 (14304) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":312,"ack":false,"time":1673260811729},"_id":94386847} Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+2023-01-09 14:40:14.848  - [33mwarn[39m: my-opcua.0 (14304) Error: Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 14:40:35.056  - [32minfo[39m: my-opcua.0 (14304) state my-opcua.0.testVariable deleted
+2023-01-09 14:40:51.776  - [33mwarn[39m: my-opcua.0 (14304) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":313,"ack":false,"time":1673260844725},"_id":94386848} Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+2023-01-09 14:40:51.778  - [33mwarn[39m: my-opcua.0 (14304) Error: Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 15:51:39.036  - [33mwarn[39m: my-opcua.0 (14304) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":316,"ack":false,"time":1673265079288},"_id":94386851} Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+2023-01-09 15:51:39.038  - [33mwarn[39m: my-opcua.0 (14304) Error: Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 15:54:09.186  - [34mdebug[39m: my-opcua.0 (10712) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 15:54:09.211  - [34mdebug[39m: my-opcua.0 (10712) Objects client ready ... initialize now
+2023-01-09 15:54:09.214  - [34mdebug[39m: my-opcua.0 (10712) Objects create System PubSub Client
+2023-01-09 15:54:09.216  - [34mdebug[39m: my-opcua.0 (10712) Objects create User PubSub Client
+2023-01-09 15:54:09.232  - [34mdebug[39m: my-opcua.0 (10712) Objects client initialize lua scripts
+2023-01-09 15:54:09.240  - [34mdebug[39m: my-opcua.0 (10712) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 15:54:09.260  - [34mdebug[39m: my-opcua.0 (10712) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 15:54:09.265  - [34mdebug[39m: my-opcua.0 (10712) States create System PubSub Client
+2023-01-09 15:54:09.266  - [34mdebug[39m: my-opcua.0 (10712) States create User PubSub Client
+2023-01-09 15:54:09.275  - [34mdebug[39m: my-opcua.0 (10712) States connected to redis: 127.0.0.1:9000
+2023-01-09 15:54:09.286  - [31merror[39m: my-opcua.0 (10712) adapter disabled
+2023-01-09 15:54:09.363  - [32minfo[39m: my-opcua.0 (10712) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 15:54:12.448  - [32minfo[39m: my-opcua.0 (10712) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 15:54:12.450  - [32minfo[39m: my-opcua.0 (10712) config option2: sysadmin
+2023-01-09 15:54:12.915  - [32minfo[39m: my-opcua.0 (10712) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 15:54:12.926  - [32minfo[39m: my-opcua.0 (10712) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 15:54:12.932  - [32minfo[39m: my-opcua.0 (10712) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 15:54:12.998  - [32minfo[39m: my-opcua.0 (10712) check user admin pw iobroker: false,system.user.admin
+2023-01-09 15:54:13.480  - [32minfo[39m: my-opcua.0 (10712) check group user admin group admin: false
+2023-01-09 15:55:25.644  - [32minfo[39m: my-opcua.0 (10712) state my-opcua.0.testVariable deleted
+2023-01-09 15:57:12.975  - [34mdebug[39m: my-opcua.0 (15532) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 15:57:12.994  - [34mdebug[39m: my-opcua.0 (15532) Objects client ready ... initialize now
+2023-01-09 15:57:12.995  - [34mdebug[39m: my-opcua.0 (15532) Objects create System PubSub Client
+2023-01-09 15:57:12.997  - [34mdebug[39m: my-opcua.0 (15532) Objects create User PubSub Client
+2023-01-09 15:57:13.007  - [34mdebug[39m: my-opcua.0 (15532) Objects client initialize lua scripts
+2023-01-09 15:57:13.011  - [34mdebug[39m: my-opcua.0 (15532) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 15:57:13.027  - [34mdebug[39m: my-opcua.0 (15532) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 15:57:13.032  - [34mdebug[39m: my-opcua.0 (15532) States create System PubSub Client
+2023-01-09 15:57:13.033  - [34mdebug[39m: my-opcua.0 (15532) States create User PubSub Client
+2023-01-09 15:57:13.039  - [34mdebug[39m: my-opcua.0 (15532) States connected to redis: 127.0.0.1:9000
+2023-01-09 15:57:13.048  - [31merror[39m: my-opcua.0 (15532) adapter disabled
+2023-01-09 15:57:13.091  - [32minfo[39m: my-opcua.0 (15532) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 15:57:16.969  - [32minfo[39m: my-opcua.0 (15532) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 15:57:16.972  - [32minfo[39m: my-opcua.0 (15532) config option2: sysadmin
+2023-01-09 15:57:17.620  - [32minfo[39m: my-opcua.0 (15532) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 15:57:17.630  - [32minfo[39m: my-opcua.0 (15532) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 15:57:17.636  - [32minfo[39m: my-opcua.0 (15532) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 15:57:17.698  - [32minfo[39m: my-opcua.0 (15532) check user admin pw iobroker: false,system.user.admin
+2023-01-09 15:57:18.251  - [32minfo[39m: my-opcua.0 (15532) check group user admin group admin: false
+2023-01-09 15:57:51.305  - [33mwarn[39m: my-opcua.0 (15532) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":319,"ack":false,"time":1673265453575},"_id":94386854} Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+2023-01-09 15:57:51.307  - [33mwarn[39m: my-opcua.0 (15532) Error: Unable to cast object of type 'System.Object[]' to type 'System.String[]'.
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 15:57:51.321  - [32minfo[39m: my-opcua.0 (15532) state my-opcua.0.testVariable deleted
+2023-01-09 15:59:33.054  - [34mdebug[39m: my-opcua.0 (19492) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 15:59:33.072  - [34mdebug[39m: my-opcua.0 (19492) Objects client ready ... initialize now
+2023-01-09 15:59:33.074  - [34mdebug[39m: my-opcua.0 (19492) Objects create System PubSub Client
+2023-01-09 15:59:33.077  - [34mdebug[39m: my-opcua.0 (19492) Objects create User PubSub Client
+2023-01-09 15:59:33.087  - [34mdebug[39m: my-opcua.0 (19492) Objects client initialize lua scripts
+2023-01-09 15:59:33.091  - [34mdebug[39m: my-opcua.0 (19492) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 15:59:33.111  - [34mdebug[39m: my-opcua.0 (19492) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 15:59:33.115  - [34mdebug[39m: my-opcua.0 (19492) States create System PubSub Client
+2023-01-09 15:59:33.116  - [34mdebug[39m: my-opcua.0 (19492) States create User PubSub Client
+2023-01-09 15:59:33.121  - [34mdebug[39m: my-opcua.0 (19492) States connected to redis: 127.0.0.1:9000
+2023-01-09 15:59:33.130  - [31merror[39m: my-opcua.0 (19492) adapter disabled
+2023-01-09 15:59:33.179  - [32minfo[39m: my-opcua.0 (19492) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 15:59:36.281  - [32minfo[39m: my-opcua.0 (19492) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 15:59:36.283  - [32minfo[39m: my-opcua.0 (19492) config option2: sysadmin
+2023-01-09 15:59:36.971  - [32minfo[39m: my-opcua.0 (19492) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 15:59:36.981  - [32minfo[39m: my-opcua.0 (19492) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 15:59:36.987  - [32minfo[39m: my-opcua.0 (19492) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 15:59:37.046  - [32minfo[39m: my-opcua.0 (19492) check user admin pw iobroker: false,system.user.admin
+2023-01-09 15:59:37.847  - [32minfo[39m: my-opcua.0 (19492) check group user admin group admin: false
+2023-01-09 16:00:31.189  - [32minfo[39m: my-opcua.0 (19492) state my-opcua.0.testVariable deleted
+2023-01-09 16:07:05.583  - [34mdebug[39m: my-opcua.0 (17688) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 16:07:05.605  - [34mdebug[39m: my-opcua.0 (17688) Objects client ready ... initialize now
+2023-01-09 16:07:05.607  - [34mdebug[39m: my-opcua.0 (17688) Objects create System PubSub Client
+2023-01-09 16:07:05.609  - [34mdebug[39m: my-opcua.0 (17688) Objects create User PubSub Client
+2023-01-09 16:07:05.622  - [34mdebug[39m: my-opcua.0 (17688) Objects client initialize lua scripts
+2023-01-09 16:07:05.626  - [34mdebug[39m: my-opcua.0 (17688) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 16:07:05.644  - [34mdebug[39m: my-opcua.0 (17688) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 16:07:05.649  - [34mdebug[39m: my-opcua.0 (17688) States create System PubSub Client
+2023-01-09 16:07:05.650  - [34mdebug[39m: my-opcua.0 (17688) States create User PubSub Client
+2023-01-09 16:07:05.657  - [34mdebug[39m: my-opcua.0 (17688) States connected to redis: 127.0.0.1:9000
+2023-01-09 16:07:05.666  - [31merror[39m: my-opcua.0 (17688) adapter disabled
+2023-01-09 16:07:05.723  - [32minfo[39m: my-opcua.0 (17688) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 16:07:08.160  - [32minfo[39m: my-opcua.0 (17688) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 16:07:08.161  - [32minfo[39m: my-opcua.0 (17688) config option2: sysadmin
+2023-01-09 16:07:08.511  - [32minfo[39m: my-opcua.0 (17688) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 16:07:08.519  - [32minfo[39m: my-opcua.0 (17688) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 16:07:08.527  - [32minfo[39m: my-opcua.0 (17688) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 16:07:08.585  - [32minfo[39m: my-opcua.0 (17688) check user admin pw iobroker: false,system.user.admin
+2023-01-09 16:07:09.139  - [32minfo[39m: my-opcua.0 (17688) check group user admin group admin: false
+2023-01-09 16:09:38.004  - [33mwarn[39m: my-opcua.0 (17688) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":321,"ack":false,"time":1673266050257},"_id":94386856} BadConnectionClosed
+2023-01-09 16:09:38.007  - [33mwarn[39m: my-opcua.0 (17688) Error: BadConnectionClosed
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 16:09:38.026  - [32minfo[39m: my-opcua.0 (17688) state my-opcua.0.testVariable deleted
+2023-01-09 16:10:38.803  - [33mwarn[39m: my-opcua.0 (17688) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"createstates","message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"from":"system.adapter.admin.5","callback":{"message":{"treeData":[{"id":"i=2253","name":"Server","nodeclass":"Object","icon":"object","child":[{"id":"i=2254","name":"ServerArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2255","name":"NamespaceArray","nodeclass":"Variable","icon":"variable"},{"id":"i=2256","name":"ServerStatus","nodeclass":"Variable","icon":"variable"},{"id":"i=2267","name":"ServiceLevel","nodeclass":"Variable","icon":"variable"},{"id":"i=2994","name":"Auditing","nodeclass":"Variable","icon":"variable"},{"id":"i=12885","name":"EstimatedReturnTime","nodeclass":"Variable","icon":"variable"},{"id":"i=17634","name":"LocalTime","nodeclass":"Variable","icon":"variable"},{"id":"i=2268","name":"ServerCapabilities","nodeclass":"Object","icon":"object"},{"id":"i=2274","name":"ServerDiagnostics","nodeclass":"Object","icon":"object"},{"id":"i=2295","name":"VendorServerInfo","nodeclass":"Object","icon":"object"},{"id":"i=2296","name":"ServerRedundancy","nodeclass":"Object","icon":"object"},{"id":"i=11715","name":"Namespaces","nodeclass":"Object","icon":"object"},{"id":"i=11492","name":"GetMonitoredItems","nodeclass":"Method","icon":"variable"},{"id":"i=12873","name":"ResendData","nodeclass":"Method","icon":"variable"},{"id":"i=12749","name":"SetSubscriptionDurable","nodeclass":"Method","icon":"variable"},{"id":"i=12886","name":"RequestServerStateChange","nodeclass":"Method","icon":"variable"},{"id":"i=12637","name":"ServerConfiguration","nodeclass":"Object","icon":"object"},{"id":"i=14443","name":"PublishSubscribe","nodeclass":"Object","icon":"object"},{"id":"i=17594","name":"Dictionaries","nodeclass":"Object","icon":"object"}],"expanded":true},{"id":"ns=2;s=OpenIndustry","name":"OpenIndustry","nodeclass":"Object","icon":"object","child":[{"id":"ns=2;s=Stansiya479","name":"Stansiya479","nodeclass":"Object","icon":"object","isChecked":true}],"selected":true,"expanded":true,"isChecked":true}],"allcheckednodes":["i=2253","i=2268","i=2274","i=2295","i=2296","i=11715","ns=2;s=OpenIndustry","ns=2;s=Stansiya479"]},"id":322,"ack":false,"time":1673266194097},"_id":94386857} BadSecureChannelClosed
+2023-01-09 16:10:38.805  - [33mwarn[39m: my-opcua.0 (17688) Error: BadSecureChannelClosed
+    at Object.addmonitorcheckednodes (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:276:49)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-01-09 17:36:41.929  - [34mdebug[39m: my-opcua.0 (16132) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 17:36:41.955  - [34mdebug[39m: my-opcua.0 (16132) Objects client ready ... initialize now
+2023-01-09 17:36:41.957  - [34mdebug[39m: my-opcua.0 (16132) Objects create System PubSub Client
+2023-01-09 17:36:41.959  - [34mdebug[39m: my-opcua.0 (16132) Objects create User PubSub Client
+2023-01-09 17:36:41.970  - [34mdebug[39m: my-opcua.0 (16132) Objects client initialize lua scripts
+2023-01-09 17:36:41.975  - [34mdebug[39m: my-opcua.0 (16132) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 17:36:41.992  - [34mdebug[39m: my-opcua.0 (16132) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 17:36:41.997  - [34mdebug[39m: my-opcua.0 (16132) States create System PubSub Client
+2023-01-09 17:36:41.998  - [34mdebug[39m: my-opcua.0 (16132) States create User PubSub Client
+2023-01-09 17:36:42.004  - [34mdebug[39m: my-opcua.0 (16132) States connected to redis: 127.0.0.1:9000
+2023-01-09 17:36:42.016  - [31merror[39m: my-opcua.0 (16132) adapter disabled
+2023-01-09 17:36:42.072  - [32minfo[39m: my-opcua.0 (16132) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 17:36:47.885  - [31merror[39m: my-opcua.0 (16132) uncaught exception: Error establishing a connection: BadNotConnected
+2023-01-09 17:36:47.888  - [31merror[39m: my-opcua.0 (16132) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-09 17:36:47.890  - [31merror[39m: my-opcua.0 (16132) Error establishing a connection: BadNotConnected
+2023-01-09 17:36:51.180  - [31merror[39m: my-opcua.0 (16132) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2023-01-09 17:36:51.183  - [31merror[39m: my-opcua.0 (16132) unhandled promise rejection: Cannot browse if not connected to a server.
+2023-01-09 17:36:51.184  - [31merror[39m: my-opcua.0 (16132) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2023-01-09 17:36:51.185  - [31merror[39m: my-opcua.0 (16132) Cannot browse if not connected to a server.
+2023-01-09 17:36:51.207  - [32minfo[39m: my-opcua.0 (16132) terminating
+2023-01-09 17:36:51.210  - [33mwarn[39m: my-opcua.0 (16132) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2023-01-09 17:37:20.693  - [34mdebug[39m: my-opcua.0 (20020) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 17:37:20.718  - [34mdebug[39m: my-opcua.0 (20020) Objects client ready ... initialize now
+2023-01-09 17:37:20.720  - [34mdebug[39m: my-opcua.0 (20020) Objects create System PubSub Client
+2023-01-09 17:37:20.722  - [34mdebug[39m: my-opcua.0 (20020) Objects create User PubSub Client
+2023-01-09 17:37:20.735  - [34mdebug[39m: my-opcua.0 (20020) Objects client initialize lua scripts
+2023-01-09 17:37:20.740  - [34mdebug[39m: my-opcua.0 (20020) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 17:37:20.758  - [34mdebug[39m: my-opcua.0 (20020) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 17:37:20.764  - [34mdebug[39m: my-opcua.0 (20020) States create System PubSub Client
+2023-01-09 17:37:20.765  - [34mdebug[39m: my-opcua.0 (20020) States create User PubSub Client
+2023-01-09 17:37:20.772  - [34mdebug[39m: my-opcua.0 (20020) States connected to redis: 127.0.0.1:9000
+2023-01-09 17:37:20.782  - [31merror[39m: my-opcua.0 (20020) adapter disabled
+2023-01-09 17:37:20.838  - [32minfo[39m: my-opcua.0 (20020) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 17:37:26.247  - [32minfo[39m: my-opcua.0 (20020) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 17:37:26.249  - [32minfo[39m: my-opcua.0 (20020) config option2: sysadmin
+2023-01-09 17:37:27.069  - [32minfo[39m: my-opcua.0 (20020) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 17:37:27.081  - [32minfo[39m: my-opcua.0 (20020) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:37:27.088  - [32minfo[39m: my-opcua.0 (20020) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:37:27.164  - [32minfo[39m: my-opcua.0 (20020) check user admin pw iobroker: false,system.user.admin
+2023-01-09 17:37:27.818  - [32minfo[39m: my-opcua.0 (20020) check group user admin group admin: false
+2023-01-09 17:38:56.604  - [34mdebug[39m: my-opcua.0 (21964) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 17:38:56.625  - [34mdebug[39m: my-opcua.0 (21964) Objects client ready ... initialize now
+2023-01-09 17:38:56.626  - [34mdebug[39m: my-opcua.0 (21964) Objects create System PubSub Client
+2023-01-09 17:38:56.628  - [34mdebug[39m: my-opcua.0 (21964) Objects create User PubSub Client
+2023-01-09 17:38:56.639  - [34mdebug[39m: my-opcua.0 (21964) Objects client initialize lua scripts
+2023-01-09 17:38:56.643  - [34mdebug[39m: my-opcua.0 (21964) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 17:38:56.661  - [34mdebug[39m: my-opcua.0 (21964) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 17:38:56.666  - [34mdebug[39m: my-opcua.0 (21964) States create System PubSub Client
+2023-01-09 17:38:56.668  - [34mdebug[39m: my-opcua.0 (21964) States create User PubSub Client
+2023-01-09 17:38:56.674  - [34mdebug[39m: my-opcua.0 (21964) States connected to redis: 127.0.0.1:9000
+2023-01-09 17:38:56.684  - [31merror[39m: my-opcua.0 (21964) adapter disabled
+2023-01-09 17:38:56.739  - [32minfo[39m: my-opcua.0 (21964) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 17:39:01.905  - [32minfo[39m: my-opcua.0 (21964) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 17:39:01.906  - [32minfo[39m: my-opcua.0 (21964) config option2: sysadmin
+2023-01-09 17:39:02.882  - [32minfo[39m: my-opcua.0 (21964) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 17:39:02.892  - [32minfo[39m: my-opcua.0 (21964) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:39:02.904  - [32minfo[39m: my-opcua.0 (21964) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:39:03.007  - [32minfo[39m: my-opcua.0 (21964) check user admin pw iobroker: false,system.user.admin
+2023-01-09 17:39:03.987  - [32minfo[39m: my-opcua.0 (21964) check group user admin group admin: false
+2023-01-09 17:39:32.921  - [32minfo[39m: my-opcua.0 (21964) state my-opcua.0.testVariable deleted
+2023-01-09 17:42:21.228  - [32minfo[39m: my-opcua.0 (21964) browser command
+2023-01-09 17:45:51.549  - [34mdebug[39m: my-opcua.0 (24780) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 17:45:51.568  - [34mdebug[39m: my-opcua.0 (24780) Objects client ready ... initialize now
+2023-01-09 17:45:51.570  - [34mdebug[39m: my-opcua.0 (24780) Objects create System PubSub Client
+2023-01-09 17:45:51.572  - [34mdebug[39m: my-opcua.0 (24780) Objects create User PubSub Client
+2023-01-09 17:45:51.583  - [34mdebug[39m: my-opcua.0 (24780) Objects client initialize lua scripts
+2023-01-09 17:45:51.589  - [34mdebug[39m: my-opcua.0 (24780) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 17:45:51.610  - [34mdebug[39m: my-opcua.0 (24780) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 17:45:51.615  - [34mdebug[39m: my-opcua.0 (24780) States create System PubSub Client
+2023-01-09 17:45:51.616  - [34mdebug[39m: my-opcua.0 (24780) States create User PubSub Client
+2023-01-09 17:45:51.625  - [34mdebug[39m: my-opcua.0 (24780) States connected to redis: 127.0.0.1:9000
+2023-01-09 17:45:51.636  - [31merror[39m: my-opcua.0 (24780) adapter disabled
+2023-01-09 17:45:51.691  - [32minfo[39m: my-opcua.0 (24780) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 17:45:55.894  - [32minfo[39m: my-opcua.0 (24780) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 17:45:55.896  - [32minfo[39m: my-opcua.0 (24780) config option2: sysadmin
+2023-01-09 17:45:56.762  - [32minfo[39m: my-opcua.0 (24780) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 17:45:56.773  - [32minfo[39m: my-opcua.0 (24780) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:45:56.781  - [32minfo[39m: my-opcua.0 (24780) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:45:56.861  - [32minfo[39m: my-opcua.0 (24780) check user admin pw iobroker: false,system.user.admin
+2023-01-09 17:45:57.371  - [32minfo[39m: my-opcua.0 (24780) check group user admin group admin: false
+2023-01-09 17:46:26.789  - [32minfo[39m: my-opcua.0 (24780) state my-opcua.0.testVariable deleted
+2023-01-09 17:59:52.283  - [34mdebug[39m: my-opcua.0 (27496) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 17:59:52.303  - [34mdebug[39m: my-opcua.0 (27496) Objects client ready ... initialize now
+2023-01-09 17:59:52.305  - [34mdebug[39m: my-opcua.0 (27496) Objects create System PubSub Client
+2023-01-09 17:59:52.306  - [34mdebug[39m: my-opcua.0 (27496) Objects create User PubSub Client
+2023-01-09 17:59:52.318  - [34mdebug[39m: my-opcua.0 (27496) Objects client initialize lua scripts
+2023-01-09 17:59:52.323  - [34mdebug[39m: my-opcua.0 (27496) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 17:59:52.340  - [34mdebug[39m: my-opcua.0 (27496) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 17:59:52.345  - [34mdebug[39m: my-opcua.0 (27496) States create System PubSub Client
+2023-01-09 17:59:52.346  - [34mdebug[39m: my-opcua.0 (27496) States create User PubSub Client
+2023-01-09 17:59:52.355  - [34mdebug[39m: my-opcua.0 (27496) States connected to redis: 127.0.0.1:9000
+2023-01-09 17:59:52.364  - [31merror[39m: my-opcua.0 (27496) adapter disabled
+2023-01-09 17:59:52.414  - [32minfo[39m: my-opcua.0 (27496) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 17:59:57.765  - [32minfo[39m: my-opcua.0 (27496) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 17:59:57.767  - [32minfo[39m: my-opcua.0 (27496) config option2: sysadmin
+2023-01-09 17:59:58.529  - [32minfo[39m: my-opcua.0 (27496) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 17:59:58.542  - [32minfo[39m: my-opcua.0 (27496) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:59:58.553  - [32minfo[39m: my-opcua.0 (27496) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 17:59:58.641  - [32minfo[39m: my-opcua.0 (27496) check user admin pw iobroker: false,system.user.admin
+2023-01-09 17:59:59.074  - [32minfo[39m: my-opcua.0 (27496) check group user admin group admin: false
+2023-01-09 18:00:28.564  - [32minfo[39m: my-opcua.0 (27496) state my-opcua.0.testVariable deleted
+2023-01-09 18:14:29.022  - [34mdebug[39m: my-opcua.0 (23924) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 18:14:29.041  - [34mdebug[39m: my-opcua.0 (23924) Objects client ready ... initialize now
+2023-01-09 18:14:29.042  - [34mdebug[39m: my-opcua.0 (23924) Objects create System PubSub Client
+2023-01-09 18:14:29.043  - [34mdebug[39m: my-opcua.0 (23924) Objects create User PubSub Client
+2023-01-09 18:14:29.054  - [34mdebug[39m: my-opcua.0 (23924) Objects client initialize lua scripts
+2023-01-09 18:14:29.058  - [34mdebug[39m: my-opcua.0 (23924) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 18:14:29.075  - [34mdebug[39m: my-opcua.0 (23924) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 18:14:29.080  - [34mdebug[39m: my-opcua.0 (23924) States create System PubSub Client
+2023-01-09 18:14:29.081  - [34mdebug[39m: my-opcua.0 (23924) States create User PubSub Client
+2023-01-09 18:14:29.087  - [34mdebug[39m: my-opcua.0 (23924) States connected to redis: 127.0.0.1:9000
+2023-01-09 18:14:29.099  - [31merror[39m: my-opcua.0 (23924) adapter disabled
+2023-01-09 18:14:29.146  - [32minfo[39m: my-opcua.0 (23924) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 18:14:34.486  - [32minfo[39m: my-opcua.0 (23924) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 18:14:34.488  - [32minfo[39m: my-opcua.0 (23924) config option2: sysadmin
+2023-01-09 18:14:35.486  - [32minfo[39m: my-opcua.0 (23924) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 18:14:35.500  - [32minfo[39m: my-opcua.0 (23924) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 18:14:35.507  - [32minfo[39m: my-opcua.0 (23924) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 18:14:35.593  - [32minfo[39m: my-opcua.0 (23924) check user admin pw iobroker: false,system.user.admin
+2023-01-09 18:14:36.317  - [32minfo[39m: my-opcua.0 (23924) check group user admin group admin: false
+2023-01-09 18:15:05.519  - [32minfo[39m: my-opcua.0 (23924) state my-opcua.0.testVariable deleted
+2023-01-09 22:48:48.698  - [34mdebug[39m: my-opcua.0 (26044) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 22:48:48.715  - [34mdebug[39m: my-opcua.0 (26044) Objects client ready ... initialize now
+2023-01-09 22:48:48.716  - [34mdebug[39m: my-opcua.0 (26044) Objects create System PubSub Client
+2023-01-09 22:48:48.718  - [34mdebug[39m: my-opcua.0 (26044) Objects create User PubSub Client
+2023-01-09 22:48:48.729  - [34mdebug[39m: my-opcua.0 (26044) Objects client initialize lua scripts
+2023-01-09 22:48:48.733  - [34mdebug[39m: my-opcua.0 (26044) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 22:48:48.749  - [34mdebug[39m: my-opcua.0 (26044) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 22:48:48.753  - [34mdebug[39m: my-opcua.0 (26044) States create System PubSub Client
+2023-01-09 22:48:48.754  - [34mdebug[39m: my-opcua.0 (26044) States create User PubSub Client
+2023-01-09 22:48:48.761  - [34mdebug[39m: my-opcua.0 (26044) States connected to redis: 127.0.0.1:9000
+2023-01-09 22:48:48.770  - [31merror[39m: my-opcua.0 (26044) adapter disabled
+2023-01-09 22:48:48.925  - [32minfo[39m: my-opcua.0 (26044) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 22:49:53.280  - [34mdebug[39m: my-opcua.0 (26316) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-01-09 22:49:53.300  - [34mdebug[39m: my-opcua.0 (26316) Objects client ready ... initialize now
+2023-01-09 22:49:53.301  - [34mdebug[39m: my-opcua.0 (26316) Objects create System PubSub Client
+2023-01-09 22:49:53.303  - [34mdebug[39m: my-opcua.0 (26316) Objects create User PubSub Client
+2023-01-09 22:49:53.314  - [34mdebug[39m: my-opcua.0 (26316) Objects client initialize lua scripts
+2023-01-09 22:49:53.319  - [34mdebug[39m: my-opcua.0 (26316) Objects connected to redis: 127.0.0.1:9001
+2023-01-09 22:49:53.338  - [34mdebug[39m: my-opcua.0 (26316) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-01-09 22:49:53.343  - [34mdebug[39m: my-opcua.0 (26316) States create System PubSub Client
+2023-01-09 22:49:53.344  - [34mdebug[39m: my-opcua.0 (26316) States create User PubSub Client
+2023-01-09 22:49:53.350  - [34mdebug[39m: my-opcua.0 (26316) States connected to redis: 127.0.0.1:9000
+2023-01-09 22:49:53.360  - [31merror[39m: my-opcua.0 (26316) adapter disabled
+2023-01-09 22:49:53.420  - [32minfo[39m: my-opcua.0 (26316) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2023-01-09 22:50:01.088  - [32minfo[39m: my-opcua.0 (26316) config option1: opc.tcp://desktop-lkut999:62541/OpenIndustryFramework/OPCUAServer
+2023-01-09 22:50:01.090  - [32minfo[39m: my-opcua.0 (26316) config option2: sysadmin
+2023-01-09 22:50:02.054  - [32minfo[39m: my-opcua.0 (26316) state my-opcua.0.testVariable changed: true (ack = false)
+2023-01-09 22:50:02.067  - [32minfo[39m: my-opcua.0 (26316) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 22:50:02.075  - [32minfo[39m: my-opcua.0 (26316) state my-opcua.0.testVariable changed: true (ack = true)
+2023-01-09 22:50:02.150  - [32minfo[39m: my-opcua.0 (26316) check user admin pw iobroker: false,system.user.admin
+2023-01-09 22:50:02.902  - [32minfo[39m: my-opcua.0 (26316) check group user admin group admin: false
+2023-01-09 22:50:34.533  - [32minfo[39m: my-opcua.0 (26316) state my-opcua.0.testVariable deleted
+2023-01-09 22:54:52.378  - [32minfo[39m: my-opcua.0 (26316) browser command

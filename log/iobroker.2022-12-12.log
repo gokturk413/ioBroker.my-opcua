@@ -1,0 +1,393 @@
+2022-12-12 12:27:59.261  - [31merror[39m: my-opcua.0 (18364) my-opcua.0 already running
+2022-12-12 12:27:59.263  - [33mwarn[39m: my-opcua.0 (18364) Terminated (ADAPTER_ALREADY_RUNNING): Without reason
+2022-12-12 12:28:30.516  - [32minfo[39m: my-opcua.0 (11980) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 12:28:37.308  - [31merror[39m: my-opcua.0 (11980) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-12 12:28:37.311  - [31merror[39m: my-opcua.0 (11980) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 12:28:37.312  - [31merror[39m: my-opcua.0 (11980) Error establishing a connection: BadNotConnected
+2022-12-12 12:28:37.349  - [31merror[39m: my-opcua.0 (11980) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-12 12:28:37.349  - [31merror[39m: my-opcua.0 (11980) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-12 12:28:37.349  - [31merror[39m: my-opcua.0 (11980) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 12:28:37.349  - [31merror[39m: my-opcua.0 (11980) Cannot browse if not connected to a server.
+2022-12-12 12:28:37.351  - [32minfo[39m: my-opcua.0 (11980) terminating
+2022-12-12 12:28:37.352  - [33mwarn[39m: my-opcua.0 (11980) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-12 12:29:11.137  - [32minfo[39m: my-opcua.0 (8900) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 12:29:16.963  - [31merror[39m: my-opcua.0 (8900) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-12 12:29:16.965  - [31merror[39m: my-opcua.0 (8900) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 12:29:16.965  - [31merror[39m: my-opcua.0 (8900) Error establishing a connection: BadNotConnected
+2022-12-12 12:29:17.002  - [31merror[39m: my-opcua.0 (8900) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-12 12:29:17.002  - [31merror[39m: my-opcua.0 (8900) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-12 12:29:17.002  - [31merror[39m: my-opcua.0 (8900) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 12:29:17.003  - [31merror[39m: my-opcua.0 (8900) Cannot browse if not connected to a server.
+2022-12-12 12:29:17.007  - [32minfo[39m: my-opcua.0 (8900) terminating
+2022-12-12 12:29:17.008  - [33mwarn[39m: my-opcua.0 (8900) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-12 12:29:51.549  - [32minfo[39m: my-opcua.0 (2708) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 12:29:58.170  - [31merror[39m: my-opcua.0 (2708) uncaught exception: Error establishing a connection: BadNotConnected
+2022-12-12 12:29:58.173  - [31merror[39m: my-opcua.0 (2708) Error: Error establishing a connection: BadNotConnected
+    at <anonymous>:1:55
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:113:9)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 12:29:58.174  - [31merror[39m: my-opcua.0 (2708) Error establishing a connection: BadNotConnected
+2022-12-12 12:29:58.223  - [31merror[39m: my-opcua.0 (2708) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-12 12:29:58.225  - [31merror[39m: my-opcua.0 (2708) unhandled promise rejection: Cannot browse if not connected to a server.
+2022-12-12 12:29:58.225  - [31merror[39m: my-opcua.0 (2708) Error: Cannot browse if not connected to a server.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 12:29:58.225  - [31merror[39m: my-opcua.0 (2708) Cannot browse if not connected to a server.
+2022-12-12 12:29:58.230  - [32minfo[39m: my-opcua.0 (2708) terminating
+2022-12-12 12:29:58.231  - [33mwarn[39m: my-opcua.0 (2708) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-12 12:31:55.824  - [32minfo[39m: my-opcua.0 (1412) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 12:31:56.747  - [32minfo[39m: my-opcua.0 (1412) config option1: undefined
+2022-12-12 12:31:56.747  - [32minfo[39m: my-opcua.0 (1412) config option2: undefined
+2022-12-12 12:31:56.783  - [32minfo[39m: my-opcua.0 (1412) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 12:31:56.786  - [32minfo[39m: my-opcua.0 (1412) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:31:56.789  - [32minfo[39m: my-opcua.0 (1412) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:31:56.848  - [32minfo[39m: my-opcua.0 (1412) check user admin pw iobroker: false,system.user.admin
+2022-12-12 12:31:56.850  - [32minfo[39m: my-opcua.0 (1412) check group user admin group admin: false
+2022-12-12 12:32:04.297  - [32minfo[39m: my-opcua.0 (1412) send command
+2022-12-12 12:32:26.795  - [32minfo[39m: my-opcua.0 (1412) state my-opcua.0.testVariable deleted
+2022-12-12 12:32:46.313  - [32minfo[39m: my-opcua.0 (1412) send command
+2022-12-12 12:41:37.941  - [32minfo[39m: my-opcua.0 (1412) send command
+2022-12-12 12:43:23.371  - [32minfo[39m: my-opcua.0 (1412) send command
+2022-12-12 12:47:04.327  - [32minfo[39m: my-opcua.0 (1412) Got terminate signal TERMINATE_YOURSELF
+2022-12-12 12:47:04.327  - [32minfo[39m: my-opcua.0 (1412) terminating
+2022-12-12 12:47:04.328  - [32minfo[39m: my-opcua.0 (1412) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-12 12:47:06.192  - [32minfo[39m: my-opcua.0 (6472) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 12:47:06.917  - [32minfo[39m: my-opcua.0 (6472) config option1: undefined
+2022-12-12 12:47:06.918  - [32minfo[39m: my-opcua.0 (6472) config option2: undefined
+2022-12-12 12:47:06.948  - [32minfo[39m: my-opcua.0 (6472) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 12:47:06.951  - [32minfo[39m: my-opcua.0 (6472) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:47:06.954  - [32minfo[39m: my-opcua.0 (6472) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:47:07.004  - [32minfo[39m: my-opcua.0 (6472) check user admin pw iobroker: false,system.user.admin
+2022-12-12 12:47:07.007  - [32minfo[39m: my-opcua.0 (6472) check group user admin group admin: false
+2022-12-12 12:48:03.309  - [32minfo[39m: my-opcua.0 (15068) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 12:48:03.995  - [32minfo[39m: my-opcua.0 (15068) config option1: undefined
+2022-12-12 12:48:03.996  - [32minfo[39m: my-opcua.0 (15068) config option2: undefined
+2022-12-12 12:48:04.024  - [32minfo[39m: my-opcua.0 (15068) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 12:48:04.027  - [32minfo[39m: my-opcua.0 (15068) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:48:04.030  - [32minfo[39m: my-opcua.0 (15068) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:48:04.076  - [32minfo[39m: my-opcua.0 (15068) check user admin pw iobroker: false,system.user.admin
+2022-12-12 12:48:04.078  - [32minfo[39m: my-opcua.0 (15068) check group user admin group admin: false
+2022-12-12 12:48:34.040  - [32minfo[39m: my-opcua.0 (15068) state my-opcua.0.testVariable deleted
+2022-12-12 12:48:38.136  - [32minfo[39m: my-opcua.0 (15068) Got terminate signal TERMINATE_YOURSELF
+2022-12-12 12:48:38.137  - [32minfo[39m: my-opcua.0 (15068) terminating
+2022-12-12 12:48:38.138  - [32minfo[39m: my-opcua.0 (15068) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-12 12:48:41.853  - [32minfo[39m: my-opcua.0 (9348) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 12:48:42.678  - [32minfo[39m: my-opcua.0 (9348) config option1: undefined
+2022-12-12 12:48:42.679  - [32minfo[39m: my-opcua.0 (9348) config option2: undefined
+2022-12-12 12:48:42.758  - [32minfo[39m: my-opcua.0 (9348) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 12:48:42.762  - [32minfo[39m: my-opcua.0 (9348) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:48:42.764  - [32minfo[39m: my-opcua.0 (9348) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 12:48:42.874  - [32minfo[39m: my-opcua.0 (9348) check user admin pw iobroker: false,system.user.admin
+2022-12-12 12:48:42.878  - [32minfo[39m: my-opcua.0 (9348) check group user admin group admin: false
+2022-12-12 12:48:50.008  - [32minfo[39m: my-opcua.0 (9348) send command
+2022-12-12 12:49:12.771  - [32minfo[39m: my-opcua.0 (9348) state my-opcua.0.testVariable deleted
+2022-12-12 13:03:48.939  - [32minfo[39m: my-opcua.0 (9348) send command
+2022-12-12 13:13:01.297  - [32minfo[39m: my-opcua.0 (9348) send command
+2022-12-12 13:23:46.125  - [32minfo[39m: my-opcua.0 (9348) Got terminate signal TERMINATE_YOURSELF
+2022-12-12 13:23:46.126  - [32minfo[39m: my-opcua.0 (9348) terminating
+2022-12-12 13:23:46.126  - [32minfo[39m: my-opcua.0 (9348) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-12 13:45:35.583  - [32minfo[39m: my-opcua.0 (2920) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 13:45:36.895  - [32minfo[39m: my-opcua.0 (2920) config option1: undefined
+2022-12-12 13:45:36.896  - [32minfo[39m: my-opcua.0 (2920) config option2: undefined
+2022-12-12 13:45:36.928  - [32minfo[39m: my-opcua.0 (2920) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 13:45:36.932  - [32minfo[39m: my-opcua.0 (2920) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:45:36.934  - [32minfo[39m: my-opcua.0 (2920) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:45:36.988  - [32minfo[39m: my-opcua.0 (2920) check user admin pw iobroker: false,system.user.admin
+2022-12-12 13:45:36.991  - [32minfo[39m: my-opcua.0 (2920) check group user admin group admin: false
+2022-12-12 13:45:40.559  - [32minfo[39m: my-opcua.0 (2920) test command
+2022-12-12 13:45:55.264  - [32minfo[39m: my-opcua.0 (2920) browser command
+2022-12-12 13:45:55.291  - [33mwarn[39m: my-opcua.0 (2920) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":28,"ack":false,"time":1670838355263},"_id":5970490} Cannot perform runtime binding on a null reference
+2022-12-12 13:45:55.293  - [33mwarn[39m: my-opcua.0 (2920) Error: Cannot perform runtime binding on a null reference
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:262:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-12 13:46:04.511  - [32minfo[39m: my-opcua.0 (2920) browser command
+2022-12-12 13:46:04.512  - [33mwarn[39m: my-opcua.0 (2920) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":29,"ack":false,"time":1670838364510},"_id":5970491} Cannot perform runtime binding on a null reference
+2022-12-12 13:46:04.512  - [33mwarn[39m: my-opcua.0 (2920) Error: Cannot perform runtime binding on a null reference
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\iobroker.my-opcua\main.js:262:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\iobroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+2022-12-12 13:46:06.937  - [32minfo[39m: my-opcua.0 (2920) state my-opcua.0.testVariable deleted
+2022-12-12 13:47:10.634  - [34mdebug[39m: my-opcua.0 (19464) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 13:47:10.668  - [34mdebug[39m: my-opcua.0 (19464) Objects client ready ... initialize now
+2022-12-12 13:47:10.672  - [34mdebug[39m: my-opcua.0 (19464) Objects create System PubSub Client
+2022-12-12 13:47:10.675  - [34mdebug[39m: my-opcua.0 (19464) Objects create User PubSub Client
+2022-12-12 13:47:10.696  - [34mdebug[39m: my-opcua.0 (19464) Objects client initialize lua scripts
+2022-12-12 13:47:10.704  - [34mdebug[39m: my-opcua.0 (19464) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 13:47:10.735  - [34mdebug[39m: my-opcua.0 (19464) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 13:47:10.744  - [34mdebug[39m: my-opcua.0 (19464) States create System PubSub Client
+2022-12-12 13:47:10.747  - [34mdebug[39m: my-opcua.0 (19464) States create User PubSub Client
+2022-12-12 13:47:10.758  - [34mdebug[39m: my-opcua.0 (19464) States connected to redis: 127.0.0.1:9000
+2022-12-12 13:47:10.861  - [32minfo[39m: my-opcua.0 (19464) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 13:47:17.057  - [32minfo[39m: my-opcua.0 (19464) config option1: undefined
+2022-12-12 13:47:17.058  - [32minfo[39m: my-opcua.0 (19464) config option2: undefined
+2022-12-12 13:47:18.034  - [32minfo[39m: my-opcua.0 (2920) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 13:47:18.041  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 13:47:18.043  - [32minfo[39m: my-opcua.0 (2920) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:47:18.050  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:47:18.050  - [32minfo[39m: my-opcua.0 (2920) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:47:18.057  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:47:18.123  - [32minfo[39m: my-opcua.0 (19464) check user admin pw iobroker: false,system.user.admin
+2022-12-12 13:47:19.256  - [32minfo[39m: my-opcua.0 (19464) check group user admin group admin: false
+2022-12-12 13:47:31.751  - [32minfo[39m: my-opcua.0 (2920) Got terminate signal TERMINATE_YOURSELF
+2022-12-12 13:47:31.757  - [32minfo[39m: my-opcua.0 (19464) Got terminate signal TERMINATE_YOURSELF
+2022-12-12 13:47:31.752  - [32minfo[39m: my-opcua.0 (2920) terminating
+2022-12-12 13:47:31.753  - [32minfo[39m: my-opcua.0 (2920) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-12 13:47:47.216  - [32minfo[39m: my-opcua.0 (20160) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 13:47:48.006  - [32minfo[39m: my-opcua.0 (20160) config option1: undefined
+2022-12-12 13:47:48.006  - [32minfo[39m: my-opcua.0 (20160) config option2: undefined
+2022-12-12 13:47:48.012  - [32minfo[39m: my-opcua.0 (20160) Got terminate signal TERMINATE_YOURSELF
+2022-12-12 13:47:48.013  - [32minfo[39m: my-opcua.0 (20160) terminating
+2022-12-12 13:47:48.014  - [32minfo[39m: my-opcua.0 (20160) Terminated (ADAPTER_REQUESTED_TERMINATION): Without reason
+2022-12-12 13:47:48.123  - [32minfo[39m: my-opcua.0 (20160) check user admin pw iobroker: false,system.user.admin
+2022-12-12 13:47:48.125  - [32minfo[39m: my-opcua.0 (20160) check group user admin group admin: false
+2022-12-12 13:48:05.854  - [32minfo[39m: my-opcua.0 (19464) browser command
+2022-12-12 13:48:13.030  - [33mwarn[39m: my-opcua.0 (19464) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"salam":"hello"},"from":"system.adapter.admin.5","callback":{"message":{"salam":"hello"},"id":31,"ack":false,"time":1670838456789},"_id":5970493} Cannot perform runtime binding on a null reference
+2022-12-12 13:48:13.031  - [33mwarn[39m: my-opcua.0 (19464) Error: Cannot perform runtime binding on a null reference
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:262:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2022-12-12 13:48:13.044  - [33mwarn[39m: my-opcua.0 (19464) Got terminate signal. Checking desired PID: 0 vs own PID 19464
+2022-12-12 13:48:13.048  - [33mwarn[39m: my-opcua.0 (19464) Got terminate signal. Checking desired PID: 20160 vs own PID 19464
+2022-12-12 13:48:13.050  - [32minfo[39m: my-opcua.0 (19464) Got terminate signal TERMINATE_YOURSELF
+2022-12-12 13:48:13.056  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable deleted
+2022-12-12 13:48:13.057  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 13:48:13.059  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:48:13.060  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:48:18.076  - [32minfo[39m: my-opcua.0 (19464) state my-opcua.0.testVariable deleted
+2022-12-12 13:56:29.342  - [34mdebug[39m: my-opcua.0 (23188) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 13:56:29.359  - [34mdebug[39m: my-opcua.0 (23188) Objects client ready ... initialize now
+2022-12-12 13:56:29.360  - [34mdebug[39m: my-opcua.0 (23188) Objects create System PubSub Client
+2022-12-12 13:56:29.361  - [34mdebug[39m: my-opcua.0 (23188) Objects create User PubSub Client
+2022-12-12 13:56:29.372  - [34mdebug[39m: my-opcua.0 (23188) Objects client initialize lua scripts
+2022-12-12 13:56:29.376  - [34mdebug[39m: my-opcua.0 (23188) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 13:56:29.390  - [34mdebug[39m: my-opcua.0 (23188) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 13:56:29.394  - [34mdebug[39m: my-opcua.0 (23188) States create System PubSub Client
+2022-12-12 13:56:29.395  - [34mdebug[39m: my-opcua.0 (23188) States create User PubSub Client
+2022-12-12 13:56:29.401  - [34mdebug[39m: my-opcua.0 (23188) States connected to redis: 127.0.0.1:9000
+2022-12-12 13:56:29.412  - [31merror[39m: my-opcua.0 (23188) adapter disabled
+2022-12-12 13:56:29.460  - [32minfo[39m: my-opcua.0 (23188) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 13:56:34.159  - [32minfo[39m: my-opcua.0 (23188) config option1: undefined
+2022-12-12 13:56:34.159  - [32minfo[39m: my-opcua.0 (23188) config option2: undefined
+2022-12-12 13:56:34.875  - [32minfo[39m: my-opcua.0 (23188) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 13:56:34.882  - [32minfo[39m: my-opcua.0 (23188) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:56:34.890  - [32minfo[39m: my-opcua.0 (23188) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:56:34.942  - [32minfo[39m: my-opcua.0 (23188) check user admin pw iobroker: false,system.user.admin
+2022-12-12 13:56:35.631  - [32minfo[39m: my-opcua.0 (23188) check group user admin group admin: false
+2022-12-12 13:56:46.888  - [32minfo[39m: my-opcua.0 (23188) test command
+2022-12-12 13:57:04.898  - [32minfo[39m: my-opcua.0 (23188) state my-opcua.0.testVariable deleted
+2022-12-12 13:58:48.587  - [34mdebug[39m: my-opcua.0 (6576) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 13:58:48.604  - [34mdebug[39m: my-opcua.0 (6576) Objects client ready ... initialize now
+2022-12-12 13:58:48.606  - [34mdebug[39m: my-opcua.0 (6576) Objects create System PubSub Client
+2022-12-12 13:58:48.607  - [34mdebug[39m: my-opcua.0 (6576) Objects create User PubSub Client
+2022-12-12 13:58:48.617  - [34mdebug[39m: my-opcua.0 (6576) Objects client initialize lua scripts
+2022-12-12 13:58:48.621  - [34mdebug[39m: my-opcua.0 (6576) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 13:58:48.635  - [34mdebug[39m: my-opcua.0 (6576) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 13:58:48.639  - [34mdebug[39m: my-opcua.0 (6576) States create System PubSub Client
+2022-12-12 13:58:48.640  - [34mdebug[39m: my-opcua.0 (6576) States create User PubSub Client
+2022-12-12 13:58:48.645  - [34mdebug[39m: my-opcua.0 (6576) States connected to redis: 127.0.0.1:9000
+2022-12-12 13:58:48.654  - [31merror[39m: my-opcua.0 (6576) adapter disabled
+2022-12-12 13:58:48.700  - [32minfo[39m: my-opcua.0 (6576) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 13:58:52.226  - [32minfo[39m: my-opcua.0 (6576) config option1: undefined
+2022-12-12 13:58:52.227  - [32minfo[39m: my-opcua.0 (6576) config option2: undefined
+2022-12-12 13:58:52.856  - [32minfo[39m: my-opcua.0 (6576) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 13:58:52.863  - [32minfo[39m: my-opcua.0 (6576) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:58:52.869  - [32minfo[39m: my-opcua.0 (6576) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 13:58:52.931  - [32minfo[39m: my-opcua.0 (6576) check user admin pw iobroker: false,system.user.admin
+2022-12-12 13:58:53.289  - [32minfo[39m: my-opcua.0 (6576) check group user admin group admin: false
+2022-12-12 13:59:02.906  - [32minfo[39m: my-opcua.0 (6576) test command
+2022-12-12 13:59:22.889  - [32minfo[39m: my-opcua.0 (6576) state my-opcua.0.testVariable deleted
+2022-12-12 13:59:55.553  - [32minfo[39m: my-opcua.0 (6576) browser command
+2022-12-12 13:59:58.090  - [33mwarn[39m: my-opcua.0 (6576) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"i=2253"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"i=2253"},"id":54,"ack":false,"time":1670839165614},"_id":5970516} 'System.Dynamic.ExpandoObject' does not contain a definition for 'id'
+2022-12-12 13:59:58.091  - [33mwarn[39m: my-opcua.0 (6576) Error: 'System.Dynamic.ExpandoObject' does not contain a definition for 'id'
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:265:48)
+    at MyOpcua.emit (node:events:527:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at processImmediate (node:internal/timers:466:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2022-12-12 14:03:16.541  - [34mdebug[39m: my-opcua.0 (20400) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 14:03:16.559  - [34mdebug[39m: my-opcua.0 (20400) Objects client ready ... initialize now
+2022-12-12 14:03:16.560  - [34mdebug[39m: my-opcua.0 (20400) Objects create System PubSub Client
+2022-12-12 14:03:16.562  - [34mdebug[39m: my-opcua.0 (20400) Objects create User PubSub Client
+2022-12-12 14:03:16.574  - [34mdebug[39m: my-opcua.0 (20400) Objects client initialize lua scripts
+2022-12-12 14:03:16.578  - [34mdebug[39m: my-opcua.0 (20400) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 14:03:16.594  - [34mdebug[39m: my-opcua.0 (20400) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 14:03:16.599  - [34mdebug[39m: my-opcua.0 (20400) States create System PubSub Client
+2022-12-12 14:03:16.600  - [34mdebug[39m: my-opcua.0 (20400) States create User PubSub Client
+2022-12-12 14:03:16.606  - [34mdebug[39m: my-opcua.0 (20400) States connected to redis: 127.0.0.1:9000
+2022-12-12 14:03:16.615  - [31merror[39m: my-opcua.0 (20400) adapter disabled
+2022-12-12 14:03:16.668  - [32minfo[39m: my-opcua.0 (20400) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:03:23.211  - [31merror[39m: my-opcua.0 (20400) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-12 14:03:23.213  - [31merror[39m: my-opcua.0 (20400) unhandled promise rejection: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:03:23.215  - [31merror[39m: my-opcua.0 (20400) Error: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 14:03:23.217  - [31merror[39m: my-opcua.0 (20400) 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:03:23.225  - [32minfo[39m: my-opcua.0 (20400) terminating
+2022-12-12 14:03:23.227  - [33mwarn[39m: my-opcua.0 (20400) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-12 14:03:55.181  - [34mdebug[39m: my-opcua.0 (12684) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 14:03:55.198  - [34mdebug[39m: my-opcua.0 (12684) Objects client ready ... initialize now
+2022-12-12 14:03:55.199  - [34mdebug[39m: my-opcua.0 (12684) Objects create System PubSub Client
+2022-12-12 14:03:55.201  - [34mdebug[39m: my-opcua.0 (12684) Objects create User PubSub Client
+2022-12-12 14:03:55.212  - [34mdebug[39m: my-opcua.0 (12684) Objects client initialize lua scripts
+2022-12-12 14:03:55.216  - [34mdebug[39m: my-opcua.0 (12684) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 14:03:55.234  - [34mdebug[39m: my-opcua.0 (12684) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 14:03:55.239  - [34mdebug[39m: my-opcua.0 (12684) States create System PubSub Client
+2022-12-12 14:03:55.240  - [34mdebug[39m: my-opcua.0 (12684) States create User PubSub Client
+2022-12-12 14:03:55.249  - [34mdebug[39m: my-opcua.0 (12684) States connected to redis: 127.0.0.1:9000
+2022-12-12 14:03:55.258  - [31merror[39m: my-opcua.0 (12684) adapter disabled
+2022-12-12 14:03:55.309  - [32minfo[39m: my-opcua.0 (12684) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:04:00.068  - [31merror[39m: my-opcua.0 (12684) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-12 14:04:00.069  - [31merror[39m: my-opcua.0 (12684) unhandled promise rejection: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:04:00.071  - [31merror[39m: my-opcua.0 (12684) Error: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 14:04:00.072  - [31merror[39m: my-opcua.0 (12684) 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:04:00.079  - [32minfo[39m: my-opcua.0 (12684) terminating
+2022-12-12 14:04:00.080  - [33mwarn[39m: my-opcua.0 (12684) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-12 14:04:18.944  - [34mdebug[39m: my-opcua.0 (18092) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 14:04:18.960  - [34mdebug[39m: my-opcua.0 (18092) Objects client ready ... initialize now
+2022-12-12 14:04:18.962  - [34mdebug[39m: my-opcua.0 (18092) Objects create System PubSub Client
+2022-12-12 14:04:18.963  - [34mdebug[39m: my-opcua.0 (18092) Objects create User PubSub Client
+2022-12-12 14:04:18.973  - [34mdebug[39m: my-opcua.0 (18092) Objects client initialize lua scripts
+2022-12-12 14:04:18.977  - [34mdebug[39m: my-opcua.0 (18092) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 14:04:18.992  - [34mdebug[39m: my-opcua.0 (18092) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 14:04:18.999  - [34mdebug[39m: my-opcua.0 (18092) States create System PubSub Client
+2022-12-12 14:04:19.000  - [34mdebug[39m: my-opcua.0 (18092) States create User PubSub Client
+2022-12-12 14:04:19.006  - [34mdebug[39m: my-opcua.0 (18092) States connected to redis: 127.0.0.1:9000
+2022-12-12 14:04:19.014  - [31merror[39m: my-opcua.0 (18092) adapter disabled
+2022-12-12 14:04:19.062  - [32minfo[39m: my-opcua.0 (18092) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:05:23.974  - [31merror[39m: my-opcua.0 (18092) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-12 14:05:23.975  - [31merror[39m: my-opcua.0 (18092) unhandled promise rejection: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:05:23.975  - [31merror[39m: my-opcua.0 (18092) Error: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 14:05:23.976  - [31merror[39m: my-opcua.0 (18092) 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:05:23.991  - [32minfo[39m: my-opcua.0 (18092) terminating
+2022-12-12 14:05:23.992  - [33mwarn[39m: my-opcua.0 (18092) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-12 14:05:32.687  - [34mdebug[39m: my-opcua.0 (6016) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 14:05:32.705  - [34mdebug[39m: my-opcua.0 (6016) Objects client ready ... initialize now
+2022-12-12 14:05:32.706  - [34mdebug[39m: my-opcua.0 (6016) Objects create System PubSub Client
+2022-12-12 14:05:32.707  - [34mdebug[39m: my-opcua.0 (6016) Objects create User PubSub Client
+2022-12-12 14:05:32.718  - [34mdebug[39m: my-opcua.0 (6016) Objects client initialize lua scripts
+2022-12-12 14:05:32.722  - [34mdebug[39m: my-opcua.0 (6016) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 14:05:32.738  - [34mdebug[39m: my-opcua.0 (6016) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 14:05:32.742  - [34mdebug[39m: my-opcua.0 (6016) States create System PubSub Client
+2022-12-12 14:05:32.743  - [34mdebug[39m: my-opcua.0 (6016) States create User PubSub Client
+2022-12-12 14:05:32.750  - [34mdebug[39m: my-opcua.0 (6016) States connected to redis: 127.0.0.1:9000
+2022-12-12 14:05:32.760  - [31merror[39m: my-opcua.0 (6016) adapter disabled
+2022-12-12 14:05:32.810  - [32minfo[39m: my-opcua.0 (6016) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:06:21.936  - [31merror[39m: my-opcua.0 (6016) Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch().
+2022-12-12 14:06:21.937  - [31merror[39m: my-opcua.0 (6016) unhandled promise rejection: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:06:21.938  - [31merror[39m: my-opcua.0 (6016) Error: 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onReady (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:122:35)
+    at MyOpcua.emit (node:events:527:28)
+    at E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:8226:26
+2022-12-12 14:06:21.939  - [31merror[39m: my-opcua.0 (6016) 'System.Dynamic.ExpandoObject' does not contain a definition for 'nodeid'
+2022-12-12 14:06:21.954  - [32minfo[39m: my-opcua.0 (6016) terminating
+2022-12-12 14:06:21.956  - [33mwarn[39m: my-opcua.0 (6016) Terminated (UNCAUGHT_EXCEPTION): Without reason
+2022-12-12 14:06:36.867  - [34mdebug[39m: my-opcua.0 (13648) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 14:06:36.886  - [34mdebug[39m: my-opcua.0 (13648) Objects client ready ... initialize now
+2022-12-12 14:06:36.887  - [34mdebug[39m: my-opcua.0 (13648) Objects create System PubSub Client
+2022-12-12 14:06:36.888  - [34mdebug[39m: my-opcua.0 (13648) Objects create User PubSub Client
+2022-12-12 14:06:36.899  - [34mdebug[39m: my-opcua.0 (13648) Objects client initialize lua scripts
+2022-12-12 14:06:36.902  - [34mdebug[39m: my-opcua.0 (13648) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 14:06:36.918  - [34mdebug[39m: my-opcua.0 (13648) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 14:06:36.922  - [34mdebug[39m: my-opcua.0 (13648) States create System PubSub Client
+2022-12-12 14:06:36.923  - [34mdebug[39m: my-opcua.0 (13648) States create User PubSub Client
+2022-12-12 14:06:36.928  - [34mdebug[39m: my-opcua.0 (13648) States connected to redis: 127.0.0.1:9000
+2022-12-12 14:06:36.936  - [31merror[39m: my-opcua.0 (13648) adapter disabled
+2022-12-12 14:06:36.983  - [32minfo[39m: my-opcua.0 (13648) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:07:40.964  - [34mdebug[39m: my-opcua.0 (22500) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 14:07:40.983  - [34mdebug[39m: my-opcua.0 (22500) Objects client ready ... initialize now
+2022-12-12 14:07:40.986  - [34mdebug[39m: my-opcua.0 (22500) Objects create System PubSub Client
+2022-12-12 14:07:40.987  - [34mdebug[39m: my-opcua.0 (22500) Objects create User PubSub Client
+2022-12-12 14:07:40.999  - [34mdebug[39m: my-opcua.0 (22500) Objects client initialize lua scripts
+2022-12-12 14:07:41.003  - [34mdebug[39m: my-opcua.0 (22500) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 14:07:41.022  - [34mdebug[39m: my-opcua.0 (22500) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 14:07:41.026  - [34mdebug[39m: my-opcua.0 (22500) States create System PubSub Client
+2022-12-12 14:07:41.027  - [34mdebug[39m: my-opcua.0 (22500) States create User PubSub Client
+2022-12-12 14:07:41.034  - [34mdebug[39m: my-opcua.0 (22500) States connected to redis: 127.0.0.1:9000
+2022-12-12 14:07:41.042  - [31merror[39m: my-opcua.0 (22500) adapter disabled
+2022-12-12 14:07:41.083  - [32minfo[39m: my-opcua.0 (22500) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:08:33.129  - [32minfo[39m: my-opcua.0 (22500) config option1: undefined
+2022-12-12 14:08:33.130  - [32minfo[39m: my-opcua.0 (22500) config option2: undefined
+2022-12-12 14:08:34.265  - [32minfo[39m: my-opcua.0 (22500) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 14:08:34.276  - [32minfo[39m: my-opcua.0 (22500) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 14:08:34.282  - [32minfo[39m: my-opcua.0 (22500) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 14:08:34.364  - [32minfo[39m: my-opcua.0 (22500) check user admin pw iobroker: false,system.user.admin
+2022-12-12 14:08:35.016  - [32minfo[39m: my-opcua.0 (22500) check group user admin group admin: false
+2022-12-12 14:08:44.950  - [32minfo[39m: my-opcua.0 (22500) test command
+2022-12-12 14:12:40.121  - [34mdebug[39m: my-opcua.0 (8172) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2022-12-12 14:12:40.138  - [34mdebug[39m: my-opcua.0 (8172) Objects client ready ... initialize now
+2022-12-12 14:12:40.140  - [34mdebug[39m: my-opcua.0 (8172) Objects create System PubSub Client
+2022-12-12 14:12:40.141  - [34mdebug[39m: my-opcua.0 (8172) Objects create User PubSub Client
+2022-12-12 14:12:40.150  - [34mdebug[39m: my-opcua.0 (8172) Objects client initialize lua scripts
+2022-12-12 14:12:40.154  - [34mdebug[39m: my-opcua.0 (8172) Objects connected to redis: 127.0.0.1:9001
+2022-12-12 14:12:40.169  - [34mdebug[39m: my-opcua.0 (8172) Redis States: Use Redis connection: 127.0.0.1:9000
+2022-12-12 14:12:40.173  - [34mdebug[39m: my-opcua.0 (8172) States create System PubSub Client
+2022-12-12 14:12:40.174  - [34mdebug[39m: my-opcua.0 (8172) States create User PubSub Client
+2022-12-12 14:12:40.181  - [34mdebug[39m: my-opcua.0 (8172) States connected to redis: 127.0.0.1:9000
+2022-12-12 14:12:40.190  - [31merror[39m: my-opcua.0 (8172) adapter disabled
+2022-12-12 14:12:40.235  - [32minfo[39m: my-opcua.0 (8172) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:12:53.547  - [32minfo[39m: my-opcua.0 (8172) config option1: undefined
+2022-12-12 14:12:53.549  - [32minfo[39m: my-opcua.0 (8172) config option2: undefined
+2022-12-12 14:12:54.454  - [32minfo[39m: my-opcua.0 (8172) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 14:12:54.469  - [32minfo[39m: my-opcua.0 (8172) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 14:12:54.474  - [32minfo[39m: my-opcua.0 (8172) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 14:12:54.528  - [32minfo[39m: my-opcua.0 (8172) check user admin pw iobroker: false,system.user.admin
+2022-12-12 14:12:55.215  - [32minfo[39m: my-opcua.0 (8172) check group user admin group admin: false
+2022-12-12 14:13:05.824  - [32minfo[39m: my-opcua.0 (8172) test command
+2022-12-12 14:13:35.514  - [32minfo[39m: my-opcua.0 (8172) browser command
+2022-12-12 14:13:37.768  - [32minfo[39m: my-opcua.0 (8172) state my-opcua.0.testVariable deleted
+2022-12-12 14:14:52.459  - [32minfo[39m: my-opcua.0 (8172) browser command
+2022-12-12 14:15:22.363  - [32minfo[39m: my-opcua.0 (21200) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v16.16.0, js-controller: 4.0.23
+2022-12-12 14:15:23.073  - [32minfo[39m: my-opcua.0 (21200) config option1: undefined
+2022-12-12 14:15:23.073  - [32minfo[39m: my-opcua.0 (21200) config option2: undefined
+2022-12-12 14:15:23.099  - [32minfo[39m: my-opcua.0 (21200) state my-opcua.0.testVariable changed: true (ack = false)
+2022-12-12 14:15:23.102  - [32minfo[39m: my-opcua.0 (21200) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 14:15:23.106  - [32minfo[39m: my-opcua.0 (21200) state my-opcua.0.testVariable changed: true (ack = true)
+2022-12-12 14:15:23.152  - [32minfo[39m: my-opcua.0 (21200) check user admin pw iobroker: false,system.user.admin
+2022-12-12 14:15:23.154  - [32minfo[39m: my-opcua.0 (21200) check group user admin group admin: false
+2022-12-12 14:15:25.850  - [32minfo[39m: my-opcua.0 (21200) browser command
+2022-12-12 14:15:28.706  - [32minfo[39m: my-opcua.0 (21200) browser command
+2022-12-12 14:15:31.450  - [32minfo[39m: my-opcua.0 (21200) browser command
+2022-12-12 14:15:53.113  - [32minfo[39m: my-opcua.0 (21200) state my-opcua.0.testVariable deleted
