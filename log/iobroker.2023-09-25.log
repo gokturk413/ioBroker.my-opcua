@@ -1,0 +1,1259 @@
+2023-09-25 08:29:35.575  - [34mdebug[39m: my-opcua.0 (68000) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 08:29:35.597  - [34mdebug[39m: my-opcua.0 (68000) Objects client ready ... initialize now
+2023-09-25 08:29:35.599  - [34mdebug[39m: my-opcua.0 (68000) Objects create System PubSub Client
+2023-09-25 08:29:35.601  - [34mdebug[39m: my-opcua.0 (68000) Objects create User PubSub Client
+2023-09-25 08:29:35.616  - [34mdebug[39m: my-opcua.0 (68000) Objects client initialize lua scripts
+2023-09-25 08:29:35.624  - [34mdebug[39m: my-opcua.0 (68000) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 08:29:35.647  - [34mdebug[39m: my-opcua.0 (68000) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 08:29:35.652  - [34mdebug[39m: my-opcua.0 (68000) States create System PubSub Client
+2023-09-25 08:29:35.654  - [34mdebug[39m: my-opcua.0 (68000) States create User PubSub Client
+2023-09-25 08:29:35.660  - [34mdebug[39m: my-opcua.0 (68000) States connected to redis: 127.0.0.1:9000
+2023-09-25 08:29:35.672  - [31merror[39m: my-opcua.0 (68000) adapter disabled
+2023-09-25 08:29:35.731  - [32minfo[39m: my-opcua.0 (68000) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 08:29:37.137  - [32minfo[39m: my-opcua.0 (68000) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 08:29:37.138  - [32minfo[39m: my-opcua.0 (68000) config option2: admin
+2023-09-25 08:29:37.279  - [32minfo[39m: my-opcua.0 (68000) check user admin pw iobroker: false,system.user.admin
+2023-09-25 08:29:37.284  - [32minfo[39m: my-opcua.0 (68000) check group user admin group admin: false
+2023-09-25 08:29:54.250  - [32minfo[39m: my-opcua.0 (68000) test command
+2023-09-25 08:29:58.696  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 08:30:01.888  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 08:30:57.974  - [32minfo[39m: my-opcua.0 (68000) state my-opcua.0.DataTypeExamples.16BitDevice.RRegisters.Boolean1 deleted
+2023-09-25 08:30:59.127  - [32minfo[39m: my-opcua.0 (68000) state my-opcua.0.info.connection deleted
+2023-09-25 08:32:56.528  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 08:33:01.795  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 08:33:05.841  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 08:39:09.422  - [32minfo[39m: my-opcua.0 (68000) state my-opcua.0.DataTypeExamples.16BitDevice.KRegisters.Boolean1 changed: 0 (ack = false)
+2023-09-25 08:39:33.858  - [32minfo[39m: my-opcua.0 (68000) state my-opcua.0.DataTypeExamples.16BitDevice.KRegisters.Boolean1 changed: 1 (ack = false)
+2023-09-25 08:49:18.507  - [32minfo[39m: my-opcua.0 (68000) test command
+2023-09-25 08:49:27.401  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 08:49:40.186  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 08:49:50.224  - [32minfo[39m: my-opcua.0 (68000) browser command
+2023-09-25 09:06:36.770  - [34mdebug[39m: my-opcua.0 (101232) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 09:06:36.799  - [34mdebug[39m: my-opcua.0 (101232) Objects client ready ... initialize now
+2023-09-25 09:06:36.801  - [34mdebug[39m: my-opcua.0 (101232) Objects create System PubSub Client
+2023-09-25 09:06:36.803  - [34mdebug[39m: my-opcua.0 (101232) Objects create User PubSub Client
+2023-09-25 09:06:36.821  - [34mdebug[39m: my-opcua.0 (101232) Objects client initialize lua scripts
+2023-09-25 09:06:36.827  - [34mdebug[39m: my-opcua.0 (101232) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 09:06:36.845  - [34mdebug[39m: my-opcua.0 (101232) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 09:06:36.849  - [34mdebug[39m: my-opcua.0 (101232) States create System PubSub Client
+2023-09-25 09:06:36.851  - [34mdebug[39m: my-opcua.0 (101232) States create User PubSub Client
+2023-09-25 09:06:36.857  - [34mdebug[39m: my-opcua.0 (101232) States connected to redis: 127.0.0.1:9000
+2023-09-25 09:06:36.866  - [31merror[39m: my-opcua.0 (101232) adapter disabled
+2023-09-25 09:06:36.935  - [32minfo[39m: my-opcua.0 (101232) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 09:06:38.174  - [32minfo[39m: my-opcua.0 (101232) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 09:06:38.175  - [32minfo[39m: my-opcua.0 (101232) config option2: admin
+2023-09-25 09:06:38.323  - [32minfo[39m: my-opcua.0 (101232) check user admin pw iobroker: false,system.user.admin
+2023-09-25 09:06:38.329  - [32minfo[39m: my-opcua.0 (101232) check group user admin group admin: false
+2023-09-25 09:11:25.342  - [34mdebug[39m: my-opcua.0 (96608) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 09:11:25.377  - [34mdebug[39m: my-opcua.0 (96608) Objects client ready ... initialize now
+2023-09-25 09:11:25.382  - [34mdebug[39m: my-opcua.0 (96608) Objects create System PubSub Client
+2023-09-25 09:11:25.386  - [34mdebug[39m: my-opcua.0 (96608) Objects create User PubSub Client
+2023-09-25 09:11:25.410  - [34mdebug[39m: my-opcua.0 (96608) Objects client initialize lua scripts
+2023-09-25 09:11:25.416  - [34mdebug[39m: my-opcua.0 (96608) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 09:11:25.447  - [34mdebug[39m: my-opcua.0 (96608) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 09:11:25.455  - [34mdebug[39m: my-opcua.0 (96608) States create System PubSub Client
+2023-09-25 09:11:25.457  - [34mdebug[39m: my-opcua.0 (96608) States create User PubSub Client
+2023-09-25 09:11:25.466  - [34mdebug[39m: my-opcua.0 (96608) States connected to redis: 127.0.0.1:9000
+2023-09-25 09:11:25.481  - [31merror[39m: my-opcua.0 (96608) adapter disabled
+2023-09-25 09:11:25.563  - [32minfo[39m: my-opcua.0 (96608) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 09:11:26.886  - [32minfo[39m: my-opcua.0 (96608) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 09:11:26.887  - [32minfo[39m: my-opcua.0 (96608) config option2: admin
+2023-09-25 09:11:27.030  - [32minfo[39m: my-opcua.0 (96608) check user admin pw iobroker: false,system.user.admin
+2023-09-25 09:11:27.033  - [32minfo[39m: my-opcua.0 (96608) check group user admin group admin: false
+2023-09-25 09:13:40.231  - [34mdebug[39m: my-opcua.0 (65856) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 09:13:40.260  - [34mdebug[39m: my-opcua.0 (65856) Objects client ready ... initialize now
+2023-09-25 09:13:40.262  - [34mdebug[39m: my-opcua.0 (65856) Objects create System PubSub Client
+2023-09-25 09:13:40.264  - [34mdebug[39m: my-opcua.0 (65856) Objects create User PubSub Client
+2023-09-25 09:13:40.276  - [34mdebug[39m: my-opcua.0 (65856) Objects client initialize lua scripts
+2023-09-25 09:13:40.281  - [34mdebug[39m: my-opcua.0 (65856) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 09:13:40.308  - [34mdebug[39m: my-opcua.0 (65856) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 09:13:40.314  - [34mdebug[39m: my-opcua.0 (65856) States create System PubSub Client
+2023-09-25 09:13:40.316  - [34mdebug[39m: my-opcua.0 (65856) States create User PubSub Client
+2023-09-25 09:13:40.326  - [34mdebug[39m: my-opcua.0 (65856) States connected to redis: 127.0.0.1:9000
+2023-09-25 09:13:40.338  - [31merror[39m: my-opcua.0 (65856) adapter disabled
+2023-09-25 09:13:40.412  - [32minfo[39m: my-opcua.0 (65856) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 09:13:41.668  - [32minfo[39m: my-opcua.0 (65856) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 09:13:41.669  - [32minfo[39m: my-opcua.0 (65856) config option2: admin
+2023-09-25 09:13:41.788  - [32minfo[39m: my-opcua.0 (65856) check user admin pw iobroker: false,system.user.admin
+2023-09-25 09:13:41.793  - [32minfo[39m: my-opcua.0 (65856) check group user admin group admin: false
+2023-09-25 09:21:05.914  - [34mdebug[39m: my-opcua.0 (55236) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 09:21:05.935  - [34mdebug[39m: my-opcua.0 (55236) Objects client ready ... initialize now
+2023-09-25 09:21:05.937  - [34mdebug[39m: my-opcua.0 (55236) Objects create System PubSub Client
+2023-09-25 09:21:05.939  - [34mdebug[39m: my-opcua.0 (55236) Objects create User PubSub Client
+2023-09-25 09:21:05.957  - [34mdebug[39m: my-opcua.0 (55236) Objects client initialize lua scripts
+2023-09-25 09:21:05.960  - [34mdebug[39m: my-opcua.0 (55236) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 09:21:05.978  - [34mdebug[39m: my-opcua.0 (55236) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 09:21:05.983  - [34mdebug[39m: my-opcua.0 (55236) States create System PubSub Client
+2023-09-25 09:21:05.985  - [34mdebug[39m: my-opcua.0 (55236) States create User PubSub Client
+2023-09-25 09:21:05.994  - [34mdebug[39m: my-opcua.0 (55236) States connected to redis: 127.0.0.1:9000
+2023-09-25 09:21:06.003  - [31merror[39m: my-opcua.0 (55236) adapter disabled
+2023-09-25 09:21:06.071  - [32minfo[39m: my-opcua.0 (55236) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 09:21:07.299  - [32minfo[39m: my-opcua.0 (55236) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 09:21:07.301  - [32minfo[39m: my-opcua.0 (55236) config option2: admin
+2023-09-25 09:21:07.429  - [32minfo[39m: my-opcua.0 (55236) check user admin pw iobroker: false,system.user.admin
+2023-09-25 09:21:07.434  - [32minfo[39m: my-opcua.0 (55236) check group user admin group admin: false
+2023-09-25 09:24:02.847  - [34mdebug[39m: my-opcua.0 (5516) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 09:24:02.865  - [34mdebug[39m: my-opcua.0 (5516) Objects client ready ... initialize now
+2023-09-25 09:24:02.866  - [34mdebug[39m: my-opcua.0 (5516) Objects create System PubSub Client
+2023-09-25 09:24:02.868  - [34mdebug[39m: my-opcua.0 (5516) Objects create User PubSub Client
+2023-09-25 09:24:02.879  - [34mdebug[39m: my-opcua.0 (5516) Objects client initialize lua scripts
+2023-09-25 09:24:02.883  - [34mdebug[39m: my-opcua.0 (5516) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 09:24:02.902  - [34mdebug[39m: my-opcua.0 (5516) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 09:24:02.907  - [34mdebug[39m: my-opcua.0 (5516) States create System PubSub Client
+2023-09-25 09:24:02.908  - [34mdebug[39m: my-opcua.0 (5516) States create User PubSub Client
+2023-09-25 09:24:02.913  - [34mdebug[39m: my-opcua.0 (5516) States connected to redis: 127.0.0.1:9000
+2023-09-25 09:24:02.922  - [31merror[39m: my-opcua.0 (5516) adapter disabled
+2023-09-25 09:24:02.982  - [32minfo[39m: my-opcua.0 (5516) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 09:24:04.418  - [32minfo[39m: my-opcua.0 (5516) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 09:24:04.420  - [32minfo[39m: my-opcua.0 (5516) config option2: admin
+2023-09-25 09:24:04.583  - [32minfo[39m: my-opcua.0 (5516) check user admin pw iobroker: false,system.user.admin
+2023-09-25 09:24:04.588  - [32minfo[39m: my-opcua.0 (5516) check group user admin group admin: false
+2023-09-25 09:34:11.422  - [34mdebug[39m: my-opcua.0 (65720) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 09:34:11.447  - [34mdebug[39m: my-opcua.0 (65720) Objects client ready ... initialize now
+2023-09-25 09:34:11.450  - [34mdebug[39m: my-opcua.0 (65720) Objects create System PubSub Client
+2023-09-25 09:34:11.451  - [34mdebug[39m: my-opcua.0 (65720) Objects create User PubSub Client
+2023-09-25 09:34:11.463  - [34mdebug[39m: my-opcua.0 (65720) Objects client initialize lua scripts
+2023-09-25 09:34:11.470  - [34mdebug[39m: my-opcua.0 (65720) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 09:34:11.494  - [34mdebug[39m: my-opcua.0 (65720) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 09:34:11.499  - [34mdebug[39m: my-opcua.0 (65720) States create System PubSub Client
+2023-09-25 09:34:11.500  - [34mdebug[39m: my-opcua.0 (65720) States create User PubSub Client
+2023-09-25 09:34:11.506  - [34mdebug[39m: my-opcua.0 (65720) States connected to redis: 127.0.0.1:9000
+2023-09-25 09:34:11.516  - [31merror[39m: my-opcua.0 (65720) adapter disabled
+2023-09-25 09:34:11.594  - [32minfo[39m: my-opcua.0 (65720) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 09:34:13.108  - [32minfo[39m: my-opcua.0 (65720) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 09:34:13.110  - [32minfo[39m: my-opcua.0 (65720) config option2: admin
+2023-09-25 09:34:13.262  - [32minfo[39m: my-opcua.0 (65720) check user admin pw iobroker: false,system.user.admin
+2023-09-25 09:34:13.266  - [32minfo[39m: my-opcua.0 (65720) check group user admin group admin: false
+2023-09-25 09:35:00.156  - [32minfo[39m: my-opcua.0 (65720) test command
+2023-09-25 09:35:11.316  - [32minfo[39m: my-opcua.0 (65720) browser command
+2023-09-25 09:37:29.943  - [33mwarn[39m: my-opcua.0 (65720) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1312,"ack":false,"time":1695620111314},"_id":51641830} Object reference not set to an instance of an object.
+2023-09-25 09:37:29.949  - [33mwarn[39m: my-opcua.0 (65720) Error: Object reference not set to an instance of an object.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 09:37:36.705  - [32minfo[39m: my-opcua.0 (65720) browser command
+2023-09-25 09:39:01.714  - [33mwarn[39m: my-opcua.0 (65720) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1313,"ack":false,"time":1695620256704},"_id":51641831} Object reference not set to an instance of an object.
+2023-09-25 09:39:01.715  - [33mwarn[39m: my-opcua.0 (65720) Error: Object reference not set to an instance of an object.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 09:39:13.893  - [32minfo[39m: my-opcua.0 (65720) browser command
+2023-09-25 09:39:35.556  - [32minfo[39m: my-opcua.0 (65720) browser command
+2023-09-25 09:40:54.167  - [33mwarn[39m: my-opcua.0 (65720) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1315,"ack":false,"time":1695620375554},"_id":51641833} Object reference not set to an instance of an object.
+2023-09-25 09:40:54.168  - [33mwarn[39m: my-opcua.0 (65720) Error: Object reference not set to an instance of an object.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 09:40:58.283  - [32minfo[39m: my-opcua.0 (65720) browser command
+2023-09-25 09:45:20.440  - [33mwarn[39m: my-opcua.0 (65720) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1316,"ack":false,"time":1695620458282},"_id":51641834} Object reference not set to an instance of an object.
+2023-09-25 09:45:20.442  - [33mwarn[39m: my-opcua.0 (65720) Error: Object reference not set to an instance of an object.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 09:45:41.051  - [32minfo[39m: my-opcua.0 (65720) browser command
+2023-09-25 09:46:49.171  - [33mwarn[39m: my-opcua.0 (65720) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1317,"ack":false,"time":1695620741050},"_id":51641835} Object reference not set to an instance of an object.
+2023-09-25 09:46:49.172  - [33mwarn[39m: my-opcua.0 (65720) Error: Object reference not set to an instance of an object.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 09:47:05.026  - [32minfo[39m: my-opcua.0 (65720) browser command
+2023-09-25 09:50:00.344  - [34mdebug[39m: my-opcua.0 (30020) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 09:50:00.367  - [34mdebug[39m: my-opcua.0 (30020) Objects client ready ... initialize now
+2023-09-25 09:50:00.369  - [34mdebug[39m: my-opcua.0 (30020) Objects create System PubSub Client
+2023-09-25 09:50:00.370  - [34mdebug[39m: my-opcua.0 (30020) Objects create User PubSub Client
+2023-09-25 09:50:00.382  - [34mdebug[39m: my-opcua.0 (30020) Objects client initialize lua scripts
+2023-09-25 09:50:00.387  - [34mdebug[39m: my-opcua.0 (30020) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 09:50:00.405  - [34mdebug[39m: my-opcua.0 (30020) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 09:50:00.410  - [34mdebug[39m: my-opcua.0 (30020) States create System PubSub Client
+2023-09-25 09:50:00.411  - [34mdebug[39m: my-opcua.0 (30020) States create User PubSub Client
+2023-09-25 09:50:00.418  - [34mdebug[39m: my-opcua.0 (30020) States connected to redis: 127.0.0.1:9000
+2023-09-25 09:50:00.428  - [31merror[39m: my-opcua.0 (30020) adapter disabled
+2023-09-25 09:50:00.488  - [32minfo[39m: my-opcua.0 (30020) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 09:50:01.743  - [32minfo[39m: my-opcua.0 (30020) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 09:50:01.744  - [32minfo[39m: my-opcua.0 (30020) config option2: admin
+2023-09-25 09:50:01.865  - [32minfo[39m: my-opcua.0 (30020) check user admin pw iobroker: false,system.user.admin
+2023-09-25 09:50:01.869  - [32minfo[39m: my-opcua.0 (30020) check group user admin group admin: false
+2023-09-25 09:51:19.938  - [32minfo[39m: my-opcua.0 (30020) browser command
+2023-09-25 09:52:35.732  - [32minfo[39m: my-opcua.0 (30020) test command
+2023-09-25 09:52:39.209  - [32minfo[39m: my-opcua.0 (30020) browser command
+2023-09-25 09:52:42.257  - [32minfo[39m: my-opcua.0 (30020) browser command
+2023-09-25 10:11:28.584  - [34mdebug[39m: my-opcua.0 (79364) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 10:11:28.615  - [34mdebug[39m: my-opcua.0 (79364) Objects client ready ... initialize now
+2023-09-25 10:11:28.617  - [34mdebug[39m: my-opcua.0 (79364) Objects create System PubSub Client
+2023-09-25 10:11:28.618  - [34mdebug[39m: my-opcua.0 (79364) Objects create User PubSub Client
+2023-09-25 10:11:28.634  - [34mdebug[39m: my-opcua.0 (79364) Objects client initialize lua scripts
+2023-09-25 10:11:28.640  - [34mdebug[39m: my-opcua.0 (79364) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 10:11:28.666  - [34mdebug[39m: my-opcua.0 (79364) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 10:11:28.673  - [34mdebug[39m: my-opcua.0 (79364) States create System PubSub Client
+2023-09-25 10:11:28.675  - [34mdebug[39m: my-opcua.0 (79364) States create User PubSub Client
+2023-09-25 10:11:28.685  - [34mdebug[39m: my-opcua.0 (79364) States connected to redis: 127.0.0.1:9000
+2023-09-25 10:11:28.698  - [31merror[39m: my-opcua.0 (79364) adapter disabled
+2023-09-25 10:11:28.764  - [32minfo[39m: my-opcua.0 (79364) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 10:11:30.249  - [32minfo[39m: my-opcua.0 (79364) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 10:11:30.251  - [32minfo[39m: my-opcua.0 (79364) config option2: admin
+2023-09-25 10:11:30.429  - [32minfo[39m: my-opcua.0 (79364) check user admin pw iobroker: false,system.user.admin
+2023-09-25 10:11:30.435  - [32minfo[39m: my-opcua.0 (79364) check group user admin group admin: false
+2023-09-25 10:14:42.876  - [34mdebug[39m: my-opcua.0 (69788) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 10:14:42.896  - [34mdebug[39m: my-opcua.0 (69788) Objects client ready ... initialize now
+2023-09-25 10:14:42.898  - [34mdebug[39m: my-opcua.0 (69788) Objects create System PubSub Client
+2023-09-25 10:14:42.899  - [34mdebug[39m: my-opcua.0 (69788) Objects create User PubSub Client
+2023-09-25 10:14:42.911  - [34mdebug[39m: my-opcua.0 (69788) Objects client initialize lua scripts
+2023-09-25 10:14:42.917  - [34mdebug[39m: my-opcua.0 (69788) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 10:14:42.935  - [34mdebug[39m: my-opcua.0 (69788) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 10:14:42.939  - [34mdebug[39m: my-opcua.0 (69788) States create System PubSub Client
+2023-09-25 10:14:42.941  - [34mdebug[39m: my-opcua.0 (69788) States create User PubSub Client
+2023-09-25 10:14:42.948  - [34mdebug[39m: my-opcua.0 (69788) States connected to redis: 127.0.0.1:9000
+2023-09-25 10:14:42.957  - [31merror[39m: my-opcua.0 (69788) adapter disabled
+2023-09-25 10:14:43.017  - [32minfo[39m: my-opcua.0 (69788) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 10:14:44.311  - [32minfo[39m: my-opcua.0 (69788) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 10:14:44.312  - [32minfo[39m: my-opcua.0 (69788) config option2: admin
+2023-09-25 10:14:44.438  - [32minfo[39m: my-opcua.0 (69788) check user admin pw iobroker: false,system.user.admin
+2023-09-25 10:14:44.443  - [32minfo[39m: my-opcua.0 (69788) check group user admin group admin: false
+2023-09-25 10:15:22.928  - [32minfo[39m: my-opcua.0 (69788) test command
+2023-09-25 10:15:29.354  - [32minfo[39m: my-opcua.0 (69788) browser command
+2023-09-25 10:15:56.965  - [33mwarn[39m: my-opcua.0 (69788) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1336,"ack":false,"time":1695622529347},"_id":51641854} BadAttributeIdInvalid
+2023-09-25 10:15:56.966  - [33mwarn[39m: my-opcua.0 (69788) Error: BadAttributeIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:18:53.138  - [34mdebug[39m: my-opcua.0 (86164) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 10:18:53.158  - [34mdebug[39m: my-opcua.0 (86164) Objects client ready ... initialize now
+2023-09-25 10:18:53.159  - [34mdebug[39m: my-opcua.0 (86164) Objects create System PubSub Client
+2023-09-25 10:18:53.161  - [34mdebug[39m: my-opcua.0 (86164) Objects create User PubSub Client
+2023-09-25 10:18:53.175  - [34mdebug[39m: my-opcua.0 (86164) Objects client initialize lua scripts
+2023-09-25 10:18:53.179  - [34mdebug[39m: my-opcua.0 (86164) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 10:18:53.197  - [34mdebug[39m: my-opcua.0 (86164) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 10:18:53.201  - [34mdebug[39m: my-opcua.0 (86164) States create System PubSub Client
+2023-09-25 10:18:53.202  - [34mdebug[39m: my-opcua.0 (86164) States create User PubSub Client
+2023-09-25 10:18:53.209  - [34mdebug[39m: my-opcua.0 (86164) States connected to redis: 127.0.0.1:9000
+2023-09-25 10:18:53.223  - [31merror[39m: my-opcua.0 (86164) adapter disabled
+2023-09-25 10:18:53.282  - [32minfo[39m: my-opcua.0 (86164) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 10:18:54.489  - [32minfo[39m: my-opcua.0 (86164) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 10:18:54.490  - [32minfo[39m: my-opcua.0 (86164) config option2: admin
+2023-09-25 10:18:54.609  - [32minfo[39m: my-opcua.0 (86164) check user admin pw iobroker: false,system.user.admin
+2023-09-25 10:18:54.614  - [32minfo[39m: my-opcua.0 (86164) check group user admin group admin: false
+2023-09-25 10:19:20.005  - [32minfo[39m: my-opcua.0 (86164) test command
+2023-09-25 10:19:28.987  - [32minfo[39m: my-opcua.0 (86164) browser command
+2023-09-25 10:19:49.113  - [33mwarn[39m: my-opcua.0 (86164) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1344,"ack":false,"time":1695622768980},"_id":51641862} Bad
+2023-09-25 10:19:49.115  - [33mwarn[39m: my-opcua.0 (86164) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:19:49.124  - [32minfo[39m: my-opcua.0 (86164) browser command
+2023-09-25 10:20:07.428  - [33mwarn[39m: my-opcua.0 (86164) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1345,"ack":false,"time":1695622785457},"_id":51641863} Bad
+2023-09-25 10:20:07.429  - [33mwarn[39m: my-opcua.0 (86164) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:24:52.950  - [34mdebug[39m: my-opcua.0 (68748) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 10:24:52.972  - [34mdebug[39m: my-opcua.0 (68748) Objects client ready ... initialize now
+2023-09-25 10:24:52.974  - [34mdebug[39m: my-opcua.0 (68748) Objects create System PubSub Client
+2023-09-25 10:24:52.976  - [34mdebug[39m: my-opcua.0 (68748) Objects create User PubSub Client
+2023-09-25 10:24:52.988  - [34mdebug[39m: my-opcua.0 (68748) Objects client initialize lua scripts
+2023-09-25 10:24:52.993  - [34mdebug[39m: my-opcua.0 (68748) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 10:24:53.012  - [34mdebug[39m: my-opcua.0 (68748) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 10:24:53.016  - [34mdebug[39m: my-opcua.0 (68748) States create System PubSub Client
+2023-09-25 10:24:53.017  - [34mdebug[39m: my-opcua.0 (68748) States create User PubSub Client
+2023-09-25 10:24:53.023  - [34mdebug[39m: my-opcua.0 (68748) States connected to redis: 127.0.0.1:9000
+2023-09-25 10:24:53.032  - [31merror[39m: my-opcua.0 (68748) adapter disabled
+2023-09-25 10:24:53.093  - [32minfo[39m: my-opcua.0 (68748) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 10:24:54.365  - [32minfo[39m: my-opcua.0 (68748) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 10:24:54.366  - [32minfo[39m: my-opcua.0 (68748) config option2: admin
+2023-09-25 10:24:54.486  - [32minfo[39m: my-opcua.0 (68748) check user admin pw iobroker: false,system.user.admin
+2023-09-25 10:24:54.490  - [32minfo[39m: my-opcua.0 (68748) check group user admin group admin: false
+2023-09-25 10:25:04.958  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:25:10.173  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1346,"ack":false,"time":1695623104957},"_id":51641864} Bad
+2023-09-25 10:25:10.174  - [33mwarn[39m: my-opcua.0 (68748) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:25:21.933  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:27:50.869  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1347,"ack":false,"time":1695623121932},"_id":51641865} BadSessionIdInvalid
+2023-09-25 10:27:50.870  - [33mwarn[39m: my-opcua.0 (68748) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:31:04.538  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:31:28.489  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1348,"ack":false,"time":1695623464544},"_id":51641866} Bad
+2023-09-25 10:31:28.491  - [33mwarn[39m: my-opcua.0 (68748) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:31:31.539  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:31:44.871  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1349,"ack":false,"time":1695623491545},"_id":51641867} Bad
+2023-09-25 10:31:44.872  - [33mwarn[39m: my-opcua.0 (68748) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:31:46.211  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:34:13.635  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1350,"ack":false,"time":1695623506214},"_id":51641868} BadSessionIdInvalid
+2023-09-25 10:34:13.637  - [33mwarn[39m: my-opcua.0 (68748) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:34:16.461  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:34:18.750  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1351,"ack":false,"time":1695623656461},"_id":51641869} BadSessionIdInvalid
+2023-09-25 10:34:18.751  - [33mwarn[39m: my-opcua.0 (68748) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:34:22.926  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:34:25.078  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1352,"ack":false,"time":1695623662925},"_id":51641870} BadSessionIdInvalid
+2023-09-25 10:34:25.079  - [33mwarn[39m: my-opcua.0 (68748) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:34:28.966  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:35:24.964  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1353,"ack":false,"time":1695623668966},"_id":51641871} Bad
+2023-09-25 10:35:24.965  - [33mwarn[39m: my-opcua.0 (68748) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:35:24.981  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:35:32.026  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1354,"ack":false,"time":1695623721828},"_id":51641872} BadSecureChannelIdInvalid
+2023-09-25 10:35:32.026  - [33mwarn[39m: my-opcua.0 (68748) Error: BadSecureChannelIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:35:38.837  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:36:12.431  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1355,"ack":false,"time":1695623738831},"_id":51641873} Bad
+2023-09-25 10:36:12.432  - [33mwarn[39m: my-opcua.0 (68748) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:36:16.163  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:36:22.240  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1356,"ack":false,"time":1695623776157},"_id":51641874} BadSecureChannelIdInvalid
+2023-09-25 10:36:22.241  - [33mwarn[39m: my-opcua.0 (68748) Error: BadSecureChannelIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:36:25.644  - [32minfo[39m: my-opcua.0 (68748) browser command
+2023-09-25 10:37:41.237  - [33mwarn[39m: my-opcua.0 (68748) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1357,"ack":false,"time":1695623785638},"_id":51641875} BadSessionIdInvalid
+2023-09-25 10:37:41.239  - [33mwarn[39m: my-opcua.0 (68748) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:49:15.164  - [34mdebug[39m: my-opcua.0 (52792) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 10:49:15.201  - [34mdebug[39m: my-opcua.0 (52792) Objects client ready ... initialize now
+2023-09-25 10:49:15.204  - [34mdebug[39m: my-opcua.0 (52792) Objects create System PubSub Client
+2023-09-25 10:49:15.207  - [34mdebug[39m: my-opcua.0 (52792) Objects create User PubSub Client
+2023-09-25 10:49:15.231  - [34mdebug[39m: my-opcua.0 (52792) Objects client initialize lua scripts
+2023-09-25 10:49:15.239  - [34mdebug[39m: my-opcua.0 (52792) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 10:49:15.276  - [34mdebug[39m: my-opcua.0 (52792) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 10:49:15.283  - [34mdebug[39m: my-opcua.0 (52792) States create System PubSub Client
+2023-09-25 10:49:15.286  - [34mdebug[39m: my-opcua.0 (52792) States create User PubSub Client
+2023-09-25 10:49:15.296  - [34mdebug[39m: my-opcua.0 (52792) States connected to redis: 127.0.0.1:9000
+2023-09-25 10:49:15.313  - [31merror[39m: my-opcua.0 (52792) adapter disabled
+2023-09-25 10:49:15.400  - [32minfo[39m: my-opcua.0 (52792) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 10:49:17.110  - [32minfo[39m: my-opcua.0 (52792) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 10:49:17.111  - [32minfo[39m: my-opcua.0 (52792) config option2: admin
+2023-09-25 10:49:17.250  - [32minfo[39m: my-opcua.0 (52792) check user admin pw iobroker: false,system.user.admin
+2023-09-25 10:49:17.254  - [32minfo[39m: my-opcua.0 (52792) check group user admin group admin: false
+2023-09-25 10:49:42.247  - [32minfo[39m: my-opcua.0 (52792) browser command
+2023-09-25 10:52:59.516  - [33mwarn[39m: my-opcua.0 (52792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1358,"ack":false,"time":1695624582243},"_id":51641876} BadSessionIdInvalid
+2023-09-25 10:52:59.518  - [33mwarn[39m: my-opcua.0 (52792) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:53:14.390  - [32minfo[39m: my-opcua.0 (52792) browser command
+2023-09-25 10:56:41.598  - [34mdebug[39m: my-opcua.0 (44200) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 10:56:41.617  - [34mdebug[39m: my-opcua.0 (44200) Objects client ready ... initialize now
+2023-09-25 10:56:41.618  - [34mdebug[39m: my-opcua.0 (44200) Objects create System PubSub Client
+2023-09-25 10:56:41.620  - [34mdebug[39m: my-opcua.0 (44200) Objects create User PubSub Client
+2023-09-25 10:56:41.636  - [34mdebug[39m: my-opcua.0 (44200) Objects client initialize lua scripts
+2023-09-25 10:56:41.639  - [34mdebug[39m: my-opcua.0 (44200) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 10:56:41.655  - [34mdebug[39m: my-opcua.0 (44200) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 10:56:41.660  - [34mdebug[39m: my-opcua.0 (44200) States create System PubSub Client
+2023-09-25 10:56:41.661  - [34mdebug[39m: my-opcua.0 (44200) States create User PubSub Client
+2023-09-25 10:56:41.667  - [34mdebug[39m: my-opcua.0 (44200) States connected to redis: 127.0.0.1:9000
+2023-09-25 10:56:41.675  - [31merror[39m: my-opcua.0 (44200) adapter disabled
+2023-09-25 10:56:41.750  - [32minfo[39m: my-opcua.0 (44200) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 10:56:43.128  - [32minfo[39m: my-opcua.0 (44200) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 10:56:43.130  - [32minfo[39m: my-opcua.0 (44200) config option2: admin
+2023-09-25 10:56:43.313  - [32minfo[39m: my-opcua.0 (44200) check user admin pw iobroker: false,system.user.admin
+2023-09-25 10:56:43.318  - [32minfo[39m: my-opcua.0 (44200) check group user admin group admin: false
+2023-09-25 10:57:07.139  - [32minfo[39m: my-opcua.0 (44200) test command
+2023-09-25 10:57:18.495  - [32minfo[39m: my-opcua.0 (44200) browser command
+2023-09-25 10:59:24.447  - [33mwarn[39m: my-opcua.0 (44200) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1367,"ack":false,"time":1695625038489},"_id":51641885} BadSessionIdInvalid
+2023-09-25 10:59:24.449  - [33mwarn[39m: my-opcua.0 (44200) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:59:26.915  - [32minfo[39m: my-opcua.0 (44200) browser command
+2023-09-25 10:59:28.863  - [33mwarn[39m: my-opcua.0 (44200) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1368,"ack":false,"time":1695625166910},"_id":51641886} BadSessionIdInvalid
+2023-09-25 10:59:28.864  - [33mwarn[39m: my-opcua.0 (44200) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:59:31.571  - [32minfo[39m: my-opcua.0 (44200) browser command
+2023-09-25 10:59:33.020  - [33mwarn[39m: my-opcua.0 (44200) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1369,"ack":false,"time":1695625171566},"_id":51641887} BadSessionIdInvalid
+2023-09-25 10:59:33.020  - [33mwarn[39m: my-opcua.0 (44200) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 10:59:37.587  - [32minfo[39m: my-opcua.0 (44200) browser command
+2023-09-25 10:59:53.375  - [33mwarn[39m: my-opcua.0 (44200) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1370,"ack":false,"time":1695625177586},"_id":51641888} Bad
+2023-09-25 10:59:53.376  - [33mwarn[39m: my-opcua.0 (44200) Error: Bad
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 11:31:47.768  - [34mdebug[39m: my-opcua.0 (94552) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 11:31:47.787  - [34mdebug[39m: my-opcua.0 (94552) Objects client ready ... initialize now
+2023-09-25 11:31:47.788  - [34mdebug[39m: my-opcua.0 (94552) Objects create System PubSub Client
+2023-09-25 11:31:47.789  - [34mdebug[39m: my-opcua.0 (94552) Objects create User PubSub Client
+2023-09-25 11:31:47.801  - [34mdebug[39m: my-opcua.0 (94552) Objects client initialize lua scripts
+2023-09-25 11:31:47.805  - [34mdebug[39m: my-opcua.0 (94552) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 11:31:47.824  - [34mdebug[39m: my-opcua.0 (94552) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 11:31:47.831  - [34mdebug[39m: my-opcua.0 (94552) States create System PubSub Client
+2023-09-25 11:31:47.834  - [34mdebug[39m: my-opcua.0 (94552) States create User PubSub Client
+2023-09-25 11:31:47.845  - [34mdebug[39m: my-opcua.0 (94552) States connected to redis: 127.0.0.1:9000
+2023-09-25 11:31:47.861  - [31merror[39m: my-opcua.0 (94552) adapter disabled
+2023-09-25 11:31:47.943  - [32minfo[39m: my-opcua.0 (94552) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 11:31:49.211  - [32minfo[39m: my-opcua.0 (94552) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 11:31:49.213  - [32minfo[39m: my-opcua.0 (94552) config option2: admin
+2023-09-25 11:31:49.364  - [32minfo[39m: my-opcua.0 (94552) check user admin pw iobroker: false,system.user.admin
+2023-09-25 11:31:49.368  - [32minfo[39m: my-opcua.0 (94552) check group user admin group admin: false
+2023-09-25 11:32:24.164  - [32minfo[39m: my-opcua.0 (94552) test command
+2023-09-25 11:32:35.011  - [32minfo[39m: my-opcua.0 (94552) browser command
+2023-09-25 11:33:22.723  - [33mwarn[39m: my-opcua.0 (94552) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1378,"ack":false,"time":1695627155021},"_id":51641896} BadAttributeIdInvalid
+2023-09-25 11:33:22.726  - [33mwarn[39m: my-opcua.0 (94552) Error: BadAttributeIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 11:34:44.320  - [34mdebug[39m: my-opcua.0 (40884) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 11:34:44.342  - [34mdebug[39m: my-opcua.0 (40884) Objects client ready ... initialize now
+2023-09-25 11:34:44.344  - [34mdebug[39m: my-opcua.0 (40884) Objects create System PubSub Client
+2023-09-25 11:34:44.345  - [34mdebug[39m: my-opcua.0 (40884) Objects create User PubSub Client
+2023-09-25 11:34:44.358  - [34mdebug[39m: my-opcua.0 (40884) Objects client initialize lua scripts
+2023-09-25 11:34:44.363  - [34mdebug[39m: my-opcua.0 (40884) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 11:34:44.383  - [34mdebug[39m: my-opcua.0 (40884) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 11:34:44.389  - [34mdebug[39m: my-opcua.0 (40884) States create System PubSub Client
+2023-09-25 11:34:44.390  - [34mdebug[39m: my-opcua.0 (40884) States create User PubSub Client
+2023-09-25 11:34:44.397  - [34mdebug[39m: my-opcua.0 (40884) States connected to redis: 127.0.0.1:9000
+2023-09-25 11:34:44.410  - [31merror[39m: my-opcua.0 (40884) adapter disabled
+2023-09-25 11:34:44.503  - [32minfo[39m: my-opcua.0 (40884) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 11:34:45.915  - [32minfo[39m: my-opcua.0 (40884) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 11:34:45.916  - [32minfo[39m: my-opcua.0 (40884) config option2: admin
+2023-09-25 11:34:46.037  - [32minfo[39m: my-opcua.0 (40884) check user admin pw iobroker: false,system.user.admin
+2023-09-25 11:34:46.041  - [32minfo[39m: my-opcua.0 (40884) check group user admin group admin: false
+2023-09-25 11:34:58.489  - [32minfo[39m: my-opcua.0 (40884) browser command
+2023-09-25 11:36:13.199  - [33mwarn[39m: my-opcua.0 (40884) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1379,"ack":false,"time":1695627298485},"_id":51641897} BadSessionIdInvalid
+2023-09-25 11:36:13.201  - [33mwarn[39m: my-opcua.0 (40884) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 11:36:17.439  - [32minfo[39m: my-opcua.0 (40884) browser command
+2023-09-25 11:36:18.979  - [33mwarn[39m: my-opcua.0 (40884) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1380,"ack":false,"time":1695627377438},"_id":51641898} BadSessionIdInvalid
+2023-09-25 11:36:18.980  - [33mwarn[39m: my-opcua.0 (40884) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 11:36:23.421  - [32minfo[39m: my-opcua.0 (40884) browser command
+2023-09-25 11:36:25.398  - [33mwarn[39m: my-opcua.0 (40884) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1"},"id":1381,"ack":false,"time":1695627383420},"_id":51641899} BadSessionIdInvalid
+2023-09-25 11:36:25.400  - [33mwarn[39m: my-opcua.0 (40884) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 11:36:29.709  - [32minfo[39m: my-opcua.0 (40884) browser command
+2023-09-25 11:36:42.916  - [32minfo[39m: my-opcua.0 (40884) browser command
+2023-09-25 11:37:13.433  - [33mwarn[39m: my-opcua.0 (40884) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1383,"ack":false,"time":1695627402915},"_id":51641901} BadConnectionClosed
+2023-09-25 11:37:13.434  - [33mwarn[39m: my-opcua.0 (40884) Error: BadConnectionClosed
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 11:37:17.135  - [32minfo[39m: my-opcua.0 (40884) browser command
+2023-09-25 12:14:08.224  - [34mdebug[39m: my-opcua.0 (61400) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 12:14:08.242  - [34mdebug[39m: my-opcua.0 (61400) Objects client ready ... initialize now
+2023-09-25 12:14:08.243  - [34mdebug[39m: my-opcua.0 (61400) Objects create System PubSub Client
+2023-09-25 12:14:08.244  - [34mdebug[39m: my-opcua.0 (61400) Objects create User PubSub Client
+2023-09-25 12:14:08.254  - [34mdebug[39m: my-opcua.0 (61400) Objects client initialize lua scripts
+2023-09-25 12:14:08.258  - [34mdebug[39m: my-opcua.0 (61400) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 12:14:08.277  - [34mdebug[39m: my-opcua.0 (61400) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 12:14:08.285  - [34mdebug[39m: my-opcua.0 (61400) States create System PubSub Client
+2023-09-25 12:14:08.287  - [34mdebug[39m: my-opcua.0 (61400) States create User PubSub Client
+2023-09-25 12:14:08.297  - [34mdebug[39m: my-opcua.0 (61400) States connected to redis: 127.0.0.1:9000
+2023-09-25 12:14:08.312  - [31merror[39m: my-opcua.0 (61400) adapter disabled
+2023-09-25 12:14:08.365  - [32minfo[39m: my-opcua.0 (61400) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 12:14:09.519  - [32minfo[39m: my-opcua.0 (61400) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 12:14:09.520  - [32minfo[39m: my-opcua.0 (61400) config option2: admin
+2023-09-25 12:14:09.643  - [32minfo[39m: my-opcua.0 (61400) check user admin pw iobroker: false,system.user.admin
+2023-09-25 12:14:09.646  - [32minfo[39m: my-opcua.0 (61400) check group user admin group admin: false
+2023-09-25 12:14:50.346  - [32minfo[39m: my-opcua.0 (61400) test command
+2023-09-25 12:14:59.383  - [32minfo[39m: my-opcua.0 (61400) browser command
+2023-09-25 12:15:12.646  - [32minfo[39m: my-opcua.0 (61400) browser command
+2023-09-25 12:17:18.092  - [34mdebug[39m: my-opcua.0 (28292) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 12:17:18.109  - [34mdebug[39m: my-opcua.0 (28292) Objects client ready ... initialize now
+2023-09-25 12:17:18.110  - [34mdebug[39m: my-opcua.0 (28292) Objects create System PubSub Client
+2023-09-25 12:17:18.111  - [34mdebug[39m: my-opcua.0 (28292) Objects create User PubSub Client
+2023-09-25 12:17:18.124  - [34mdebug[39m: my-opcua.0 (28292) Objects client initialize lua scripts
+2023-09-25 12:17:18.127  - [34mdebug[39m: my-opcua.0 (28292) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 12:17:18.144  - [34mdebug[39m: my-opcua.0 (28292) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 12:17:18.149  - [34mdebug[39m: my-opcua.0 (28292) States create System PubSub Client
+2023-09-25 12:17:18.150  - [34mdebug[39m: my-opcua.0 (28292) States create User PubSub Client
+2023-09-25 12:17:18.155  - [34mdebug[39m: my-opcua.0 (28292) States connected to redis: 127.0.0.1:9000
+2023-09-25 12:17:18.164  - [31merror[39m: my-opcua.0 (28292) adapter disabled
+2023-09-25 12:17:18.218  - [32minfo[39m: my-opcua.0 (28292) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 12:17:19.390  - [32minfo[39m: my-opcua.0 (28292) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 12:17:19.391  - [32minfo[39m: my-opcua.0 (28292) config option2: admin
+2023-09-25 12:17:19.492  - [32minfo[39m: my-opcua.0 (28292) check user admin pw iobroker: false,system.user.admin
+2023-09-25 12:17:19.496  - [32minfo[39m: my-opcua.0 (28292) check group user admin group admin: false
+2023-09-25 12:18:16.142  - [34mdebug[39m: my-opcua.0 (73968) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 12:18:16.160  - [34mdebug[39m: my-opcua.0 (73968) Objects client ready ... initialize now
+2023-09-25 12:18:16.163  - [34mdebug[39m: my-opcua.0 (73968) Objects create System PubSub Client
+2023-09-25 12:18:16.164  - [34mdebug[39m: my-opcua.0 (73968) Objects create User PubSub Client
+2023-09-25 12:18:16.176  - [34mdebug[39m: my-opcua.0 (73968) Objects client initialize lua scripts
+2023-09-25 12:18:16.180  - [34mdebug[39m: my-opcua.0 (73968) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 12:18:16.200  - [34mdebug[39m: my-opcua.0 (73968) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 12:18:16.205  - [34mdebug[39m: my-opcua.0 (73968) States create System PubSub Client
+2023-09-25 12:18:16.207  - [34mdebug[39m: my-opcua.0 (73968) States create User PubSub Client
+2023-09-25 12:18:16.212  - [34mdebug[39m: my-opcua.0 (73968) States connected to redis: 127.0.0.1:9000
+2023-09-25 12:18:16.221  - [31merror[39m: my-opcua.0 (73968) adapter disabled
+2023-09-25 12:18:16.270  - [32minfo[39m: my-opcua.0 (73968) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 12:18:17.408  - [32minfo[39m: my-opcua.0 (73968) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 12:18:17.410  - [32minfo[39m: my-opcua.0 (73968) config option2: admin
+2023-09-25 12:18:17.498  - [32minfo[39m: my-opcua.0 (73968) check user admin pw iobroker: false,system.user.admin
+2023-09-25 12:18:17.501  - [32minfo[39m: my-opcua.0 (73968) check group user admin group admin: false
+2023-09-25 12:19:03.175  - [32minfo[39m: my-opcua.0 (73968) test command
+2023-09-25 12:19:09.710  - [32minfo[39m: my-opcua.0 (73968) browser command
+2023-09-25 12:19:23.802  - [32minfo[39m: my-opcua.0 (73968) browser command
+2023-09-25 12:22:37.666  - [32minfo[39m: my-opcua.0 (73968) test command
+2023-09-25 12:22:44.397  - [32minfo[39m: my-opcua.0 (73968) browser command
+2023-09-25 12:22:52.949  - [32minfo[39m: my-opcua.0 (73968) browser command
+2023-09-25 12:30:25.997  - [34mdebug[39m: my-opcua.0 (35808) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 12:30:26.014  - [34mdebug[39m: my-opcua.0 (35808) Objects client ready ... initialize now
+2023-09-25 12:30:26.015  - [34mdebug[39m: my-opcua.0 (35808) Objects create System PubSub Client
+2023-09-25 12:30:26.016  - [34mdebug[39m: my-opcua.0 (35808) Objects create User PubSub Client
+2023-09-25 12:30:26.027  - [34mdebug[39m: my-opcua.0 (35808) Objects client initialize lua scripts
+2023-09-25 12:30:26.030  - [34mdebug[39m: my-opcua.0 (35808) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 12:30:26.047  - [34mdebug[39m: my-opcua.0 (35808) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 12:30:26.051  - [34mdebug[39m: my-opcua.0 (35808) States create System PubSub Client
+2023-09-25 12:30:26.052  - [34mdebug[39m: my-opcua.0 (35808) States create User PubSub Client
+2023-09-25 12:30:26.057  - [34mdebug[39m: my-opcua.0 (35808) States connected to redis: 127.0.0.1:9000
+2023-09-25 12:30:26.065  - [31merror[39m: my-opcua.0 (35808) adapter disabled
+2023-09-25 12:30:26.111  - [32minfo[39m: my-opcua.0 (35808) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 12:30:27.266  - [32minfo[39m: my-opcua.0 (35808) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 12:30:27.267  - [32minfo[39m: my-opcua.0 (35808) config option2: admin
+2023-09-25 12:30:27.367  - [32minfo[39m: my-opcua.0 (35808) check user admin pw iobroker: false,system.user.admin
+2023-09-25 12:30:27.370  - [32minfo[39m: my-opcua.0 (35808) check group user admin group admin: false
+2023-09-25 12:31:02.414  - [32minfo[39m: my-opcua.0 (35808) test command
+2023-09-25 12:31:16.068  - [32minfo[39m: my-opcua.0 (35808) browser command
+2023-09-25 12:31:26.179  - [32minfo[39m: my-opcua.0 (35808) browser command
+2023-09-25 12:34:56.265  - [33mwarn[39m: my-opcua.0 (35808) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1426,"ack":false,"time":1695630686178},"_id":51641944} BadSessionIdInvalid
+2023-09-25 12:34:56.266  - [33mwarn[39m: my-opcua.0 (35808) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 12:40:49.233  - [34mdebug[39m: my-opcua.0 (83136) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 12:40:49.252  - [34mdebug[39m: my-opcua.0 (83136) Objects client ready ... initialize now
+2023-09-25 12:40:49.253  - [34mdebug[39m: my-opcua.0 (83136) Objects create System PubSub Client
+2023-09-25 12:40:49.254  - [34mdebug[39m: my-opcua.0 (83136) Objects create User PubSub Client
+2023-09-25 12:40:49.265  - [34mdebug[39m: my-opcua.0 (83136) Objects client initialize lua scripts
+2023-09-25 12:40:49.268  - [34mdebug[39m: my-opcua.0 (83136) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 12:40:49.285  - [34mdebug[39m: my-opcua.0 (83136) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 12:40:49.291  - [34mdebug[39m: my-opcua.0 (83136) States create System PubSub Client
+2023-09-25 12:40:49.293  - [34mdebug[39m: my-opcua.0 (83136) States create User PubSub Client
+2023-09-25 12:40:49.299  - [34mdebug[39m: my-opcua.0 (83136) States connected to redis: 127.0.0.1:9000
+2023-09-25 12:40:49.307  - [31merror[39m: my-opcua.0 (83136) adapter disabled
+2023-09-25 12:40:49.355  - [32minfo[39m: my-opcua.0 (83136) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 12:40:50.497  - [32minfo[39m: my-opcua.0 (83136) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 12:40:50.498  - [32minfo[39m: my-opcua.0 (83136) config option2: admin
+2023-09-25 12:40:50.589  - [32minfo[39m: my-opcua.0 (83136) check user admin pw iobroker: false,system.user.admin
+2023-09-25 12:40:50.592  - [32minfo[39m: my-opcua.0 (83136) check group user admin group admin: false
+2023-09-25 12:40:59.137  - [32minfo[39m: my-opcua.0 (83136) test command
+2023-09-25 12:41:16.175  - [32minfo[39m: my-opcua.0 (83136) browser command
+2023-09-25 12:41:28.454  - [32minfo[39m: my-opcua.0 (83136) browser command
+2023-09-25 12:44:22.572  - [34mdebug[39m: my-opcua.0 (49424) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 12:44:22.590  - [34mdebug[39m: my-opcua.0 (49424) Objects client ready ... initialize now
+2023-09-25 12:44:22.591  - [34mdebug[39m: my-opcua.0 (49424) Objects create System PubSub Client
+2023-09-25 12:44:22.592  - [34mdebug[39m: my-opcua.0 (49424) Objects create User PubSub Client
+2023-09-25 12:44:22.603  - [34mdebug[39m: my-opcua.0 (49424) Objects client initialize lua scripts
+2023-09-25 12:44:22.607  - [34mdebug[39m: my-opcua.0 (49424) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 12:44:22.624  - [34mdebug[39m: my-opcua.0 (49424) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 12:44:22.628  - [34mdebug[39m: my-opcua.0 (49424) States create System PubSub Client
+2023-09-25 12:44:22.629  - [34mdebug[39m: my-opcua.0 (49424) States create User PubSub Client
+2023-09-25 12:44:22.634  - [34mdebug[39m: my-opcua.0 (49424) States connected to redis: 127.0.0.1:9000
+2023-09-25 12:44:22.643  - [31merror[39m: my-opcua.0 (49424) adapter disabled
+2023-09-25 12:44:22.693  - [32minfo[39m: my-opcua.0 (49424) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 12:44:23.818  - [32minfo[39m: my-opcua.0 (49424) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 12:44:23.818  - [32minfo[39m: my-opcua.0 (49424) config option2: admin
+2023-09-25 12:44:23.923  - [32minfo[39m: my-opcua.0 (49424) check user admin pw iobroker: false,system.user.admin
+2023-09-25 12:44:23.927  - [32minfo[39m: my-opcua.0 (49424) check group user admin group admin: false
+2023-09-25 12:44:58.568  - [32minfo[39m: my-opcua.0 (49424) test command
+2023-09-25 12:45:05.839  - [32minfo[39m: my-opcua.0 (49424) browser command
+2023-09-25 12:45:24.655  - [32minfo[39m: my-opcua.0 (49424) browser command
+2023-09-25 12:45:58.944  - [33mwarn[39m: my-opcua.0 (49424) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1444,"ack":false,"time":1695631524654},"_id":51641962} BadNodeIdUnknown
+2023-09-25 12:45:58.944  - [33mwarn[39m: my-opcua.0 (49424) Error: BadNodeIdUnknown
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:06:58.809  - [34mdebug[39m: my-opcua.0 (52788) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 13:06:58.827  - [34mdebug[39m: my-opcua.0 (52788) Objects client ready ... initialize now
+2023-09-25 13:06:58.829  - [34mdebug[39m: my-opcua.0 (52788) Objects create System PubSub Client
+2023-09-25 13:06:58.830  - [34mdebug[39m: my-opcua.0 (52788) Objects create User PubSub Client
+2023-09-25 13:06:58.840  - [34mdebug[39m: my-opcua.0 (52788) Objects client initialize lua scripts
+2023-09-25 13:06:58.844  - [34mdebug[39m: my-opcua.0 (52788) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 13:06:58.862  - [34mdebug[39m: my-opcua.0 (52788) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 13:06:58.866  - [34mdebug[39m: my-opcua.0 (52788) States create System PubSub Client
+2023-09-25 13:06:58.867  - [34mdebug[39m: my-opcua.0 (52788) States create User PubSub Client
+2023-09-25 13:06:58.873  - [34mdebug[39m: my-opcua.0 (52788) States connected to redis: 127.0.0.1:9000
+2023-09-25 13:06:58.881  - [31merror[39m: my-opcua.0 (52788) adapter disabled
+2023-09-25 13:06:58.930  - [32minfo[39m: my-opcua.0 (52788) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 13:07:00.076  - [32minfo[39m: my-opcua.0 (52788) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 13:07:00.076  - [32minfo[39m: my-opcua.0 (52788) config option2: admin
+2023-09-25 13:07:00.195  - [32minfo[39m: my-opcua.0 (52788) check user admin pw iobroker: false,system.user.admin
+2023-09-25 13:07:00.198  - [32minfo[39m: my-opcua.0 (52788) check group user admin group admin: false
+2023-09-25 13:10:44.538  - [32minfo[39m: my-opcua.0 (52788) test command
+2023-09-25 13:10:51.743  - [32minfo[39m: my-opcua.0 (52788) browser command
+2023-09-25 13:11:01.535  - [32minfo[39m: my-opcua.0 (52788) browser command
+2023-09-25 13:12:44.611  - [34mdebug[39m: my-opcua.0 (53256) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 13:12:44.628  - [34mdebug[39m: my-opcua.0 (53256) Objects client ready ... initialize now
+2023-09-25 13:12:44.629  - [34mdebug[39m: my-opcua.0 (53256) Objects create System PubSub Client
+2023-09-25 13:12:44.630  - [34mdebug[39m: my-opcua.0 (53256) Objects create User PubSub Client
+2023-09-25 13:12:44.640  - [34mdebug[39m: my-opcua.0 (53256) Objects client initialize lua scripts
+2023-09-25 13:12:44.644  - [34mdebug[39m: my-opcua.0 (53256) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 13:12:44.660  - [34mdebug[39m: my-opcua.0 (53256) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 13:12:44.664  - [34mdebug[39m: my-opcua.0 (53256) States create System PubSub Client
+2023-09-25 13:12:44.665  - [34mdebug[39m: my-opcua.0 (53256) States create User PubSub Client
+2023-09-25 13:12:44.671  - [34mdebug[39m: my-opcua.0 (53256) States connected to redis: 127.0.0.1:9000
+2023-09-25 13:12:44.679  - [31merror[39m: my-opcua.0 (53256) adapter disabled
+2023-09-25 13:12:44.725  - [32minfo[39m: my-opcua.0 (53256) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 13:12:45.830  - [32minfo[39m: my-opcua.0 (53256) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 13:12:45.831  - [32minfo[39m: my-opcua.0 (53256) config option2: admin
+2023-09-25 13:12:45.933  - [32minfo[39m: my-opcua.0 (53256) check user admin pw iobroker: false,system.user.admin
+2023-09-25 13:12:45.936  - [32minfo[39m: my-opcua.0 (53256) check group user admin group admin: false
+2023-09-25 13:13:12.336  - [32minfo[39m: my-opcua.0 (53256) browser command
+2023-09-25 13:13:29.735  - [32minfo[39m: my-opcua.0 (53256) browser command
+2023-09-25 13:17:10.123  - [33mwarn[39m: my-opcua.0 (53256) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel3.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel3.Device1"},"id":1455,"ack":false,"time":1695633209734},"_id":51641973} BadSessionIdInvalid
+2023-09-25 13:17:10.124  - [33mwarn[39m: my-opcua.0 (53256) Error: BadSessionIdInvalid
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:23:27.557  - [34mdebug[39m: my-opcua.0 (28292) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 13:23:27.581  - [34mdebug[39m: my-opcua.0 (28292) Objects client ready ... initialize now
+2023-09-25 13:23:27.583  - [34mdebug[39m: my-opcua.0 (28292) Objects create System PubSub Client
+2023-09-25 13:23:27.586  - [34mdebug[39m: my-opcua.0 (28292) Objects create User PubSub Client
+2023-09-25 13:23:27.600  - [34mdebug[39m: my-opcua.0 (28292) Objects client initialize lua scripts
+2023-09-25 13:23:27.604  - [34mdebug[39m: my-opcua.0 (28292) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 13:23:27.623  - [34mdebug[39m: my-opcua.0 (28292) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 13:23:27.628  - [34mdebug[39m: my-opcua.0 (28292) States create System PubSub Client
+2023-09-25 13:23:27.629  - [34mdebug[39m: my-opcua.0 (28292) States create User PubSub Client
+2023-09-25 13:23:27.633  - [34mdebug[39m: my-opcua.0 (28292) States connected to redis: 127.0.0.1:9000
+2023-09-25 13:23:27.644  - [31merror[39m: my-opcua.0 (28292) adapter disabled
+2023-09-25 13:23:27.699  - [32minfo[39m: my-opcua.0 (28292) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 13:23:28.881  - [32minfo[39m: my-opcua.0 (28292) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 13:23:28.882  - [32minfo[39m: my-opcua.0 (28292) config option2: admin
+2023-09-25 13:23:28.983  - [32minfo[39m: my-opcua.0 (28292) check user admin pw iobroker: false,system.user.admin
+2023-09-25 13:23:28.987  - [32minfo[39m: my-opcua.0 (28292) check group user admin group admin: false
+2023-09-25 13:23:36.160  - [32minfo[39m: my-opcua.0 (28292) browser command
+2023-09-25 13:23:41.216  - [32minfo[39m: my-opcua.0 (28292) browser command
+2023-09-25 13:23:59.817  - [32minfo[39m: my-opcua.0 (28292) browser command
+2023-09-25 13:24:21.777  - [32minfo[39m: my-opcua.0 (28292) browser command
+2023-09-25 13:24:34.175  - [32minfo[39m: my-opcua.0 (28292) browser command
+2023-09-25 13:24:50.657  - [32minfo[39m: my-opcua.0 (28292) browser command
+2023-09-25 13:35:40.038  - [34mdebug[39m: my-opcua.0 (76792) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 13:35:40.057  - [34mdebug[39m: my-opcua.0 (76792) Objects client ready ... initialize now
+2023-09-25 13:35:40.058  - [34mdebug[39m: my-opcua.0 (76792) Objects create System PubSub Client
+2023-09-25 13:35:40.060  - [34mdebug[39m: my-opcua.0 (76792) Objects create User PubSub Client
+2023-09-25 13:35:40.072  - [34mdebug[39m: my-opcua.0 (76792) Objects client initialize lua scripts
+2023-09-25 13:35:40.075  - [34mdebug[39m: my-opcua.0 (76792) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 13:35:40.091  - [34mdebug[39m: my-opcua.0 (76792) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 13:35:40.097  - [34mdebug[39m: my-opcua.0 (76792) States create System PubSub Client
+2023-09-25 13:35:40.099  - [34mdebug[39m: my-opcua.0 (76792) States create User PubSub Client
+2023-09-25 13:35:40.104  - [34mdebug[39m: my-opcua.0 (76792) States connected to redis: 127.0.0.1:9000
+2023-09-25 13:35:40.112  - [31merror[39m: my-opcua.0 (76792) adapter disabled
+2023-09-25 13:35:40.163  - [32minfo[39m: my-opcua.0 (76792) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 13:35:41.337  - [32minfo[39m: my-opcua.0 (76792) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 13:35:41.338  - [32minfo[39m: my-opcua.0 (76792) config option2: admin
+2023-09-25 13:35:41.430  - [32minfo[39m: my-opcua.0 (76792) check user admin pw iobroker: false,system.user.admin
+2023-09-25 13:35:41.434  - [32minfo[39m: my-opcua.0 (76792) check group user admin group admin: false
+2023-09-25 13:36:03.430  - [32minfo[39m: my-opcua.0 (76792) test command
+2023-09-25 13:36:11.201  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:03.000  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:03.025  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1488,"ack":false,"time":1695634622998},"_id":51642007} Specified cast is not valid.
+2023-09-25 13:37:03.026  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:37:13.218  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:13.221  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1489,"ack":false,"time":1695634633216},"_id":51642008} Specified cast is not valid.
+2023-09-25 13:37:13.221  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:37:16.417  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:16.419  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1490,"ack":false,"time":1695634636415},"_id":51642009} Specified cast is not valid.
+2023-09-25 13:37:16.420  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:37:24.816  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:24.819  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1491,"ack":false,"time":1695634644814},"_id":51642010} Specified cast is not valid.
+2023-09-25 13:37:24.821  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:37:29.064  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:29.068  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1492,"ack":false,"time":1695634649062},"_id":51642011} Specified cast is not valid.
+2023-09-25 13:37:29.068  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:37:43.652  - [32minfo[39m: my-opcua.0 (76792) test command
+2023-09-25 13:37:48.001  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:53.712  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:53.716  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1501,"ack":false,"time":1695634673711},"_id":51642020} Specified cast is not valid.
+2023-09-25 13:37:53.717  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:37:54.960  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:37:54.963  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1502,"ack":false,"time":1695634674959},"_id":51642021} Specified cast is not valid.
+2023-09-25 13:37:54.964  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:38:03.728  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:38:09.488  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:38:09.492  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel3.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel3.Device1"},"id":1504,"ack":false,"time":1695634689488},"_id":51642023} Specified cast is not valid.
+2023-09-25 13:38:09.492  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:38:10.760  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:38:10.763  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel3.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel3.Device1"},"id":1505,"ack":false,"time":1695634690759},"_id":51642024} Specified cast is not valid.
+2023-09-25 13:38:10.763  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:38:28.072  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:38:47.561  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel3.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel3.Device1"},"id":1506,"ack":false,"time":1695634708071},"_id":51642025} Specified cast is not valid.
+2023-09-25 13:38:47.561  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:40:21.128  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:40:26.053  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel3.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel3.Device1"},"id":1507,"ack":false,"time":1695634821127},"_id":51642026} Specified cast is not valid.
+2023-09-25 13:40:26.054  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:40:52.966  - [32minfo[39m: my-opcua.0 (76792) test command
+2023-09-25 13:41:03.568  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:41:42.200  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:41:50.357  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1517,"ack":false,"time":1695634902199},"_id":51642036} Specified cast is not valid.
+2023-09-25 13:41:50.358  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:42:23.304  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:42:29.014  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1518,"ack":false,"time":1695634943303},"_id":51642037} Specified cast is not valid.
+2023-09-25 13:42:29.015  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:43:12.641  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:43:16.919  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1519,"ack":false,"time":1695634992640},"_id":51642038} Specified cast is not valid.
+2023-09-25 13:43:16.920  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:44:54.296  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:45:12.897  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1520,"ack":false,"time":1695635094296},"_id":51642039} Specified cast is not valid.
+2023-09-25 13:45:12.898  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:45:53.960  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:46:01.014  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1521,"ack":false,"time":1695635153959},"_id":51642040} Specified cast is not valid.
+2023-09-25 13:46:01.015  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:46:26.361  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:46:45.014  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1522,"ack":false,"time":1695635186360},"_id":51642041} Specified cast is not valid.
+2023-09-25 13:46:45.015  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:47:13.120  - [32minfo[39m: my-opcua.0 (76792) browser command
+2023-09-25 13:47:16.283  - [33mwarn[39m: my-opcua.0 (76792) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1523,"ack":false,"time":1695635233119},"_id":51642042} Specified cast is not valid.
+2023-09-25 13:47:16.283  - [33mwarn[39m: my-opcua.0 (76792) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:48:12.119  - [34mdebug[39m: my-opcua.0 (34064) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 13:48:12.139  - [34mdebug[39m: my-opcua.0 (34064) Objects client ready ... initialize now
+2023-09-25 13:48:12.140  - [34mdebug[39m: my-opcua.0 (34064) Objects create System PubSub Client
+2023-09-25 13:48:12.141  - [34mdebug[39m: my-opcua.0 (34064) Objects create User PubSub Client
+2023-09-25 13:48:12.153  - [34mdebug[39m: my-opcua.0 (34064) Objects client initialize lua scripts
+2023-09-25 13:48:12.156  - [34mdebug[39m: my-opcua.0 (34064) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 13:48:12.173  - [34mdebug[39m: my-opcua.0 (34064) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 13:48:12.177  - [34mdebug[39m: my-opcua.0 (34064) States create System PubSub Client
+2023-09-25 13:48:12.178  - [34mdebug[39m: my-opcua.0 (34064) States create User PubSub Client
+2023-09-25 13:48:12.183  - [34mdebug[39m: my-opcua.0 (34064) States connected to redis: 127.0.0.1:9000
+2023-09-25 13:48:12.192  - [31merror[39m: my-opcua.0 (34064) adapter disabled
+2023-09-25 13:48:12.239  - [32minfo[39m: my-opcua.0 (34064) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 13:48:13.386  - [32minfo[39m: my-opcua.0 (34064) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 13:48:13.387  - [32minfo[39m: my-opcua.0 (34064) config option2: admin
+2023-09-25 13:48:13.481  - [32minfo[39m: my-opcua.0 (34064) check user admin pw iobroker: false,system.user.admin
+2023-09-25 13:48:13.485  - [32minfo[39m: my-opcua.0 (34064) check group user admin group admin: false
+2023-09-25 13:48:25.451  - [32minfo[39m: my-opcua.0 (34064) browser command
+2023-09-25 13:48:47.850  - [33mwarn[39m: my-opcua.0 (34064) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1524,"ack":false,"time":1695635305449},"_id":51642043} Specified cast is not valid.
+2023-09-25 13:48:47.851  - [33mwarn[39m: my-opcua.0 (34064) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:49:16.729  - [32minfo[39m: my-opcua.0 (34064) browser command
+2023-09-25 13:49:21.673  - [33mwarn[39m: my-opcua.0 (34064) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1525,"ack":false,"time":1695635356728},"_id":51642044} Specified cast is not valid.
+2023-09-25 13:49:21.674  - [33mwarn[39m: my-opcua.0 (34064) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:49:24.577  - [32minfo[39m: my-opcua.0 (34064) browser command
+2023-09-25 13:49:29.330  - [33mwarn[39m: my-opcua.0 (34064) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1526,"ack":false,"time":1695635364576},"_id":51642045} Specified cast is not valid.
+2023-09-25 13:49:29.331  - [33mwarn[39m: my-opcua.0 (34064) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:49:43.753  - [32minfo[39m: my-opcua.0 (34064) browser command
+2023-09-25 13:49:51.057  - [33mwarn[39m: my-opcua.0 (34064) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1527,"ack":false,"time":1695635383751},"_id":51642046} Specified cast is not valid.
+2023-09-25 13:49:51.058  - [33mwarn[39m: my-opcua.0 (34064) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:50:25.879  - [32minfo[39m: my-opcua.0 (34064) browser command
+2023-09-25 13:50:52.551  - [33mwarn[39m: my-opcua.0 (34064) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1528,"ack":false,"time":1695635425879},"_id":51642047} Specified cast is not valid.
+2023-09-25 13:50:52.552  - [33mwarn[39m: my-opcua.0 (34064) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:52:55.448  - [34mdebug[39m: my-opcua.0 (52756) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 13:52:55.466  - [34mdebug[39m: my-opcua.0 (52756) Objects client ready ... initialize now
+2023-09-25 13:52:55.468  - [34mdebug[39m: my-opcua.0 (52756) Objects create System PubSub Client
+2023-09-25 13:52:55.469  - [34mdebug[39m: my-opcua.0 (52756) Objects create User PubSub Client
+2023-09-25 13:52:55.480  - [34mdebug[39m: my-opcua.0 (52756) Objects client initialize lua scripts
+2023-09-25 13:52:55.484  - [34mdebug[39m: my-opcua.0 (52756) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 13:52:55.501  - [34mdebug[39m: my-opcua.0 (52756) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 13:52:55.505  - [34mdebug[39m: my-opcua.0 (52756) States create System PubSub Client
+2023-09-25 13:52:55.506  - [34mdebug[39m: my-opcua.0 (52756) States create User PubSub Client
+2023-09-25 13:52:55.511  - [34mdebug[39m: my-opcua.0 (52756) States connected to redis: 127.0.0.1:9000
+2023-09-25 13:52:55.520  - [31merror[39m: my-opcua.0 (52756) adapter disabled
+2023-09-25 13:52:55.570  - [32minfo[39m: my-opcua.0 (52756) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 13:52:56.745  - [32minfo[39m: my-opcua.0 (52756) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 13:52:56.746  - [32minfo[39m: my-opcua.0 (52756) config option2: admin
+2023-09-25 13:52:56.853  - [32minfo[39m: my-opcua.0 (52756) check user admin pw iobroker: false,system.user.admin
+2023-09-25 13:52:56.855  - [32minfo[39m: my-opcua.0 (52756) check group user admin group admin: false
+2023-09-25 13:53:14.776  - [32minfo[39m: my-opcua.0 (52756) browser command
+2023-09-25 13:53:21.270  - [33mwarn[39m: my-opcua.0 (52756) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1529,"ack":false,"time":1695635594775},"_id":51642048} Specified cast is not valid.
+2023-09-25 13:53:21.271  - [33mwarn[39m: my-opcua.0 (52756) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:53:35.009  - [32minfo[39m: my-opcua.0 (52756) browser command
+2023-09-25 13:54:09.992  - [33mwarn[39m: my-opcua.0 (52756) States system pmessage io.messagebox.system.adapter.my-opcua.0 {"command":"browser","message":{"nodeid":"ns=2;s=Channel1.Device1"},"from":"system.adapter.admin.5","callback":{"message":{"nodeid":"ns=2;s=Channel1.Device1"},"id":1530,"ack":false,"time":1695635615009},"_id":51642049} Specified cast is not valid.
+2023-09-25 13:54:09.993  - [33mwarn[39m: my-opcua.0 (52756) Error: Specified cast is not valid.
+    at Object.browser (<anonymous>:1:55)
+    at MyOpcua.onMessage (E:\iobrokerst479\node_modules\ioBroker.my-opcua\main.js:304:48)
+    at MyOpcua.emit (node:events:513:28)
+    at change (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\js-controller-adapter\build\lib\adapter\adapter.js:5301:34)
+    at Immediate._onImmediate (E:\iobrokerst479\node_modules\ioBroker.my-opcua\node_modules\@iobroker\db-states-redis\lib\states\statesInRedisClient.js:322:37)
+    at process.processImmediate (node:internal/timers:476:21)
+    at process.callbackTrampoline (node:internal/async_hooks:130:17)
+2023-09-25 13:54:49.198  - [34mdebug[39m: my-opcua.0 (28100) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 13:54:49.218  - [34mdebug[39m: my-opcua.0 (28100) Objects client ready ... initialize now
+2023-09-25 13:54:49.219  - [34mdebug[39m: my-opcua.0 (28100) Objects create System PubSub Client
+2023-09-25 13:54:49.221  - [34mdebug[39m: my-opcua.0 (28100) Objects create User PubSub Client
+2023-09-25 13:54:49.232  - [34mdebug[39m: my-opcua.0 (28100) Objects client initialize lua scripts
+2023-09-25 13:54:49.237  - [34mdebug[39m: my-opcua.0 (28100) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 13:54:49.258  - [34mdebug[39m: my-opcua.0 (28100) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 13:54:49.265  - [34mdebug[39m: my-opcua.0 (28100) States create System PubSub Client
+2023-09-25 13:54:49.267  - [34mdebug[39m: my-opcua.0 (28100) States create User PubSub Client
+2023-09-25 13:54:49.273  - [34mdebug[39m: my-opcua.0 (28100) States connected to redis: 127.0.0.1:9000
+2023-09-25 13:54:49.285  - [31merror[39m: my-opcua.0 (28100) adapter disabled
+2023-09-25 13:54:49.339  - [32minfo[39m: my-opcua.0 (28100) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 13:54:50.798  - [32minfo[39m: my-opcua.0 (28100) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 13:54:50.799  - [32minfo[39m: my-opcua.0 (28100) config option2: admin
+2023-09-25 13:54:50.926  - [32minfo[39m: my-opcua.0 (28100) check user admin pw iobroker: false,system.user.admin
+2023-09-25 13:54:50.929  - [32minfo[39m: my-opcua.0 (28100) check group user admin group admin: false
+2023-09-25 13:55:09.873  - [32minfo[39m: my-opcua.0 (28100) browser command
+2023-09-25 13:55:38.859  - [32minfo[39m: my-opcua.0 (28100) browser command
+2023-09-25 14:01:10.543  - [34mdebug[39m: my-opcua.0 (79160) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 14:01:10.562  - [34mdebug[39m: my-opcua.0 (79160) Objects client ready ... initialize now
+2023-09-25 14:01:10.564  - [34mdebug[39m: my-opcua.0 (79160) Objects create System PubSub Client
+2023-09-25 14:01:10.565  - [34mdebug[39m: my-opcua.0 (79160) Objects create User PubSub Client
+2023-09-25 14:01:10.575  - [34mdebug[39m: my-opcua.0 (79160) Objects client initialize lua scripts
+2023-09-25 14:01:10.578  - [34mdebug[39m: my-opcua.0 (79160) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 14:01:10.597  - [34mdebug[39m: my-opcua.0 (79160) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 14:01:10.602  - [34mdebug[39m: my-opcua.0 (79160) States create System PubSub Client
+2023-09-25 14:01:10.604  - [34mdebug[39m: my-opcua.0 (79160) States create User PubSub Client
+2023-09-25 14:01:10.611  - [34mdebug[39m: my-opcua.0 (79160) States connected to redis: 127.0.0.1:9000
+2023-09-25 14:01:10.623  - [31merror[39m: my-opcua.0 (79160) adapter disabled
+2023-09-25 14:01:10.682  - [32minfo[39m: my-opcua.0 (79160) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 14:01:11.869  - [32minfo[39m: my-opcua.0 (79160) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 14:01:11.870  - [32minfo[39m: my-opcua.0 (79160) config option2: admin
+2023-09-25 14:01:11.957  - [32minfo[39m: my-opcua.0 (79160) check user admin pw iobroker: false,system.user.admin
+2023-09-25 14:01:11.961  - [32minfo[39m: my-opcua.0 (79160) check group user admin group admin: false
+2023-09-25 14:01:56.108  - [32minfo[39m: my-opcua.0 (79160) browser command
+2023-09-25 14:02:17.057  - [32minfo[39m: my-opcua.0 (79160) browser command
+2023-09-25 14:02:47.092  - [32minfo[39m: my-opcua.0 (79160) test command
+2023-09-25 14:02:55.401  - [32minfo[39m: my-opcua.0 (79160) browser command
+2023-09-25 14:03:03.616  - [32minfo[39m: my-opcua.0 (79160) browser command
+2023-09-25 14:10:52.035  - [34mdebug[39m: my-opcua.0 (44448) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 14:10:52.052  - [34mdebug[39m: my-opcua.0 (44448) Objects client ready ... initialize now
+2023-09-25 14:10:52.054  - [34mdebug[39m: my-opcua.0 (44448) Objects create System PubSub Client
+2023-09-25 14:10:52.055  - [34mdebug[39m: my-opcua.0 (44448) Objects create User PubSub Client
+2023-09-25 14:10:52.066  - [34mdebug[39m: my-opcua.0 (44448) Objects client initialize lua scripts
+2023-09-25 14:10:52.070  - [34mdebug[39m: my-opcua.0 (44448) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 14:10:52.088  - [34mdebug[39m: my-opcua.0 (44448) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 14:10:52.092  - [34mdebug[39m: my-opcua.0 (44448) States create System PubSub Client
+2023-09-25 14:10:52.094  - [34mdebug[39m: my-opcua.0 (44448) States create User PubSub Client
+2023-09-25 14:10:52.099  - [34mdebug[39m: my-opcua.0 (44448) States connected to redis: 127.0.0.1:9000
+2023-09-25 14:10:52.107  - [31merror[39m: my-opcua.0 (44448) adapter disabled
+2023-09-25 14:10:52.159  - [32minfo[39m: my-opcua.0 (44448) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 14:10:53.314  - [32minfo[39m: my-opcua.0 (44448) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 14:10:53.314  - [32minfo[39m: my-opcua.0 (44448) config option2: admin
+2023-09-25 14:10:53.416  - [32minfo[39m: my-opcua.0 (44448) check user admin pw iobroker: false,system.user.admin
+2023-09-25 14:10:53.420  - [32minfo[39m: my-opcua.0 (44448) check group user admin group admin: false
+2023-09-25 14:11:44.574  - [32minfo[39m: my-opcua.0 (44448) test command
+2023-09-25 14:11:56.185  - [32minfo[39m: my-opcua.0 (44448) browser command
+2023-09-25 14:12:04.345  - [32minfo[39m: my-opcua.0 (44448) browser command
+2023-09-25 14:49:17.534  - [34mdebug[39m: my-opcua.0 (68324) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 14:49:17.562  - [34mdebug[39m: my-opcua.0 (68324) Objects client ready ... initialize now
+2023-09-25 14:49:17.564  - [34mdebug[39m: my-opcua.0 (68324) Objects create System PubSub Client
+2023-09-25 14:49:17.565  - [34mdebug[39m: my-opcua.0 (68324) Objects create User PubSub Client
+2023-09-25 14:49:17.583  - [34mdebug[39m: my-opcua.0 (68324) Objects client initialize lua scripts
+2023-09-25 14:49:17.590  - [34mdebug[39m: my-opcua.0 (68324) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 14:49:17.614  - [34mdebug[39m: my-opcua.0 (68324) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 14:49:17.622  - [34mdebug[39m: my-opcua.0 (68324) States create System PubSub Client
+2023-09-25 14:49:17.624  - [34mdebug[39m: my-opcua.0 (68324) States create User PubSub Client
+2023-09-25 14:49:17.634  - [34mdebug[39m: my-opcua.0 (68324) States connected to redis: 127.0.0.1:9000
+2023-09-25 14:49:17.645  - [31merror[39m: my-opcua.0 (68324) adapter disabled
+2023-09-25 14:49:17.706  - [32minfo[39m: my-opcua.0 (68324) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 14:49:19.200  - [32minfo[39m: my-opcua.0 (68324) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 14:49:19.201  - [32minfo[39m: my-opcua.0 (68324) config option2: admin
+2023-09-25 14:49:19.322  - [32minfo[39m: my-opcua.0 (68324) check user admin pw iobroker: false,system.user.admin
+2023-09-25 14:49:19.327  - [32minfo[39m: my-opcua.0 (68324) check group user admin group admin: false
+2023-09-25 14:49:40.356  - [32minfo[39m: my-opcua.0 (68324) test command
+2023-09-25 14:49:52.089  - [32minfo[39m: my-opcua.0 (68324) browser command
+2023-09-25 14:49:55.281  - [32minfo[39m: my-opcua.0 (68324) browser command
+2023-09-25 14:50:33.832  - [32minfo[39m: my-opcua.0 (68324) state my-opcua.0.DataTypeExamples.16BitDevice.KRegisters.Boolean1 deleted
+2023-09-25 14:52:19.441  - [32minfo[39m: my-opcua.0 (68324) test command
+2023-09-25 14:52:30.953  - [32minfo[39m: my-opcua.0 (68324) browser command
+2023-09-25 14:52:34.354  - [32minfo[39m: my-opcua.0 (68324) browser command
+2023-09-25 14:54:12.656  - [34mdebug[39m: my-opcua.0 (89364) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 14:54:12.681  - [34mdebug[39m: my-opcua.0 (89364) Objects client ready ... initialize now
+2023-09-25 14:54:12.683  - [34mdebug[39m: my-opcua.0 (89364) Objects create System PubSub Client
+2023-09-25 14:54:12.684  - [34mdebug[39m: my-opcua.0 (89364) Objects create User PubSub Client
+2023-09-25 14:54:12.697  - [34mdebug[39m: my-opcua.0 (89364) Objects client initialize lua scripts
+2023-09-25 14:54:12.703  - [34mdebug[39m: my-opcua.0 (89364) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 14:54:12.727  - [34mdebug[39m: my-opcua.0 (89364) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 14:54:12.732  - [34mdebug[39m: my-opcua.0 (89364) States create System PubSub Client
+2023-09-25 14:54:12.734  - [34mdebug[39m: my-opcua.0 (89364) States create User PubSub Client
+2023-09-25 14:54:12.741  - [34mdebug[39m: my-opcua.0 (89364) States connected to redis: 127.0.0.1:9000
+2023-09-25 14:54:12.752  - [31merror[39m: my-opcua.0 (89364) adapter disabled
+2023-09-25 14:54:12.805  - [32minfo[39m: my-opcua.0 (89364) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 14:54:13.976  - [32minfo[39m: my-opcua.0 (89364) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 14:54:13.977  - [32minfo[39m: my-opcua.0 (89364) config option2: admin
+2023-09-25 14:54:14.068  - [32minfo[39m: my-opcua.0 (89364) check user admin pw iobroker: false,system.user.admin
+2023-09-25 14:54:14.072  - [32minfo[39m: my-opcua.0 (89364) check group user admin group admin: false
+2023-09-25 14:54:21.882  - [32minfo[39m: my-opcua.0 (89364) test command
+2023-09-25 14:54:25.538  - [32minfo[39m: my-opcua.0 (89364) browser command
+2023-09-25 14:54:28.788  - [32minfo[39m: my-opcua.0 (89364) browser command
+2023-09-25 15:00:36.120  - [32minfo[39m: my-opcua.0 (89364) browser command
+2023-09-25 15:00:39.841  - [32minfo[39m: my-opcua.0 (89364) browser command
+2023-09-25 15:00:42.953  - [32minfo[39m: my-opcua.0 (89364) browser command
+2023-09-25 15:21:08.017  - [32minfo[39m: my-opcua.0 (89364) state my-opcua.0.DataTypeExamples.16BitDevice.KRegisters.Boolean1 changed: true (ack = false)
+2023-09-25 15:21:46.955  - [32minfo[39m: my-opcua.0 (89364) state my-opcua.0.DataTypeExamples.16BitDevice.KRegisters.Boolean1 changed: false (ack = false)
+2023-09-25 15:23:16.225  - [32minfo[39m: my-opcua.0 (89364) state my-opcua.0.DataTypeExamples.16BitDevice.KRegisters.Boolean1 changed: true (ack = false)
+2023-09-25 15:25:17.240  - [34mdebug[39m: my-opcua.0 (58596) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 15:25:17.257  - [34mdebug[39m: my-opcua.0 (58596) Objects client ready ... initialize now
+2023-09-25 15:25:17.258  - [34mdebug[39m: my-opcua.0 (58596) Objects create System PubSub Client
+2023-09-25 15:25:17.259  - [34mdebug[39m: my-opcua.0 (58596) Objects create User PubSub Client
+2023-09-25 15:25:17.271  - [34mdebug[39m: my-opcua.0 (58596) Objects client initialize lua scripts
+2023-09-25 15:25:17.274  - [34mdebug[39m: my-opcua.0 (58596) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 15:25:17.292  - [34mdebug[39m: my-opcua.0 (58596) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 15:25:17.296  - [34mdebug[39m: my-opcua.0 (58596) States create System PubSub Client
+2023-09-25 15:25:17.297  - [34mdebug[39m: my-opcua.0 (58596) States create User PubSub Client
+2023-09-25 15:25:17.302  - [34mdebug[39m: my-opcua.0 (58596) States connected to redis: 127.0.0.1:9000
+2023-09-25 15:25:17.310  - [31merror[39m: my-opcua.0 (58596) adapter disabled
+2023-09-25 15:25:17.360  - [32minfo[39m: my-opcua.0 (58596) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 15:25:18.481  - [32minfo[39m: my-opcua.0 (58596) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 15:25:18.482  - [32minfo[39m: my-opcua.0 (58596) config option2: admin
+2023-09-25 15:25:18.581  - [32minfo[39m: my-opcua.0 (58596) check user admin pw iobroker: false,system.user.admin
+2023-09-25 15:25:18.584  - [32minfo[39m: my-opcua.0 (58596) check group user admin group admin: false
+2023-09-25 15:29:13.027  - [34mdebug[39m: my-opcua.0 (23836) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 15:29:13.047  - [34mdebug[39m: my-opcua.0 (23836) Objects client ready ... initialize now
+2023-09-25 15:29:13.049  - [34mdebug[39m: my-opcua.0 (23836) Objects create System PubSub Client
+2023-09-25 15:29:13.050  - [34mdebug[39m: my-opcua.0 (23836) Objects create User PubSub Client
+2023-09-25 15:29:13.064  - [34mdebug[39m: my-opcua.0 (23836) Objects client initialize lua scripts
+2023-09-25 15:29:13.067  - [34mdebug[39m: my-opcua.0 (23836) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 15:29:13.084  - [34mdebug[39m: my-opcua.0 (23836) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 15:29:13.088  - [34mdebug[39m: my-opcua.0 (23836) States create System PubSub Client
+2023-09-25 15:29:13.089  - [34mdebug[39m: my-opcua.0 (23836) States create User PubSub Client
+2023-09-25 15:29:13.095  - [34mdebug[39m: my-opcua.0 (23836) States connected to redis: 127.0.0.1:9000
+2023-09-25 15:29:13.104  - [31merror[39m: my-opcua.0 (23836) adapter disabled
+2023-09-25 15:29:13.151  - [32minfo[39m: my-opcua.0 (23836) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 15:29:14.307  - [32minfo[39m: my-opcua.0 (23836) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 15:29:14.308  - [32minfo[39m: my-opcua.0 (23836) config option2: admin
+2023-09-25 15:29:14.409  - [32minfo[39m: my-opcua.0 (23836) check user admin pw iobroker: false,system.user.admin
+2023-09-25 15:29:14.412  - [32minfo[39m: my-opcua.0 (23836) check group user admin group admin: false
+2023-09-25 16:15:46.145  - [34mdebug[39m: my-opcua.0 (68960) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 16:15:46.165  - [34mdebug[39m: my-opcua.0 (68960) Objects client ready ... initialize now
+2023-09-25 16:15:46.166  - [34mdebug[39m: my-opcua.0 (68960) Objects create System PubSub Client
+2023-09-25 16:15:46.168  - [34mdebug[39m: my-opcua.0 (68960) Objects create User PubSub Client
+2023-09-25 16:15:46.180  - [34mdebug[39m: my-opcua.0 (68960) Objects client initialize lua scripts
+2023-09-25 16:15:46.185  - [34mdebug[39m: my-opcua.0 (68960) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 16:15:46.201  - [34mdebug[39m: my-opcua.0 (68960) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 16:15:46.217  - [34mdebug[39m: my-opcua.0 (68960) States create System PubSub Client
+2023-09-25 16:15:46.219  - [34mdebug[39m: my-opcua.0 (68960) States create User PubSub Client
+2023-09-25 16:15:46.227  - [34mdebug[39m: my-opcua.0 (68960) States connected to redis: 127.0.0.1:9000
+2023-09-25 16:15:46.239  - [31merror[39m: my-opcua.0 (68960) adapter disabled
+2023-09-25 16:15:46.308  - [32minfo[39m: my-opcua.0 (68960) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 16:15:47.557  - [32minfo[39m: my-opcua.0 (68960) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 16:15:47.558  - [32minfo[39m: my-opcua.0 (68960) config option2: admin
+2023-09-25 16:15:47.664  - [32minfo[39m: my-opcua.0 (68960) check user admin pw iobroker: false,system.user.admin
+2023-09-25 16:15:47.668  - [32minfo[39m: my-opcua.0 (68960) check group user admin group admin: false
+2023-09-25 16:17:06.012  - [34mdebug[39m: my-opcua.0 (48268) Redis Objects: Use Redis connection: 127.0.0.1:9001
+2023-09-25 16:17:06.030  - [34mdebug[39m: my-opcua.0 (48268) Objects client ready ... initialize now
+2023-09-25 16:17:06.032  - [34mdebug[39m: my-opcua.0 (48268) Objects create System PubSub Client
+2023-09-25 16:17:06.033  - [34mdebug[39m: my-opcua.0 (48268) Objects create User PubSub Client
+2023-09-25 16:17:06.045  - [34mdebug[39m: my-opcua.0 (48268) Objects client initialize lua scripts
+2023-09-25 16:17:06.049  - [34mdebug[39m: my-opcua.0 (48268) Objects connected to redis: 127.0.0.1:9001
+2023-09-25 16:17:06.068  - [34mdebug[39m: my-opcua.0 (48268) Redis States: Use Redis connection: 127.0.0.1:9000
+2023-09-25 16:17:06.072  - [34mdebug[39m: my-opcua.0 (48268) States create System PubSub Client
+2023-09-25 16:17:06.073  - [34mdebug[39m: my-opcua.0 (48268) States create User PubSub Client
+2023-09-25 16:17:06.078  - [34mdebug[39m: my-opcua.0 (48268) States connected to redis: 127.0.0.1:9000
+2023-09-25 16:17:06.087  - [31merror[39m: my-opcua.0 (48268) adapter disabled
+2023-09-25 16:17:06.134  - [32minfo[39m: my-opcua.0 (48268) starting. Version 0.0.1 in E:/iobrokerst479/node_modules/iobroker.my-opcua, node: v18.14.0, js-controller: 4.0.23
+2023-09-25 16:17:07.360  - [32minfo[39m: my-opcua.0 (48268) config option1: opc.tcp://127.0.0.1:49320
+2023-09-25 16:17:07.361  - [32minfo[39m: my-opcua.0 (48268) config option2: admin
+2023-09-25 16:17:07.452  - [32minfo[39m: my-opcua.0 (48268) check user admin pw iobroker: false,system.user.admin
+2023-09-25 16:17:07.456  - [32minfo[39m: my-opcua.0 (48268) check group user admin group admin: false

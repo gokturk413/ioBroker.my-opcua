@@ -88,16 +88,17 @@
             if(node.expanded==false && node.hasChildren==false)
             {
             sendTo('my-opcua.' + instance, 'browser',{"nodeid":targetNodeId}, function (result) {
+                debugger;
                     result.forEach(element => {
                     var elem =element.DisplayName;
                          if(element.NodeClass=='Object')
                          {
-                           var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , icon: 'object' }];
+                           var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , datatype:element.DataType , icon: 'object' }];
                            treeObj.addNodes(object, targetNodeId);
                          }
                          else
                          {
-                           var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , icon: 'variable' }];
+                           var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , datatype:element.DataType , icon: 'variable' }];
                            treeObj.addNodes(object, targetNodeId);
                          }
                     });
@@ -206,12 +207,12 @@
                 var elem =element.DisplayName;
                 if(element.NodeClass=='Object')
                 {
-                var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , icon: 'object' }];
+                var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , datatype:element.DataType , icon: 'object' }];
                 treeObj.addNodes(object, null);
                 }
                 else
                 {
-                var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , icon: 'variable' }];
+                var object = [{ id: element.NodeId, name: element.DisplayName , nodeclass:element.NodeClass , datatype:element.DataType , icon: 'variable' }];
                 treeObj.addNodes(object, null);
                 }
             });

@@ -103,15 +103,15 @@ class MyOpcua extends utils.Adapter {
             },*/
             MessageEventHandler: function (data, callback) {
                 set(data);
-                callback(error, result);
+                callback(Error, result);
             },
             BrowseTopicHandler: function (data, callback) {
                 //console.log(data);
-                callback(error, result);
+                callback(Error, result);
             },
             Messagestart: function (data, callback) {
                 //console.log(data);
-                callback(error, result);
+                callback(Error, result);
             },
             /*BrowseTopicNamespaces: function (data, callback) {
                 console.log(data);
@@ -149,7 +149,7 @@ class MyOpcua extends utils.Adapter {
 
         // Reset the connection indicator during startup
         this.setState('info.connection', true, true);
-
+        //this.setState('my-opcua.0.*.ns=2___s=Data___Type___Examples___16___Bit___Device___K___Registers___Boolean1','true');
         // The adapters config (in the instance object everything under the attribute "native") is accessible via
         // this.config:
         this.log.info('config option1: ' + this.config.endpoint);
@@ -161,7 +161,7 @@ class MyOpcua extends utils.Adapter {
         Here a simple template for a boolean variable named "testVariable"
         Because every adapter instance uses its own unique namespace variable names can't collide with other adapters variables
         */
-        await this.setObjectNotExistsAsync('testVariable', {
+        /*await this.setObjectNotExistsAsync('testVariable', {
             type: 'state',
             common: {
                 name: 'testVariable',
@@ -171,10 +171,10 @@ class MyOpcua extends utils.Adapter {
                 write: true,
             },
             native: {},
-        });
+        });*/
 
         // In order to get state updates, you need to subscribe to them. The following line adds a subscription for our variable we have created above.
-        this.subscribeStates('testVariable');
+        //this.subscribeStates('testVariable');
         // You can also add a subscription for multiple states. The following line watches all states starting with "lights."
         // this.subscribeStates('lights.*');
         // Or, if you really must, you can also watch all states. Don't do this if you don't need to. Otherwise this will cause a lot of unnecessary load on the system:
@@ -185,14 +185,14 @@ class MyOpcua extends utils.Adapter {
             you will notice that each setState will cause the stateChange event to fire (because of above subscribeStates cmd)
         */
         // the variable testVariable is set to true as command (ack=false)
-        await this.setStateAsync('testVariable', true);
+        //await this.setStateAsync('testVariable', true);
 
         // same thing, but the value is flagged "ack"
         // ack should be always set to true if the value is received from or acknowledged from the target system
-        await this.setStateAsync('testVariable', { val: true, ack: true });
+        //await this.setStateAsync('testVariable', { val: true, ack: true });
 
         // same thing, but the state is deleted after 30s (getState will return null afterwards)
-        await this.setStateAsync('testVariable', { val: true, ack: true, expire: 30 });
+        //await this.setStateAsync('testVariable', { val: true, ack: true, expire: 30 });
 
         // examples for the checkPassword/checkGroup functions
         let result = await this.checkPasswordAsync('admin', 'iobroker');
@@ -249,11 +249,20 @@ class MyOpcua extends utils.Adapter {
         if (state) {
             // The state was changed
             //let idsd= this.getIdByName();
-            this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
-            this.getObject(id, function (err, obj) {
-                let vbv= obj.common.name;
+            if(!id.startsWith('my-opcua.0.info')){
+                this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+                this.getObject(id, function (err, obj) {
+                    const opc_tag = obj.common.name;
 
-            });
+                    const myfunction = myFunc(payload1, true);
+                    const payload_tag={
+                        id:opc_tag,
+                        val:state.val
+                    };
+                    const adsss1 = myfunction.write(payload_tag, true);
+                });
+            }
+
         } else {
             // The state was deleted
             this.log.info(`state ${id} deleted`);
@@ -304,31 +313,33 @@ class MyOpcua extends utils.Adapter {
                 this.iteratorfirst(obj.message.allcheckednodes, obj.message.treeData, );
                 const myfunction = myFunc(payload1, true);
                 const checkednodes = myfunction.addmonitorcheckednodes(treepayload,true);
-                let sbcvss= 1+1;
+                const sbcvss= 1+1;
                 //this.iterator(obj.message.treeData,null);
             }
         }
     }
 
-    setstates(data)
+    async setstates(data)
     {
-
-        let obj1 = this.getObject('4850_password_ASCII8', function (err, obj) {
+        let statepath = await this.replacefuncstate(data.nodeid);
+        //this.setState('ns=2___s=Data___Type___Examples___16___Bit___Device___K___Registers___Boolean1','true');
+        /* const obj1 = this.getObject('my-opcua.0.*.ns=2___s=Data___Type___Examples___16___Bit___Device___K___Registers___Boolean1', function (err, obj) {
             // this.setState('4850_password_ASCII8','salam');
-        });
-        /*this.getState(data.displayname,function (err, state){
-            let sdcfk = state;
+            let jhf = obj;
         });*/
-        let sdcf =5+5;
+        this.getStates('my-opcua.0.*',function (err, state){
+            //this.setState(state, data.value);
+        });
+        const sdcf =5+5;
     }
 
     iteratorfirst(_checkednodes, _tree)
     {
         _checkednodes.forEach(async (checkednodeid) => {
-            let retvalue = this.search(_tree, checkednodeid);
+            const retvalue = this.search(_tree, checkednodeid);
             //printAncestors(_tree, checkednodeid);
             this.iterator(retvalue,null);
-            let sbcv= 1+1;
+            const sbcv= 1+1;
         });
     }
 
@@ -346,9 +357,26 @@ class MyOpcua extends utils.Adapter {
         return result && [result];
     }
 
+    async replacefunc(nodename)
+    {
+        let prtnodename = '';
+        //v.replace(/[,?[\]]+/g, '');
+        prtnodename= nodename.replace(/[\][*,;'"`<>\\\s?]+/g, '');
+        return prtnodename;
+    }
+
+    async replacefuncstate(nodename)
+    {
+        let prtnodename = '';
+        //v.replace(/[,?[\]]+/g, '');
+        prtnodename= nodename.replace(/[\].[*,;'"`<>\\\s?]+/g, '___');
+        return prtnodename;
+    }
+
 
     async iterator(tree, parentnodename)
     {
+
         tree.forEach(async (parentNode) => {
 
             if(parentnodename!=null)
@@ -359,21 +387,21 @@ class MyOpcua extends utils.Adapter {
                     if(parentNode.nodeclass=='Object')
                     {
 
-                        await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
+                        /*await this.setObjectNotExistsAsync(await this.replacefunc(parentnodename)+'.'+await this.replacefunc(parentNode.name), {
                             type: 'channel',
                             common: {
                                 name: parentNode.id
                             },
                             native: {}
-                        });
+                        });*/
                     }
                     else
                     {
-                        await this.setObjectNotExistsAsync(parentnodename+'.'+parentNode.name, {
+                        await this.setObjectNotExistsAsync(await this.replacefuncstate(parentNode.id), {
                             type: 'state',
                             common: {
                                 name: parentNode.id,
-                                type: 'number',
+                                type: parentNode.datatype,
                                 role: 'value',
                                 read: true,
                                 write: true,
@@ -385,7 +413,7 @@ class MyOpcua extends utils.Adapter {
             }
             else
             {
-                await this.setObjectNotExistsAsync(parentNode.name, {
+                await this.setObjectNotExistsAsync(await this.replacefunc(parentNode.name), {
                     type: 'channel',
                     common: {
                         name: parentNode.id
@@ -407,6 +435,67 @@ class MyOpcua extends utils.Adapter {
             }
         });
     }
+
+    /*async iterator(tree, parentnodename)
+    {
+        tree.forEach(async (parentNode) => {
+
+            if(parentnodename!=null)
+            {
+                let checkspecchar = parentnodename.indexOf('.') === -1 ? false : true;
+                if(checkspecchar==true)
+                {
+                    if(parentNode.nodeclass=='Object')
+                    {
+
+                        await this.setObjectNotExistsAsync(await this.replacefunc(parentnodename)+'.'+await this.replacefunc(parentNode.name), {
+                            type: 'channel',
+                            common: {
+                                name: parentNode.id
+                            },
+                            native: {}
+                        });
+                    }
+                    else
+                    {
+                        await this.setObjectNotExistsAsync(await this.replacefunc(parentnodename)+'.'+ await this.replacefuncstate(parentNode.id), {
+                            type: 'state',
+                            common: {
+                                name: parentNode.id,
+                                type: parentNode.datatype,
+                                role: 'value',
+                                read: true,
+                                write: true,
+                            },
+                            native: {},
+                        });
+                    }
+                }
+            }
+            else
+            {
+                await this.setObjectNotExistsAsync(await this.replacefunc(parentNode.name), {
+                    type: 'channel',
+                    common: {
+                        name: parentNode.id
+                    },
+                    native: {}
+                });
+            }
+
+            if (Object.prototype.hasOwnProperty.call(parentNode,'children')) {
+                if(parentnodename!=null)
+                {
+                    parentnodename+='.'+parentNode.name;
+                    this.iterator(parentNode.children,parentnodename);
+                }
+                else
+                {
+                    this.iterator(parentNode.children,parentNode.name);
+                }
+            }
+        });
+    }*/
 }
 
 
