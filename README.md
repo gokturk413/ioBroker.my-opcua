@@ -12,9 +12,16 @@
 
 ## my-opcua adapter for ioBroker
 
-Integrate OPCUA Devices
+OPCUA Client
 
+## Following data types are supported:
 
+number
+string
+boolean
+
+## Usage
+* install .net framework 4.6 , Node.js v18.14.0
 
 ## Changelog
 <!--
