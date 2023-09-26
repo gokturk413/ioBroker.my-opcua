@@ -28,13 +28,14 @@ boolean
 <!--
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
--->
+
 
 ### **WORK IN PROGRESS**
 * (Kamran Mustafayev) initial release
-
+-->
 ## License
 MIT License
+
 Copyright (c) 2023 Kamran Mustafayev <gokturk413@gmail.com>
 
 
