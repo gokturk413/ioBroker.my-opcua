@@ -1,7 +1,7 @@
 'use strict';
 
 /*
- * Created with @iobroker/create-adapter v2.3.0
+ * Created with @iobroker/create-adapter v2.3.0awa
  */
 
 // The adapter-core module gives you access to the core ioBroker functions
@@ -16,9 +16,17 @@ const rl = readline.createInterface({
 });
 
 const edge = require('edge-js');
-
-const myFunc = edge.func({
+console.log(__dirname);
+/*const myFunc = edge.func({
     assemblyFile: 'E:\\desktop 12_04_2023\\OpcUAClient-master\\KonsoleBrowse-master_ishleyir\\KonsoleBrowse-master\\KonsoleBrowseDll\\bin\\Debug\\KonsoleBrowseDll.dll',
+    typeName: 'KonsoleBrowseDll.Program',
+    methodName: 'Invoke',
+    references: ['System.Data.dll','BouncyCastle.Crypto.dll','OPC.UA.Core.dll','Opc.Ua.Client.dll','Opc.Ua.Configuration.dll','System.IdentityModel.dll','System.Xml.dll']
+});*/
+
+const dllpath=__dirname+'\\csharp\\'+'KonsoleBrowseDll.dll';
+const myFunc = edge.func({
+    assemblyFile: dllpath,
     typeName: 'KonsoleBrowseDll.Program',
     methodName: 'Invoke',
     references: ['System.Data.dll','BouncyCastle.Crypto.dll','OPC.UA.Core.dll','Opc.Ua.Client.dll','Opc.Ua.Configuration.dll','System.IdentityModel.dll','System.Xml.dll']
@@ -283,7 +291,7 @@ class MyOpcua extends utils.Adapter {
         if (state) {
             // The state was changed
             //let idsd= this.getIdByName();
-            if(!id.startsWith('my-opcua.0.info')){
+            if(!id.startsWith('my-opcua.'+this.instance+'.info')){
                 this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
                 this.getObject(id, function (err, obj) {
                     const opc_tag = obj.common.name;
@@ -356,7 +364,7 @@ class MyOpcua extends utils.Adapter {
     async setstates(data)
     {
         let statepath = await this.replacefuncstate(data.nodeid);
-        this.setState('my-opcua.0.'+statepath, data.value);
+        this.setState('my-opcua.'+this.instance+'.'+statepath, data.value);
         /* const obj1 = this.getObject('my-opcua.0.*.ns=2___s=Data___Type___Examples___16___Bit___Device___K___Registers___Boolean1', function (err, obj) {
             // this.setState('4850_password_ASCII8','salam');
             let jhf = obj;
