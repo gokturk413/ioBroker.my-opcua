@@ -130,6 +130,16 @@ class MyOpcua extends utils.Adapter {
             cert_key:cert_key
         };
 
+        let opt = {
+            include_docs: true
+        };
+        /*opt.startkey = 'my-opcua.' + this.instance + '.';
+        opt.endkey = 'my-opcua.' + this.instance + '.';
+        const obj1 = this.getObjectList(opt, function (err, obj) {
+            // this.setState('4850_password_ASCII8','salam');
+            let jhf = obj;
+        });*/
+
 
         let date = new Date();
         console.log('----> start ('+ date.toString() +') ');
@@ -200,6 +210,30 @@ class MyOpcua extends utils.Adapter {
 
         result = await this.checkGroupAsync('admin', 'admin');
         this.log.info('check group user admin group admin: ' + result);
+
+
+        let startupnodes=[];
+        this.getForeignObjectsAsync('my-opcua.'+this.instance +'.*',  (err, obj) => {
+            if(obj!=null)
+            {
+                Object.values(obj).forEach(val => {
+                    //const [key, value] = val;
+                    if(!val._id.startsWith('my-opcua.'+this.instance+'.info'))
+                    {
+                        startupnodes.push(val.common.name);
+                    }
+                });
+                //});
+                if(startupnodes!=null)
+                {
+                    const nodespayload={
+                        checkednodes: startupnodes
+                    };
+                    const nodes = myfunction.addmonitorcheckednodes(nodespayload,true);
+                }
+            }
+        });
+
     }
 
     /**
@@ -322,14 +356,14 @@ class MyOpcua extends utils.Adapter {
     async setstates(data)
     {
         let statepath = await this.replacefuncstate(data.nodeid);
-        //this.setState('ns=2___s=Data___Type___Examples___16___Bit___Device___K___Registers___Boolean1','true');
+        this.setState('my-opcua.0.'+statepath, data.value);
         /* const obj1 = this.getObject('my-opcua.0.*.ns=2___s=Data___Type___Examples___16___Bit___Device___K___Registers___Boolean1', function (err, obj) {
             // this.setState('4850_password_ASCII8','salam');
             let jhf = obj;
         });*/
-        this.getStates('my-opcua.0.*',function (err, state){
+        /*this.getStates('my-opcua.0.*',function (err, state){
             //this.setState(state, data.value);
-        });
+        });*/
         const sdcf =5+5;
     }
 
@@ -413,13 +447,13 @@ class MyOpcua extends utils.Adapter {
             }
             else
             {
-                await this.setObjectNotExistsAsync(await this.replacefunc(parentNode.name), {
+                /* await this.setObjectNotExistsAsync(await this.replacefunc(parentNode.name), {
                     type: 'channel',
                     common: {
                         name: parentNode.id
                     },
                     native: {}
-                });
+                });*/
             }
 
             if (Object.prototype.hasOwnProperty.call(parentNode,'children')) {
