@@ -31,7 +31,7 @@ boolean
 ### 0.0.1 (2023-09-26)
 
     Placeholder for the next version (at the beginning of the line):
-## **WORK IN PROGRESS**
+### **WORK IN PROGRESS**
 
 ## License
 MIT License
