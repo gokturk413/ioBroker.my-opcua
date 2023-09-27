@@ -27,11 +27,15 @@ boolean
 ### 0.0.2 (2023-09-27)
 * (Kamran Mustafayev) initial release
 
+### 2023-09-27 -- 1.0.8
+  * Next version
 
 ### 0.0.1 (2023-09-26)
 
     Placeholder for the next version (at the beginning of the line):
 ### **WORK IN PROGRESS**
+### 2023-09-27 -- 1.0.8
+  * Next version
 
 ## License
 MIT License
