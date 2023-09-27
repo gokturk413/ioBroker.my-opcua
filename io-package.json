@@ -1,115 +1,128 @@
 {
-    "common": {
-        "name": "my-opcua",
-        "version": "0.0.1",
-        "news": {
-            "0.0.1": {
-                "en": "initial release",
-                "de": "Erstveröffentlichung",
-                "ru": "Начальная версия",
-                "pt": "lançamento inicial",
-                "nl": "Eerste uitgave",
-                "fr": "Première version",
-                "it": "Versione iniziale",
-                "es": "Versión inicial",
-                "pl": "Pierwsze wydanie",
-                "zh-cn": "首次出版"
-            }
-        },
-        "title": "MY OPCUA",
-        "titleLang": {
-            "en": "MY OPCUA",
-            "de": "MEIN OPCUA",
-            "ru": "МОЙ ОПКУА",
-            "pt": "MEU OPCUA",
-            "nl": "MIJN OPCUA",
-            "fr": "MON OPCUA",
-            "it": "LA MIA OPCUA",
-            "es": "MI OPCUA",
-            "pl": "MOJA OPCUA",
-            "zh-cn": "我的OPCUA"
-        },
-        "desc": {
-            "en": "Integrate OPCUA Devices",
-            "de": "Integrieren Sie OPCUA-Geräte",
-            "ru": "Интеграция устройств OPCUA",
-            "pt": "Integrar dispositivos OPCUA",
-            "nl": "Integreer OPCUA-apparaten",
-            "fr": "Intégrer des appareils OPCUA",
-            "it": "Integra dispositivi OPCUA",
-            "es": "Integrar dispositivos OPCUA",
-            "pl": "Zintegruj urządzenia OPCUA",
-            "zh-cn": "集成 OPCUA 设备"
-        },
-        "messagebox": true,
-        "authors": [
-            "Kamran Mustafayev <gokturk413@gmail.com>"
-        ],
-        "keywords": [
-            "OPCUA",
-            "OPCUA Server",
-            "OPCUA Client"
-        ],
-        "license": "MIT",
-        "platform": "Javascript/Node.js",
-        "main": "main.js",
-        "icon": "my-opcua.png",
-        "enabled": true,
-        "extIcon": "https://raw.githubusercontent.com/gokturk413/ioBroker.my-opcua/master/admin/my-opcua.png",
-        "readme": "https://github.com/gokturk413/ioBroker.my-opcua/blob/master/README.md",
-        "loglevel": "info",
-        "mode": "daemon",
-        "type": "protocols",
-        "compact": true,
-        "connectionType": "local",
-        "dataSource": "push",
-        "adminUI": {
-            "config": "materialize"
-        },
-        "dependencies": [
-            {
-                "js-controller": ">=3.3.22"
-            }
-        ],
-        "globalDependencies": [
-            {
-                "admin": ">=5.0.0"
-            }
-        ]
+  "common": {
+    "name": "my-opcua",
+    "version": "0.0.2",
+    "news": {
+      "0.0.2": {
+        "en": "initial release\n->",
+        "de": "erstausstrahlung\n->",
+        "ru": "начальный выпуск\n->",
+        "pt": "lançamento inicial\n->",
+        "nl": "niet\n->",
+        "fr": "initial release\n->",
+        "it": "rilascio iniziale\n->",
+        "es": "liberación inicial\n->",
+        "pl": "pierwsze wydanie\n->",
+        "uk": "початковий реліз\n->",
+        "zh-cn": "初步释放\n->"
+      },
+      "0.0.1": {
+        "en": "initial release",
+        "de": "Erstveröffentlichung",
+        "ru": "Начальная версия",
+        "pt": "lançamento inicial",
+        "nl": "Eerste uitgave",
+        "fr": "Première version",
+        "it": "Versione iniziale",
+        "es": "Versión inicial",
+        "pl": "Pierwsze wydanie",
+        "zh-cn": "首次出版"
+      }
     },
-    "native": {
-        "Anonymous":false,
-        "endpoint": "",
-        "username":"",
-        "password":"",
-        "sec_policy":"None",
-        "Mes_sec_mode":"None",
-        "activate_cert":false,
-        "certificate1":"",
-        "cert_key":""
+    "title": "MY OPCUA",
+    "titleLang": {
+      "en": "MY OPCUA",
+      "de": "MEIN OPCUA",
+      "ru": "МОЙ ОПКУА",
+      "pt": "MEU OPCUA",
+      "nl": "MIJN OPCUA",
+      "fr": "MON OPCUA",
+      "it": "LA MIA OPCUA",
+      "es": "MI OPCUA",
+      "pl": "MOJA OPCUA",
+      "zh-cn": "我的OPCUA"
     },
-    "objects": [],
-    "instanceObjects": [
-        {
-            "_id": "info",
-            "type": "channel",
-            "common": {
-                "name": "Information"
-            },
-            "native": {}
-        },
-        {
-            "_id": "info.connection",
-            "type": "state",
-            "common": {
-                "role": "indicator.connected",
-                "name": "Device or service connected",
-                "type": "boolean",
-                "read": true,
-                "write": false,
-                "def": false
-            },
-            "native": {}
-        }
+    "desc": {
+      "en": "Integrate OPCUA Devices",
+      "de": "Integrieren Sie OPCUA-Geräte",
+      "ru": "Интеграция устройств OPCUA",
+      "pt": "Integrar dispositivos OPCUA",
+      "nl": "Integreer OPCUA-apparaten",
+      "fr": "Intégrer des appareils OPCUA",
+      "it": "Integra dispositivi OPCUA",
+      "es": "Integrar dispositivos OPCUA",
+      "pl": "Zintegruj urządzenia OPCUA",
+      "zh-cn": "集成 OPCUA 设备"
+    },
+    "messagebox": true,
+    "authors": [
+      "Kamran Mustafayev <gokturk413@gmail.com>"
+    ],
+    "keywords": [
+      "OPCUA",
+      "OPCUA Server",
+      "OPCUA Client"
+    ],
+    "license": "MIT",
+    "platform": "Javascript/Node.js",
+    "main": "main.js",
+    "icon": "my-opcua.png",
+    "enabled": true,
+    "extIcon": "https://raw.githubusercontent.com/gokturk413/ioBroker.my-opcua/master/admin/my-opcua.png",
+    "readme": "https://github.com/gokturk413/ioBroker.my-opcua/blob/master/README.md",
+    "loglevel": "info",
+    "mode": "daemon",
+    "type": "protocols",
+    "compact": true,
+    "connectionType": "local",
+    "dataSource": "push",
+    "adminUI": {
+      "config": "materialize"
+    },
+    "dependencies": [
+      {
+        "js-controller": ">=3.3.22"
+      }
+    ],
+    "globalDependencies": [
+      {
+        "admin": ">=5.0.0"
+      }
     ]
+  },
+  "native": {
+    "Anonymous": false,
+    "endpoint": "",
+    "username": "",
+    "password": "",
+    "sec_policy": "None",
+    "Mes_sec_mode": "None",
+    "activate_cert": false,
+    "certificate1": "",
+    "cert_key": ""
+  },
+  "objects": [],
+  "instanceObjects": [
+    {
+      "_id": "info",
+      "type": "channel",
+      "common": {
+        "name": "Information"
+      },
+      "native": {}
+    },
+    {
+      "_id": "info.connection",
+      "type": "state",
+      "common": {
+        "role": "indicator.connected",
+        "name": "Device or service connected",
+        "type": "boolean",
+        "read": true,
+        "write": false,
+        "def": false
+      },
+      "native": {}
+    }
+  ]
 }
