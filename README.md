@@ -24,23 +24,18 @@ boolean
 * install .net framework 4.6 , Node.js v18.14.0
 
 ## Changelog
-### 2023-09-27 -- 1.0.8
-  * Next version
-### 0.0.2 (2023-09-27)
-* (Kamran Mustafayev) initial release
-
 
     Placeholder for the next version (at the beginning of the line):
-* Next version
 ### **WORK IN PROGRESS**
 
 
+### **WORK IN PROGRESS**
+* (Kamran Mustafayev) initial release
 
 ## License
 MIT License
 
-Copyright (c) 2023 Kamran Mustafayev <gokturk413@gmail.com>
-
+Copyright (c) 2022 Kamran Mustafayev <gokturk413@gmail.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
