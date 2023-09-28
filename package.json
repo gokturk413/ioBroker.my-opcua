@@ -1,6 +1,6 @@
 {
   "name": "iobroker.my-opcua",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Integrate OPCUA Devices",
   "author": {
     "name": "Kamran Mustafayev",
