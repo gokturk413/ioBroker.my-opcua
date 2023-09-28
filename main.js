@@ -423,35 +423,35 @@ class MyOpcua extends utils.Adapter {
 
             if(parentnodename!=null)
             {
-                let checkspecchar = parentnodename.indexOf('.') === -1 ? false : true;
-                if(checkspecchar==true)
+                //let checkspecchar = parentnodename.indexOf('.') === -1 ? false : true;
+                //if(checkspecchar==true)
+                //{
+                if(parentNode.nodeclass=='Object')
                 {
-                    if(parentNode.nodeclass=='Object')
-                    {
 
-                        /*await this.setObjectNotExistsAsync(await this.replacefunc(parentnodename)+'.'+await this.replacefunc(parentNode.name), {
+                    /*await this.setObjectNotExistsAsync(await this.replacefunc(parentnodename)+'.'+await this.replacefunc(parentNode.name), {
                             type: 'channel',
                             common: {
                                 name: parentNode.id
                             },
                             native: {}
                         });*/
-                    }
-                    else
-                    {
-                        await this.setObjectNotExistsAsync(await this.replacefuncstate(parentNode.id), {
-                            type: 'state',
-                            common: {
-                                name: parentNode.id,
-                                type: parentNode.datatype,
-                                role: 'value',
-                                read: true,
-                                write: true,
-                            },
-                            native: {},
-                        });
-                    }
                 }
+                else
+                {
+                    await this.setObjectNotExistsAsync(await this.replacefuncstate(parentNode.id), {
+                        type: 'state',
+                        common: {
+                            name: parentNode.id,
+                            type: parentNode.datatype,
+                            role: 'value',
+                            read: true,
+                            write: true,
+                        },
+                        native: {},
+                    });
+                }
+                //}
             }
             else
             {
