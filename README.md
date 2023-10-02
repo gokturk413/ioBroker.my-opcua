@@ -23,10 +23,7 @@ boolean
 ## Usage
 * install .net framework 4.6 , Node.js v18.14.0
 ## Changelog
-### 3.0.0 (2023-10-2)
-* (Kamran Mustafayev) 
-### 2.0.0 (2023-09-28)
-* (Kamran Mustafayev) initial release
+
 
 -->
 
