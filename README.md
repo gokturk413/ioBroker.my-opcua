@@ -23,15 +23,17 @@ boolean
 ## Usage
 * install .net framework 4.6 , Node.js v18.14.0
 ## Changelog
+### 3.1.0 (2023-10-09)
+* (Kamran Mustafayev) initial release
+
+-->
+
 ### 0.0.1 (2023-09-26)
 <!--
     Placeholder for the next version (at the beginning of the line):
     ### **WORK IN PROGRESS**
 -->
-### **WORK IN PROGRESS**
-* (Kamran Mustafayev) initial release
 
--->
 ## License
 MIT License
 
