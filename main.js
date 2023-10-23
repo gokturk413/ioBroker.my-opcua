@@ -294,17 +294,19 @@ class MyOpcua extends utils.Adapter {
             if(id!==undefined)
             {
                 if(!id.startsWith('my-opcua.'+this.instance+'.info')){
-                    this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
-                    this.getObject(id, function (err, obj) {
-                        const opc_tag = obj.common.name;
-
-                        const myfunction = myFunc(payload1, true);
-                        const payload_tag={
-                            id:opc_tag,
-                            val:state.val
-                        };
-                        const adsss1 = myfunction.write(payload_tag, true);
-                    });
+                    //this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+                    if(state.from!='system.adapter.my-opcua.'+this.instance+'')
+                    {
+                        this.getObject(id, function (err, obj) {
+                            const opc_tag = obj.common.name;
+                            const myfunction = myFunc(payload1, true);
+                            const payload_tag={
+                                id:opc_tag,
+                                val:state.val
+                            };
+                            const adsss1 = myfunction.write(payload_tag, true);
+                        });
+                    }
                 }
             }
 
