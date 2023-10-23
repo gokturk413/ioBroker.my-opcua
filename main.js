@@ -291,20 +291,18 @@ class MyOpcua extends utils.Adapter {
         if (state) {
             // The state was changed
             //let idsd= this.getIdByName();
-            if(id !== undefined){
-                if(!id.startsWith('my-opcua.'+this.instance+'.info')){
-                    this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
-                    this.getObject(id, function (err, obj) {
-                        const opc_tag = obj.common.name;
+            if(!id.startsWith('my-opcua.'+this.instance+'.info')){
+                this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+                this.getObject(id, function (err, obj) {
+                    const opc_tag = obj.common.name;
 
-                        const myfunction = myFunc(payload1, true);
-                        const payload_tag={
-                            id:opc_tag,
-                            val:state.val
-                        };
-                        const adsss1 = myfunction.write(payload_tag, true);
-                    });
-                }
+                    const myfunction = myFunc(payload1, true);
+                    const payload_tag={
+                        id:opc_tag,
+                        val:state.val
+                    };
+                    const adsss1 = myfunction.write(payload_tag, true);
+                });
             }
 
         } else {
@@ -366,15 +364,7 @@ class MyOpcua extends utils.Adapter {
     async setstates(data)
     {
         let statepath = await this.replacefuncstate(data.nodeid);
-        this.setState('my-opcua.'+this.instance+'.'+statepath, data.value);
-        /* const obj1 = this.getObject('my-opcua.0.*.ns=2___s=Data___Type___Examples___16___Bit___Device___K___Registers___Boolean1', function (err, obj) {
-            // this.setState('4850_password_ASCII8','salam');
-            let jhf = obj;
-        });*/
-        /*this.getStates('my-opcua.0.*',function (err, state){
-            //this.setState(state, data.value);
-        });*/
-        const sdcf =5+5;
+        this.setState('my-opcua.'+this.instance+'.'+statepath, data.value,true/*ack*/);
     }
 
     iteratorfirst(_checkednodes, _tree)

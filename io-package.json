@@ -1,8 +1,73 @@
 {
   "common": {
     "name": "my-opcua",
-    "version": "1.0.0",
+    "version": "3.2.0",
     "news": {
+      "3.2.0": {
+        "en": "initial release\n\n->",
+        "de": "erstausstrahlung\n\n->",
+        "ru": "начальный выпуск\n\n->",
+        "pt": "lançamento inicial\n\n->",
+        "nl": "niet\n\n->",
+        "fr": "initial release\n\n->",
+        "it": "rilascio iniziale\n\n->",
+        "es": "liberación inicial\n\n->",
+        "pl": "pierwsze wydanie\n\n->",
+        "uk": "початковий реліз\n\n->",
+        "zh-cn": "初步释放\n\n->"
+      },
+      "3.1.0": {
+        "en": "initial release\n\n->",
+        "de": "erstausstrahlung\n\n->",
+        "ru": "начальный выпуск\n\n->",
+        "pt": "lançamento inicial\n\n->",
+        "nl": "niet\n\n->",
+        "fr": "initial release\n\n->",
+        "it": "rilascio iniziale\n\n->",
+        "es": "liberación inicial\n\n->",
+        "pl": "pierwsze wydanie\n\n->",
+        "uk": "початковий реліз\n\n->",
+        "zh-cn": "初步释放\n\n->"
+      },
+      "3.0.1": {
+        "en": "initial release\n\n->",
+        "de": "erstausstrahlung\n\n->",
+        "ru": "начальный выпуск\n\n->",
+        "pt": "lançamento inicial\n\n->",
+        "nl": "niet\n\n->",
+        "fr": "initial release\n\n->",
+        "it": "rilascio iniziale\n\n->",
+        "es": "liberación inicial\n\n->",
+        "pl": "pierwsze wydanie\n\n->",
+        "uk": "початковий реліз\n\n->",
+        "zh-cn": "初步释放\n\n->"
+      },
+      "3.0.0": {
+        "en": "initial release\n\n->",
+        "de": "erstausstrahlung\n\n->",
+        "ru": "начальный выпуск\n\n->",
+        "pt": "lançamento inicial\n\n->",
+        "nl": "niet\n\n->",
+        "fr": "initial release\n\n->",
+        "it": "rilascio iniziale\n\n->",
+        "es": "liberación inicial\n\n->",
+        "pl": "pierwsze wydanie\n\n->",
+        "uk": "початковий реліз\n\n->",
+        "zh-cn": "初步释放\n\n->"
+      },
+      "2.0.0": {
+        "en": "initial release\n\n->",
+        "de": "erstausstrahlung\n\n->",
+        "ru": "начальный выпуск\n\n->",
+        "pt": "lançamento inicial\n\n->",
+        "nl": "niet\n\n->",
+        "fr": "initial release\n\n->",
+        "it": "rilascio iniziale\n\n->",
+        "es": "liberación inicial\n\n->",
+        "pl": "pierwsze wydanie\n\n->",
+        "uk": "початковий реліз\n\n->",
+        "zh-cn": "初步释放\n\n->"
+      },
       "1.0.0": {
         "en": "initial release",
         "de": "erstausstrahlung",
@@ -28,18 +93,6 @@
         "pl": "pierwsze wydanie\n->",
         "uk": "початковий реліз\n->",
         "zh-cn": "初步释放\n->"
-      },
-      "0.0.1": {
-        "en": "initial release",
-        "de": "Erstveröffentlichung",
-        "ru": "Начальная версия",
-        "pt": "lançamento inicial",
-        "nl": "Eerste uitgave",
-        "fr": "Première version",
-        "it": "Versione iniziale",
-        "es": "Versión inicial",
-        "pl": "Pierwsze wydanie",
-        "zh-cn": "首次出版"
       }
     },
     "title": "MY OPCUA",
