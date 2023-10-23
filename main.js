@@ -360,7 +360,7 @@ class MyOpcua extends utils.Adapter {
                 this.iteratorfirst(obj.message.allcheckednodes, obj.message.treeData, );
                 const myfunction = myFunc(payload1, true);
                 const checkednodes = myfunction.addmonitorcheckednodes(treepayload,true);
-                const sbcvss= 1+1;
+                //const sbcvss= 1+1;
                 //this.iterator(obj.message.treeData,null);
             }
         }
@@ -378,7 +378,7 @@ class MyOpcua extends utils.Adapter {
             const retvalue = this.search(_tree, checkednodeid);
             //printAncestors(_tree, checkednodeid);
             this.iterator(retvalue,null);
-            const sbcv= 1+1;
+            //const sbcv= 1+1;
         });
     }
 
