@@ -291,18 +291,20 @@ class MyOpcua extends utils.Adapter {
         if (state) {
             // The state was changed
             //let idsd= this.getIdByName();
-            if(!id.startsWith('my-opcua.'+this.instance+'.info')){
-                this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
-                this.getObject(id, function (err, obj) {
-                    const opc_tag = obj.common.name;
+            if(id !== undefined){
+                if(!id.startsWith('my-opcua.'+this.instance+'.info')){
+                    this.log.info(`state ${id} changed: ${state.val} (ack = ${state.ack})`);
+                    this.getObject(id, function (err, obj) {
+                        const opc_tag = obj.common.name;
 
-                    const myfunction = myFunc(payload1, true);
-                    const payload_tag={
-                        id:opc_tag,
-                        val:state.val
-                    };
-                    const adsss1 = myfunction.write(payload_tag, true);
-                });
+                        const myfunction = myFunc(payload1, true);
+                        const payload_tag={
+                            id:opc_tag,
+                            val:state.val
+                        };
+                        const adsss1 = myfunction.write(payload_tag, true);
+                    });
+                }
             }
 
         } else {
@@ -423,35 +425,35 @@ class MyOpcua extends utils.Adapter {
 
             if(parentnodename!=null)
             {
-                let checkspecchar = parentnodename.indexOf('.') === -1 ? false : true;
-                if(checkspecchar==true)
+                //let checkspecchar = parentnodename.indexOf('.') === -1 ? false : true;
+                //if(checkspecchar==true)
+                //{
+                if(parentNode.nodeclass=='Object')
                 {
-                    if(parentNode.nodeclass=='Object')
-                    {
 
-                        /*await this.setObjectNotExistsAsync(await this.replacefunc(parentnodename)+'.'+await this.replacefunc(parentNode.name), {
+                    /*await this.setObjectNotExistsAsync(await this.replacefunc(parentnodename)+'.'+await this.replacefunc(parentNode.name), {
                             type: 'channel',
                             common: {
                                 name: parentNode.id
                             },
                             native: {}
                         });*/
-                    }
-                    else
-                    {
-                        await this.setObjectNotExistsAsync(await this.replacefuncstate(parentNode.id), {
-                            type: 'state',
-                            common: {
-                                name: parentNode.id,
-                                type: parentNode.datatype,
-                                role: 'value',
-                                read: true,
-                                write: true,
-                            },
-                            native: {},
-                        });
-                    }
                 }
+                else
+                {
+                    await this.setObjectNotExistsAsync(await this.replacefuncstate(parentNode.id), {
+                        type: 'state',
+                        common: {
+                            name: parentNode.id,
+                            type: parentNode.datatype,
+                            role: 'value',
+                            read: true,
+                            write: true,
+                        },
+                        native: {},
+                    });
+                }
+                //}
             }
             else
             {
